@@ -64,3 +64,9 @@ logs/
 .dev_server.pid
 # the local dev login's private signing key (backend/app/devauth.py, D-059)
 .dev_login/
+
+
+.expo/
+*.apk
+*.aab
+.claude/settings.local.json
