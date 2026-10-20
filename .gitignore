@@ -42,12 +42,12 @@ supabase/.temp/
 supabase/.branches/
 
 # ─── (kept local, not published) ───────────
-/CLAUDE.md
-/DECISIONS.md
-/interview-prep.md
-/learning.md
-/memory.md
-/NEEDS_BACKEND.md
+CLAUDE.md
+DECISIONS.md
+interview-prep.md
+learning.md
+memory.md
+NEEDS_BACKEND.md
 
 # ─── OS / editor ─────────────────────────────────────────
 .DS_Store
