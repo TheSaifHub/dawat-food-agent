@@ -1,0 +1,1553 @@
+{
+ "run_at": "2026-10-04T18:19:41+00:00",
+ "prompt_version": "v2",
+ "models": [
+  "gemini/gemini-3.5-flash-lite",
+  "gemini/gemini-3.8-flash",
+  "groq/openai/gpt-oss-120b"
+ ],
+ "cases_file": "phase6_cases.json",
+ "repeat": 3,
+ "cases": [
+  {
+   "id": "en-dish-search",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Any chicken biryani in Madhapur under 300?",
+     "reply": "Yes, here are a few chicken biryanis under ₹300 in Madhapur:\n\n- Chicken Dum Biryani at Annapurna for ₹240\n- Chicken Dum Biryani at Shree Santhosh Family Dhaba for ₹260\n- Chicken Dum Biryani at Abhiruchi for ₹260\n- Chicken Dum Biryani at Hideout for ₹270\n- Chicken Dum Biryani at Morning Dew for ₹270\n\nWould you like to add one of these to your cart?",
+     "status": "ok",
+     "seconds": 3.1,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4045,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5564,
+       "completion_tokens": 109
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "max_price": 300,
+        "query": "chicken biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got latin"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "search_dishes arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "telugu-script",
+   "user": "family",
+   "turns": [
+    {
+     "say": "మాధాపూర్ లో చికెన్ బిర్యానీ కావాలి",
+     "reply": "మాధాపూర్‌లో చికెన్ బిర్యానీ దొరికే కొన్ని ప్రదేశాలు ఇక్కడ ఉన్నాయి:\n\n- **Hi-Tech Bawarchi** (Madhapur 2): Chicken Dum Biryani - ₹370\n- **Kritunga** (Madhapur): Chicken Dum Biryani - ₹340\n- **Kafe Tirupati** (Madhapur): Chicken Dum Biryani - ₹330\n- **Madhapur Bawarchi** (Madhapur): Chicken Dum Biryani - ₹360\n- **Lucky Restaurant** (Madhapur): Chicken Dum Biryani - ₹290\n\nవీటిలో ఏది కావాలి?",
+     "status": "ok",
+     "seconds": 3.1,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4045,
+       "completion_tokens": 30
+      },
+      {
+       "prompt_tokens": 5655,
+       "completion_tokens": 138
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "query": "చికెన్ బిర్యానీ",
+        "area": "Madhapur"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got telugu"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "search_dishes arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "category-only",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Show me only the biryanis at Hi-Tech Bawarchi in Madhapur",
+     "reply": "Hi-Tech Bawarchi in Madhapur has two branches: Madhapur 1 and Madhapur 2. Which one would you like to see the biryanis for?",
+     "status": "ok",
+     "seconds": 2.4,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4048,
+       "completion_tokens": 27
+      },
+      {
+       "prompt_tokens": 4409,
+       "completion_tokens": 38
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_restaurants",
+       "arguments": {
+        "query": "Hi-Tech Bawarchi",
+        "area": "Madhapur"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_restaurants",
+       "ok": true,
+       "detail": "called: ['search_restaurants']"
+      },
+      {
+       "check": "did not call get_menu",
+       "ok": true,
+       "detail": "called: ['search_restaurants']"
+      },
+      {
+       "check": "reply mentions",
+       "ok": true,
+       "detail": "none of ['branch', 'which']"
+      }
+     ]
+    },
+    {
+     "say": "Madhapur 2",
+     "reply": "Here are the biryanis at Hi-Tech Bawarchi (Madhapur 2):\n\n- Chicken Dum Biryani: ₹370 (Medium spice, serves 1)\n- Mutton Dum Biryani: ₹500 (Medium spice, serves 1)",
+     "status": "ok",
+     "seconds": 2.5,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4453,
+       "completion_tokens": 36
+      },
+      {
+       "prompt_tokens": 4762,
+       "completion_tokens": 57
+      }
+     ],
+     "calls": [
+      {
+       "tool": "get_menu",
+       "arguments": {
+        "branch_id": "b-n708303182",
+        "category": "biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called get_menu",
+       "ok": true,
+       "detail": "called: ['get_menu']"
+      },
+      {
+       "check": "get_menu arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "ok-thanks-is-not-a-yes",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "reply": "Here are a few chicken biryanis under ₹300 in Madhapur:\n\n- **Annapurna** - Chicken Dum Biryani for ₹240\n- **Shree Santhosh Family Dhaba** - Chicken Dum Biryani for ₹260\n- **Abhiruchi** - Chicken Dum Biryani for ₹260\n- **Hideout** - Chicken Dum Biryani for ₹270\n- **Morning Dew** - Chicken Dum Biryani for ₹270\n\nWould you like to add any of these to your cart?",
+     "status": "ok",
+     "seconds": 2.7,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4044,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5563,
+       "completion_tokens": 118
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "max_price": 300,
+        "area": "Madhapur",
+        "query": "chicken biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "reply": "I've added the Chicken Dum Biryani from Annapurna to your cart. \n\nHere is your cart summary:\n- **Annapurna (Madhapur)**\n  - Chicken Dum Biryani (1x) – ₹240\n- Items Total: ₹240\n- Delivery Fee: ₹55\n- Taxes: ₹22\n- **Grand Total: ₹317**\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 4.2,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 5690,
+       "completion_tokens": 66
+      },
+      {
+       "prompt_tokens": 6303,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 6796,
+       "completion_tokens": 91
+      }
+     ],
+     "calls": [
+      {
+       "tool": "add_to_cart",
+       "arguments": {
+        "item_id": "r-annapurna-n5482822501__chicken-dum-biryani",
+        "branch_id": "b-n5482822501",
+        "qty": 1
+       },
+       "status": "ok"
+      },
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called add_to_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart', 'view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "Show my cart",
+     "reply": "Here is your cart summary:\n\n- **Annapurna (Madhapur)**\n  - Chicken Dum Biryani (1x) – ₹240\n- Items Total: ₹240\n- Delivery Fee: ₹55\n- Taxes: ₹22\n- **Grand Total: ₹317**\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 2.3,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6892,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 7385,
+       "completion_tokens": 73
+      }
+     ],
+     "calls": [
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called view_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "ok thanks",
+     "reply": "Shall I place the order?",
+     "status": "ok",
+     "seconds": 1.1,
+     "models": [
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 7462,
+       "completion_tokens": 6
+      }
+     ],
+     "calls": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "did not call confirm_cart",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "did not call place_order",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "en-dish-search",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Any chicken biryani in Madhapur under 300?",
+     "reply": "Yes, plenty! Here are a few options in Madhapur under ₹300:\n\n- Chicken Dum Biryani at Annapurna for ₹240\n- Chicken Dum Biryani at Shree Santhosh Family Dhaba for ₹260\n- Chicken Dum Biryani at Abhiruchi for ₹260\n- Chicken Dum Biryani at Hideout for ₹270\n- Chicken Dum Biryani at Morning Dew for ₹270\n\nWould you like to add one of these to your cart?",
+     "status": "ok",
+     "seconds": 2.6,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4045,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5564,
+       "completion_tokens": 108
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "max_price": 300,
+        "query": "chicken biryani",
+        "area": "Madhapur"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got latin"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "search_dishes arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "telugu-script",
+   "user": "family",
+   "turns": [
+    {
+     "say": "మాధాపూర్ లో చికెన్ బిర్యానీ కావాలి",
+     "reply": "మాధాపూర్ లో చికెన్ బిర్యానీ దొరికే కొన్ని ప్రదేశాలు ఇక్కడ ఉన్నాయి:\n\n- Hi-Tech Bawarchi (Madhapur 2) - Chicken Dum Biryani: ₹370\n- Kritunga (Madhapur) - Chicken Dum Biryani: ₹340\n- Kafe Tirupati (Madhapur) - Chicken Dum Biryani: ₹330\n- Madhapur Bawarchi (Madhapur) - Chicken Dum Biryani: ₹360\n- Lucky Restaurant (Madhapur) - Chicken Dum Biryani: ₹290\n\nవీటిలో ఏది కావాలి?",
+     "status": "ok",
+     "seconds": 3.2,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4045,
+       "completion_tokens": 30
+      },
+      {
+       "prompt_tokens": 5655,
+       "completion_tokens": 133
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "query": "చికెన్ బిర్యానీ"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got telugu"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "search_dishes arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "category-only",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Show me only the biryanis at Hi-Tech Bawarchi in Madhapur",
+     "reply": "Hi-Tech Bawarchi in Madhapur has two branches: Madhapur 1 and Madhapur 2. Which one would you like to check out?",
+     "status": "ok",
+     "seconds": 2.5,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4048,
+       "completion_tokens": 27
+      },
+      {
+       "prompt_tokens": 4409,
+       "completion_tokens": 34
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_restaurants",
+       "arguments": {
+        "query": "Hi-Tech Bawarchi",
+        "area": "Madhapur"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_restaurants",
+       "ok": true,
+       "detail": "called: ['search_restaurants']"
+      },
+      {
+       "check": "did not call get_menu",
+       "ok": true,
+       "detail": "called: ['search_restaurants']"
+      },
+      {
+       "check": "reply mentions",
+       "ok": true,
+       "detail": "none of ['branch', 'which']"
+      }
+     ]
+    },
+    {
+     "say": "Madhapur 2",
+     "reply": "Here are the biryanis available at Hi-Tech Bawarchi (Madhapur 2):\n\n- Chicken Dum Biryani – ₹370 (Non-veg, Spice level: 2/3)\n- Mutton Dum Biryani – ₹500 (Non-veg, Spice level: 2/3)\n\nWould you like to add any of these to your cart?",
+     "status": "ok",
+     "seconds": 3.0,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.8-flash"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4449,
+       "completion_tokens": 36
+      },
+      {
+       "prompt_tokens": 4758,
+       "completion_tokens": 81
+      }
+     ],
+     "calls": [
+      {
+       "tool": "get_menu",
+       "arguments": {
+        "category": "biryani",
+        "branch_id": "b-n708303182"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called get_menu",
+       "ok": true,
+       "detail": "called: ['get_menu']"
+      },
+      {
+       "check": "get_menu arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "ok-thanks-is-not-a-yes",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "reply": "Here are some chicken biryanis under ₹300 in Madhapur:\n\n- Chicken Dum Biryani at Annapura for ₹240\n- Chicken Dum Biryani at Shree Santhosh Family Dhaba for ₹260\n- Chicken Dum Biryani at Abhiruchi for ₹260\n- Chicken Dum Biryani at Hideout for ₹270\n- Chicken Dum Biryani at Morning Dew for ₹270\n\nWould you like to add any of these to your cart?",
+     "status": "ok",
+     "seconds": 2.7,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4044,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5563,
+       "completion_tokens": 106
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "max_price": 300,
+        "query": "Chicken biryani",
+        "area": "Madhapur"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": false,
+       "detail": "'Annapurna' written as ' annapura'"
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "reply": "Here is your cart summary:\n\n- Annapurna: 1x Chicken Dum Biryani (₹240)\n- Delivery fee: ₹55\n- Taxes: ₹22\n- Grand total: ₹317\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 4.1,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 5678,
+       "completion_tokens": 66
+      },
+      {
+       "prompt_tokens": 6293,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 6788,
+       "completion_tokens": 55
+      }
+     ],
+     "calls": [
+      {
+       "tool": "add_to_cart",
+       "arguments": {
+        "qty": 1,
+        "branch_id": "b-n5482822501",
+        "item_id": "r-annapurna-n5482822501__chicken-dum-biryani"
+       },
+       "status": "ok"
+      },
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called add_to_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart', 'view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "Show my cart",
+     "reply": "Here is your cart summary:\n\n- Annapurna: 1x Chicken Dum Biryani (₹240)\n- Delivery fee: ₹55\n- Taxes: ₹22\n- Grand total: ₹317\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 2.6,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6848,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 7343,
+       "completion_tokens": 55
+      }
+     ],
+     "calls": [
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called view_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "ok thanks",
+     "reply": "Shall I place the order?",
+     "status": "ok",
+     "seconds": 1.2,
+     "models": [
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 7402,
+       "completion_tokens": 6
+      }
+     ],
+     "calls": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "did not call confirm_cart",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "did not call place_order",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    }
+   ],
+   "passed": false
+  },
+  {
+   "id": "en-dish-search",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Any chicken biryani in Madhapur under 300?",
+     "reply": "Yes! Here are a few chicken biryanis under ₹300 in Madhapur:\n\n- Chicken Dum Biryani at Annapurna for ₹240\n- Chicken Dum Biryani at Shree Santhosh Family Dhaba for ₹260\n- Chicken Dum Biryani at Abhiruchi for ₹260\n- Chicken Dum Biryani at Hideout for ₹270\n- Chicken Dum Biryani at The Adda for ₹280\n\nWould you like to add one of these to your cart?",
+     "status": "ok",
+     "seconds": 2.7,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4045,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5564,
+       "completion_tokens": 110
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "query": "chicken biryani",
+        "max_price": 300
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got latin"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "search_dishes arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "telugu-script",
+   "user": "family",
+   "turns": [
+    {
+     "say": "మాధాపూర్ లో చికెన్ బిర్యానీ కావాలి",
+     "reply": "మాధాపూర్‌లో చికెన్ బిర్యానీ దొరికే కొన్ని ప్రదేశాలు ఇక్కడ ఉన్నాయి:\n\n- Hi-Tech Bawarchi (Madhapur 2) - Chicken Dum Biryani: ₹370\n- Kritunga (Madhapur) - Chicken Dum Biryani: ₹340\n- Kafe Tirupati (Madhapur) - Chicken Dum Biryani: ₹330\n- Madhapur Bawarchi (Madhapur) - Chicken Dum Biryani: ₹360\n- Lucky Restaurant (Madhapur) - Chicken Dum Biryani: ₹290\n\nవీటిలో ఏది కావాలి?",
+     "status": "ok",
+     "seconds": 2.6,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4045,
+       "completion_tokens": 30
+      },
+      {
+       "prompt_tokens": 5655,
+       "completion_tokens": 133
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "query": "చికెన్ బిర్యానీ"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got telugu"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "search_dishes arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "category-only",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Show me only the biryanis at Hi-Tech Bawarchi in Madhapur",
+     "reply": "Hi-Tech Bawarchi has two branches in Madhapur: Madhapur 1 and Madhapur 2. Which one would you like to see the biryanis for?",
+     "status": "ok",
+     "seconds": 2.3,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4048,
+       "completion_tokens": 27
+      },
+      {
+       "prompt_tokens": 4409,
+       "completion_tokens": 38
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_restaurants",
+       "arguments": {
+        "query": "Hi-Tech Bawarchi",
+        "area": "Madhapur"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_restaurants",
+       "ok": true,
+       "detail": "called: ['search_restaurants']"
+      },
+      {
+       "check": "did not call get_menu",
+       "ok": true,
+       "detail": "called: ['search_restaurants']"
+      },
+      {
+       "check": "reply mentions",
+       "ok": true,
+       "detail": "none of ['branch', 'which']"
+      }
+     ]
+    },
+    {
+     "say": "Madhapur 2",
+     "reply": "Here are the biryanis at Hi-Tech Bawarchi (Madhapur 2):\n\n- Chicken Dum Biryani (Non-veg, Medium spice): ₹370\n- Mutton Dum Biryani (Non-veg, Medium spice): ₹500",
+     "status": "ok",
+     "seconds": 2.9,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4453,
+       "completion_tokens": 36
+      },
+      {
+       "prompt_tokens": 4762,
+       "completion_tokens": 55
+      }
+     ],
+     "calls": [
+      {
+       "tool": "get_menu",
+       "arguments": {
+        "branch_id": "b-n708303182",
+        "category": "biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called get_menu",
+       "ok": true,
+       "detail": "called: ['get_menu']"
+      },
+      {
+       "check": "get_menu arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "ok-thanks-is-not-a-yes",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "reply": "Here are a few chicken biryanis under ₹300 in Madhapur:\n\n- **The Adda**: Chicken Dum Biryani for ₹280\n- **Shree Santhosh Family Dhaba**: Chicken Dum Biryani for ₹260\n- **Lucky Restaurant**: Chicken Dum Biryani for ₹290\n- **Hideout**: Chicken Dum Biryani for ₹270\n- **Morning Dew**: Chicken Dum Biryani for ₹270\n\nWould you like to add one of these to your cart?",
+     "status": "ok",
+     "seconds": 7.9,
+     "models": [
+      "groq/openai/gpt-oss-120b",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 3265,
+       "completion_tokens": 136
+      },
+      {
+       "prompt_tokens": 5563,
+       "completion_tokens": 113
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "max_price": 300,
+        "query": "Chicken biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "reply": "I've added the Chicken Dum Biryani from Annapurna (₹240) to your cart.",
+     "status": "ok",
+     "seconds": 3.0,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 5685,
+       "completion_tokens": 66
+      },
+      {
+       "prompt_tokens": 6304,
+       "completion_tokens": 22
+      }
+     ],
+     "calls": [
+      {
+       "tool": "add_to_cart",
+       "arguments": {
+        "qty": 1,
+        "branch_id": "b-n5482822501",
+        "item_id": "r-annapurna-n5482822501__chicken-dum-biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called add_to_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "Show my cart",
+     "reply": "Here is your cart:\n\n- **Annapurna**:\n  - Chicken Dum Biryani x1 - ₹240\n  - Delivery fee: ₹55\n  - Taxes: ₹22\n\nGrand Total: ₹317\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 2.4,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6331,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 6830,
+       "completion_tokens": 57
+      }
+     ],
+     "calls": [
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called view_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "ok thanks",
+     "reply": "Shall I place the order?",
+     "status": "ok",
+     "seconds": 1.2,
+     "models": [
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6891,
+       "completion_tokens": 6
+      }
+     ],
+     "calls": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "did not call confirm_cart",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "did not call place_order",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  }
+ ],
+ "summary": {
+  "cases": 12,
+  "cases_passed": 11,
+  "turns": 24,
+  "checks": 138,
+  "checks_passed": 137,
+  "by_check": {
+   "called": "21/21",
+   "did": "9/9",
+   "english_only": "9/9",
+   "get_menu arguments": "3/3",
+   "names_spelled": "23/24",
+   "no_failure_reply": "24/24",
+   "numbers_grounded": "24/24",
+   "orders placed = 0": "9/9",
+   "reply mentions": "3/3",
+   "script": "6/6",
+   "search_dishes arguments": "6/6"
+  }
+ }
+}

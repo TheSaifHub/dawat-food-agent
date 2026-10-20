@@ -1,0 +1,173 @@
+{
+  "_about": "Phase 3a (D-016). One template per display cuisine used in data/processed/restaurants.csv. core = always on the menu (if the restaurant is veg-only, only its veg dishes); optional = sampled by generate_menus.py with a fixed seed until the menu reaches 'size'. meal_capable = a proper meal (a main plus a side, bread or rice) can be built from this cuisine. name_hints: if a restaurant's name matches the regex, those dishes are added (e.g. a 'Donne Biryani' place gets donne biryani). Dish ids refer to data/reference/dish_catalogue.csv.",
+  "templates": {
+    "Biryani": {
+      "size": [14, 20], "meal_capable": true,
+      "core": ["chicken-dum-biryani", "chicken-dum-biryani-full", "mutton-dum-biryani", "egg-biryani", "veg-dum-biryani", "chicken-65", "mirchi-ka-salan", "raita", "double-ka-meetha", "soft-drink", "mineral-water"],
+      "optional": ["chicken-fry-piece-biryani", "chicken-65-biryani", "mutton-dum-biryani-full", "paneer-biryani", "mushroom-biryani", "prawns-biryani", "fish-biryani", "bagara-rice", "chicken-majestic", "chicken-lollipop", "tandoori-chicken-half", "apollo-fish", "qubani-ka-meetha", "gulab-jamun", "sweet-lassi", "masala-chaas", "dahi-chutney", "chicken-curry", "butter-chicken", "gobi-manchurian"]
+    },
+    "Hyderabadi": {
+      "size": [18, 26], "meal_capable": true,
+      "core": ["chicken-dum-biryani", "mutton-dum-biryani", "veg-dum-biryani", "haleem", "mirchi-ka-salan", "dahi-chutney", "bagara-baingan", "chicken-65", "butter-naan", "rumali-roti", "double-ka-meetha", "qubani-ka-meetha", "irani-chai", "soft-drink", "mineral-water"],
+      "optional": ["chicken-dum-biryani-full", "mutton-dum-biryani-full", "egg-biryani", "bagara-rice", "mutton-shikampuri-kebab", "pathar-ka-gosht", "mutton-marag", "mutton-paya", "chicken-majestic", "apollo-fish", "tandoori-chicken-half", "chicken-curry", "mutton-korma", "chicken-korma", "dal-tadka", "sheer-khurma", "phirni", "osmania-biscuits", "sweet-lassi"]
+    },
+    "Indian": {
+      "size": [20, 28], "meal_capable": true,
+      "core": ["chicken-dum-biryani", "veg-dum-biryani", "butter-chicken", "chicken-curry", "paneer-butter-masala", "dal-tadka", "mix-veg-curry", "butter-naan", "tandoori-roti", "jeera-rice", "steamed-rice", "chicken-65", "gulab-jamun", "soft-drink", "mineral-water"],
+      "optional": ["mutton-dum-biryani", "egg-biryani", "chicken-dum-biryani-full", "kadai-chicken", "chicken-tikka-masala", "mutton-curry", "egg-curry", "kadai-paneer", "palak-paneer", "dal-makhani", "chana-masala", "aloo-gobi", "garlic-naan", "plain-naan", "rumali-roti", "chapati", "veg-pulao", "curd-rice", "tandoori-chicken-half", "chicken-tikka", "paneer-tikka", "veg-manchurian", "chilli-chicken", "raita", "green-salad", "sweet-lassi", "masala-chaas", "double-ka-meetha", "kulfi", "fish-fry", "apollo-fish", "veg-fried-rice", "chicken-fried-rice", "mirchi-ka-salan"]
+    },
+    "North Indian": {
+      "size": [20, 28], "meal_capable": true,
+      "core": ["butter-chicken", "kadai-chicken", "paneer-butter-masala", "kadai-paneer", "dal-makhani", "dal-tadka", "chana-masala", "butter-naan", "tandoori-roti", "laccha-paratha", "jeera-rice", "sweet-lassi", "gulab-jamun", "soft-drink", "mineral-water"],
+      "optional": ["chicken-tikka-masala", "mutton-rogan-josh", "palak-paneer", "shahi-paneer", "paneer-tikka-masala", "aloo-gobi", "mix-veg-curry", "aloo-paratha", "chole-bhature", "rajma-chawal", "north-indian-thali", "garlic-naan", "rumali-roti", "veg-pulao", "tandoori-chicken-half", "chicken-tikka", "paneer-tikka", "chicken-seekh-kebab", "raita", "green-salad", "masala-chaas", "kulfi", "rasmalai", "phirni", "onion-pakoda", "samosa", "masala-chai", "chicken-dum-biryani"]
+    },
+    "South Indian": {
+      "size": [18, 26], "meal_capable": true,
+      "core": ["idli", "medu-vada", "plain-dosa", "masala-dosa", "onion-dosa", "upma", "poori", "pongal", "sambar", "south-indian-meals", "curd-rice", "filter-coffee", "masala-chai", "mineral-water"],
+      "optional": ["ghee-karam-idli", "sambar-vada", "ghee-roast-dosa", "mysore-masala-dosa", "rava-dosa", "pesarattu", "uttapam", "mini-tiffin", "lemon-rice", "pulihora", "sambar-rice", "bonda", "rava-kesari", "rasam", "mirchi-bajji", "badam-milk", "masala-chaas", "sweet-lassi", "jalebi", "gobi-manchurian", "veg-fried-rice", "egg-dosa", "soft-drink"]
+    },
+    "Andhra": {
+      "size": [18, 26], "meal_capable": true,
+      "core": ["andhra-veg-meals", "andhra-nonveg-meals", "chicken-fry-andhra", "gongura-mutton", "andhra-kodi-kura", "tomato-pappu", "gongura-pachadi", "steamed-rice", "curd-rice", "pulihora", "rasam", "chicken-dum-biryani", "mineral-water"],
+      "optional": ["gongura-chicken", "natu-kodi-pulusu", "natu-kodi-biryani", "ulavacharu-chicken-biryani", "gongura-chicken-biryani", "mutton-fry", "pepper-chicken", "fish-curry", "fish-fry", "prawns-fry", "prawns-curry", "egg-curry", "mirchi-bajji", "chapati", "sambar", "masala-chaas", "apollo-fish", "chicken-65", "veg-dum-biryani", "mutton-dum-biryani", "ghee-karam-idli", "pesarattu", "soft-drink", "double-ka-meetha", "rava-kesari"]
+    },
+    "Chinese": {
+      "size": [16, 24], "meal_capable": true,
+      "core": ["veg-fried-rice", "egg-fried-rice", "chicken-fried-rice", "veg-hakka-noodles", "chicken-hakka-noodles", "veg-manchurian", "chilli-chicken", "chilli-paneer", "veg-sweet-corn-soup", "chicken-manchow-soup", "soft-drink"],
+      "optional": ["schezwan-fried-rice", "chicken-schezwan-fried-rice", "schezwan-noodles", "egg-noodles", "american-chopsuey", "gobi-manchurian", "baby-corn-manchurian", "crispy-corn", "honey-chilli-potato", "veg-spring-roll", "chicken-spring-roll", "chicken-manchurian", "dragon-chicken", "chicken-lollipop", "veg-manchow-soup", "hot-and-sour-soup", "chicken-sweet-corn-soup", "veg-momos", "chicken-momos", "mineral-water", "ice-cream-scoop"]
+    },
+    "Asian": {
+      "size": [14, 20], "meal_capable": true,
+      "core": ["chicken-pad-thai", "thai-green-curry-veg", "thai-green-curry-chicken", "steamed-rice", "veg-sushi", "chicken-dim-sum", "veg-hakka-noodles", "chicken-ramen", "iced-tea"],
+      "optional": ["salmon-sushi", "korean-fried-chicken", "veg-momos", "chicken-momos", "veg-spring-roll", "hot-and-sour-soup", "veg-fried-rice", "chicken-fried-rice", "chilli-paneer", "crispy-corn", "bubble-tea", "mineral-water", "soft-drink", "ice-cream-scoop"]
+    },
+    "Pizza": {
+      "size": [12, 18], "meal_capable": true,
+      "core": ["margherita-pizza", "veggie-supreme-pizza", "paneer-tikka-pizza", "chicken-tikka-pizza", "bbq-chicken-pizza", "garlic-bread", "choco-lava-cake", "soft-drink"],
+      "optional": ["corn-cheese-pizza", "chicken-pepperoni-pizza", "peri-peri-chicken-pizza", "penne-arrabbiata", "penne-alfredo", "chicken-alfredo", "pink-sauce-pasta", "french-fries", "peri-peri-fries", "chicken-wings", "mineral-water", "cold-coffee", "chocolate-brownie"]
+    },
+    "Italian": {
+      "size": [14, 20], "meal_capable": true,
+      "core": ["margherita-pizza", "penne-arrabbiata", "penne-alfredo", "chicken-alfredo", "spaghetti-aglio-olio", "garlic-bread", "veg-caesar-salad", "tiramisu", "soft-drink"],
+      "optional": ["chicken-lasagna", "mushroom-risotto", "pink-sauce-pasta", "veggie-supreme-pizza", "chicken-pepperoni-pizza", "bbq-chicken-pizza", "tomato-soup", "cream-of-mushroom-soup", "chicken-caesar-salad", "cheesecake", "mojito", "iced-tea", "mineral-water", "cappuccino"]
+    },
+    "Burgers": {
+      "size": [12, 16], "meal_capable": true,
+      "core": ["veg-burger", "paneer-burger", "chicken-burger", "crispy-chicken-burger", "french-fries", "peri-peri-fries", "chicken-nuggets", "soft-drink", "chocolate-shake"],
+      "optional": ["veg-cheese-burger", "double-chicken-burger", "chicken-wings", "popcorn-chicken", "cold-coffee", "ice-cream-scoop", "chocolate-sundae", "mineral-water", "iced-tea"]
+    },
+    "Sandwiches": {
+      "size": [10, 15], "meal_capable": true,
+      "core": ["veg-grilled-sandwich", "cheese-corn-sandwich", "paneer-tikka-sandwich", "chicken-sandwich", "chicken-tikka-sub", "veg-sub", "french-fries", "cold-coffee", "soft-drink"],
+      "optional": ["club-sandwich", "egg-sandwich", "veg-caesar-salad", "chicken-caesar-salad", "chocolate-brownie", "iced-tea", "cappuccino", "mineral-water", "orange-juice"]
+    },
+    "Rolls & Wraps": {
+      "size": [8, 12], "meal_capable": true,
+      "core": ["chicken-kathi-roll", "egg-roll", "paneer-roll", "veg-roll", "chicken-shawarma-roll", "french-fries", "soft-drink"],
+      "optional": ["falafel-wrap", "paneer-shawarma", "masala-chaas", "mineral-water", "peri-peri-fries"]
+    },
+    "Fried Chicken": {
+      "size": [10, 15], "meal_capable": true,
+      "core": ["fried-chicken-2pc", "fried-chicken-bucket", "popcorn-chicken", "chicken-wings", "crispy-chicken-burger", "veg-burger", "french-fries", "chicken-rice-bowl", "veg-rice-bowl", "soft-drink"],
+      "optional": ["chicken-nuggets", "peri-peri-fries", "chicken-kathi-roll", "chocolate-sundae", "ice-cream-scoop", "mineral-water", "iced-tea", "chicken-65"]
+    },
+    "Kebab & Grill": {
+      "size": [16, 24], "meal_capable": true,
+      "core": ["tandoori-chicken-half", "tandoori-chicken-full", "chicken-tikka", "malai-tikka", "chicken-seekh-kebab", "mutton-seekh-kebab", "paneer-tikka", "butter-chicken", "paneer-butter-masala", "dal-makhani", "butter-naan", "rumali-roti", "green-salad", "soft-drink"],
+      "optional": ["chicken-tangdi-kebab", "tandoori-mushroom", "fish-tikka", "tandoori-prawns", "mutton-shikampuri-kebab", "pathar-ka-gosht", "alfaham-chicken", "chicken-dum-biryani", "mutton-dum-biryani", "raita", "gulab-jamun", "kulfi", "masala-chaas", "mineral-water", "sweet-lassi", "garlic-naan", "jeera-rice"]
+    },
+    "Arabian": {
+      "size": [12, 18], "meal_capable": true,
+      "core": ["chicken-mandi", "chicken-mandi-full", "chicken-fry-mandi", "mutton-mandi", "alfaham-chicken", "chicken-shawarma-roll", "chicken-shawarma-plate", "falafel-wrap", "hummus-pita", "mandi-rice", "soft-drink", "mineral-water"],
+      "optional": ["mutton-mandi-full", "fish-mandi", "paneer-shawarma", "kunafa", "french-fries", "fresh-lime-soda", "mojito", "green-salad", "chicken-65", "apollo-fish"]
+    },
+    "Seafood": {
+      "size": [14, 20], "meal_capable": true,
+      "core": ["apollo-fish", "fish-fry", "prawns-fry", "fish-curry", "prawns-curry", "fish-biryani", "prawns-biryani", "veg-dum-biryani", "steamed-rice", "soft-drink"],
+      "optional": ["fish-tikka", "tandoori-prawns", "grilled-fish", "fish-and-chips", "fish-mandi", "chicken-fry-andhra", "chicken-dum-biryani", "andhra-nonveg-meals", "rasam", "curd-rice", "mineral-water", "masala-chaas", "lemon-rice"]
+    },
+    "Mexican": {
+      "size": [10, 14], "meal_capable": true,
+      "core": ["veg-burrito", "chicken-burrito", "veg-burrito-bowl", "chicken-burrito-bowl", "veg-tacos", "chicken-tacos", "nachos", "chicken-quesadilla", "soft-drink"],
+      "optional": ["veg-quesadilla", "peri-peri-fries", "french-fries", "iced-tea", "mojito", "mineral-water", "chocolate-brownie"]
+    },
+    "Continental": {
+      "size": [14, 20], "meal_capable": true,
+      "core": ["grilled-chicken-steak", "fish-and-chips", "grilled-fish", "cottage-cheese-steak", "mushroom-risotto", "penne-alfredo", "mashed-potatoes", "sauteed-vegetables", "cream-of-mushroom-soup", "veg-caesar-salad", "soft-drink"],
+      "optional": ["chicken-caesar-salad", "tomato-soup", "chicken-alfredo", "spaghetti-aglio-olio", "garlic-bread", "chicken-burger", "club-sandwich", "french-fries", "cheesecake", "tiramisu", "brownie-with-ice-cream", "mojito", "iced-tea", "cappuccino", "mineral-water"]
+    },
+    "Breakfast": {
+      "size": [12, 18], "meal_capable": false,
+      "core": ["masala-omelette", "eggs-any-style", "english-breakfast", "pancakes", "french-toast", "bread-butter-toast", "poha", "aloo-paratha", "masala-chai", "orange-juice"],
+      "optional": ["egg-bhurji", "avocado-toast", "granola-bowl", "idli", "plain-dosa", "upma", "poori", "cappuccino", "cold-coffee", "belgian-waffle", "mineral-water", "masala-chaas", "filter-coffee"]
+    },
+    "Cafe": {
+      "size": [14, 22], "meal_capable": false,
+      "core": ["cappuccino", "cafe-latte", "americano", "cold-coffee", "hot-chocolate", "masala-chai", "veg-grilled-sandwich", "chicken-sandwich", "croissant", "chocolate-brownie", "french-fries", "iced-tea"],
+      "optional": ["espresso", "green-tea", "cheese-corn-sandwich", "paneer-tikka-sandwich", "club-sandwich", "egg-sandwich", "penne-arrabbiata", "penne-alfredo", "margherita-pizza", "veg-burger", "chicken-burger", "cheesecake", "belgian-waffle", "mojito", "oreo-shake", "chocolate-shake", "mineral-water", "avocado-toast", "pancakes", "filter-coffee", "peri-peri-fries", "garlic-bread", "nachos", "tiramisu", "eggless-chocolate-pastry"]
+    },
+    "Irani Cafe": {
+      "size": [14, 20], "meal_capable": true,
+      "core": ["irani-chai", "osmania-biscuits", "bun-maska", "samosa", "lukhmi", "chicken-puff", "veg-puff", "chicken-dum-biryani", "mutton-dum-biryani", "veg-dum-biryani", "mirchi-ka-salan", "soft-drink", "mineral-water"],
+      "optional": ["egg-puff", "cream-bun", "dil-khush", "chicken-65", "masala-omelette", "bread-butter-toast", "egg-biryani", "mutton-paya", "haleem", "double-ka-meetha", "lemon-tea", "plain-naan", "chicken-curry", "falooda"]
+    },
+    "Tea": {
+      "size": [8, 14], "meal_capable": false,
+      "core": ["masala-chai", "irani-chai", "ginger-tea", "lemon-tea", "samosa", "osmania-biscuits", "veg-puff", "bun-maska", "mineral-water"],
+      "optional": ["filter-coffee", "green-tea", "mirchi-bajji", "onion-pakoda", "egg-puff", "chicken-puff", "bread-butter-toast", "maggi", "badam-milk", "cold-coffee", "soft-drink", "cream-bun", "bonda"]
+    },
+    "Bakery": {
+      "size": [10, 16], "meal_capable": false,
+      "core": ["veg-puff", "egg-puff", "chicken-puff", "black-forest-pastry", "pineapple-pastry", "eggless-chocolate-pastry", "chocolate-truffle-cake", "dil-khush", "cream-bun", "osmania-biscuits", "soft-drink"],
+      "optional": ["chocolate-brownie", "croissant", "donut", "cheesecake", "bun-maska", "veg-grilled-sandwich", "chicken-sandwich", "cold-coffee", "masala-chai", "mineral-water", "samosa", "lukhmi"]
+    },
+    "Desserts": {
+      "size": [10, 16], "meal_capable": false,
+      "core": ["ice-cream-scoop", "chocolate-sundae", "falooda", "belgian-waffle", "brownie-with-ice-cream", "chocolate-brownie", "cheesecake", "chocolate-shake", "cold-coffee", "mineral-water"],
+      "optional": ["kulfi", "gulab-jamun", "rasmalai", "double-ka-meetha", "qubani-ka-meetha", "kunafa", "tiramisu", "oreo-shake", "mango-shake", "strawberry-shake", "hot-chocolate", "choco-lava-cake", "eggless-chocolate-pastry", "jalebi", "donut"]
+    },
+    "Juices & Shakes": {
+      "size": [10, 16], "meal_capable": false,
+      "core": ["orange-juice", "watermelon-juice", "mosambi-juice", "pineapple-juice", "mixed-fruit-juice", "mango-shake", "chocolate-shake", "strawberry-shake", "sweet-lassi", "fresh-lime-soda", "mineral-water"],
+      "optional": ["oreo-shake", "mango-lassi", "fresh-lime-water", "badam-milk", "cold-coffee", "falooda", "ice-cream-scoop", "mojito", "veg-grilled-sandwich", "masala-chaas"]
+    },
+    "Fast Food": {
+      "size": [14, 22], "meal_capable": true,
+      "core": ["veg-hakka-noodles", "veg-fried-rice", "egg-fried-rice", "chicken-fried-rice", "gobi-manchurian", "french-fries", "veg-burger", "chicken-burger", "veg-puff", "samosa", "pav-bhaji", "soft-drink"],
+      "optional": ["chicken-hakka-noodles", "egg-noodles", "schezwan-noodles", "schezwan-fried-rice", "chilli-chicken", "veg-manchurian", "chicken-65", "chicken-pakoda", "vada-pav", "pani-puri", "bhel-puri", "samosa-chaat", "dahi-puri", "veg-momos", "chicken-momos", "maggi", "veg-roll", "egg-roll", "chicken-kathi-roll", "chicken-shawarma-roll", "egg-puff", "chicken-puff", "sweet-corn-cup", "mirchi-bajji", "cold-coffee", "mineral-water", "masala-chai", "fresh-lime-soda"]
+    },
+    "Multi-cuisine": {
+      "size": [22, 30], "meal_capable": true,
+      "core": ["chicken-dum-biryani", "chicken-dum-biryani-full", "mutton-dum-biryani", "veg-dum-biryani", "chicken-65", "veg-manchurian", "butter-chicken", "paneer-butter-masala", "dal-tadka", "butter-naan", "tandoori-roti", "veg-fried-rice", "chicken-fried-rice", "mirchi-ka-salan", "raita", "double-ka-meetha", "soft-drink", "mineral-water"],
+      "optional": ["egg-biryani", "paneer-biryani", "chicken-fry-piece-biryani", "mutton-dum-biryani-full", "chicken-majestic", "chicken-lollipop", "chilli-chicken", "apollo-fish", "gobi-manchurian", "chilli-paneer", "veg-spring-roll", "tandoori-chicken-half", "chicken-tikka", "paneer-tikka", "kadai-chicken", "chicken-curry", "mutton-curry", "egg-curry", "kadai-paneer", "mix-veg-curry", "dal-makhani", "garlic-naan", "rumali-roti", "jeera-rice", "steamed-rice", "veg-hakka-noodles", "chicken-hakka-noodles", "egg-fried-rice", "veg-sweet-corn-soup", "chicken-manchow-soup", "curd-rice", "qubani-ka-meetha", "gulab-jamun", "ice-cream-scoop", "sweet-lassi", "masala-chaas", "fresh-lime-soda"]
+    }
+  },
+  "name_hints": {
+    "donne": ["chicken-donne-biryani"],
+    "kunda|handi|matka": ["chicken-kunda-biryani"],
+    "ulavacharu": ["ulavacharu-chicken-biryani"],
+    "natu kodi": ["natu-kodi-biryani", "natu-kodi-pulusu"],
+    "biryani|biriyani|briyani|biriani": ["chicken-dum-biryani", "mutton-dum-biryani", "veg-dum-biryani"],
+    "mandi": ["chicken-mandi", "mutton-mandi", "mandi-rice"],
+    "shawarma|shawerma": ["chicken-shawarma-roll", "paneer-shawarma"],
+    "haleem": ["haleem"],
+    "kebabs?|kababs?": ["chicken-seekh-kebab", "mutton-seekh-kebab", "paneer-tikka"],
+    "tandoor": ["tandoori-chicken-half", "paneer-tikka"],
+    "pizzas?|pizzeria": ["margherita-pizza", "veggie-supreme-pizza", "chicken-tikka-pizza"],
+    "burgers?": ["veg-burger", "chicken-burger"],
+    "momos?": ["veg-momos", "chicken-momos"],
+    "dosas?": ["plain-dosa", "masala-dosa"],
+    "idlis?|idly|tiffins?": ["idli", "medu-vada", "plain-dosa"],
+    "chat|chaat": ["pani-puri", "bhel-puri", "samosa-chaat"],
+    "juices?": ["orange-juice", "watermelon-juice"],
+    "lassi": ["sweet-lassi", "mango-lassi"],
+    "falooda": ["falooda"],
+    "ice ?cream|creamery": ["ice-cream-scoop", "chocolate-sundae"],
+    "chai|tea": ["masala-chai"],
+    "coffee": ["filter-coffee", "cold-coffee"],
+    "bakery|bakers|bake": ["veg-puff", "chocolate-truffle-cake"],
+    "fish|sea ?food": ["fish-fry", "apollo-fish"],
+    "chicken 65": ["chicken-65"],
+    "chutneys?": ["plain-dosa", "masala-dosa", "medu-vada", "pesarattu", "ghee-karam-idli"]
+  }
+}

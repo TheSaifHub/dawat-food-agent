@@ -1,0 +1,40 @@
+﻿chain_core_name,name_a,name_b,distance_m,types,same_exact_name,same_amenity,amenities,tags_a,tags_b,richer,a,b,option_1_certain_only,option_2_close_means_same,option_3_all_within_50m
+amber,Amber,Amber,0.0,node+node,True,True,restaurant / restaurant,2,2,node/7021303608,node/7021303608,node/7025820812,merge,merge,merge
+naga bhushana mess,Naga Bhushana Mess,Naga Bhushana Mess,0.0,node+node,True,True,restaurant / restaurant,2,2,node/12536226041,node/12536226041,node/12538717585,merge,merge,merge
+chaitanya food court,chaitanya food court,Chaitanya Food Court,0.7,node+way,True,True,restaurant / restaurant,3,4,way/332095970,node/7180156933,way/332095970,merge,merge,merge
+siva sai biryani point,Siva Sai Biryani Point,Siva Sai Biryani Point,1.1,node+node,True,True,restaurant / restaurant,3,3,node/6822126528,node/6822126528,node/6847914860,merge,merge,merge
+rio,Rio Cafe,RIO,1.6,node+way,False,True,cafe / cafe,4,4,node/6710912114,node/6710912114,way/341366884,keep,merge,merge
+ira kitchen bar,IRA Kitchen and Bar,IRA Kitchen and Bar,1.7,node+way,True,True,restaurant / restaurant,2,6,way/1416994348,node/13022908098,way/1416994348,merge,merge,merge
+country oven,Country Oven,Country Oven,3.1,node+way,True,True,restaurant / restaurant,13,17,way/340800630,node/5867186858,way/340800630,merge,merge,merge
+fast food,Fast Food,Fast Food,3.1,node+node,True,True,fast_food / fast_food,10,12,node/13715470799,node/13715470798,node/13715470799,keep,keep,keep
+kabab,Kabab restaurant,Kabab,3.7,node+node,False,True,restaurant / restaurant,3,3,node/4417155890,node/4417155890,node/4431207291,keep,keep,keep
+istanbul authentic doner kebab,ISTANBUL AUTHENTIC DONER KEBAB,Istanbul authentic doner kebab,4.6,node+node,True,False,fast_food / restaurant,6,6,node/5973746985,node/5973746985,node/5973773086,merge,merge,merge
+istanbul authentic doner kebab,ISTANBUL AUTHENTIC DONER KEBAB,ISTANBUL AUTHENTIC DONER KEBAB,5.0,node+node,True,True,fast_food / fast_food,5,4,node/5973746986,node/5973746986,node/5973773088,merge,merge,merge
+bronzy fried chicken,Bronzy Fried Chicken,Bronzy Fried Chicken,6.0,node+node,True,False,fast_food / restaurant,4,3,node/11015823658,node/11015823658,node/11422123669,merge,merge,merge
+sri lakshmi,Sri Lakshmi Restaurant,Sri Lakshmi Restaurant,7.7,node+node,True,True,restaurant / restaurant,2,2,node/12536257515,node/12536257515,node/12541130567,merge,merge,merge
+sarvi,Sarvi Cafe,Sarvi Restaurant,8.5,node+node,False,True,restaurant / restaurant,4,3,node/878278853,node/878278853,node/13536807336,keep,merge,merge
+athidhi,Athidhi Restaurant,Athidhi Takeaway,8.9,node+node,False,True,restaurant / restaurant,4,3,node/7836389751,node/7836389751,node/7836389753,keep,merge,merge
+cream stone,cream stone,cream stone,9.1,node+node,True,True,restaurant / restaurant,4,2,node/3388784598,node/3388784598,node/7180113797,merge,merge,merge
+jntu canteen,Jntu Canteen,JNTU - Canteen,9.5,node+way,True,False,fast_food / cafe,18,16,node/11736398311,node/11736398311,way/331213192,merge,merge,merge
+mehfil,Mehfil hotel,Mehfil,11.6,node+way,False,True,restaurant / restaurant,2,7,way/357102666,node/5518037581,way/357102666,keep,merge,merge
+chutneys,Chutneys,Chutneys,13.1,node+way,True,True,restaurant / restaurant,19,4,node/11358156634,node/11358156634,way/331633267,keep,merge,merge
+paaka organic,Paaka Organic Cafe,Paaka Organic Cafe,13.3,node+way,True,True,restaurant / restaurant,10,4,node/5261952123,node/5261952123,way/355885219,keep,merge,merge
+vistara,Vistara,Vistara,15.3,node+node,True,True,restaurant / restaurant,22,3,node/6249185487,node/6249185487,node/7244140658,keep,keep,merge
+kahani,Kahani Cafe,Kahani Cafe,15.9,node+way,True,True,cafe / cafe,12,13,way/1489792397,node/13657608396,way/1489792397,keep,keep,merge
+coffee day,Cafe Coffee Day,Cafe Coffee Day,16.0,node+node,True,True,cafe / cafe,7,8,node/5405056431,node/4729107489,node/5405056431,keep,keep,merge
+paradise,Paradise,Paradise,16.3,node+node,True,True,restaurant / restaurant,3,2,node/4705398998,node/4705398998,node/5405056231,keep,keep,merge
+domino s,Domino's,Domino's,17.7,node+node,True,True,fast_food / fast_food,13,7,node/6218855685,node/6218855685,node/12422483854,keep,keep,merge
+paradise,Paradise Cafe,Paradise Hotel,19.1,node+way,False,False,cafe / restaurant,2,6,way/274798850,node/13707212259,way/274798850,keep,keep,merge
+nilofer,Nilofer Cafe,New Nilofer,22.3,node+node,False,True,cafe / cafe,2,2,node/2052610437,node/2052610437,node/6187870785,keep,keep,merge
+study sip,The Study Sip,THE STUDY SIP,23.5,node+node,True,True,cafe / cafe,41,46,node/13715448258,node/13715402826,node/13715448258,keep,keep,merge
+bawarchi,Bawarchi,Bawarchi,23.9,node+node,True,True,restaurant / restaurant,9,3,node/675646784,node/675646784,node/14065837228,keep,keep,merge
+paradise,Paradise Takeaway,Paradise Hotel,24.7,node+way,False,False,fast_food / restaurant,4,6,way/274798850,node/2794664334,way/274798850,keep,keep,merge
+eat street,Eat street,Eat Street,25.9,node+way,True,True,restaurant / restaurant,2,2,node/12852350346,node/12852350346,way/116035684,keep,keep,merge
+paradise,Paradise Takeaway,Paradise Cafe,25.9,node+node,False,False,fast_food / cafe,4,2,node/2794664334,node/2794664334,node/13707212259,keep,keep,merge
+fast food,Fast Food,Fast Food,31.1,node+node,True,True,fast_food / fast_food,9,12,node/13715470799,node/13715414721,node/13715470799,keep,keep,keep
+fast food,Fast Food,Fast Food,32.8,node+node,True,True,fast_food / fast_food,9,10,node/13715470798,node/13715414721,node/13715470798,keep,keep,keep
+coronation,Coronation Cafe,Coronation Cafe,39.8,node+node,True,True,cafe / cafe,2,2,node/6134655288,node/6134655288,node/6209984886,keep,keep,merge
+laya,laya,laya restaurant,43.2,way+way,False,True,restaurant / restaurant,3,3,way/758927127,way/758927127,way/1076262691,keep,keep,merge
+bawarchi,Bawarchi,Bawarchi,45.6,node+node,True,True,restaurant / restaurant,9,3,node/7244238200,node/7244238200,node/14065837228,keep,keep,merge
+bawarchi,Bawarchi,Bawarchi,45.9,node+node,True,True,restaurant / restaurant,9,9,node/675646784,node/675646784,node/7244238200,keep,keep,merge
+sai darshini,Sai Darshini,Sai Darshini,48.2,node+node,True,True,restaurant / restaurant,12,6,node/6684817721,node/6684817721,node/8107751448,keep,keep,merge

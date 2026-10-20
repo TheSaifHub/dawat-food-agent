@@ -1,0 +1,16 @@
+{
+  "source": "OpenStreetMap via Overpass API (\u00a9 OpenStreetMap contributors, ODbL)",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:120];\narea(3607868535)->.a;\nnwr[\"amenity\"~\"restaurant|fast_food|cafe\"](area.a);\nout center tags;\n",
+  "boundary": {
+    "osm_relation": 7868535,
+    "overpass_area": 3607868535,
+    "decision": "DECISIONS.md D-005"
+  },
+  "fetched_at_utc": "2026-09-30T04:22:11+00:00",
+  "osm_data_timestamp": "2026-09-30T04:20:45Z",
+  "element_count": 1553,
+  "bytes": 392012,
+  "sha256": "2c2b496ce4df5388ad99eaebde3db3ce4a64cdc45f9fc861770959cd53ca1cf3",
+  "file": "overpass_hyderabad_2026-09-30.json"
+}

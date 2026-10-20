@@ -1,0 +1,2721 @@
+{
+  "snapshot": {
+    "file": "overpass_hyderabad_2026-09-30.json",
+    "sha256": "2c2b496ce4df5388ad99eaebde3db3ce4a64cdc45f9fc861770959cd53ca1cf3",
+    "osm_data_timestamp": "2026-09-30T04:20:45Z"
+  },
+  "generated_at_utc": "2026-09-30T06:32:05+00:00",
+  "method": {
+    "normalise": "NFKC, lower case, & → and, punctuation removed, spaces collapsed",
+    "generic_words_ignored_in_core_name": [
+      "and",
+      "away",
+      "cafe",
+      "café",
+      "family",
+      "hotel",
+      "ltd",
+      "n",
+      "new",
+      "pvt",
+      "restaurant",
+      "restaurants",
+      "restro",
+      "take",
+      "takeaway",
+      "the"
+    ],
+    "chain_definition": "core name shared by 2+ named food places",
+    "same_spot_threshold_m": 50,
+    "spelling_variant_similarity": 0.85,
+    "merging": "none. Counting only; merges are reviewed in Phase 2"
+  },
+  "summary": {
+    "food_places": 1538,
+    "named_food_places": 1377,
+    "distinct_exact_names": 1099,
+    "exact_names_repeated_2plus": 96,
+    "distinct_core_names": 1044,
+    "chains_core_name_2plus": 113,
+    "places_in_chains": 446,
+    "places_in_chains_pct_of_named": 32.4,
+    "single_location_names": 931,
+    "chains_by_size": {
+      "34": 1,
+      "26": 1,
+      "23": 1,
+      "15": 2,
+      "14": 1,
+      "11": 2,
+      "9": 2,
+      "8": 1,
+      "6": 4,
+      "5": 4,
+      "4": 11,
+      "3": 17,
+      "2": 66
+    },
+    "chains_with_same_spot_pairs": 31,
+    "same_spot_pairs_total": 39,
+    "same_spot_pairs_by_element_types": {
+      "node+node": 26,
+      "node+way": 12,
+      "way+way": 1
+    },
+    "same_spot_pair_distance_m": {
+      "min": 0.0,
+      "median": 13.3
+    },
+    "review_rows_ambiguous": 120,
+    "review_rows_spelling": 42
+  },
+  "top_chains": [
+    {
+      "core_name": "domino s",
+      "places": 34,
+      "name_variants": [
+        {
+          "name": "Domino's",
+          "count": 34
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 33,
+        "restaurant": 1
+      },
+      "with_brand_tag": 33,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "coffee day",
+      "places": 26,
+      "name_variants": [
+        {
+          "name": "Cafe Coffee Day",
+          "count": 24
+        },
+        {
+          "name": "Cafe Coffee day",
+          "count": 1
+        },
+        {
+          "name": "Coffee day",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 26
+      },
+      "with_brand_tag": 21,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "kfc",
+      "places": 23,
+      "name_variants": [
+        {
+          "name": "KFC",
+          "count": 23
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 23
+      },
+      "with_brand_tag": 23,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "paradise",
+      "places": 15,
+      "name_variants": [
+        {
+          "name": "Paradise",
+          "count": 8
+        },
+        {
+          "name": "Paradise Takeaway",
+          "count": 2
+        },
+        {
+          "name": "Paradise - Take Away",
+          "count": 1
+        },
+        {
+          "name": "Hotel Paradise",
+          "count": 1
+        },
+        {
+          "name": "Paradise restaurant",
+          "count": 1
+        },
+        {
+          "name": "Paradise Cafe",
+          "count": 1
+        },
+        {
+          "name": "Paradise Hotel",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 13,
+        "fast_food": 1,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 4
+    },
+    {
+      "core_name": "subway",
+      "places": 15,
+      "name_variants": [
+        {
+          "name": "Subway",
+          "count": 14
+        },
+        {
+          "name": "subway",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 12,
+        "restaurant": 3
+      },
+      "with_brand_tag": 14,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "mcdonald s",
+      "places": 14,
+      "name_variants": [
+        {
+          "name": "McDonald's",
+          "count": 14
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 14
+      },
+      "with_brand_tag": 14,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "kritunga",
+      "places": 11,
+      "name_variants": [
+        {
+          "name": "Kritunga",
+          "count": 5
+        },
+        {
+          "name": "Kritunga Restaurant",
+          "count": 4
+        },
+        {
+          "name": "kritunga",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 11
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "pizza hut",
+      "places": 11,
+      "name_variants": [
+        {
+          "name": "Pizza Hut",
+          "count": 11
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 9,
+        "fast_food": 2
+      },
+      "with_brand_tag": 7,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "bawarchi",
+      "places": 9,
+      "name_variants": [
+        {
+          "name": "Bawarchi",
+          "count": 5
+        },
+        {
+          "name": "Bawarchi Restaurant",
+          "count": 2
+        },
+        {
+          "name": "Cafe Bawarchi",
+          "count": 1
+        },
+        {
+          "name": "bawarchi hotel",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 9
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 3
+    },
+    {
+      "core_name": "mehfil",
+      "places": 9,
+      "name_variants": [
+        {
+          "name": "Mehfil",
+          "count": 5
+        },
+        {
+          "name": "Mehfil Restaurant",
+          "count": 2
+        },
+        {
+          "name": "Mehfil hotel",
+          "count": 1
+        },
+        {
+          "name": "mehfil",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 9
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "chutneys",
+      "places": 8,
+      "name_variants": [
+        {
+          "name": "Chutneys",
+          "count": 8
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 8
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "burger king",
+      "places": 6,
+      "name_variants": [
+        {
+          "name": "Burger King",
+          "count": 6
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 6
+      },
+      "with_brand_tag": 6,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "hot chips",
+      "places": 6,
+      "name_variants": [
+        {
+          "name": "hot chips",
+          "count": 3
+        },
+        {
+          "name": "Hot Chips",
+          "count": 2
+        },
+        {
+          "name": "Hot chips",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 6
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "starbucks",
+      "places": 6,
+      "name_variants": [
+        {
+          "name": "Starbucks",
+          "count": 6
+        }
+      ],
+      "by_amenity": {
+        "cafe": 6
+      },
+      "with_brand_tag": 6,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "swagath grand",
+      "places": 6,
+      "name_variants": [
+        {
+          "name": "swagath grand",
+          "count": 4
+        },
+        {
+          "name": "Swagath Grand",
+          "count": 1
+        },
+        {
+          "name": "Hotel Swagath grand",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 6
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "blue fox",
+      "places": 5,
+      "name_variants": [
+        {
+          "name": "Blue Fox",
+          "count": 3
+        },
+        {
+          "name": "Blue Fox Restaurant",
+          "count": 1
+        },
+        {
+          "name": "blue fox",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 5
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "lucky",
+      "places": 5,
+      "name_variants": [
+        {
+          "name": "Lucky Restaurant",
+          "count": 2
+        },
+        {
+          "name": "Lucky Hotel",
+          "count": 1
+        },
+        {
+          "name": "lucky restaurant",
+          "count": 1
+        },
+        {
+          "name": "lucky",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 4,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "sarvi",
+      "places": 5,
+      "name_variants": [
+        {
+          "name": "Sarvi Restaurant",
+          "count": 2
+        },
+        {
+          "name": "Sarvi Cafe",
+          "count": 1
+        },
+        {
+          "name": "Cafe Sarvi",
+          "count": 1
+        },
+        {
+          "name": "Sarvi Hotel",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3,
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "taco bell",
+      "places": 5,
+      "name_variants": [
+        {
+          "name": "Taco Bell",
+          "count": 5
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 5
+      },
+      "with_brand_tag": 5,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "bahar",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Cafe Bahar",
+          "count": 2
+        },
+        {
+          "name": "Bahar Cafe",
+          "count": 1
+        },
+        {
+          "name": "Bahar café",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "barista",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Barista",
+          "count": 4
+        }
+      ],
+      "by_amenity": {
+        "cafe": 3,
+        "restaurant": 1
+      },
+      "with_brand_tag": 2,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "bowl o china",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Bowl O China",
+          "count": 1
+        },
+        {
+          "name": "Bowl O' China",
+          "count": 1
+        },
+        {
+          "name": "Bowl O'China",
+          "count": 1
+        },
+        {
+          "name": "Bowl-O-China",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 4
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "chocolate room",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Chocolate Room",
+          "count": 2
+        },
+        {
+          "name": "the chocolate room",
+          "count": 1
+        },
+        {
+          "name": "The Chocolate Room",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2,
+        "fast_food": 1,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "fast food",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Fast Food",
+          "count": 3
+        },
+        {
+          "name": "fast food",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 4
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 3
+    },
+    {
+      "core_name": "green bawarchi",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Green Bawarchi",
+          "count": 3
+        },
+        {
+          "name": "green bawarchi restaurant",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 4
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    }
+  ],
+  "all_chains": [
+    {
+      "core_name": "domino s",
+      "places": 34,
+      "name_variants": [
+        {
+          "name": "Domino's",
+          "count": 34
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 33,
+        "restaurant": 1
+      },
+      "with_brand_tag": 33,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "coffee day",
+      "places": 26,
+      "name_variants": [
+        {
+          "name": "Cafe Coffee Day",
+          "count": 24
+        },
+        {
+          "name": "Cafe Coffee day",
+          "count": 1
+        },
+        {
+          "name": "Coffee day",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 26
+      },
+      "with_brand_tag": 21,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "kfc",
+      "places": 23,
+      "name_variants": [
+        {
+          "name": "KFC",
+          "count": 23
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 23
+      },
+      "with_brand_tag": 23,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "paradise",
+      "places": 15,
+      "name_variants": [
+        {
+          "name": "Paradise",
+          "count": 8
+        },
+        {
+          "name": "Paradise Takeaway",
+          "count": 2
+        },
+        {
+          "name": "Paradise - Take Away",
+          "count": 1
+        },
+        {
+          "name": "Hotel Paradise",
+          "count": 1
+        },
+        {
+          "name": "Paradise restaurant",
+          "count": 1
+        },
+        {
+          "name": "Paradise Cafe",
+          "count": 1
+        },
+        {
+          "name": "Paradise Hotel",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 13,
+        "fast_food": 1,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 4
+    },
+    {
+      "core_name": "subway",
+      "places": 15,
+      "name_variants": [
+        {
+          "name": "Subway",
+          "count": 14
+        },
+        {
+          "name": "subway",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 12,
+        "restaurant": 3
+      },
+      "with_brand_tag": 14,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "mcdonald s",
+      "places": 14,
+      "name_variants": [
+        {
+          "name": "McDonald's",
+          "count": 14
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 14
+      },
+      "with_brand_tag": 14,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "kritunga",
+      "places": 11,
+      "name_variants": [
+        {
+          "name": "Kritunga",
+          "count": 5
+        },
+        {
+          "name": "Kritunga Restaurant",
+          "count": 4
+        },
+        {
+          "name": "kritunga",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 11
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "pizza hut",
+      "places": 11,
+      "name_variants": [
+        {
+          "name": "Pizza Hut",
+          "count": 11
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 9,
+        "fast_food": 2
+      },
+      "with_brand_tag": 7,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "bawarchi",
+      "places": 9,
+      "name_variants": [
+        {
+          "name": "Bawarchi",
+          "count": 5
+        },
+        {
+          "name": "Bawarchi Restaurant",
+          "count": 2
+        },
+        {
+          "name": "Cafe Bawarchi",
+          "count": 1
+        },
+        {
+          "name": "bawarchi hotel",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 9
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 3
+    },
+    {
+      "core_name": "mehfil",
+      "places": 9,
+      "name_variants": [
+        {
+          "name": "Mehfil",
+          "count": 5
+        },
+        {
+          "name": "Mehfil Restaurant",
+          "count": 2
+        },
+        {
+          "name": "Mehfil hotel",
+          "count": 1
+        },
+        {
+          "name": "mehfil",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 9
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "chutneys",
+      "places": 8,
+      "name_variants": [
+        {
+          "name": "Chutneys",
+          "count": 8
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 8
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "burger king",
+      "places": 6,
+      "name_variants": [
+        {
+          "name": "Burger King",
+          "count": 6
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 6
+      },
+      "with_brand_tag": 6,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "hot chips",
+      "places": 6,
+      "name_variants": [
+        {
+          "name": "hot chips",
+          "count": 3
+        },
+        {
+          "name": "Hot Chips",
+          "count": 2
+        },
+        {
+          "name": "Hot chips",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 6
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "starbucks",
+      "places": 6,
+      "name_variants": [
+        {
+          "name": "Starbucks",
+          "count": 6
+        }
+      ],
+      "by_amenity": {
+        "cafe": 6
+      },
+      "with_brand_tag": 6,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "swagath grand",
+      "places": 6,
+      "name_variants": [
+        {
+          "name": "swagath grand",
+          "count": 4
+        },
+        {
+          "name": "Swagath Grand",
+          "count": 1
+        },
+        {
+          "name": "Hotel Swagath grand",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 6
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "blue fox",
+      "places": 5,
+      "name_variants": [
+        {
+          "name": "Blue Fox",
+          "count": 3
+        },
+        {
+          "name": "Blue Fox Restaurant",
+          "count": 1
+        },
+        {
+          "name": "blue fox",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 5
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "lucky",
+      "places": 5,
+      "name_variants": [
+        {
+          "name": "Lucky Restaurant",
+          "count": 2
+        },
+        {
+          "name": "Lucky Hotel",
+          "count": 1
+        },
+        {
+          "name": "lucky restaurant",
+          "count": 1
+        },
+        {
+          "name": "lucky",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 4,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "sarvi",
+      "places": 5,
+      "name_variants": [
+        {
+          "name": "Sarvi Restaurant",
+          "count": 2
+        },
+        {
+          "name": "Sarvi Cafe",
+          "count": 1
+        },
+        {
+          "name": "Cafe Sarvi",
+          "count": 1
+        },
+        {
+          "name": "Sarvi Hotel",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3,
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "taco bell",
+      "places": 5,
+      "name_variants": [
+        {
+          "name": "Taco Bell",
+          "count": 5
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 5
+      },
+      "with_brand_tag": 5,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "bahar",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Cafe Bahar",
+          "count": 2
+        },
+        {
+          "name": "Bahar Cafe",
+          "count": 1
+        },
+        {
+          "name": "Bahar café",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "barista",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Barista",
+          "count": 4
+        }
+      ],
+      "by_amenity": {
+        "cafe": 3,
+        "restaurant": 1
+      },
+      "with_brand_tag": 2,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "bowl o china",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Bowl O China",
+          "count": 1
+        },
+        {
+          "name": "Bowl O' China",
+          "count": 1
+        },
+        {
+          "name": "Bowl O'China",
+          "count": 1
+        },
+        {
+          "name": "Bowl-O-China",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 4
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "chocolate room",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Chocolate Room",
+          "count": 2
+        },
+        {
+          "name": "the chocolate room",
+          "count": 1
+        },
+        {
+          "name": "The Chocolate Room",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2,
+        "fast_food": 1,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "fast food",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Fast Food",
+          "count": 3
+        },
+        {
+          "name": "fast food",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 4
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 3
+    },
+    {
+      "core_name": "green bawarchi",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Green Bawarchi",
+          "count": 3
+        },
+        {
+          "name": "green bawarchi restaurant",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 4
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "istanbul authentic doner kebab",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "ISTANBUL AUTHENTIC DONER KEBAB",
+          "count": 3
+        },
+        {
+          "name": "Istanbul authentic doner kebab",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 3,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 2
+    },
+    {
+      "core_name": "nandini",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Cafe Nandini",
+          "count": 3
+        },
+        {
+          "name": "cafe nandini",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3,
+        "fast_food": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "pista house",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Pista House",
+          "count": 3
+        },
+        {
+          "name": "pista house",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 4
+      },
+      "with_brand_tag": 1,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "santosh dhaba",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "Santosh Dhaba",
+          "count": 2
+        },
+        {
+          "name": "Santosh dhaba",
+          "count": 1
+        },
+        {
+          "name": "Santosh family dhaba",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 4
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "study sip",
+      "places": 4,
+      "name_variants": [
+        {
+          "name": "The Study Sip",
+          "count": 2
+        },
+        {
+          "name": "THE STUDY SIP",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "cafe": 4
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "abhiruchi",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Abhiruchi",
+          "count": 2
+        },
+        {
+          "name": "Abhiruchi Restaurant",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "akshaya",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Hotel Akshaya",
+          "count": 2
+        },
+        {
+          "name": "Akshaya",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "ali",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "ali cafe",
+          "count": 1
+        },
+        {
+          "name": "new ali cafe",
+          "count": 1
+        },
+        {
+          "name": "Ali Cafe",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 3
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "barbeque nation",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Barbeque Nation",
+          "count": 2
+        },
+        {
+          "name": "BARBEQUE NATION",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3
+      },
+      "with_brand_tag": 1,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "chai point",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Chai Point",
+          "count": 3
+        }
+      ],
+      "by_amenity": {
+        "cafe": 3
+      },
+      "with_brand_tag": 3,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "cream stone",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "cream stone",
+          "count": 2
+        },
+        {
+          "name": "Cream Stone",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "dunkin",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Dunkin'",
+          "count": 3
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 3
+      },
+      "with_brand_tag": 3,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "godavari ruchulu",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Godavari Ruchulu",
+          "count": 2
+        },
+        {
+          "name": "Godavari ruchulu",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "lassi shop",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Lassi Shop",
+          "count": 2
+        },
+        {
+          "name": "Lassi shop",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2,
+        "restaurant": 1
+      },
+      "with_brand_tag": 1,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "palamuru grill",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Palamuru Grill",
+          "count": 2
+        },
+        {
+          "name": "palamuru grill",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "pizza corner",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Pizza Corner",
+          "count": 3
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 3
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "santhosh dhaba",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Santhosh Dhaba",
+          "count": 1
+        },
+        {
+          "name": "Santhosh Family Dhaba",
+          "count": 1
+        },
+        {
+          "name": "santhosh family dhaba",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "santosh dabha",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Santosh Dabha",
+          "count": 2
+        },
+        {
+          "name": "santosh family dabha",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "sitara",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Sitara",
+          "count": 2
+        },
+        {
+          "name": "Sitara Cafe",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "surabhi",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Surabhi Restaurant",
+          "count": 2
+        },
+        {
+          "name": "Hotel Surabhi",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 3
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "tiffin center",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Tiffin center",
+          "count": 2
+        },
+        {
+          "name": "Tiffin Center",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 1,
+        "fast_food": 1,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "zam zam",
+      "places": 3,
+      "name_variants": [
+        {
+          "name": "Zam Zam Hotel",
+          "count": 1
+        },
+        {
+          "name": "Zam Zam Cafe",
+          "count": 1
+        },
+        {
+          "name": "Zam Zam",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "4 seasons",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "4 Seasons",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "am pm",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "AM PM Hotel",
+          "count": 1
+        },
+        {
+          "name": "Am- Pm cafe",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "amber",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Amber",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "angaara",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Angaara",
+          "count": 1
+        },
+        {
+          "name": "Angaara Restaurant",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "anupama",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Anupama Restaurant",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "arya bhavan",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Arya Bhavan",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "astoria",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Astoria",
+          "count": 1
+        },
+        {
+          "name": "Hotel Astoria",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 1,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "athidhi",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Athidhi Restaurant",
+          "count": 1
+        },
+        {
+          "name": "Athidhi Takeaway",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "big dosa",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Big Dosa",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "bronzy fried chicken",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Bronzy Fried Chicken",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 1,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "canteen",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Canteen",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 1,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "chaitanya food court",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "chaitanya food court",
+          "count": 1
+        },
+        {
+          "name": "Chaitanya Food Court",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "chick blast",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Chick Blast",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 1,
+        "fast_food": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "churrolto",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Churrolto",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "conçu",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Conçu",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "coronation",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Coronation Cafe",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "country oven",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Country Oven",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "crown",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Crown Cafe",
+          "count": 1
+        },
+        {
+          "name": "Crown Hotel",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 1,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "drunken monkey",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Drunken Monkey",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 1,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "dwaraka",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Dwaraka",
+          "count": 1
+        },
+        {
+          "name": "Dwaraka Restaurant",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "eat street",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Eat street",
+          "count": 1
+        },
+        {
+          "name": "Eat Street",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "fast food centre",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Fast Food Centre",
+          "count": 1
+        },
+        {
+          "name": "fast food centre",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "flechazo",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Flechazo",
+          "count": 1
+        },
+        {
+          "name": "flechazo",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "frenchie",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Frenchie",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "hi tech bawarchi",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Hi-Tech Bawarchi",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 1,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "hyderabad house",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Hyderabad House",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "ira kitchen bar",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "IRA Kitchen and Bar",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "irani",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Irani hotel",
+          "count": 1
+        },
+        {
+          "name": "irani",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "jntu canteen",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Jntu Canteen",
+          "count": 1
+        },
+        {
+          "name": "JNTU - Canteen",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 1,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "just bake",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Just Bake",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 1,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "kabab",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Kabab restaurant",
+          "count": 1
+        },
+        {
+          "name": "Kabab",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "kahani",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Kahani Cafe",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "laya",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "laya",
+          "count": 1
+        },
+        {
+          "name": "laya restaurant",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "madina",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "madina hotel",
+          "count": 1
+        },
+        {
+          "name": "Madina Hotel",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "mandi 36",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Mandi@36",
+          "count": 1
+        },
+        {
+          "name": "Mandi 36",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "minerva",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Minerva",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "cafe": 1,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "mumtaz",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Mumtaz Restaurant",
+          "count": 1
+        },
+        {
+          "name": "Mumtaz",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 1,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "naga bhushana mess",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Naga Bhushana Mess",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "nilofer",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Nilofer Cafe",
+          "count": 1
+        },
+        {
+          "name": "New Nilofer",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "niloufer",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Cafe Niloufer",
+          "count": 1
+        },
+        {
+          "name": "Niloufer",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "ohri s",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Ohri's Restaurant",
+          "count": 1
+        },
+        {
+          "name": "Ohri's",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "paaka organic",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Paaka Organic Cafe",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "president dhaba",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "President Dhaba",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "raghavendra tiffins",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Raghavendra Tiffins",
+          "count": 1
+        },
+        {
+          "name": "RAGHAVENDRA TIFFINS",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 1,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "rayalaseema ruchulu",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Rayalaseema Ruchulu",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "red bucket biryani",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Red Bucket Biryani",
+          "count": 1
+        },
+        {
+          "name": "Red Bucket biryani",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "reddy s tiffin center",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Reddy's tiffin center",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "rio",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Rio Cafe",
+          "count": 1
+        },
+        {
+          "name": "RIO",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "rumaan",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Rumaan Cafe",
+          "count": 1
+        },
+        {
+          "name": "Rumaan",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 1,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "sai darshini",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Sai Darshini",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "seasons",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Seasons",
+          "count": 1
+        },
+        {
+          "name": "seasons",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "sitara grand",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Sitara Grand",
+          "count": 1
+        },
+        {
+          "name": "Hotel Sitara Grand",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "siva sai biryani point",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Siva Sai Biryani Point",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "spicy hub",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Spicy Hub",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "sri lakshmi",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Sri Lakshmi Restaurant",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "surabhi udupi veg",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Hotel Surabhi Udupi Veg",
+          "count": 1
+        },
+        {
+          "name": "Surabhi Udupi Veg Restaurant",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "swagath",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Swagath",
+          "count": 1
+        },
+        {
+          "name": "Swagath Restaurant",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "swathi tiffins",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Swathi Tiffins",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "cafe": 1,
+        "restaurant": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "sweekar",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Sweekar",
+          "count": 1
+        },
+        {
+          "name": "Hotel Sweekar",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "tea time",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Tea Time",
+          "count": 1
+        },
+        {
+          "name": "tea time",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "fast_food": 1,
+        "cafe": 1
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "turning point",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Turning Point",
+          "count": 1
+        },
+        {
+          "name": "Turning Point Cafe",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "udipi",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "udipi",
+          "count": 1
+        },
+        {
+          "name": "Udipi Hotel",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "vibrant living",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Vibrant Living",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "vistara",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Vistara",
+          "count": 2
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 1
+    },
+    {
+      "core_name": "vistari kitchen",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "Vistari Kitchen",
+          "count": 1
+        },
+        {
+          "name": "Vistari KITCHEN",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "restaurant": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    },
+    {
+      "core_name": "zeeshan",
+      "places": 2,
+      "name_variants": [
+        {
+          "name": "zeeshan hotel",
+          "count": 1
+        },
+        {
+          "name": "Zeeshan hotel",
+          "count": 1
+        }
+      ],
+      "by_amenity": {
+        "cafe": 2
+      },
+      "with_brand_tag": 0,
+      "same_spot_pairs_within_50m": 0
+    }
+  ]
+}

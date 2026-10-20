@@ -1,0 +1,143 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat *)",
+      "Bash(ls *)",
+      "Bash(grep *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(sed -n *)",
+      "Bash(awk *)",
+      "Bash(*python -m pip list*)",
+      "Bash(*python -m pip show *)",
+      "Bash(*python -m pip install -r *requirements*.txt*)",
+      "Bash(*python -m pip install *==*)",
+      "Bash(*python -m pytest*)",
+      "Bash(*python data_pipeline/profile_osm.py*)",
+      "Bash(*python data_pipeline/detect_chains.py*)",
+      "Bash(*python data_pipeline/plot_eda.py*)",
+      "Bash(*python data_pipeline/build_localities.py*)",
+      "Bash(*python data_pipeline/clean.py*)",
+      "Bash(*python data_pipeline/dedupe_candidates.py*)",
+      "Bash(*python data_pipeline/make_dedupe_review.py*)",
+      "Bash(*python data_pipeline/make_chain_review.py*)",
+      "Bash(*python data_pipeline/enrich.py*)",
+      "Bash(*python data_pipeline/check_menu_templates.py*)",
+      "Bash(*python data_pipeline/generate_menus.py*)",
+      "Bash(*python data_pipeline/validate_menus.py*)",
+      "Bash(*python backend/dev_server.py *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(*python -m pytest*)",
+      "PowerShell(*python -m pip list*)",
+      "PowerShell(*python -m pip show *)",
+      "PowerShell(*python backend/dev_server.py *)",
+      "Bash(npm test*)",
+      "Bash(npm run test*)",
+      "Bash(npm run lint*)",
+      "Bash(npm run typecheck*)",
+      "Bash(npx tsc --noEmit*)",
+      "Bash(npx jest*)",
+      "Bash(npx expo-doctor*)",
+      "PowerShell(npm test*)",
+      "PowerShell(npm run test*)",
+      "PowerShell(npm run lint*)",
+      "PowerShell(npm run typecheck*)",
+      "PowerShell(npx tsc --noEmit*)",
+      "PowerShell(npx jest*)",
+      "PowerShell(npx expo-doctor*)",
+      "Bash(*adb.exe devices*)",
+      "Bash(*adb.exe version*)",
+      "PowerShell(*adb.exe devices*)",
+      "PowerShell(*adb.exe version*)"
+    ],
+    "ask": [
+      "Bash(rm *)",
+      "Bash(rmdir *)",
+      "Bash(del *)",
+      "Bash(*find * -delete*)",
+      "Bash(*rmtree*)",
+      "Bash(*os.remove*)",
+      "Bash(*unlink*)",
+      "Bash(*Remove-Item*)",
+      "PowerShell(Remove-Item*)",
+      "PowerShell(rm *)",
+      "PowerShell(del *)",
+      "PowerShell(rd *)",
+      "PowerShell(rmdir *)",
+      "PowerShell(ri *)",
+      "PowerShell(erase *)",
+      "PowerShell(*rmtree*)",
+      "PowerShell(*os.remove*)",
+      "PowerShell(*unlink*)",
+      "Bash(npm install*)",
+      "Bash(npm i *)",
+      "Bash(npm ci*)",
+      "Bash(npx expo install*)",
+      "Bash(npx expo start*)",
+      "Bash(npx expo run*)",
+      "Bash(npx create-expo-app*)",
+      "Bash(npx eas*)",
+      "Bash(eas *)",
+      "PowerShell(npm install*)",
+      "PowerShell(npm i *)",
+      "PowerShell(npm ci*)",
+      "PowerShell(npx expo install*)",
+      "PowerShell(npx expo start*)",
+      "PowerShell(npx expo run*)",
+      "PowerShell(npx create-expo-app*)",
+      "PowerShell(npx eas*)",
+      "PowerShell(eas *)",
+      "Bash(*adb*reverse*)",
+      "PowerShell(*adb*reverse*)"
+    ],
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.local)",
+      "Read(**/.env.*.local)",
+      "Read(**/.env.development)",
+      "Read(**/.env.production)",
+      "Edit(**/.env)",
+      "Edit(**/.env.local)",
+      "Edit(**/.env.*.local)",
+      "Edit(**/.env.development)",
+      "Edit(**/.env.production)",
+      "Bash(git *)",
+      "Bash(gh *)",
+      "PowerShell(git *)",
+      "PowerShell(gh *)",
+      "mcp__supabase__apply_migration",
+      "mcp__supabase__deploy_edge_function",
+      "mcp__supabase__create_branch",
+      "mcp__supabase__delete_branch",
+      "mcp__supabase__merge_branch",
+      "mcp__supabase__reset_branch"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|PowerShell|Write|Edit|MultiEdit|NotebookEdit|Read|Grep|Glob",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.py\"",
+            "timeout": 15,
+            "statusMessage": "Dawat guard"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard.py\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

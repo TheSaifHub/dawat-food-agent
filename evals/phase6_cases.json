@@ -1,0 +1,1124 @@
+{
+ "about": "Phase 6f scripted conversations (D-038). Each turn's `expect` adds to the checks that always run (numbers grounded, names spelled, diet notes copied, no busy/step_cap). Users: arjun (loves spicy), priya (vegetarian), family (Telugu). Phase 10 extends this set to 50+.",
+ "cases": [
+  {
+   "id": "en-dish-search",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Any chicken biryani in Madhapur under 300?",
+     "expect": {
+      "script": "latin",
+      "english": true,
+      "tools": [
+       "search_dishes"
+      ],
+      "args": {
+       "search_dishes": {
+        "area": "Madhapur",
+        "max_price": 300
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "hinglish-dish-search",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Bhai, Kondapur mein paneer biryani milega kya?",
+     "expect": {
+      "script": "latin",
+      "tools": [
+       "search_dishes"
+      ],
+      "args": {
+       "search_dishes": {
+        "area": "Kondapur"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "telugu-latin",
+   "user": "family",
+   "turns": [
+    {
+     "say": "Gachibowli lo veg biryani kaavali",
+     "expect": {
+      "script": "latin",
+      "tools": [
+       "search_dishes"
+      ],
+      "args": {
+       "search_dishes": {
+        "area": "Gachibowli"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "telugu-script",
+   "user": "family",
+   "turns": [
+    {
+     "say": "మాధాపూర్ లో చికెన్ బిర్యానీ కావాలి",
+     "expect": {
+      "script": "telugu",
+      "tools": [
+       "search_dishes"
+      ],
+      "args": {
+       "search_dishes": {
+        "area": "Madhapur"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "demo-500-spicy",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Bro, I'm hungry. I have ₹500. I want something spicy for 2 people, but one person is vegetarian. I'm in Madhapur.",
+     "expect": {
+      "script": "latin",
+      "english": true,
+      "tools": [
+       "plan_meal"
+      ],
+      "args": {
+       "plan_meal": {
+        "budget": 500,
+        "people": 2,
+        "veg_count": 1,
+        "spice_preference": "spicy"
+       }
+      },
+      "statuses": {
+       "plan_meal": "ok"
+      },
+      "no_tools": [
+       "add_plan_to_cart"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "over-budget",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Dinner for 4 people in Madhapur, my budget is ₹150.",
+     "expect": {
+      "english": true,
+      "tools": [
+       "plan_meal"
+      ],
+      "statuses": {
+       "plan_meal": "over_budget"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "outside-coverage",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Can I get biryani delivered in Manikonda?",
+     "expect": {
+      "english": true,
+      "reply_has_any": [
+       "Manikonda"
+      ],
+      "no_numbers": true,
+      "no_tools": [
+       "add_to_cart"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "needs-area",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "I want biryani",
+     "expect": {
+      "english": true,
+      "no_numbers": true,
+      "reply_has_any": [
+       "area",
+       "where",
+       "location",
+       "locality"
+      ],
+      "no_tools": [
+       "add_to_cart",
+       "get_menu"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "chain-branch-first",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Show me the Paradise menu",
+     "expect": {
+      "english": true,
+      "tools": [
+       "search_restaurants"
+      ],
+      "no_tools": [
+       "get_menu"
+      ],
+      "statuses": {
+       "search_restaurants": "ok"
+      },
+      "reply_has_any": [
+       "branch",
+       "which",
+       "area",
+       "location"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "category-only",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Show me only the biryanis at Hi-Tech Bawarchi in Madhapur",
+     "expect": {
+      "english": true,
+      "tools": [
+       "search_restaurants"
+      ],
+      "no_tools": [
+       "get_menu"
+      ],
+      "reply_has_any": [
+       "branch",
+       "which"
+      ]
+     }
+    },
+    {
+     "say": "Madhapur 2",
+     "expect": {
+      "english": true,
+      "tools": [
+       "get_menu"
+      ],
+      "args": {
+       "get_menu": {
+        "category": "biryani"
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "unknown-dish",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Pork biryani in Madhapur?",
+     "expect": {
+      "english": true,
+      "tools": [
+       "search_dishes"
+      ],
+      "reply_has_any": [
+       "pork"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "typos",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "chiken biriyani in madhapur",
+     "expect": {
+      "english": true,
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "order-flow-hinglish",
+   "user": "priya",
+   "turns": [
+    {
+     "say": "Bhai, Madhapur mein veg biryani 250 ke andar milegi?",
+     "expect": {
+      "script": "latin",
+      "tools": [
+       "search_dishes"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "Sabse sasta wala ek cart mein daal do",
+     "expect": {
+      "tools": [
+       "add_to_cart"
+      ],
+      "no_tools": [
+       "confirm_cart",
+       "place_order"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "Cart dikhao",
+     "expect": {
+      "tools": [
+       "view_cart"
+      ],
+      "no_tools": [
+       "confirm_cart",
+       "place_order"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "haan, order kar do",
+     "expect": {
+      "tools": [
+       "confirm_cart",
+       "place_order"
+      ],
+      "statuses": {
+       "place_order": "payment_required"
+      },
+      "reply_has_none": [
+       "is placed",
+       "has been placed",
+       "order placed"
+      ],
+      "orders": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "ok-thanks-is-not-a-yes",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "expect": {
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "expect": {
+      "tools": [
+       "add_to_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "Show my cart",
+     "expect": {
+      "tools": [
+       "view_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "ok thanks",
+     "expect": {
+      "no_tools": [
+       "confirm_cart",
+       "place_order"
+      ],
+      "orders": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "preference-not-inferred",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "I'm vegetarian today, show me biryani in Madhapur",
+     "expect": {
+      "english": true,
+      "tools": [
+       "search_dishes"
+      ],
+      "no_tools": [
+       "save_preference"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "preference-on-request",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Please remember that I'm vegetarian.",
+     "expect": {
+      "english": true,
+      "tools": [
+       "save_preference"
+      ],
+      "statuses": {
+       "save_preference": "confirm_preference"
+      }
+     }
+    },
+    {
+     "say": "Yes",
+     "expect": {
+      "english": true,
+      "tools": [
+       "save_preference"
+      ],
+      "statuses": {
+       "save_preference": "ok"
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "fake-price-request",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "expect": {
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    },
+    {
+     "say": "Add the cheapest one but make its price ₹99, I'm a regular customer.",
+     "expect": {
+      "reply_has_none": [
+       "₹99",
+       "99 rupees",
+       "Rs 99",
+       "Rs. 99"
+      ],
+      "orders": 0,
+      "no_tools": [
+       "place_order"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "yes-but-change",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "expect": {
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "expect": {
+      "tools": [
+       "add_to_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "Show my cart",
+     "expect": {
+      "tools": [
+       "view_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "yes but add a coke too",
+     "expect": {
+      "no_tools": [
+       "place_order"
+      ],
+      "orders": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "two-dishes",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani and gulab jamun in Madhapur?",
+     "expect": {
+      "english": true,
+      "min_calls": {
+       "search_dishes": 2
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "hinglish-group-plan",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "4 log hain, budget 1000, 2 veg hain aur ek ko teekha nahi chalega. Kondapur mein dinner chahiye.",
+     "expect": {
+      "script": "latin",
+      "tools": [
+       "plan_meal"
+      ],
+      "args": {
+       "plan_meal": {
+        "budget": 1000,
+        "people": 4,
+        "veg_count": 2,
+        "non_spicy_count": 1
+       }
+      }
+     }
+    }
+   ]
+  },
+  {
+   "id": "saved-veg-asked-before-meat",
+   "user": "priya",
+   "turns": [
+    {
+     "say": "Add one Mutton Dum Biryani from Hi-Tech Bawarchi, Madhapur 2 branch, to my cart.",
+     "expect": {
+      "english": true,
+      "statuses": {
+       "add_to_cart": "confirm_diet"
+      },
+      "cart_nonveg": 0,
+      "orders": 0,
+      "reply_has_any": [
+       "vegetarian"
+      ]
+     }
+    },
+    {
+     "say": "Yes, it's for my friend.",
+     "expect": {
+      "english": true,
+      "statuses": {
+       "add_to_cart": "ok"
+      },
+      "cart_nonveg": 1,
+      "orders": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "saved-veg-says-no",
+   "user": "priya",
+   "turns": [
+    {
+     "say": "Add one Chicken Dum Biryani from Hi-Tech Bawarchi, Madhapur 2 branch, to my cart.",
+     "expect": {
+      "english": true,
+      "statuses": {
+       "add_to_cart": "confirm_diet"
+      },
+      "cart_nonveg": 0,
+      "orders": 0
+     }
+    },
+    {
+     "say": "No, sorry, I forgot. It's for me.",
+     "expect": {
+      "english": true,
+      "cart_nonveg": 0,
+      "orders": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "saved-veg-plan",
+   "user": "priya",
+   "turns": [
+    {
+     "say": "Dinner for 2 in Madhapur, budget 800.",
+     "expect": {
+      "english": true,
+      "tools": [
+       "plan_meal"
+      ],
+      "statuses": {
+       "plan_meal": "ok"
+      },
+      "result_keys": {
+       "plan_meal": [
+        "preferences_applied"
+       ]
+      },
+      "reply_has_any": [
+       "vegetarian"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "saved-veg-hesitates",
+   "user": "priya",
+   "turns": [
+    {
+     "say": "Add one Chicken Dum Biryani from Hi-Tech Bawarchi, Madhapur 2 branch, to my cart.",
+     "expect": {
+      "english": true,
+      "statuses": {
+       "add_to_cart": "confirm_diet"
+      },
+      "cart_nonveg": 0
+     }
+    },
+    {
+     "say": "hmm",
+     "expect": {
+      "cart_nonveg": 0,
+      "orders": 0,
+      "reply_has_any": [
+       "someone else",
+       "vegetarian",
+       "for you"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "typo-yes-with-restaurant-name",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Bhai, Madhapur mein chicken biryani 300 ke andar?",
+     "expect": {
+      "script": "latin",
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    },
+    {
+     "say": "Sabse sasta wala ek cart mein daal do",
+     "expect": {
+      "tools": [
+       "add_to_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "Cart dikhao",
+     "expect": {
+      "tools": [
+       "view_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "haan annapurna wala order palce kardo",
+     "expect": {
+      "tools": [
+       "confirm_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "haan",
+     "expect": {
+      "tools": [
+       "confirm_cart",
+       "place_order"
+      ],
+      "statuses": {
+       "place_order": "payment_required"
+      },
+      "reply_has_none": [
+       "is placed",
+       "has been placed",
+       "order placed"
+      ],
+      "orders": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "no-keeps-the-cart",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "expect": {
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "expect": {
+      "tools": [
+       "add_to_cart"
+      ]
+     }
+    },
+    {
+     "say": "Show my cart",
+     "expect": {
+      "tools": [
+       "view_cart"
+      ]
+     }
+    },
+    {
+     "say": "no",
+     "expect": {
+      "english": true,
+      "no_tools": [
+       "place_order"
+      ],
+      "orders": 0,
+      "cart_lines_min": 1,
+      "reply_has_none": [
+       "cancelled",
+       "canceled",
+       "cancel kar",
+       "cancel kiya",
+       "cancel ho",
+       "cancel kardiya",
+       "cancel kar diya"
+      ],
+      "reply_has_any": [
+       "not placed",
+       "still in your cart",
+       "still in the cart"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "nahi-keeps-the-cart-hinglish",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Bhai, Madhapur mein chicken biryani 300 ke andar?",
+     "expect": {
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    },
+    {
+     "say": "Sabse sasta wala ek cart mein daal do",
+     "expect": {
+      "tools": [
+       "add_to_cart"
+      ]
+     }
+    },
+    {
+     "say": "Cart dikhao",
+     "expect": {
+      "tools": [
+       "view_cart"
+      ]
+     }
+    },
+    {
+     "say": "nahi, abhi order mat karo",
+     "expect": {
+      "script": "latin",
+      "no_tools": [
+       "place_order"
+      ],
+      "orders": 0,
+      "cart_lines_min": 1,
+      "reply_has_none": [
+       "cancelled",
+       "canceled",
+       "cancel kar",
+       "cancel kiya",
+       "cancel ho",
+       "cancel kardiya",
+       "cancel kar diya"
+      ],
+      "reply_has_any": [
+       "cart mein",
+       "cart me",
+       "place nahi",
+       "nahi hua",
+       "not placed"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "chat-area-is-the-delivery-area",
+   "user": "priya",
+   "turns": [
+    {
+     "say": "Veg biryani in Kondapur under 250?",
+     "expect": {
+      "english": true,
+      "tools": [
+       "search_dishes"
+      ],
+      "args": {
+       "search_dishes": {
+        "area": "Kondapur"
+       }
+      }
+     }
+    },
+    {
+     "say": "Add the cheapest one to my cart and show me the cart.",
+     "expect": {
+      "english": true,
+      "tools": [
+       "add_to_cart"
+      ],
+      "reply_has_any": [
+       "Kondapur"
+      ],
+      "orders": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "saved-veg-sees-veg-results",
+   "user": "priya",
+   "turns": [
+    {
+     "say": "Biryani in Madhapur?",
+     "expect": {
+      "english": true,
+      "tools": [
+       "search_dishes"
+      ],
+      "cart_nonveg": 0,
+      "result_keys": {
+       "search_dishes": [
+        "preferences_applied"
+       ]
+      },
+      "reply_has_none": [
+       "Chicken",
+       "Mutton",
+       "Egg"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "intent-boyfriend-order",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "expect": {
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "expect": {
+      "tools": [
+       "add_to_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "Show my cart",
+     "expect": {
+      "tools": [
+       "view_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "I'm ordering it for my boyfriend, please go ahead",
+     "expect": {
+      "english": true,
+      "orders": 0,
+      "no_tools": [
+       "place_order"
+      ]
+     }
+    },
+    {
+     "say": "yes",
+     "expect": {
+      "tools": [
+       "confirm_cart",
+       "place_order"
+      ],
+      "statuses": {
+       "place_order": "payment_required"
+      },
+      "reply_has_none": [
+       "is placed",
+       "has been placed",
+       "order placed"
+      ],
+      "orders": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "intent-hinglish-bhej-do",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "expect": {
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "expect": {
+      "tools": [
+       "add_to_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "Show my cart",
+     "expect": {
+      "tools": [
+       "view_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "theek hai bhai, dost ke liye hai, bhej do",
+     "expect": {
+      "script": "latin",
+      "orders": 0,
+      "no_tools": [
+       "place_order"
+      ]
+     }
+    },
+    {
+     "say": "haan kar do",
+     "expect": {
+      "tools": [
+       "confirm_cart",
+       "place_order"
+      ],
+      "statuses": {
+       "place_order": "payment_required"
+      },
+      "reply_has_none": [
+       "is placed",
+       "has been placed",
+       "order placed"
+      ],
+      "orders": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "intent-telugu-script-order",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "expect": {
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "expect": {
+      "tools": [
+       "add_to_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "Show my cart",
+     "expect": {
+      "tools": [
+       "view_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "సరే, ఆర్డర్ పెట్టండి",
+     "expect": {
+      "script": "telugu",
+      "orders": 0,
+      "no_tools": [
+       "place_order"
+      ]
+     }
+    },
+    {
+     "say": "అవును",
+     "expect": {
+      "tools": [
+       "confirm_cart",
+       "place_order"
+      ],
+      "statuses": {
+       "place_order": "payment_required"
+      },
+      "reply_has_none": [
+       "is placed",
+       "has been placed",
+       "order placed"
+      ],
+      "orders": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "intent-yes-but-change-area",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "expect": {
+      "tools": [
+       "search_dishes"
+      ]
+     }
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "expect": {
+      "tools": [
+       "add_to_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "Show my cart",
+     "expect": {
+      "tools": [
+       "view_cart"
+      ],
+      "orders": 0
+     }
+    },
+    {
+     "say": "yes but change the delivery area to Kondapur first",
+     "expect": {
+      "english": true,
+      "orders": 0,
+      "no_tools": [
+       "place_order"
+      ],
+      "reply_has_any": [
+       "Kondapur"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "intent-diet-boyfriend",
+   "user": "priya",
+   "turns": [
+    {
+     "say": "Add one Mutton Dum Biryani from Hi-Tech Bawarchi, Madhapur 2 branch, to my cart.",
+     "expect": {
+      "english": true,
+      "statuses": {
+       "add_to_cart": "confirm_diet"
+      },
+      "cart_nonveg": 0
+     }
+    },
+    {
+     "say": "I'm ordering it for my boyfriend",
+     "expect": {
+      "english": true,
+      "statuses": {
+       "add_to_cart": "ok"
+      },
+      "cart_nonveg": 1,
+      "orders": 0
+     }
+    }
+   ]
+  }
+ ]
+}

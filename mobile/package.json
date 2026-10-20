@@ -1,0 +1,59 @@
+{
+  "name": "dawat-mobile",
+  "private": true,
+  "version": "0.1.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start --localhost",
+    "android": "expo start --android --localhost",
+    "dev:local": "node scripts/dev-local.js",
+    "check:release": "node scripts/check-release.js",
+    "test": "jest",
+    "lint": "expo lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expo-google-fonts/noto-sans-telugu": "0.4.2",
+    "@expo-google-fonts/outfit": "0.4.3",
+    "@expo-google-fonts/plus-jakarta-sans": "0.4.2",
+    "@expo/vector-icons": "15.1.1",
+    "expo": "57.0.29",
+    "expo-constants": "57.0.22",
+    "expo-font": "57.0.4",
+    "expo-linking": "57.0.13",
+    "expo-router": "57.0.27",
+    "expo-secure-store": "57.0.4",
+    "expo-splash-screen": "57.0.10",
+    "expo-status-bar": "57.0.1",
+    "expo-system-ui": "57.0.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-gesture-handler": "2.32.0",
+    "react-native-reanimated": "4.5.1",
+    "react-native-safe-area-context": "5.7.0",
+    "react-native-screens": "4.26.2",
+    "react-native-web": "0.21.3",
+    "react-native-webview": "13.16.1",
+    "react-native-worklets": "0.10.1"
+  },
+  "devDependencies": {
+    "@testing-library/react-native": "14.0.1",
+    "@types/jest": "29.5.14",
+    "@types/react": "19.2.18",
+    "eslint": "9.39.5",
+    "eslint-config-expo": "57.0.2",
+    "jest": "29.7.0",
+    "jest-expo": "57.0.6",
+    "test-renderer": "1.2.0",
+    "typescript": "6.0.3"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "setupFilesAfterEnv": ["<rootDir>/jest.setup.ts"],
+    "testTimeout": 20000,
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1"
+    }
+  }
+}

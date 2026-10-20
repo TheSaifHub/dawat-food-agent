@@ -1,0 +1,1373 @@
+{
+  "generated_at_utc": "2026-09-30T15:53:47+00:00",
+  "inputs": [
+    "data/processed/places_clean.csv",
+    "data/reference/chain_mapping.csv",
+    "data/reference/manual_dedupe.csv",
+    "data/reference/localities.csv"
+  ],
+  "decisions": [
+    "D-010",
+    "D-011",
+    "D-012",
+    "D-013",
+    "D-014"
+  ],
+  "places_in": 1348,
+  "1_brands": {
+    "mapping_rows": 194,
+    "mapping_rows_by_decision": {
+      "brand": 72,
+      "separate": 122
+    },
+    "places_in_a_brand": 264,
+    "brands": 33,
+    "osm_brand_tag_conflicts": [
+      {
+        "osm": "node/2708120416",
+        "name": "KFC",
+        "osm_brand_tag": "Domino's",
+        "assigned": "KFC"
+      }
+    ],
+    "conflict_rule": "the reviewed mapping (by name) wins over a conflicting OSM brand tag; conflicts are listed here"
+  },
+  "2_duplicates": {
+    "auto_pairs": [
+      {
+        "a": "node/708303182",
+        "b": "node/9917006217",
+        "names": [
+          "Hi-Tech Bawarchi",
+          "Hitech Bawarchi"
+        ],
+        "distance_m": 14.4,
+        "why": "auto: same brand 'Hi-Tech Bawarchi' ≤15 m"
+      },
+      {
+        "a": "node/3159028268",
+        "b": "node/1642224750",
+        "names": [
+          "Paradise",
+          "Paradise Biriyani"
+        ],
+        "distance_m": 11.6,
+        "why": "auto: same brand 'Paradise' ≤15 m"
+      },
+      {
+        "a": "way/274798850",
+        "b": "node/13707220102",
+        "names": [
+          "Paradise Hotel",
+          "Paradise Secunderabad"
+        ],
+        "distance_m": 14.0,
+        "why": "auto: same brand 'Paradise' ≤15 m"
+      }
+    ],
+    "manual_merge_pairs": [
+      {
+        "a": "way/357588055",
+        "b": "node/675646784",
+        "names": [
+          "Bawarchi Ac",
+          "Bawarchi"
+        ],
+        "distance_m": 56.7,
+        "why": "Saif review M1: merge"
+      },
+      {
+        "a": "node/6208220792",
+        "b": "node/3979116713",
+        "names": [
+          "Bawarchi Resturant",
+          "green bawarchi restaurant"
+        ],
+        "distance_m": 30.1,
+        "why": "Saif review M2: merge"
+      },
+      {
+        "a": "node/9903919154",
+        "b": "node/5608451367",
+        "names": [
+          "lucky",
+          "Lucky Arabian Mandi"
+        ],
+        "distance_m": 26.7,
+        "why": "Saif review M4: merge"
+      },
+      {
+        "a": "node/13715448258",
+        "b": "node/13715429716",
+        "names": [
+          "THE STUDY SIP",
+          "The Study Sip"
+        ],
+        "distance_m": 101.6,
+        "why": "Saif review M5a: merge"
+      },
+      {
+        "a": "node/13715448258",
+        "b": "node/13715420823",
+        "names": [
+          "THE STUDY SIP",
+          "THE STUDY SIP"
+        ],
+        "distance_m": 201.6,
+        "why": "Saif review M5b: merge"
+      }
+    ],
+    "manual_keep_both": [
+      "M3"
+    ],
+    "pairs_15_to_50_m_needing_review": 0,
+    "removed": 8,
+    "merges": [
+      {
+        "dropped": "node/9917006217",
+        "dropped_name": "Hitech Bawarchi",
+        "kept": "node/708303182",
+        "kept_name": "Hi-Tech Bawarchi"
+      },
+      {
+        "dropped": "node/1642224750",
+        "dropped_name": "Paradise Biriyani",
+        "kept": "node/3159028268",
+        "kept_name": "Paradise"
+      },
+      {
+        "dropped": "node/13707220102",
+        "dropped_name": "Paradise Secunderabad",
+        "kept": "way/274798850",
+        "kept_name": "Paradise Hotel"
+      },
+      {
+        "dropped": "way/357588055",
+        "dropped_name": "Bawarchi Ac",
+        "kept": "node/675646784",
+        "kept_name": "Bawarchi"
+      },
+      {
+        "dropped": "node/6208220792",
+        "dropped_name": "Bawarchi Resturant",
+        "kept": "node/3979116713",
+        "kept_name": "green bawarchi restaurant"
+      },
+      {
+        "dropped": "node/9903919154",
+        "dropped_name": "lucky",
+        "kept": "node/5608451367",
+        "kept_name": "Lucky Arabian Mandi"
+      },
+      {
+        "dropped": "node/13715429716",
+        "dropped_name": "The Study Sip",
+        "kept": "node/13715448258",
+        "kept_name": "THE STUDY SIP"
+      },
+      {
+        "dropped": "node/13715420823",
+        "dropped_name": "THE STUDY SIP",
+        "kept": "node/13715448258",
+        "kept_name": "THE STUDY SIP"
+      }
+    ],
+    "places_after": 1340
+  },
+  "3_areas": {
+    "rule": "address tag naming a known area (similarity ≥0.85) if that area is ≤3000 m away; else nearest area",
+    "by_method": {
+      "nearest area": 1310,
+      "address tag": 30
+    },
+    "tag_used": [
+      {
+        "osm": "node/13361820588",
+        "tag": "addr:city=Secunderabad",
+        "area": "Secunderabad",
+        "nearest_would_be": "Secunderabad",
+        "distance_m": 836
+      },
+      {
+        "osm": "node/7473077258",
+        "tag": "addr:city=Uppal, Hyderavad",
+        "area": "Uppal",
+        "nearest_would_be": "Uppal",
+        "distance_m": 390
+      },
+      {
+        "osm": "node/10903231372",
+        "tag": "addr:city=Vanasthaslipuram,Hyderabad",
+        "area": "Vanasthalipuram",
+        "nearest_would_be": "Vanasthalipuram",
+        "distance_m": 663
+      },
+      {
+        "osm": "node/7246495319",
+        "tag": "addr:city=patancheru",
+        "area": "Patancheru",
+        "nearest_would_be": "Patancheru",
+        "distance_m": 400
+      },
+      {
+        "osm": "node/8113803298",
+        "tag": "addr:city=Uppal, Hyderabad",
+        "area": "Uppal",
+        "nearest_would_be": "Uppal",
+        "distance_m": 394
+      },
+      {
+        "osm": "node/3784353141",
+        "tag": "addr:city=Masab Tank, Hyderabad",
+        "area": "Masab Tank",
+        "nearest_would_be": "Masab Tank",
+        "distance_m": 419
+      },
+      {
+        "osm": "way/360822872",
+        "tag": "addr:city=Secunderabad",
+        "area": "Secunderabad",
+        "nearest_would_be": "Chilkalguda",
+        "distance_m": 1061
+      },
+      {
+        "osm": "node/10903291098",
+        "tag": "addr:city=Vanasthaslipuram,Hyderabad",
+        "area": "Vanasthalipuram",
+        "nearest_would_be": "Vanasthalipuram",
+        "distance_m": 608
+      },
+      {
+        "osm": "node/10903301283",
+        "tag": "addr:city=Vanasthaslipuram,Hyderabad",
+        "area": "Vanasthalipuram",
+        "nearest_would_be": "Vanasthalipuram",
+        "distance_m": 589
+      },
+      {
+        "osm": "node/7644477014",
+        "tag": "addr:city=Secunderabad",
+        "area": "Secunderabad",
+        "nearest_would_be": "Secunderabad",
+        "distance_m": 1663
+      },
+      {
+        "osm": "node/7473072329",
+        "tag": "addr:city=Uppal, Hyderabad",
+        "area": "Uppal",
+        "nearest_would_be": "Uppal",
+        "distance_m": 438
+      },
+      {
+        "osm": "node/5608454992",
+        "tag": "addr:city=Padmaraonagaf",
+        "area": "Padmarao Nagar",
+        "nearest_would_be": "Boudha Nagar",
+        "distance_m": 1382
+      },
+      {
+        "osm": "node/7473080338",
+        "tag": "addr:city=Uppal, Hyderabad",
+        "area": "Uppal",
+        "nearest_would_be": "Uppal",
+        "distance_m": 419
+      },
+      {
+        "osm": "node/7244140128",
+        "tag": "addr:city=patancheru",
+        "area": "Patancheru",
+        "nearest_would_be": "Patancheru",
+        "distance_m": 233
+      },
+      {
+        "osm": "node/10902969261",
+        "tag": "addr:city=Vanasthaslipuram,Hyderabad",
+        "area": "Vanasthalipuram",
+        "nearest_would_be": "Vanasthalipuram",
+        "distance_m": 776
+      },
+      {
+        "osm": "node/9903904325",
+        "tag": "addr:city=Sanjeeva Reddy Nagar, Hyderabad",
+        "area": "SR Nagar",
+        "nearest_would_be": "SR Nagar",
+        "distance_m": 165
+      },
+      {
+        "osm": "way/356520827",
+        "tag": "addr:city=musheerabad",
+        "area": "Musheerabad",
+        "nearest_would_be": "Gandhi Nagar",
+        "distance_m": 1384
+      },
+      {
+        "osm": "node/10903269863",
+        "tag": "addr:city=Vanasthalipuram hyderabad",
+        "area": "Vanasthalipuram",
+        "nearest_would_be": "Vanasthalipuram",
+        "distance_m": 1230
+      },
+      {
+        "osm": "node/7642365583",
+        "tag": "addr:city=Secunderabad",
+        "area": "Secunderabad",
+        "nearest_would_be": "Secunderabad",
+        "distance_m": 837
+      },
+      {
+        "osm": "node/6246300070",
+        "tag": "addr:city=Kachiguda",
+        "area": "Kacheguda",
+        "nearest_would_be": "Chaderghat",
+        "distance_m": 816
+      },
+      {
+        "osm": "node/7473097036",
+        "tag": "addr:city=Uppal, Hyderabad",
+        "area": "Uppal",
+        "nearest_would_be": "Uppal",
+        "distance_m": 475
+      },
+      {
+        "osm": "way/776390925",
+        "tag": "addr:city=Vanasthalipuram",
+        "area": "Vanasthalipuram",
+        "nearest_would_be": "Vanasthalipuram",
+        "distance_m": 238
+      },
+      {
+        "osm": "node/7243928590",
+        "tag": "addr:city=Vanasthalipuram",
+        "area": "Vanasthalipuram",
+        "nearest_would_be": "Vanasthalipuram",
+        "distance_m": 238
+      },
+      {
+        "osm": "node/7088103681",
+        "tag": "addr:city=patancheru",
+        "area": "Patancheru",
+        "nearest_would_be": "Patancheru",
+        "distance_m": 434
+      },
+      {
+        "osm": "node/10903143809",
+        "tag": "addr:city=Vanasthaslipuram,Hyderabad",
+        "area": "Vanasthalipuram",
+        "nearest_would_be": "Vanasthalipuram",
+        "distance_m": 697
+      },
+      {
+        "osm": "node/14049622249",
+        "tag": "addr:city=Secunderabad",
+        "area": "Secunderabad",
+        "nearest_would_be": "Begumpet",
+        "distance_m": 2191
+      },
+      {
+        "osm": "node/13154692137",
+        "tag": "addr:city=Langar Houz",
+        "area": "Langar Hauz",
+        "nearest_would_be": "Langar Hauz",
+        "distance_m": 1203
+      },
+      {
+        "osm": "node/11361156221",
+        "tag": "addr:city=Kukatpally",
+        "area": "Kukatpally",
+        "nearest_would_be": "KPHB Colony",
+        "distance_m": 2234
+      },
+      {
+        "osm": "node/12839760926",
+        "tag": "addr:city=Rai Durg",
+        "area": "Raidurg",
+        "nearest_would_be": "Raidurg",
+        "distance_m": 1255
+      },
+      {
+        "osm": "node/6752980030",
+        "tag": "addr:city=LB Nagar, Hyderabad",
+        "area": "LB Nagar",
+        "nearest_would_be": "LB Nagar",
+        "distance_m": 856
+      }
+    ],
+    "tag_rejected_too_far": [
+      {
+        "osm": "node/6935469225",
+        "tag": "addr:city=SECUNDERABAD",
+        "matched": "Secunderabad",
+        "distance_m": 5529,
+        "used_nearest": "IDPL"
+      },
+      {
+        "osm": "node/6935457683",
+        "tag": "addr:city=SECUNDERABAD",
+        "matched": "Secunderabad",
+        "distance_m": 5811,
+        "used_nearest": "IDPL"
+      },
+      {
+        "osm": "way/357692529",
+        "tag": "addr:city=Secunderabad",
+        "matched": "Secunderabad",
+        "distance_m": 5737,
+        "used_nearest": "Neredmet"
+      },
+      {
+        "osm": "node/6061146775",
+        "tag": "addr:city=Jeedimetla",
+        "matched": "Jeedimetla",
+        "distance_m": 3290,
+        "used_nearest": "Qutubullapur"
+      }
+    ],
+    "tag_agrees_with_nearest": 24,
+    "distance_to_area_m": {
+      "median": 581.5,
+      "p90": 1269,
+      "max": 4433,
+      "over_2km": 24
+    },
+    "areas_with_places": 143,
+    "areas_total": 170
+  },
+  "4_cuisine": {
+    "rule": "OSM cuisine tags → fixed vocabulary; else name keywords; else default by amenity; max 3 per place/restaurant",
+    "branches_by_source": {
+      "osm cuisine tag": 494,
+      "default for amenity=cafe": 45,
+      "default for amenity=restaurant": 436,
+      "name keyword": 301,
+      "default for amenity=fast_food": 64
+    },
+    "restaurants_by_primary_cuisine": {
+      "Multi-cuisine": 386,
+      "Cafe": 142,
+      "Indian": 124,
+      "Fast Food": 79,
+      "South Indian": 75,
+      "Chinese": 35,
+      "Pizza": 33,
+      "Kebab & Grill": 23,
+      "Fried Chicken": 23,
+      "Burgers": 21,
+      "Arabian": 21,
+      "Biryani": 19,
+      "Tea": 18,
+      "Bakery": 15,
+      "North Indian": 14,
+      "Juices & Shakes": 14,
+      "Desserts": 13,
+      "Sandwiches": 9,
+      "Andhra": 9,
+      "Asian": 8,
+      "Continental": 8,
+      "Irani Cafe": 6,
+      "Mexican": 5,
+      "Italian": 5,
+      "Hyderabadi": 3,
+      "Breakfast": 3,
+      "Seafood": 1
+    },
+    "regional_only_places": 51,
+    "vocabulary": [
+      "Andhra",
+      "Arabian",
+      "Asian",
+      "Bakery",
+      "Biryani",
+      "Breakfast",
+      "Burgers",
+      "Cafe",
+      "Chinese",
+      "Continental",
+      "Desserts",
+      "Fast Food",
+      "Fried Chicken",
+      "Hyderabadi",
+      "Indian",
+      "Irani Cafe",
+      "Italian",
+      "Juices & Shakes",
+      "Kebab & Grill",
+      "Mexican",
+      "Mughlai",
+      "Multi-cuisine",
+      "North Indian",
+      "Pizza",
+      "Rolls & Wraps",
+      "Sandwiches",
+      "Seafood",
+      "South Indian",
+      "Tea"
+    ],
+    "reviewed_brand_overrides": [
+      {
+        "restaurant": "Minerva Coffee Shop",
+        "computed": [
+          "Cafe"
+        ],
+        "used": [
+          "South Indian",
+          "Cafe"
+        ],
+        "why": "Saif 2026-09-30: South Indian first, Cafe second"
+      }
+    ]
+  },
+  "5_veg_only": {
+    "restaurants_veg_only": 37,
+    "details": [
+      {
+        "restaurant": "Chutneys",
+        "veg_only": true,
+        "signals": [
+          "diet:vegetarian=only"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Minerva Coffee Shop",
+        "veg_only": true,
+        "signals": [
+          "verified by Saif 2026-09-30: pure vegetarian"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Udipi",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Annapoorna Darshini Tiffins & Meals",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Jain Kitchen, Pure Vegetarian Restaurant",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Veggie Chinese",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Arya Bhavan",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Arya Bhavan",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Surabhi Udupi Veg Restaurant",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Aviyal Veg Restaurant",
+        "veg_only": true,
+        "signals": [
+          "diet:vegetarian=only"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Udupi Uphar",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Udupi Vihar",
+        "veg_only": true,
+        "signals": [
+          "diet:vegetarian=only"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Manpasand Veg restaurant",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Udupi Tiffins",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Taj Tristar",
+        "veg_only": true,
+        "signals": [
+          "diet:vegetarian=only"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Anand Bhavan",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Yuktahar Mess",
+        "veg_only": true,
+        "signals": [
+          "diet:vegetarian=only"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Taj Belson",
+        "veg_only": true,
+        "signals": [
+          "diet:vegetarian=only"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Aadi Raghavendra Udupi Veg",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Anand Bhavan (vegetarian)",
+        "veg_only": true,
+        "signals": [
+          "diet:vegetarian=only"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Udipi Park Hotel",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Sai Darshini",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Raghavedndra Vegitarian",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Sandarshini Udipi Veg",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Sri Raghavendra Udipi Veg",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Ratna pure veg",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Hotel Surabhi Udupi Veg",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Sri Raghavendra Bhavan Udipi",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Sai Darshini",
+        "veg_only": false,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": true
+      },
+      {
+        "restaurant": "Sri Balaji Veg",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Kamath Hotel",
+        "veg_only": true,
+        "signals": [
+          "diet:vegetarian=only"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Chilly's Restaurant",
+        "veg_only": true,
+        "signals": [
+          "diet:vegetarian=only"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Parivar Vegetarian",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Udipi's Aahar",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Udupy Ahar",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Udipi Hotel",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Sanchalan Bhavan Canteen",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      },
+      {
+        "restaurant": "Hotel Kamat",
+        "veg_only": true,
+        "signals": [
+          "name keyword"
+        ],
+        "blocked_by_non_veg_tag": false
+      }
+    ]
+  },
+  "6_output": {
+    "restaurants": 1112,
+    "chains": 33,
+    "standalone": 1079,
+    "branches": 1340,
+    "branches_in_chains": 261,
+    "branch_labels_disambiguated": 47,
+    "standalone_names_shared": {
+      "names": 43,
+      "restaurants": 95
+    },
+    "names_recased": {
+      "count": 129,
+      "rule": "all-lowercase, or all-caps with a 4+ letter word → title case",
+      "list": [
+        {
+          "from": "9 amma mandi",
+          "to": "9 Amma Mandi"
+        },
+        {
+          "from": "abbai tiffin center",
+          "to": "Abbai Tiffin Center"
+        },
+        {
+          "from": "adharsha sweet shop",
+          "to": "Adharsha Sweet Shop"
+        },
+        {
+          "from": "al-madini mandi house",
+          "to": "Al-Madini Mandi House"
+        },
+        {
+          "from": "al-saba restaurant",
+          "to": "Al-Saba Restaurant"
+        },
+        {
+          "from": "ali cafe",
+          "to": "Ali Cafe"
+        },
+        {
+          "from": "andhra cafe",
+          "to": "Andhra Cafe"
+        },
+        {
+          "from": "ani",
+          "to": "Ani"
+        },
+        {
+          "from": "annapoorna",
+          "to": "Annapoorna"
+        },
+        {
+          "from": "appus fast food",
+          "to": "Appus Fast Food"
+        },
+        {
+          "from": "arch cafe",
+          "to": "Arch Cafe"
+        },
+        {
+          "from": "arun icecream",
+          "to": "Arun Icecream"
+        },
+        {
+          "from": "B. DUBS",
+          "to": "B. Dubs"
+        },
+        {
+          "from": "BAKE 2 BAKE",
+          "to": "Bake 2 Bake"
+        },
+        {
+          "from": "bawarchi hotel",
+          "to": "Bawarchi Hotel"
+        },
+        {
+          "from": "bombay chat",
+          "to": "Bombay Chat"
+        },
+        {
+          "from": "cafe coffee",
+          "to": "Cafe Coffee"
+        },
+        {
+          "from": "cafe day",
+          "to": "Cafe Day"
+        },
+        {
+          "from": "cafe shop",
+          "to": "Cafe Shop"
+        },
+        {
+          "from": "cafe1",
+          "to": "Cafe1"
+        },
+        {
+          "from": "CAPITAL RESTURANT",
+          "to": "Capital Resturant"
+        },
+        {
+          "from": "CELEBRATIONS",
+          "to": "Celebrations"
+        },
+        {
+          "from": "chand fast food",
+          "to": "Chand Fast Food"
+        },
+        {
+          "from": "chat bandhar",
+          "to": "Chat Bandhar"
+        },
+        {
+          "from": "chicken center",
+          "to": "Chicken Center"
+        },
+        {
+          "from": "chirag arabian mandi",
+          "to": "Chirag Arabian Mandi"
+        },
+        {
+          "from": "choice hotel",
+          "to": "Choice Hotel"
+        },
+        {
+          "from": "coffee centre",
+          "to": "Coffee Centre"
+        },
+        {
+          "from": "cream stone",
+          "to": "Cream Stone"
+        },
+        {
+          "from": "delhi mitai vatika",
+          "to": "Delhi Mitai Vatika"
+        },
+        {
+          "from": "DELHI WALA SWEETS",
+          "to": "Delhi Wala Sweets"
+        },
+        {
+          "from": "delhiwala chat bhandar",
+          "to": "Delhiwala Chat Bhandar"
+        },
+        {
+          "from": "desert place",
+          "to": "Desert Place"
+        },
+        {
+          "from": "dlite shakes",
+          "to": "Dlite Shakes"
+        },
+        {
+          "from": "driveway",
+          "to": "Driveway"
+        },
+        {
+          "from": "fast food",
+          "to": "Fast Food"
+        },
+        {
+          "from": "fast food centre",
+          "to": "Fast Food Centre"
+        },
+        {
+          "from": "flechazo",
+          "to": "Flechazo"
+        },
+        {
+          "from": "fresh juice point",
+          "to": "Fresh Juice Point"
+        },
+        {
+          "from": "ganga jamuna hotel",
+          "to": "Ganga Jamuna Hotel"
+        },
+        {
+          "from": "GHMC ANNAPURNA CENTER",
+          "to": "GHMC Annapurna Center"
+        },
+        {
+          "from": "GHMC ANNAPURNA FOOD CENTER",
+          "to": "GHMC Annapurna Food Center"
+        },
+        {
+          "from": "ginger spice restaurant",
+          "to": "Ginger Spice Restaurant"
+        },
+        {
+          "from": "GOUSIA CAFE",
+          "to": "Gousia Cafe"
+        },
+        {
+          "from": "guma gumalu",
+          "to": "Guma Gumalu"
+        },
+        {
+          "from": "habanero",
+          "to": "Habanero"
+        },
+        {
+          "from": "heathage food point",
+          "to": "Heathage Food Point"
+        },
+        {
+          "from": "himalayan bar and restuarant",
+          "to": "Himalayan Bar and Restuarant"
+        },
+        {
+          "from": "HOLY KITCHEN",
+          "to": "Holy Kitchen"
+        },
+        {
+          "from": "hot chips",
+          "to": "Hot Chips"
+        },
+        {
+          "from": "hot chips",
+          "to": "Hot Chips"
+        },
+        {
+          "from": "hot chips",
+          "to": "Hot Chips"
+        },
+        {
+          "from": "hotel ajwa",
+          "to": "Hotel Ajwa"
+        },
+        {
+          "from": "hotel california",
+          "to": "Hotel California"
+        },
+        {
+          "from": "hyderabad host",
+          "to": "Hyderabad Host"
+        },
+        {
+          "from": "hyderabad restaurant",
+          "to": "Hyderabad Restaurant"
+        },
+        {
+          "from": "IGURU",
+          "to": "Iguru"
+        },
+        {
+          "from": "iqbal hotel",
+          "to": "Iqbal Hotel"
+        },
+        {
+          "from": "irani",
+          "to": "Irani"
+        },
+        {
+          "from": "ISTANBUL AUTHENTIC DONER KEBAB",
+          "to": "Istanbul Authentic Doner Kebab"
+        },
+        {
+          "from": "ISTANBUL AUTHENTIC DONER KEBAB",
+          "to": "Istanbul Authentic Doner Kebab"
+        },
+        {
+          "from": "juices and fast food",
+          "to": "Juices and Fast Food"
+        },
+        {
+          "from": "jyothi restaurant",
+          "to": "Jyothi Restaurant"
+        },
+        {
+          "from": "kaveri curry point",
+          "to": "Kaveri Curry Point"
+        },
+        {
+          "from": "ks bakers",
+          "to": "KS Bakers"
+        },
+        {
+          "from": "laya",
+          "to": "Laya"
+        },
+        {
+          "from": "laya restaurant",
+          "to": "Laya Restaurant"
+        },
+        {
+          "from": "LEGEND'S FOOD COURT",
+          "to": "Legend's Food Court"
+        },
+        {
+          "from": "louis burger",
+          "to": "Louis Burger"
+        },
+        {
+          "from": "lucky chicken,mutton shop",
+          "to": "Lucky Chicken,Mutton Shop"
+        },
+        {
+          "from": "lucky restaurant",
+          "to": "Lucky Restaurant"
+        },
+        {
+          "from": "LUCKY RESTURANT",
+          "to": "Lucky Resturant"
+        },
+        {
+          "from": "madina hotel",
+          "to": "Madina Hotel"
+        },
+        {
+          "from": "makers of milkshake",
+          "to": "Makers of Milkshake"
+        },
+        {
+          "from": "margi hotel",
+          "to": "Margi Hotel"
+        },
+        {
+          "from": "metro paradise",
+          "to": "Metro Paradise"
+        },
+        {
+          "from": "moksh banquets",
+          "to": "Moksh Banquets"
+        },
+        {
+          "from": "ms bakers",
+          "to": "MS Bakers"
+        },
+        {
+          "from": "mukram hotel",
+          "to": "Mukram Hotel"
+        },
+        {
+          "from": "navya millets",
+          "to": "Navya Millets"
+        },
+        {
+          "from": "new ali cafe",
+          "to": "New Ali Cafe"
+        },
+        {
+          "from": "nio o nine",
+          "to": "Nio O Nine"
+        },
+        {
+          "from": "ouce canteen",
+          "to": "Ouce Canteen"
+        },
+        {
+          "from": "pakodi",
+          "to": "Pakodi"
+        },
+        {
+          "from": "PANCHABHAKSHYA",
+          "to": "Panchabhakshya"
+        },
+        {
+          "from": "prem chapathi",
+          "to": "Prem Chapathi"
+        },
+        {
+          "from": "ragavendhra tiffin center",
+          "to": "Ragavendhra Tiffin Center"
+        },
+        {
+          "from": "RAGHAVENDRA TIFFINS",
+          "to": "Raghavendra Tiffins"
+        },
+        {
+          "from": "rangoli food court",
+          "to": "Rangoli Food Court"
+        },
+        {
+          "from": "rayudu tiffen center",
+          "to": "Rayudu Tiffen Center"
+        },
+        {
+          "from": "REDDY'S KITCHEN",
+          "to": "Reddy's Kitchen"
+        },
+        {
+          "from": "roobaroo cafe",
+          "to": "Roobaroo Cafe"
+        },
+        {
+          "from": "ruchi chinese fast food",
+          "to": "Ruchi Chinese Fast Food"
+        },
+        {
+          "from": "rv spice",
+          "to": "RV Spice"
+        },
+        {
+          "from": "salsa",
+          "to": "Salsa"
+        },
+        {
+          "from": "santosh dabba",
+          "to": "Santosh Dabba"
+        },
+        {
+          "from": "SATYA NARAYANA CAFE",
+          "to": "Satya Narayana Cafe"
+        },
+        {
+          "from": "seasons",
+          "to": "Seasons"
+        },
+        {
+          "from": "seven star cafe",
+          "to": "Seven Star Cafe"
+        },
+        {
+          "from": "shagh house",
+          "to": "Shagh House"
+        },
+        {
+          "from": "sheela cafe",
+          "to": "Sheela Cafe"
+        },
+        {
+          "from": "shiva ganga juice",
+          "to": "Shiva Ganga Juice"
+        },
+        {
+          "from": "SHIVANYA RESTAURANT",
+          "to": "Shivanya Restaurant"
+        },
+        {
+          "from": "siddharath mess",
+          "to": "Siddharath Mess"
+        },
+        {
+          "from": "SITARA FOODS",
+          "to": "Sitara Foods"
+        },
+        {
+          "from": "sreezen the shawarma hub",
+          "to": "Sreezen the Shawarma Hub"
+        },
+        {
+          "from": "sri balaji mithai shop",
+          "to": "Sri Balaji Mithai Shop"
+        },
+        {
+          "from": "sri chandana",
+          "to": "Sri Chandana"
+        },
+        {
+          "from": "sri ratna",
+          "to": "Sri Ratna"
+        },
+        {
+          "from": "suprabat tiffins",
+          "to": "Suprabat Tiffins"
+        },
+        {
+          "from": "surabhi tiffin center",
+          "to": "Surabhi Tiffin Center"
+        },
+        {
+          "from": "SUSHMA TEA POINT",
+          "to": "Sushma Tea Point"
+        },
+        {
+          "from": "SWAAD",
+          "to": "Swaad"
+        },
+        {
+          "from": "syala drive in",
+          "to": "Syala Drive in"
+        },
+        {
+          "from": "taaza tiffins",
+          "to": "Taaza Tiffins"
+        },
+        {
+          "from": "tea",
+          "to": "Tea"
+        },
+        {
+          "from": "tea time",
+          "to": "Tea Time"
+        },
+        {
+          "from": "THE STUDY SIP",
+          "to": "The Study Sip"
+        },
+        {
+          "from": "udipi",
+          "to": "Udipi"
+        },
+        {
+          "from": "udupi tiffins",
+          "to": "Udupi Tiffins"
+        },
+        {
+          "from": "ulavacharu",
+          "to": "Ulavacharu"
+        },
+        {
+          "from": "uni",
+          "to": "Uni"
+        },
+        {
+          "from": "UP THE BISTRO",
+          "to": "Up the Bistro"
+        },
+        {
+          "from": "veggie chinese",
+          "to": "Veggie Chinese"
+        },
+        {
+          "from": "viyyala vari vindu",
+          "to": "Viyyala Vari Vindu"
+        },
+        {
+          "from": "white board cafe",
+          "to": "White Board Cafe"
+        },
+        {
+          "from": "wine shop",
+          "to": "Wine Shop"
+        },
+        {
+          "from": "woodlands",
+          "to": "Woodlands"
+        },
+        {
+          "from": "zeeshan hotel",
+          "to": "Zeeshan Hotel"
+        }
+      ]
+    },
+    "post_checks": "passed"
+  },
+  "output_sha256": {
+    "restaurants.csv": "3e373d43de1ad671728210ede8dbf84e6e9fdc0b0863059c933be5724117a014",
+    "branches.csv": "101ce2167bed05978d493594bb3b66e68e141385413611bbc1d73a112418fd1e"
+  },
+  "input_sha256": {
+    "places_clean.csv": "754f99daf3492fd30d6e80b48fce7e744485a09c47675203574a28887ae50f3b",
+    "chain_mapping.csv": "9bc3a126173a8bbbc938fcf0e8385bad0eb79b306beccbd27c5dd6f54d44b6e6",
+    "manual_dedupe.csv": "b6b955ef42c6f76658d2abe00fd55215067f07fb45f89b62d2161f1102494454",
+    "localities.csv": "9b93d9da1d67d832377c45b8599c247f1c39f26a6125b71cef1544974931a592"
+  }
+}

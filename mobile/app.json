@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Dawat",
+    "slug": "dawat",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "dawat",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.dawat.app",
+      "versionCode": 1,
+      "predictiveBackGestureEnabled": false,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "monochromeImage": "./assets/adaptive-icon-monochrome.png",
+        "backgroundColor": "#21364B"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.dawat.app"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#21364B",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 240
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

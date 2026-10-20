@@ -1,0 +1,325 @@
+{
+  "snapshot": {
+    "file": "overpass_hyderabad_2026-09-30.json",
+    "sha256": "2c2b496ce4df5388ad99eaebde3db3ce4a64cdc45f9fc861770959cd53ca1cf3",
+    "osm_data_timestamp": "2026-09-30T04:20:45Z",
+    "query": "[out:json][timeout:120];\narea(3607868535)->.a;\nnwr[\"amenity\"~\"restaurant|fast_food|cafe\"](area.a);\nout center tags;\n"
+  },
+  "generated_at_utc": "2026-09-30T06:36:42+00:00",
+  "population": {
+    "all_elements": 1553,
+    "by_amenity_all": {
+      "restaurant": 916,
+      "fast_food": 332,
+      "cafe": 290,
+      "internet_cafe": 15
+    },
+    "food_places": 1538,
+    "excluded_non_food": 15,
+    "food_by_amenity": {
+      "restaurant": 916,
+      "fast_food": 332,
+      "cafe": 290
+    },
+    "food_by_osm_type": {
+      "node": 1374,
+      "way": 164
+    }
+  },
+  "coverage_of_food_places": {
+    "name": {
+      "count": 1377,
+      "pct": 89.5
+    },
+    "cuisine": {
+      "count": 581,
+      "pct": 37.8
+    },
+    "any_addr_tag": {
+      "count": 287,
+      "pct": 18.7
+    },
+    "addr:street": {
+      "count": 248,
+      "pct": 16.1
+    },
+    "addr:postcode": {
+      "count": 198,
+      "pct": 12.9
+    },
+    "addr:city": {
+      "count": 198,
+      "pct": 12.9
+    },
+    "addr:suburb": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "any_area_tag": {
+      "count": 31,
+      "pct": 2.0
+    },
+    "addr:neighbourhood": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "addr:district": {
+      "count": 31,
+      "pct": 2.0
+    },
+    "addr:quarter": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "addr:place": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "brand": {
+      "count": 154,
+      "pct": 10.0
+    },
+    "name:en": {
+      "count": 86,
+      "pct": 5.6
+    },
+    "name:te": {
+      "count": 90,
+      "pct": 5.9
+    },
+    "opening_hours": {
+      "count": 160,
+      "pct": 10.4
+    }
+  },
+  "cuisine": {
+    "places_with_multiple_values": 142,
+    "distinct_values": 124,
+    "top": [
+      {
+        "cuisine": "indian",
+        "places": 173
+      },
+      {
+        "cuisine": "regional",
+        "places": 91
+      },
+      {
+        "cuisine": "coffee_shop",
+        "places": 88
+      },
+      {
+        "cuisine": "chicken",
+        "places": 83
+      },
+      {
+        "cuisine": "pizza",
+        "places": 82
+      },
+      {
+        "cuisine": "burger",
+        "places": 55
+      },
+      {
+        "cuisine": "chinese",
+        "places": 54
+      },
+      {
+        "cuisine": "sandwich",
+        "places": 39
+      },
+      {
+        "cuisine": "kebab",
+        "places": 38
+      },
+      {
+        "cuisine": "ice_cream",
+        "places": 34
+      },
+      {
+        "cuisine": "italian",
+        "places": 17
+      },
+      {
+        "cuisine": "barbecue",
+        "places": 17
+      },
+      {
+        "cuisine": "juice",
+        "places": 16
+      },
+      {
+        "cuisine": "steak_house",
+        "places": 13
+      },
+      {
+        "cuisine": "tea",
+        "places": 13
+      }
+    ]
+  },
+  "address_values": {
+    "addr_district_values": {
+      "Hyderabad": 17,
+      "Rangareddy": 5,
+      "Telangana": 2,
+      "Medchal Malkajgiri": 2,
+      "Ranga Reddy": 1,
+      "Medchal-Malkajgiri": 1,
+      "ranga reddy": 1,
+      "Sangareddy": 1,
+      "Medchal": 1
+    },
+    "addr_city_distinct_spellings": 23,
+    "addr_city_values": {
+      "Hyderabad": 126,
+      "hyderabad": 28,
+      "HYDERABAD": 7,
+      "Secunderabad": 6,
+      "Vanasthaslipuram,Hyderabad": 5,
+      "Uppal, Hyderabad": 4,
+      "patancheru": 3,
+      "Hyderbad": 2,
+      "SECUNDERABAD": 2,
+      "Vanasthalipuram": 2,
+      "Masab Tank, Hyderabad": 1,
+      "Hyderabad,Telangana": 1,
+      "Padmaraonagaf": 1,
+      "Jeedimetla": 1,
+      "Kachiguda": 1,
+      "LB Nagar, Hyderabad": 1,
+      "Uppal, Hyderavad": 1,
+      "Sanjeeva Reddy Nagar, Hyderabad": 1,
+      "Vanasthalipuram hyderabad": 1,
+      "Kukatpally": 1,
+      "Rai Durg": 1,
+      "Langar Houz": 1,
+      "musheerabad": 1
+    },
+    "addr_postcode_distinct": 54,
+    "addr_postcode_distinct_spaces_removed": 51,
+    "addr_postcode_valid_6_digit_distinct": 50
+  },
+  "areas_from_addr_suburb": {
+    "places_with_suburb": 0,
+    "distinct_suburbs": 0,
+    "top": []
+  },
+  "coordinates": {
+    "missing": 0,
+    "inside_boundary_bbox": {
+      "count": 1538,
+      "pct": 100.0
+    }
+  },
+  "chain_name_preview": {
+    "Mehfil": {
+      "places": 10,
+      "with_brand_tag": 0,
+      "name_variants": [
+        {
+          "name": "Mehfil",
+          "count": 5
+        },
+        {
+          "name": "Mehfil Restaurant",
+          "count": 2
+        },
+        {
+          "name": "Mehfil hotel",
+          "count": 1
+        },
+        {
+          "name": "Mehfil Mandi House",
+          "count": 1
+        },
+        {
+          "name": "mehfil",
+          "count": 1
+        }
+      ]
+    },
+    "Paradise": {
+      "places": 21,
+      "with_brand_tag": 0,
+      "name_variants": [
+        {
+          "name": "Paradise",
+          "count": 8
+        },
+        {
+          "name": "Paradise Takeaway",
+          "count": 2
+        },
+        {
+          "name": "Paradise Biriyani",
+          "count": 1
+        },
+        {
+          "name": "Paradise Biryani",
+          "count": 1
+        },
+        {
+          "name": "Amrutha paradise",
+          "count": 1
+        },
+        {
+          "name": "Paradise - Take Away",
+          "count": 1
+        },
+        {
+          "name": "Hotel Paradise",
+          "count": 1
+        },
+        {
+          "name": "Hotel Persis Paradise",
+          "count": 1
+        },
+        {
+          "name": "Paradise restaurant",
+          "count": 1
+        },
+        {
+          "name": "Paradise Cafe",
+          "count": 1
+        },
+        {
+          "name": "Paradise Secunderabad",
+          "count": 1
+        },
+        {
+          "name": "Paradise Hotel",
+          "count": 1
+        },
+        {
+          "name": "metro paradise",
+          "count": 1
+        }
+      ]
+    },
+    "Pista House": {
+      "places": 4,
+      "with_brand_tag": 1,
+      "name_variants": [
+        {
+          "name": "Pista House",
+          "count": 3
+        },
+        {
+          "name": "pista house",
+          "count": 1
+        }
+      ]
+    },
+    "Shah Ghouse": {
+      "places": 1,
+      "with_brand_tag": 0,
+      "name_variants": [
+        {
+          "name": "Shah Ghouse",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

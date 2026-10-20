@@ -1,0 +1,21 @@
+{
+  "source": "OpenStreetMap via Overpass API (\u00a9 OpenStreetMap contributors, ODbL)",
+  "purpose": "named locality points for data/reference/localities.csv (Phase 2, module 2a)",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:60];\narea(3607868535)->.a;\nnwr[\"place\"~\"^(suburb|neighbourhood|quarter)$\"](area.a);\nout center tags;\n",
+  "boundary": {
+    "osm_relation": 7868535,
+    "overpass_area": 3607868535,
+    "decision": "DECISIONS.md D-005"
+  },
+  "fetched_at_utc": "2026-09-30T07:28:14+00:00",
+  "osm_data_timestamp": "2026-09-30T07:26:40Z",
+  "element_count": 1185,
+  "by_place": {
+    "neighbourhood": 1052,
+    "suburb": 133
+  },
+  "bytes": 216808,
+  "sha256": "b980906a4dd33474dcc3bf5ae82dcced5b769303c0257c9fa4bd24505f09c7c2",
+  "file": "osm_places_7868535_2026-09-30.json"
+}

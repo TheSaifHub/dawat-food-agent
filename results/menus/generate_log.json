@@ -1,0 +1,145 @@
+{
+  "generated_at_utc": "2026-09-30T15:56:53+00:00",
+  "generator_version": "3b-1",
+  "global_seed": 2026,
+  "decisions": [
+    "D-016",
+    "D-017",
+    "D-018"
+  ],
+  "restaurants": 1112,
+  "items": 23784,
+  "items_veg": 16506,
+  "distinct_dishes_used": 314,
+  "restaurants_by_price_band": {
+    "standard (restaurant)": 620,
+    "budget (name)": 175,
+    "standard (cafe)": 156,
+    "standard (fast_food)": 105,
+    "chain": 33,
+    "premium (name)": 23
+  },
+  "price_summary_by_band": {
+    "budget": {
+      "restaurants": 175,
+      "items": 3572,
+      "item_price_min": 20,
+      "item_price_median": 100.0,
+      "item_price_max": 700,
+      "menu_size_min": 9,
+      "menu_size_median": 21,
+      "menu_size_max": 30,
+      "chicken_dum_biryani_price": {
+        "on_menus": 42,
+        "min": 220,
+        "median": 250.0,
+        "max": 280
+      }
+    },
+    "chain": {
+      "restaurants": 33,
+      "items": 734,
+      "item_price_min": 30,
+      "item_price_median": 230.0,
+      "item_price_max": 860,
+      "menu_size_min": 14,
+      "menu_size_median": 22,
+      "menu_size_max": 30,
+      "chicken_dum_biryani_price": {
+        "on_menus": 10,
+        "min": 330,
+        "median": 350.0,
+        "max": 370
+      }
+    },
+    "premium": {
+      "restaurants": 23,
+      "items": 553,
+      "item_price_min": 35,
+      "item_price_median": 260,
+      "item_price_max": 980,
+      "menu_size_min": 12,
+      "menu_size_median": 25,
+      "menu_size_max": 30,
+      "chicken_dum_biryani_price": {
+        "on_menus": 19,
+        "min": 360,
+        "median": 390,
+        "max": 410
+      }
+    },
+    "standard (cafe)": {
+      "restaurants": 156,
+      "items": 2721,
+      "item_price_min": 25,
+      "item_price_median": 180,
+      "item_price_max": 1150,
+      "menu_size_min": 9,
+      "menu_size_median": 17.0,
+      "menu_size_max": 28,
+      "chicken_dum_biryani_price": {
+        "on_menus": 9,
+        "min": 280,
+        "median": 310,
+        "max": 380
+      }
+    },
+    "standard (fast_food)": {
+      "restaurants": 105,
+      "items": 1805,
+      "item_price_min": 20,
+      "item_price_median": 150,
+      "item_price_max": 640,
+      "menu_size_min": 10,
+      "menu_size_median": 16,
+      "menu_size_max": 28,
+      "chicken_dum_biryani_price": {
+        "on_menus": 7,
+        "min": 250,
+        "median": 270,
+        "max": 280
+      }
+    },
+    "standard (restaurant)": {
+      "restaurants": 620,
+      "items": 14399,
+      "item_price_min": 25,
+      "item_price_median": 210,
+      "item_price_max": 1110,
+      "menu_size_min": 10,
+      "menu_size_median": 24.0,
+      "menu_size_max": 30,
+      "chicken_dum_biryani_price": {
+        "on_menus": 465,
+        "min": 250,
+        "median": 310,
+        "max": 370
+      }
+    }
+  },
+  "price_summary_all": {
+    "restaurants": 1112,
+    "items": 23784,
+    "item_price_min": 20,
+    "item_price_median": 190.0,
+    "item_price_max": 1150,
+    "menu_size_min": 9,
+    "menu_size_median": 22.0,
+    "menu_size_max": 30,
+    "chicken_dum_biryani_price": {
+      "on_menus": 552,
+      "min": 220,
+      "median": 310.0,
+      "max": 410
+    }
+  },
+  "inputs_sha256": {
+    "dish_catalogue.csv": "d4607ec862e0804ff55ac6894659e3b519af61c6af0d0b297d90426b77ac3575",
+    "menu_templates.json": "fdb933b25c1c69c2357b2ea2d1dee396fcf99d7f822e77f80acd04b8e3babec5",
+    "restaurants.csv": "3e373d43de1ad671728210ede8dbf84e6e9fdc0b0863059c933be5724117a014",
+    "branches.csv": "101ce2167bed05978d493594bb3b66e68e141385413611bbc1d73a112418fd1e"
+  },
+  "output_sha256": {
+    "menus.json": "8db4633b774b0be9c7406440c8d1af6514f9e0163f41df05eaa2eae9412a09b1"
+  }
+}

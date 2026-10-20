@@ -1,0 +1,7 @@
+# Local development and testing only (not installed on Render).
+-r requirements.txt
+
+pytest==9.1.1
+httpx2==2.13.1  # required by FastAPI/Starlette's TestClient (replaces httpx)
+hypothesis==6.168.3  # property-based tests: pricing (4d), meal planner hard rules (Phase 5)
+sortedcontainers==2.4.0  # required by hypothesis

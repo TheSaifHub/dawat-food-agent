@@ -1,0 +1,171 @@
+﻿area_id,display_name,aliases,name_te,lat,lon,source,source_ref,osm_name,osm_place,reason,food_places_nearest
+abids,Abids,అబిడ్స్,అబిడ్స్,17.3894783,78.477182,osm,node/2261561636,Abids,suburb,OSM place=suburb,9
+ac-guards,AC Guards,Acguards,,17.3998771,78.4580506,osm,node/2935023011,AC Guards,neighbourhood,neighbourhood with a wikidata/wikipedia link,5
+adikmet,Adikmet,అడిక్మెట్,అడిక్మెట్,17.4095495,78.5130943,osm,node/2930544237,Adikmet,neighbourhood,neighbourhood with a wikidata/wikipedia link,7
+afzalgunj,Afzalgunj,అఫ్జల్‌గంజ్,అఫ్జల్‌గంజ్,17.3734999,78.4763376,osm,node/2948168552,Afzalgunj,suburb,OSM place=suburb,4
+aghapura,Aghapura,,,17.389178,78.4652731,osm,node/2935023013,Aghapura,neighbourhood,neighbourhood with a wikidata/wikipedia link,2
+aliabad,Aliabad,అలియాబాద్,అలియాబాద్,17.34563,78.4726799,osm,node/2948275418,Aliabad,suburb,OSM place=suburb,0
+alijah-kotla,Alijah Kotla,Alijahkotla,,17.3605451,78.4801015,osm,node/2208159907,Alijah Kotla,neighbourhood,neighbourhood with a wikidata/wikipedia link,0
+alwal,Alwal,ఆల్వాల్,ఆల్వాల్,17.5022292,78.5088584,osm,node/2923174834,Alwal,suburb,OSM place=suburb,5
+amberpet,Amberpet,,,17.3895,78.518,hand-added,Claude general knowledge,Amberpet,,Not found under any place=* tag in OSM (2026-09-30 check),12
+ameerpet,Ameerpet,అమీర్పేట్,అమీర్పేట్,17.4375012,78.4482505,osm,node/2461447803,Ameerpet,suburb,OSM place=suburb,34
+as-rao-nagar,AS Rao Nagar,A.S. Rao Nagar;Asraonagar;ఏ. ఎస్. రావు నగర్,ఏ. ఎస్. రావు నగర్,17.4798689,78.5509653,osm,node/2924400667,AS Rao Nagar,suburb,OSM place=suburb,7
+ashok-nagar,Ashok Nagar,Ashoknagar;అశోక్ నగర్,అశోక్ నగర్,17.405826,78.4902601,osm,node/2935028738,Ashok Nagar,neighbourhood,neighbourhood with a wikidata/wikipedia link,1
+attapur,Attapur,అత్తాపూర్,అత్తాపూర్,17.3672244,78.4307278,osm,node/2942982504,Attapur,suburb,OSM place=suburb,6
+azampura,Azampura,,,17.3761935,78.490874,osm,node/2948168556,Azampura,neighbourhood,neighbourhood with a wikidata/wikipedia link,1
+badi-chowdi,Badi Chowdi,Badichowdi,,17.3882156,78.4884283,osm,node/2935028739,Badi Chowdi,neighbourhood,neighbourhood with a wikidata/wikipedia link,5
+bagh-lingampally,Bagh Lingampally,Baghlingampally,,17.3974359,78.4979706,osm,node/2935028740,Bagh Lingampally,neighbourhood,neighbourhood with a wikidata/wikipedia link,6
+bahadurpura,Bahadurpura,బహదూర్‌పురా,బహదూర్‌పురా,17.3570672,78.4545419,osm,node/2948244221,Bahadurpura,suburb,OSM place=suburb,0
+bairamalguda,Bairamalguda,బైరమల్ గూడ,బైరమల్ గూడ,17.3421597,78.5457628,osm,node/2948307775,Bairamalguda,suburb,OSM place=suburb,0
+balkampet,Balkampet,బల్కంపేట,బల్కంపేట,17.4469233,78.4504513,osm,node/2929526870,Balkampet,suburb,OSM place=suburb,3
+bandlaguda,Bandlaguda,బండ్లగూడ,బండ్లగూడ,17.3714879,78.5727265,osm,node/2948209621,Bandlaguda,suburb,OSM place=suburb,9
+banjara-hills,Banjara Hills,Banjarahills;బంజారాహిల్స్,బంజారాహిల్స్,17.4177464,78.4399014,osm,node/1986351715,Banjara Hills,suburb,OSM place=suburb,27
+barkatpura,Barkatpura,బర్కత్‌పురా,బర్కత్‌పురా,17.3926121,78.4969683,osm,node/2935028741,Barkatpura,suburb,OSM place=suburb,0
+basheer-bagh,Basheer Bagh,Basheerbagh;బషీర్ బాగ్,బషీర్ బాగ్,17.4053896,78.4776447,osm,node/2935028742,Basheer Bagh,suburb,OSM place=suburb,5
+begum-bazaar,Begum Bazaar,Begumbazaar;బేగంబజార్,బేగంబజార్,17.3730788,78.4705549,osm,node/2942998818,Begum Bazaar,suburb,OSM place=suburb,0
+begumpet,Begumpet,బేగంపేట,బేగంపేట,17.446195,78.463016,osm,node/1986350814,Begumpet,suburb,OSM place=suburb,18
+bharath-nagar,Bharath Nagar,Bharathnagar;భరత్ నగర్,భరత్ నగర్,17.4653902,78.4289925,osm,node/1368284531,Bharath Nagar,suburb,OSM place=suburb,0
+boiguda,Boiguda,బోయిగూడ,బోయిగూడ,17.4286363,78.4969962,osm,node/2930536676,Boiguda,suburb,OSM place=suburb,6
+bolarum,Bolarum,బొల్లారం,బొల్లారం,17.529823,78.5155062,osm,node/2921494803,Bolarum,suburb,OSM place=suburb,1
+borabanda,Borabanda,బోరబండ,బోరబండ,17.45167,78.415421,osm,node/2926946736,Borabanda,suburb,OSM place=suburb,9
+boudha-nagar,Boudha Nagar,Boudhanagar,,17.4175105,78.5169267,osm,node/2930544239,Boudha Nagar,neighbourhood,neighbourhood with a wikidata/wikipedia link,14
+budvel,Budvel,,,17.33298,78.406191,osm,node/2949046153,Budvel,suburb,OSM place=suburb,0
+chaderghat,Chaderghat,చాదర్‌ఘాట్,చాదర్‌ఘాట్,17.3820325,78.4925338,osm,node/2461447804,Chaderghat,suburb,OSM place=suburb,1
+chaitanyapuri,Chaitanyapuri,చైతన్యపురి,చైతన్యపురి,17.373017,78.5362644,osm,node/2948197392,Chaitanyapuri,suburb,OSM place=suburb,26
+champapet,Champapet,చంపాపేట్,చంపాపేట్,17.3445706,78.5169717,osm,node/2948309775,Champapet,suburb,OSM place=suburb,1
+chanchalguda,Chanchalguda,చంచల్గూడ,చంచల్గూడ,17.3673732,78.4965799,osm,node/2948168557,Chanchalguda,neighbourhood,neighbourhood with a wikidata/wikipedia link,1
+chandanagar,Chandanagar,Chanda Nagar;చందానగర్,చందానగర్,17.4936092,78.3246428,osm,node/2923222381,Chandanagar,suburb,OSM place=suburb,9
+chandrayangutta,Chandrayangutta,చాంద్రాయణగుట్ట,చాంద్రాయణగుట్ట,17.3246955,78.4813558,osm,node/2949067344,Chandrayangutta,suburb,OSM place=suburb,1
+charminar,Charminar,,,17.3616,78.4747,hand-added,Claude general knowledge (the monument; same point used as the D-005 control),Charminar,,Common name for the old-city area around the monument; not an OSM place point,9
+cherlapally,Cherlapally,చర్లపల్లి,చర్లపల్లి,17.4687455,78.6024858,osm,node/2926905064,Cherlapally,suburb,OSM place=suburb,1
+chikkadpally,Chikkadpally,చిక్కడపల్లి,చిక్కడపల్లి,17.400939,78.4976319,osm,node/2935028745,Chikkadpally,suburb,OSM place=suburb,2
+chilkalguda,Chilkalguda,చిలకలగూడ,చిలకలగూడ,17.4315325,78.5071619,osm,node/2930536677,Chilkalguda,suburb,OSM place=suburb,2
+chintalkunta,Chintalkunta,చింతలకుంట,చింతలకుంట,17.3441101,78.5636781,osm,node/2949077675,Chintalkunta,suburb,OSM place=suburb,8
+dabeerpura,Dabeerpura,దబీర్ పుర,దబీర్ పుర,17.367843,78.4871899,osm,node/2948168558,Dabeerpura,suburb,OSM place=suburb,2
+dhoolpet,Dhoolpet,,,17.3721615,78.4605351,osm,node/2942998822,Dhoolpet,neighbourhood,neighbourhood with a wikidata/wikipedia link,0
+dilsukh-nagar,Dilsukh Nagar,Dilsukhnagar;దిల్సుఖ్నగర్,దిల్సుఖ్నగర్,17.3688679,78.5256198,osm,node/2948197393,Dilsukh Nagar,suburb,OSM place=suburb,11
+domalguda,Domalguda,,,17.4078455,78.4850003,osm,node/2935028746,Domalguda,neighbourhood,neighbourhood with a wikidata/wikipedia link,8
+ecil,ECIL,ECIL X Roads;E.C.I.L,,17.4705,78.5716,hand-added,Claude general knowledge (ECIL X Roads),ECIL,,Named after the company; not found under any place=* tag in OSM,22
+erragadda,Erragadda,ఎర్రగడ్డ,ఎర్రగడ్డ,17.4487999,78.4356074,osm,node/2926974774,Erragadda,suburb,OSM place=suburb,3
+falaknuma,Falaknuma,ఫలక్‌నుమా,ఫలక్‌నుమా,17.333653,78.4677481,osm,node/2949063972,Falaknuma,suburb,OSM place=suburb,2
+fateh-nagar,Fateh Nagar,Fatehnagar;ఫతెహ్ నగర్,ఫతెహ్ నగర్,17.4581554,78.4513374,osm,node/2926310705,Fateh Nagar,suburb,OSM place=suburb,1
+film-nagar,Film Nagar,Filmnagar,,17.4140574,78.4105031,osm,node/4711652890,Film Nagar,neighbourhood,neighbourhood with a wikidata/wikipedia link,14
+gachibowli,Gachibowli,గచ్చిబౌలి,గచ్చిబౌలి,17.4436222,78.3519638,osm,node/701232038,Gachibowli,suburb,OSM place=suburb,61
+gaddiannaram,Gaddiannaram,గడ్డిఅన్నారం,గడ్డిఅన్నారం,17.3636842,78.523971,osm,node/2948197396,Gaddiannaram,suburb,OSM place=suburb,5
+gagan-pahad,Gagan Pahad,Gaganpahad;గగన్ పహాడ్,గగన్ పహాడ్,17.2988247,78.4175089,osm,node/2949089152,Gagan Pahad,suburb,OSM place=suburb,0
+gajularamaram,Gajularamaram,,,17.5271759,78.4200077,osm,node/2921475367,Gajularamaram,suburb,OSM place=suburb,7
+gandhi-nagar,Gandhi Nagar,Gandhinagar;గాంధీ నగర్,గాంధీ నగర్,17.4123446,78.4899194,osm,node/2930536680,Gandhi Nagar,suburb,OSM place=suburb,7
+golconda,Golconda,గోల్కొండ,గోల్కొండ,17.3873294,78.4057336,osm,node/245640504,Golconda,suburb,OSM place=suburb,1
+goshamahal,Goshamahal,గోషామహల్,గోషామహల్,17.3805762,78.468846,osm,node/2942998826,Goshamahal,suburb,OSM place=suburb,2
+gudimalkapur,Gudimalkapur,గుడిమల్కాపూర్,గుడిమల్కాపూర్,17.3879203,78.4371165,osm,node/2935023020,Gudimalkapur,suburb,OSM place=suburb,8
+habsiguda,Habsiguda,,,17.4154761,78.5426918,osm,node/1361329778,Habsiguda,suburb,OSM place=suburb,9
+hafeezpet,Hafeezpet,,,17.4834409,78.3611316,osm,node/2923247799,Hafeezpet,neighbourhood,neighbourhood with a wikidata/wikipedia link,2
+hafiz-baba-nagar,Hafiz Baba Nagar,Hafizbabanagar;హాఫిజ్ బాబా నగర్,హాఫిజ్ బాబా నగర్,17.3265375,78.4911022,osm,node/2949067348,Hafiz Baba Nagar,suburb,OSM place=suburb,1
+hayathnagar,Hayathnagar,హయత్‌నగర్,హయత్‌నగర్,17.3281147,78.6045399,osm,node/1323176693,Hayathnagar,suburb,OSM place=suburb,11
+himayat-nagar,Himayat Nagar,Himayatnagar;హిమాయత్ నగర్,హిమాయత్ నగర్,17.4039678,78.483456,osm,node/2935028749,Himayat Nagar,suburb,OSM place=suburb,5
+hitec-city,HITEC City,Hitech City;Hi-Tech City;Hiteccity;హైటెక్ సిటీ,హైటెక్ సిటీ,17.4508058,78.3834535,osm,node/2926946739,HITEC City,suburb,OSM place=suburb,77
+hussaini-alam,Hussaini Alam,Hussainialam;హుస్సైన్ ఆలం,హుస్సైన్ ఆలం,17.361886,78.4667506,osm,node/2948276334,Hussaini Alam,suburb,OSM place=suburb,0
+hyderguda,Hyderguda,హైదర్‌గూడ,హైదర్‌గూడ,17.4012791,78.4804894,osm,node/2935028750,Hyderguda,suburb,OSM place=suburb,2
+idpl,IDPL,,,17.4806031,78.4517703,osm,node/2924213339,Idpl,suburb,OSM place=suburb,13
+izzat-nagar,Izzat Nagar,Izzatnagar,,17.4681506,78.3725279,osm,node/2926299108,Izzat Nagar,neighbourhood,neighbourhood with a wikidata/wikipedia link,14
+jagadgirigutta,Jagadgirigutta,జగద్గిరిగుట్ట,జగద్గిరిగుట్ట,17.5020418,78.4260747,osm,node/2921528745,Jagadgirigutta,suburb,OSM place=suburb,17
+jahanuma,Jahanuma,జహనుమా,జహనుమా,17.3433524,78.4614644,osm,node/2948276335,Jahanuma,suburb,OSM place=suburb,0
+jawahar-nagar,Jawahar Nagar,Jawaharnagar,,17.4076626,78.4928021,osm,node/2578027677,Jawahar Nagar,suburb,OSM place=suburb,9
+jeedimetla,Jeedimetla,Jeedimetla Village;జీడిమెట్ల,జీడిమెట్ల,17.5096516,78.4786567,osm,node/2923086475,Jeedimetla Village,suburb,OSM place=suburb,11
+jubilee-hills,Jubilee Hills,Jubileehills;జూబ్లీ హిల్స్,జూబ్లీ హిల్స్,17.4308362,78.4102882,osm,node/2926946740,Jubilee Hills,suburb,OSM place=suburb,36
+kacheguda,Kacheguda,Kachiguda;కాచిగూడ,కాచిగూడ,17.3904228,78.4978117,osm,node/2460493707,Kacheguda,suburb,OSM place=suburb,1
+kapra,Kapra,,,17.4846356,78.5610095,osm,node/2924400677,Kapra,suburb,OSM place=suburb,11
+karmanghat,Karmanghat,కర్మాంఘాట్,కర్మాంఘాట్,17.3410061,78.5329747,osm,node/2948307782,Karmanghat,suburb,OSM place=suburb,1
+karvan,Karvan,కార్వాన్,కార్వాన్,17.3691082,78.4496747,osm,node/2460484770,Karvan,suburb,OSM place=suburb,0
+katedan,Katedan,కాటేదాన్,కాటేదాన్,17.3026835,78.4398207,osm,node/2949095757,Katedan,suburb,OSM place=suburb,0
+kavadiguda,Kavadiguda,కవాడిగూడ,కవాడిగూడ,17.4227022,78.4917695,osm,node/1986348996,Kavadiguda,suburb,OSM place=suburb,2
+khairatabad,Khairatabad,ఖైరతాబాద్,ఖైరతాబాద్,17.4117706,78.4622003,osm,node/1986351544,Khairatabad,suburb,OSM place=suburb,5
+khajaguda,Khajaguda,ఖాజాగూడా,ఖాజాగూడా,17.4172202,78.3656108,osm,node/2930528724,Khajaguda,suburb,OSM place=suburb,10
+khilwat,Khilwat,ఖిల్వాట్,ఖిల్వాట్,17.3562115,78.4683744,osm,node/2948276338,Khilwat,suburb,OSM place=suburb,1
+kishan-bagh,Kishan Bagh,Kishanbagh;కిషన్ బాగ్,కిషన్ బాగ్,17.3575261,78.44485,osm,node/2948244225,Kishan Bagh,suburb,OSM place=suburb,2
+kondapur,Kondapur,కొండాపూర్,కొండాపూర్,17.4587912,78.3730556,osm,node/2237665097,Kondapur,suburb,OSM place=suburb,18
+kothaguda,Kothaguda,కొత్తగూడ,కొత్తగూడ,17.458705,78.3638803,osm,node/2926299111,Kothaguda,suburb,OSM place=suburb,35
+koti,Koti,కోటి,కోటి,17.3847309,78.4836642,osm,node/2461524528,Koti,suburb,OSM place=suburb,1
+kowkur,Kowkur,,,17.5248934,78.5355319,osm,node/2921494807,Kowkur,neighbourhood,neighbourhood with a wikidata/wikipedia link,0
+kphb-colony,KPHB Colony,KPHB;Kukatpally Housing Board;Kphbcolony;కే. పీ. హెచ్. బీ. కాలనీ,కే. పీ. హెచ్. బీ. కాలనీ,17.4922068,78.3973638,osm,node/1428945589,KPHB Colony,suburb,OSM place=suburb,84
+krishna-nagar,Krishna Nagar,Krishnanagar,,17.4330523,78.4246746,osm,node/2926974775,Krishna Nagar,neighbourhood,neighbourhood with a wikidata/wikipedia link,21
+kukatpally,Kukatpally,కూకట్పల్లి,కూకట్పల్లి,17.4930841,78.4054408,osm,node/1184187429,Kukatpally,suburb,OSM place=suburb,30
+kushaiguda,Kushaiguda,కుషాయిగూడ,కుషాయిగూడ,17.4825451,78.5726444,osm,node/2926084668,Kushaiguda,suburb,OSM place=suburb,3
+lakdikapul,Lakdikapul,Lakdi-ka-pul;Lakdi ka pul;లకడీ కా పుల్,లకడీ కా పుల్,17.405368,78.4599489,osm,node/2935023026,Lakdi-ka-pul,suburb,OSM place=suburb,6
+lal-darwaza,Lal Darwaza,Laldarwaza,,17.3463862,78.4774507,osm,node/2948276339,Lal Darwaza,neighbourhood,neighbourhood with a wikidata/wikipedia link,0
+langar-hauz,Langar Hauz,Langarhauz;లంగర్‌హౌస్,లంగర్‌హౌస్,17.377629,78.4216315,osm,node/2461496898,Langar Hauz,suburb,OSM place=suburb,6
+lb-nagar,LB Nagar,L.B. Nagar;Lal Bahadur Nagar;Lbnagar,,17.3501617,78.5510938,osm,node/1323176691,LB Nagar,suburb,OSM place=suburb,21
+lingampally,Lingampally,లింగంపల్లి,లింగంపల్లి,17.4881832,78.316112,osm,node/2923222390,Lingampally,suburb,OSM place=suburb,6
+macha-bolarum,Macha Bolarum,Machabolarum,,17.5151548,78.5125546,osm,node/2923174846,Macha Bolarum,neighbourhood,neighbourhood with a wikidata/wikipedia link,1
+madhapur,Madhapur,మాదాపూర్,మాదాపూర్,17.4408924,78.3916304,osm,node/349267516,Madhapur,suburb,OSM place=suburb,113
+madinaguda,Madinaguda,మదీనాగూడ,మదీనాగూడ,17.4917948,78.342306,osm,node/2923222392,Madinaguda,suburb,OSM place=suburb,11
+mailardevpally,Mailardevpally,మైలార్‌దేవ్‌పల్లి,మైలార్‌దేవ్‌పల్లి,17.3200218,78.4460585,osm,node/2949063984,Mailardevpally,suburb,OSM place=suburb,2
+malakpet,Malakpet,మలక్ పేట్,మలక్ పేట్,17.3736706,78.4996484,osm,node/2461447805,Malakpet,suburb,OSM place=suburb,5
+malkajgiri,Malkajgiri,మల్కాజిగిరి,మల్కాజిగిరి,17.4511764,78.5368997,osm,node/2929579785,Malkajgiri,town,missing-area check: OSM place=town,5
+mallapur,Mallapur,మల్లాపూర్,మల్లాపూర్,17.4405369,78.5788551,osm,node/2929597503,Mallapur,neighbourhood,neighbourhood with a wikidata/wikipedia link,1
+mallepally,Mallepally,మల్లేపల్లి,మల్లేపల్లి,17.3920728,78.4546129,osm,node/2935023027,Mallepally,suburb,OSM place=suburb,3
+mansoorabad,Mansoorabad,మన్సూరాబాద్,మన్సూరాబాద్,17.3541765,78.5652906,osm,node/2948307784,Mansoorabad,suburb,OSM place=suburb,4
+masab-tank,Masab Tank,Masabtank;మాసబ్ ట్యాంక్,మాసబ్ ట్యాంక్,17.4029622,78.450754,osm,node/2935023028,Masab Tank,suburb,OSM place=suburb,19
+masjid-banda,Masjid Banda,Masjidbanda,,17.4670374,78.3415168,osm,node/2926299112,Masjid Banda,suburb,OSM place=suburb,4
+mehdipatnam,Mehdipatnam,మెహదీపట్నం,మెహదీపట్నం,17.3942627,78.4342514,osm,node/2461496899,Mehdipatnam,suburb,OSM place=suburb,29
+miyapur,Miyapur,మియాపూర్,మియాపూర్,17.4981608,78.3567628,osm,node/4711167390,Miyapur,suburb,OSM place=suburb,27
+moghalpura,Moghalpura,మొఘల్‌పురా,మొఘల్‌పురా,17.3575281,78.4770839,osm,node/2197325911,Moghalpura,suburb,OSM place=suburb,1
+moosapet,Moosapet,మూసాపేట్,మూసాపేట్,17.4685307,78.4206695,osm,node/2926310708,Moosapet,suburb,OSM place=suburb,4
+moosarambagh,Moosarambagh,మూసరంబాఘ్,మూసరంబాఘ్,17.3743532,78.5160835,osm,node/2948197404,Moosarambagh,suburb,OSM place=suburb,5
+moti-nagar,Moti Nagar,Motinagar,,17.4508069,78.422242,osm,node/2929526874,Moti Nagar,neighbourhood,neighbourhood with a wikidata/wikipedia link,13
+moula-ali,Moula Ali,Moulali;Moulaali;మౌలాలి,మౌలాలి,17.46171,78.5571396,osm,node/13399575236,Moula Ali,suburb,OSM place=suburb,6
+musheerabad,Musheerabad,ముషీరాబాద్,ముషీరాబాద్,17.4146753,78.5068215,osm,node/2930536685,Musheerabad,suburb,OSM place=suburb,1
+nacharam,Nacharam,నాచారం,నాచారం,17.4284936,78.5528098,osm,node/1939389683,Nacharam,suburb,OSM place=suburb,8
+nacharam-industrial-area,Nacharam Industrial Area,Nacharamindustrialarea;నాచారం పారిశ్రామిక ప్రాంతం,నాచారం పారిశ్రామిక ప్రాంతం,17.4334996,78.5664247,osm,node/2929579789,Nacharam Industrial Area,suburb,OSM place=suburb,2
+nagole,Nagole,నాగోల్,నాగోల్,17.3775306,78.5601231,osm,node/1595461956,Nagole,suburb,OSM place=suburb,10
+nallagandla,Nallagandla,నల్లగండ్ల,నల్లగండ్ల,17.4774828,78.3060359,osm,node/2923222393,Nallagandla,neighbourhood,neighbourhood with a wikidata/wikipedia link,6
+nallakunta,Nallakunta,నల్లకుంట,నల్లకుంట,17.3975005,78.50557,osm,node/2935028752,Nallakunta,suburb,OSM place=suburb,8
+namala-gundu,Namala Gundu,Namalagundu,,17.4288453,78.5134584,osm,node/2930536686,Namala Gundu,neighbourhood,neighbourhood with a wikidata/wikipedia link,5
+nampally,Nampally,నాంపల్లి,నాంపల్లి,17.3918524,78.4660052,osm,node/2460480721,Nampally,suburb,OSM place=suburb,7
+nanakramguda,Nanakramguda,,,17.4217796,78.3379784,osm,node/13369264755,Nanakramguda,neighbourhood,neighbourhood with a wikidata/wikipedia link,32
+narayanguda,Narayanguda,నారాయణగూడ,నారాయణగూడ,17.3981159,78.4885006,osm,node/2935028753,Narayanguda,suburb,OSM place=suburb,12
+navirman-nagar,Navirman Nagar,Navirmannagar;నవీర్మాన్ నగర్,నవీర్మాన్ నగర్,17.4120566,78.418318,osm,node/7105419002,Navirman Nagar,suburb,OSM place=suburb,4
+nawab-saheb-kunta,Nawab Saheb Kunta,Nawabsahebkunta,,17.3397918,78.4578365,osm,node/2949063986,Nawab Saheb Kunta,suburb,OSM place=suburb,1
+neredmet,Neredmet,నేరేడుమెట్,నేరేడుమెట్,17.470446,78.5360054,osm,node/2926905024,Neredmet,suburb,OSM place=suburb,1
+padmarao-nagar,Padmarao Nagar,Padma Rao Nagar;Padmaraonagar,,17.4266232,78.5057671,osm,node/2930536687,Padma Rao Nagar,neighbourhood,neighbourhood with a wikidata/wikipedia link,3
+panjagutta,Panjagutta,పంజాగుట్ట,పంజాగుట్ట,17.4254245,78.4517519,osm,node/2461447806,Panjagutta,suburb,OSM place=suburb,30
+parsigutta,Parsigutta,పార్సిగుట్ట,పార్సిగుట్ట,17.4155855,78.5113023,osm,node/2930536688,Parsigutta,neighbourhood,neighbourhood with a wikidata/wikipedia link,1
+patancheru,Patancheru,పటాన్చెరు,పటాన్చెరు,17.5286092,78.2674254,osm,node/571352294,Patancheru,suburb,OSM place=suburb,3
+pragathi-nagar,Pragathi Nagar,Pragathinagar;ప్రగతి నగర్,ప్రగతి నగర్,17.5200154,78.3968876,osm,node/1906537006,Pragathi Nagar,suburb,OSM place=suburb,1
+purani-haveli,Purani Haveli,Puranihaveli;పురాని హవేలీ,పురాని హవేలీ,17.3663487,78.4805382,osm,node/2948168574,Purani Haveli,suburb,OSM place=suburb,7
+qutubullapur,Qutubullapur,,,17.5047122,78.4589164,osm,node/2923086477,Qutubullapur,suburb,OSM place=suburb,16
+raidurg,Raidurg,రాయదుర్గ్,రాయదుర్గ్,17.4141743,78.3907158,osm,node/2930528729,Raidurg,neighbourhood,neighbourhood with a wikidata/wikipedia link,18
+rajendra-nagar,Rajendra Nagar,Rajendranagar;రాజేంద్రనగర్,రాజేంద్రనగర్,17.3200305,78.4020096,osm,node/2949046158,Rajendra Nagar,suburb,OSM place=suburb,1
+ram-nagar,Ram Nagar,Ramnagar;రామ్ నగర్,రామ్ నగర్,17.4114232,78.5076081,osm,node/2930536689,Ram Nagar,suburb,OSM place=suburb,7
+rk-nagar,RK Nagar,R.K. Nagar;Rknagar,,17.4573441,78.5346295,osm,node/2926905026,R.K. Nagar,neighbourhood,neighbourhood with a wikidata/wikipedia link,0
+safilguda,Safilguda,సఫిల్గూడ,సఫిల్గూడ,17.4665153,78.5398739,osm,node/2926905028,Safilguda,suburb,OSM place=suburb,1
+saidabad,Saidabad,సయీదాబాద్,సయీదాబాద్,17.359533,78.5147979,osm,node/2461524530,Saidabad,suburb,OSM place=suburb,3
+saifabad,Saifabad,సైఫాబాద్,సైఫాబాద్,17.4047878,78.4658367,osm,node/2935023035,Saifabad,suburb,OSM place=suburb,19
+sainikpuri,Sainikpuri,సైనికపురి,సైనికపురి,17.4892154,78.5424889,osm,node/2924400682,Sainikpuri,suburb,OSM place=suburb,5
+saket,Saket,,,17.4956748,78.575906,osm,node/2926084672,Saket,suburb,OSM place=suburb,0
+sanath-nagar,Sanath Nagar,Sanathnagar;సనత్ నగర్,సనత్ నగర్,17.4522594,78.4446705,osm,node/2926974782,Sanath Nagar,suburb,OSM place=suburb,1
+santosh-nagar,Santosh Nagar,Santoshnagar,,17.3477116,78.5043699,osm,node/2948309797,Santosh Nagar,neighbourhood,neighbourhood with a wikidata/wikipedia link,7
+saroor-nagar,Saroor Nagar,Saroornagar;సరూర్నగర్,సరూర్నగర్,17.3564017,78.5318948,osm,node/2948307789,Saroor Nagar,suburb,OSM place=suburb,3
+satavahana-nagar,Satavahana Nagar,Satavahananagar,,17.4999703,78.4002791,osm,node/2921521009,Satavahana Nagar,suburb,OSM place=suburb,6
+secunderabad,Secunderabad,Secunderabad Junction;సికింద్రాబాద్,సికింద్రాబాద్,17.4337246,78.5006827,osm,node/2460862103,Secunderabad,city,missing-area check: OSM place=city,35
+shah-ali-banda,Shah Ali Banda,Shahalibanda;షా ఆలీ బండ,షా ఆలీ బండ,17.3530537,78.4717538,osm,node/2948276351,Shah Ali Banda,suburb,OSM place=suburb,2
+shaikpet,Shaikpet,షేక్‌పేట,షేక్‌పేట,17.4057955,78.4006536,osm,node/2935018020,Shaikpet,suburb,OSM place=suburb,5
+sitaphalmandi,Sitaphalmandi,సీతాఫల్ మండి,సీతాఫల్ మండి,17.4297326,78.5174265,osm,node/1361329781,Sitaphalmandi,suburb,OSM place=suburb,4
+somajiguda,Somajiguda,సోమాజిగూడ,సోమాజిగూడ,17.4255053,78.4585197,osm,node/1986350818,Somajiguda,suburb,OSM place=suburb,24
+sr-nagar,SR Nagar,S.R. Nagar;Sanjeeva Reddy Nagar;Srnagar;ఎస్. ఆర్. నగర్,ఎస్. ఆర్. నగర్,17.4452312,78.4449117,osm,node/2926974781,SR Nagar,suburb,OSM place=suburb,12
+sultan-bazar,Sultan Bazar,Sultan Bazaar;Sultanbazar;సుల్తాన్ బజార్,సుల్తాన్ బజార్,17.3870437,78.4869648,osm,node/2948168578,Sultan Bazar,neighbourhood,neighbourhood with a wikidata/wikipedia link,3
+tarnaka,Tarnaka,,,17.4255371,78.5306786,hand-added,OSM node/2583708951 (place=locality 'Tarnaka Flyover;TGSRTC Hospital'),Tarnaka,,OSM has only this landmark point; used as the area's location,8
+tolichowki,Tolichowki,Toli Chowki;తోలి చౌకి,తోలి చౌకి,17.4002904,78.4118051,osm,node/317758182,Tolichowki,suburb,OSM place=suburb,5
+uppal,Uppal,ఉప్పల్,ఉప్పల్,17.4025091,78.5612562,osm,node/2942958218,Uppal,suburb,OSM place=suburb,25
+upperpally,Upperpally,ఉపర్పల్లి,ఉపర్పల్లి,17.35768,78.4200013,osm,node/4463807890,Upperpally,suburb,OSM place=suburb,1
+uppuguda,Uppuguda,ఉప్పుగూడ,ఉప్పుగూడ,17.340814,78.4841834,osm,node/2949067361,Uppuguda,suburb,OSM place=suburb,0
+vanasthalipuram,Vanasthalipuram,వనస్థలిపురం,వనస్థలిపురం,17.3303179,78.568278,osm,node/2949077691,Vanasthalipuram,suburb,OSM place=suburb,11
+vengal-rao-nagar,Vengal Rao Nagar,Vengalraonagar,,17.442681,78.4354451,osm,node/2926974784,Vengal Rao Nagar,suburb,OSM place=suburb,15
+venkatapuram,Venkatapuram,,,17.496189,78.5043108,osm,node/2924395133,Venkatapuram,suburb,OSM place=suburb,2
+vidyanagar,Vidyanagar,విద్యా నగర్,విద్యా నగర్,17.4019354,78.5095814,osm,node/1361329786,Vidyanagar,suburb,OSM place=suburb,11
+vijay-nagar-colony,Vijay Nagar Colony,Vijaynagarcolony,,17.3981865,78.452685,osm,node/2935023040,Vijay Nagar Colony,suburb,OSM place=suburb,0
+warasiguda,Warasiguda,వారాసిగూడ,వారాసిగూడ,17.4182415,78.5113365,osm,node/2930536693,Warasiguda,neighbourhood,neighbourhood with a wikidata/wikipedia link,3
+yakutpura,Yakutpura,యాకుత్పురా,యాకుత్పురా,17.3586277,78.4858046,osm,node/2948276359,Yakutpura,suburb,OSM place=suburb,1
+yapral,Yapral,యాప్రాల్,యాప్రాల్,17.5030543,78.5407976,osm,node/2923196503,Yapral,suburb,OSM place=suburb,1
+yousufguda,Yousufguda,యూసఫ్ గూడ,యూసఫ్ గూడ,17.4387499,78.4279866,osm,node/2926974787,Yousufguda,suburb,OSM place=suburb,4
+zamistanpur,Zamistanpur,,,17.41526,78.5014979,osm,node/2930536694,Zamistanpur,suburb,OSM place=suburb,2

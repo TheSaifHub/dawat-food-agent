@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native (generated)
+/ios
+/android
+.kotlin/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+
+# Metro / debug
+.metro-health-check*
+npm-debug.*
+
+# local env files (real values never leave this machine)
+.env
+.env.*
+!.env.example
+
+# typescript
+*.tsbuildinfo

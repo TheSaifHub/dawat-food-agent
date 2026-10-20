@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --color-plum: #5B1E4E;
+  --color-plum-dark: #3F1436;
+  --color-plum-light: #732863;
+  --color-plum-soft: #F5EDF3;
+  --color-gold: #D8AE4A;
+  --color-gold-light: #E8C676;
+  --color-gold-dark: #B58B2A;
+  --color-ivory: #FAF6EF;
+  --color-ivory-warm: #F4EAD9;
+  --color-ivory-card: #FFFFFF;
+  --color-night: #22161F;
+  --color-night-muted: #574652;
+  --color-night-subtle: #877682;
+  --color-border-warm: #EADFCF;
+  --color-border-subtle: #F0E8DD;
+
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-dm-sans), system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+:root {
+  --background: #FAF6EF;
+  --foreground: #22161F;
+}
+
+/* Base styles enforcing Brand & Accessibility Rules */
+html {
+  background-color: #FAF6EF;
+  color: #22161F;
+  font-family: var(--font-sans);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #FAF6EF;
+  color: #22161F;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* Accessible focus ring: WCAG compliant, high-visibility contrast */
+:focus-visible {
+  outline: 2px solid #5B1E4E;
+  outline-offset: 2px;
+}
+
+/* Ensure focus ring is clearly visible on dark backgrounds */
+.bg-plum :focus-visible,
+.bg-plum-dark :focus-visible,
+.bg-night :focus-visible {
+  outline: 2px solid #D8AE4A;
+  outline-offset: 2px;
+}
+
+/* Headings font styling */
+h1, h2, h3, .font-heading {
+  font-family: var(--font-serif);
+}
+
+/* Subtle Nizami geometric motif patterns */
+.nizami-pattern {
+  background-image: radial-gradient(rgba(216, 174, 74, 0.15) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.nizami-pattern-dark {
+  background-image: radial-gradient(rgba(216, 174, 74, 0.22) 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+/* Scrollbar aesthetic matching Dawat colors */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF6EF;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8AE4A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5B1E4E;
+}

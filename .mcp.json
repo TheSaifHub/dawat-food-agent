@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "type": "http",
+      "url": "https://mcp.supabase.com/mcp?project_ref=revuphbeshalzesshbrn&read_only=true&features=database,docs"
+    },
+    "context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp"
+    },
+    "playwright": {
+      "type": "stdio",
+      "command": "cmd",
+      "args": ["/c", "npx", "-y", "@playwright/mcp@0.0.83", "--isolated", "--headless", "--browser", "chrome",
+               "--output-dir", ".playwright-mcp"]
+    }
+  }
+}

@@ -1,0 +1,493 @@
+{
+ "run_at": "2026-10-05T05:42:56+00:00",
+ "prompt_version": "v3",
+ "models": [
+  "gemini/gemini-3.5-flash-lite",
+  "gemini/gemini-3.8-flash",
+  "groq/openai/gpt-oss-120b"
+ ],
+ "cases_file": "phase6_cases.json",
+ "repeat": 1,
+ "cases": [
+  {
+   "id": "no-keeps-the-cart",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "reply": "Here are some chicken biryanis in Madhapur under ₹300:\n\n- **The Adda** – Chicken Dum Biryani for ₹280\n- **Shree Santhosh Family Dhaba** – Chicken Dum Biryani for ₹260\n- **Lucky Restaurant** – Chicken Dum Biryani for ₹290\n- **Hideout** – Chicken Dum Biryani for ₹270\n- **Morning Dew** – Chicken Dum Biryani for ₹270\n\nWould you like to add any of these to your cart?",
+     "status": "ok",
+     "seconds": 5.4,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4169,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5688,
+       "completion_tokens": 117
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "max_price": 300,
+        "query": "chicken biryani",
+        "area": "Madhapur"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "reply": "I've added the cheapest Chicken Dum Biryani from Annapurna (₹240) to your cart. \n\nHere is your cart summary:\n- **Annapurna** (Madhapur)\n  - Chicken Dum Biryani (1 qty) – ₹240\n- Items Total: ₹240\n- Delivery Fee: ₹55\n- Taxes: ₹22\n- Grand Total: ₹317\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 6.7,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 5814,
+       "completion_tokens": 66
+      },
+      {
+       "prompt_tokens": 6428,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 6922,
+       "completion_tokens": 97
+      }
+     ],
+     "calls": [
+      {
+       "tool": "add_to_cart",
+       "arguments": {
+        "item_id": "r-annapurna-n5482822501__chicken-dum-biryani",
+        "qty": 1,
+        "branch_id": "b-n5482822501"
+       },
+       "status": "ok"
+      },
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called add_to_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart', 'view_cart']"
+      }
+     ]
+    },
+    {
+     "say": "Show my cart",
+     "reply": "Here is your cart summary:\n\n- **Annapurna** (Madhapur)\n  - Chicken Dum Biryani (1 qty) – ₹240\n- Items Total: ₹240\n- Delivery Fee: ₹55\n- Taxes: ₹22\n- Grand Total: ₹317\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 3.2,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 7024,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 7518,
+       "completion_tokens": 72
+      }
+     ],
+     "calls": [
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called view_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      }
+     ]
+    },
+    {
+     "say": "no",
+     "reply": "The order was not placed. Your items are still in the cart, so you can change or remove them whenever you're ready!",
+     "status": "ok",
+     "seconds": 2.2,
+     "models": [
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 7593,
+       "completion_tokens": 27
+      }
+     ],
+     "calls": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "did not call place_order",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "reply mentions",
+       "ok": true,
+       "detail": "none of ['not placed', 'still in your cart', 'still in the cart']"
+      },
+      {
+       "check": "reply avoids",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "cart still has ≥ 1 line(s)",
+       "ok": true,
+       "detail": "cart has 1"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "nahi-keeps-the-cart-hinglish",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Bhai, Madhapur mein chicken biryani 300 ke andar?",
+     "reply": "Bhai, Madhapur mein ₹300 ke andar yeh options mil jayenge:\n\n- **The Adda**: Chicken Dum Biryani for ₹280\n- **Shree Santhosh Family Dhaba**: Chicken Dum Biryani for ₹260\n- **Lucky Restaurant**: Chicken Dum Biryani for ₹290\n- **Hideout**: Chicken Dum Biryani for ₹270\n- **Annapurna**: Chicken Dum Biryani for ₹240\n\nInmein se koi add karni hai kya cart mein?",
+     "status": "ok",
+     "seconds": 4.0,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4173,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5692,
+       "completion_tokens": 114
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "query": "chicken biryani",
+        "max_price": 300,
+        "area": "Madhapur"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    },
+    {
+     "say": "Sabse sasta wala ek cart mein daal do",
+     "reply": "Annapurna se Chicken Dum Biryani (₹240) cart mein daal di hai. \n\nChahiye toh delivery area Madhapur change kar sakte hain (abhi Gachibowli set hai), ya phir cart dekhne ke liye batao!",
+     "status": "ok",
+     "seconds": 4.3,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 5819,
+       "completion_tokens": 66
+      },
+      {
+       "prompt_tokens": 6433,
+       "completion_tokens": 54
+      }
+     ],
+     "calls": [
+      {
+       "tool": "add_to_cart",
+       "arguments": {
+        "item_id": "r-annapurna-n5482822501__chicken-dum-biryani",
+        "branch_id": "b-n5482822501",
+        "qty": 1
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called add_to_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart']"
+      }
+     ]
+    },
+    {
+     "say": "Cart dikhao",
+     "reply": "Yahin hai aapka cart:\n\n- **Annapurna (Madhapur)**\n  - Chicken Dum Biryani x 1: ₹240\n\n- **Delivery Fee:** ₹55\n- **GST & Taxes:** ₹22\n- **Grand Total:** ₹317\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 4.0,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6492,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 6986,
+       "completion_tokens": 67
+      }
+     ],
+     "calls": [
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called view_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      }
+     ]
+    },
+    {
+     "say": "nahi, abhi order mat karo",
+     "reply": "Order place nahi kiya gaya hai, aur aapka item abhi bhi cart mein hi hai. Jab aap bolo tab order kar sakte hain!",
+     "status": "ok",
+     "seconds": 1.8,
+     "models": [
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 7062,
+       "completion_tokens": 28
+      }
+     ],
+     "calls": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got latin"
+      },
+      {
+       "check": "did not call place_order",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "reply mentions",
+       "ok": true,
+       "detail": "none of ['cart mein', 'cart me', 'place nahi', 'nahi hua', 'not placed']"
+      },
+      {
+       "check": "reply avoids",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "cart still has ≥ 1 line(s)",
+       "ok": true,
+       "detail": "cart has 1"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  }
+ ],
+ "summary": {
+  "cases": 2,
+  "cases_passed": 2,
+  "turns": 8,
+  "checks": 42,
+  "checks_passed": 42,
+  "by_check": {
+   "called": "6/6",
+   "cart still has ≥ 1 line(s)": "2/2",
+   "did": "2/2",
+   "english_only": "1/1",
+   "names_spelled": "8/8",
+   "no_failure_reply": "8/8",
+   "numbers_grounded": "8/8",
+   "orders placed = 0": "2/2",
+   "reply avoids": "2/2",
+   "reply mentions": "2/2",
+   "script": "1/1"
+  }
+ }
+}

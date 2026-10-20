@@ -1,0 +1,6 @@
+name,lat,lon,source,coord_source,verified,note
+Charminar,17.3616,78.4747,hand-added,Claude general knowledge (the monument; same point used as the D-005 control),"verified by Saif on 2026-09-30 (Google Maps)",Common name for the old-city area around the monument; not an OSM place point
+Amberpet,17.3895,78.5180,hand-added,Claude general knowledge,"verified by Saif on 2026-09-30 (Google Maps)",Not found under any place=* tag in OSM (2026-09-30 check)
+Bowenpally,17.4711,78.4838,hand-added,Claude general knowledge (approximate),not verified; not used,Outside relation 7868535 (118 m; likely Secunderabad Cantonment); left out by Saif's decision (D-009)
+ECIL,17.4705,78.5716,hand-added,Claude general knowledge (ECIL X Roads),"verified by Saif on 2026-09-30 (Google Maps)",Named after the company; not found under any place=* tag in OSM
+Tarnaka,17.4255371,78.5306786,hand-added,OSM node/2583708951 (place=locality 'Tarnaka Flyover;TGSRTC Hospital'),"from OSM data, not hand-checked",OSM has only this landmark point; used as the area's location

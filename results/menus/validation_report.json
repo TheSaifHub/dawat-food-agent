@@ -1,0 +1,28 @@
+{
+  "menus": 1112,
+  "items": 23784,
+  "veg_only_menus_checked": 37,
+  "meal_capable_menus_checked": 907,
+  "meal_capable_without_veg_main": 0,
+  "meal_capable_without_veg_main_list": [],
+  "checks": [
+    "coverage",
+    "freshness",
+    "fields and types",
+    "catalogue match",
+    "price in range",
+    "unique ids",
+    "no duplicate dish",
+    "≥1 veg item",
+    "veg-only = all veg",
+    "meal = main + side",
+    "price consistency",
+    "full > half",
+    "price bands",
+    "name promises",
+    "menu size"
+  ],
+  "errors": [],
+  "notes": [],
+  "passed": true
+}

@@ -1,0 +1,26 @@
+# Data pipeline dependencies (local only; never deployed to Render).
+# Exact pins on Python 3.11.9: the packages we use directly plus every dependency they pull in.
+# Install into the shared venv:  .venv\Scripts\python -m pip install -r data_pipeline\requirements.txt
+
+# used directly
+pandas==3.0.6
+numpy==2.4.6
+matplotlib==3.11.2
+seaborn==0.13.2
+# database seed (load_db.py, Phase 3e); same pins as backend/requirements.txt
+psycopg==3.3.6
+psycopg-binary==3.3.6
+python-dotenv==1.2.3
+typing_extensions==4.16.0
+
+# pulled in by the above
+contourpy==1.3.3
+cycler==0.12.1
+fonttools==4.66.1
+kiwisolver==1.5.1
+packaging==26.3
+pillow==12.3.0
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+six==1.17.0
+tzdata==2026.4

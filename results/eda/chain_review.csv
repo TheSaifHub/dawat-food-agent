@@ -1,0 +1,163 @@
+﻿kind,chain_core_name,name,core_name,amenity,osm,lat,lon,similarity
+ambiguous_contains_chain_name,ali,Ali Star Hotel,ali star,restaurant,node/6758497444,17.420283,78.5131386,
+ambiguous_contains_chain_name,ali,Yaqoob Ali Cafe,yaqoob ali,cafe,node/6822126474,17.355401,78.463582,
+ambiguous_contains_chain_name,am pm,AM-PM Shawarma,am pm shawarma,restaurant,node/8995827803,17.3968281,78.4233659,
+ambiguous_contains_chain_name,barbeque nation,Barbeque Nation - Banjara Hills,barbeque nation banjara hills,restaurant,node/10280159820,17.41514,78.4502756,
+ambiguous_contains_chain_name,barista,Barista Lavazza,barista lavazza,cafe,node/2466611427,17.42367,78.4125626,
+ambiguous_contains_chain_name,bawarchi,Bawarchi Ac,bawarchi ac,restaurant,way/357588055,17.4067303,78.4977159,
+ambiguous_contains_chain_name,bawarchi,Bawarchi Resturant,bawarchi resturant,restaurant,node/6208220792,17.3682736,78.5258939,
+ambiguous_contains_chain_name,bawarchi,Brothers Bawarchi,brothers bawarchi,restaurant,node/6868689295,17.4541799,78.419381,
+ambiguous_contains_chain_name,bawarchi,Gold Bawarchi,gold bawarchi,restaurant,node/6772788276,17.4266214,78.5317312,
+ambiguous_contains_chain_name,bawarchi,Grand Spicy Bawarchi,grand spicy bawarchi,restaurant,node/7021303733,17.4447002,78.386046,
+ambiguous_contains_chain_name,bawarchi,Green Bawarchi,green bawarchi,restaurant,node/2062730675,17.4299491,78.4284395,
+ambiguous_contains_chain_name,bawarchi,Green Bawarchi,green bawarchi,restaurant,node/2431749969,17.3680419,78.5568618,
+ambiguous_contains_chain_name,bawarchi,Green Bawarchi,green bawarchi,restaurant,node/3388949138,17.4936276,78.4028605,
+ambiguous_contains_chain_name,bawarchi,Hi-Tech Bawarchi,hi tech bawarchi,fast_food,node/708303182,17.4410683,78.391636,
+ambiguous_contains_chain_name,bawarchi,Hi-Tech Bawarchi,hi tech bawarchi,restaurant,node/7021303728,17.4430468,78.3877611,
+ambiguous_contains_chain_name,bawarchi,Hi-Tech Bawarchi Multi Cuisine Restaurant,hi tech bawarchi multi cuisine,restaurant,node/6864399992,17.4437602,78.3586988,
+ambiguous_contains_chain_name,bawarchi,Hitech Bawarchi,hitech bawarchi,restaurant,node/9917006217,17.4411978,78.3916463,
+ambiguous_contains_chain_name,bawarchi,Madhapur Bawarchi,madhapur bawarchi,restaurant,node/7025820886,17.4407157,78.3924993,
+ambiguous_contains_chain_name,bawarchi,Meeraj Bawarchi,meeraj bawarchi,restaurant,node/7244140128,17.529058,78.2652784,
+ambiguous_contains_chain_name,bawarchi,green bawarchi restaurant,green bawarchi,restaurant,node/3979116713,17.3682472,78.525612,
+ambiguous_contains_chain_name,canteen,Badugu David's Canteen,badugu david s canteen,fast_food,way/1459903876,17.4458864,78.3470854,
+ambiguous_contains_chain_name,canteen,Bolledupati Sitaram and Brothers (BSB) Canteen,bolledupati sitaram brothers bsb canteen,fast_food,way/540025634,17.4459455,78.3471717,
+ambiguous_contains_chain_name,canteen,CIE Canteen,cie canteen,fast_food,node/13494968219,17.4458955,78.3500333,
+ambiguous_contains_chain_name,canteen,Hospital Canteen,hospital canteen,restaurant,node/7180147129,17.4900345,78.4067309,
+ambiguous_contains_chain_name,canteen,JNTU - Canteen,jntu canteen,cafe,way/331213192,17.4941991,78.3927806,
+ambiguous_contains_chain_name,canteen,JNTUH Canteen,jntuh canteen,fast_food,node/13715467229,17.4942903,78.3928178,
+ambiguous_contains_chain_name,canteen,Jntu Canteen,jntu canteen,fast_food,node/11736398311,17.4941428,78.3928481,
+ambiguous_contains_chain_name,canteen,Juice Canteen,juice canteen,restaurant,way/1460129001,17.4479355,78.3475844,
+ambiguous_contains_chain_name,canteen,KIMS Canteen,kims canteen,fast_food,node/13707317015,17.4370194,78.4829942,
+ambiguous_contains_chain_name,canteen,SVK canteen,svk canteen,cafe,node/5404824143,17.4359971,78.3600653,
+ambiguous_contains_chain_name,canteen,Sanchalan Bhavan Canteen,sanchalan bhavan canteen,restaurant,way/536886955,17.4379942,78.509675,
+ambiguous_contains_chain_name,canteen,Tiffi Canteen,tiffi canteen,restaurant,node/12536226053,17.4752534,78.5682569,
+ambiguous_contains_chain_name,canteen,Vindhya Canteen,vindhya canteen,fast_food,node/1905930612,17.4462731,78.3491325,
+ambiguous_contains_chain_name,canteen,ouce canteen,ouce canteen,cafe,way/1544837614,17.4065682,78.5196687,
+ambiguous_contains_chain_name,domino s,Domino's pizza,domino s pizza,restaurant,node/12852246629,17.3924277,78.5105786,
+ambiguous_contains_chain_name,domino s,Mc Domino's,mc domino s,restaurant,node/4531956291,17.3426735,78.5559553,
+ambiguous_contains_chain_name,dwaraka,Dwaraka Tiffins,dwaraka tiffins,restaurant,node/13415039401,17.4056568,78.5116157,
+ambiguous_contains_chain_name,fast food,ASP Chinese Fast Food,asp chinese fast food,fast_food,node/6935617665,17.4421174,78.5663481,
+ambiguous_contains_chain_name,fast food,Ahwaanam Fast Food,ahwaanam fast food,fast_food,node/6821427385,17.4408073,78.4455707,
+ambiguous_contains_chain_name,fast food,Ajay Fast Food,ajay fast food,fast_food,node/13637629024,17.4493963,78.3921835,
+ambiguous_contains_chain_name,fast food,Arati Fast Food,arati fast food,fast_food,node/6723691439,17.4408777,78.4400324,
+ambiguous_contains_chain_name,fast food,Cafe Blue Diamond & Chinese Fast Food,blue diamond chinese fast food,fast_food,node/7025820756,17.440618,78.3945512,
+ambiguous_contains_chain_name,fast food,Chinese Fast Food,chinese fast food,fast_food,node/6199003985,17.3948319,78.5303123,
+ambiguous_contains_chain_name,fast food,Enjoy Fast Food,enjoy fast food,fast_food,node/2708167564,17.3961274,78.511327,
+ambiguous_contains_chain_name,fast food,Fast Food Centre,fast food centre,fast_food,node/13436948467,17.3975185,78.4965809,
+ambiguous_contains_chain_name,fast food,Fast food and tiffin center,fast food tiffin center,fast_food,node/7113964286,17.4321538,78.4258487,
+ambiguous_contains_chain_name,fast food,Galaxy fast food,galaxy fast food,fast_food,node/10262083200,17.444654,78.5258126,
+ambiguous_contains_chain_name,fast food,Hi-tech fast food center,hi tech fast food center,fast_food,node/8386697006,17.4718001,78.3888824,
+ambiguous_contains_chain_name,fast food,James Chan Chinese Fast Food,james chan chinese fast food,fast_food,node/6758497455,17.4225196,78.5085768,
+ambiguous_contains_chain_name,fast food,Lakshmi Fast Food,lakshmi fast food,fast_food,way/1236750026,17.3487218,78.5550372,
+ambiguous_contains_chain_name,fast food,Mandar Fast Food,mandar fast food,restaurant,node/6693360861,17.3888637,78.4554807,
+ambiguous_contains_chain_name,fast food,Raju fast food,raju fast food,fast_food,node/7243974418,17.3965018,78.5033418,
+ambiguous_contains_chain_name,fast food,SK Fast Food,sk fast food,fast_food,node/7021303761,17.4499993,78.3854651,
+ambiguous_contains_chain_name,fast food,Sholey Curry Point & Chinese Fast Food,sholey curry point chinese fast food,fast_food,node/6758497449,17.4202785,78.5162304,
+ambiguous_contains_chain_name,fast food,Vennela Fast Food,vennela fast food,restaurant,node/12541130547,17.4737993,78.5692513,
+ambiguous_contains_chain_name,fast food,appus fast food,appus fast food,restaurant,node/6372299524,17.3753755,78.5412425,
+ambiguous_contains_chain_name,fast food,chand fast food,chand fast food,restaurant,node/12854606944,17.3953386,78.530399,
+ambiguous_contains_chain_name,fast food,fast food centre,fast food centre,fast_food,node/13673338578,17.37027,78.54151,
+ambiguous_contains_chain_name,fast food,juices and fast food,juices fast food,restaurant,node/13088224018,17.4411442,78.3588597,
+ambiguous_contains_chain_name,fast food,ruchi chinese fast food,ruchi chinese fast food,restaurant,way/265419897,17.4128859,78.4883064,
+ambiguous_contains_chain_name,godavari ruchulu,Krishna Godavari Ruchulu,krishna godavari ruchulu,restaurant,node/12972172341,17.4946192,78.3481935,
+ambiguous_contains_chain_name,hi tech bawarchi,Hi-Tech Bawarchi Multi Cuisine Restaurant,hi tech bawarchi multi cuisine,restaurant,node/6864399992,17.4437602,78.3586988,
+ambiguous_contains_chain_name,irani,Blue Moon Irani Chai Cafe,blue moon irani chai,cafe,node/6205211485,17.4404997,78.4938821,
+ambiguous_contains_chain_name,irani,Hotel Skylab Irani Chai Cafe,skylab irani chai,cafe,node/6133852986,17.4359573,78.5187439,
+ambiguous_contains_chain_name,irani,My Friend’s Irani Chai,my friend s irani chai,cafe,node/6131962786,17.4992034,78.4771905,
+ambiguous_contains_chain_name,irani,Sikander Irani Tea And Snacks Point,sikander irani tea snacks point,cafe,node/6822126623,17.4377802,78.4401942,
+ambiguous_contains_chain_name,kabab,Chicken kabab,chicken kabab,restaurant,node/1224527813,17.4391462,78.3636441,
+ambiguous_contains_chain_name,kabab,Kabab Inn,kabab inn,restaurant,node/4683188792,17.3594202,78.4713006,
+ambiguous_contains_chain_name,kabab,Kabab house,kabab house,restaurant,node/6865920697,17.4225754,78.5457338,
+ambiguous_contains_chain_name,kabab,Master Kabab,master kabab,restaurant,node/8110979060,17.4553167,78.4477611,
+ambiguous_contains_chain_name,kfc,KFC - Next Galleria Mall,kfc next galleria mall,fast_food,node/14063278753,17.4288184,78.4504782,
+ambiguous_contains_chain_name,kfc,KFC - Sindhi Colony,kfc sindhi colony,fast_food,node/13955167736,17.440659,78.4807884,
+ambiguous_contains_chain_name,kfc,KFC LB Nagar,kfc lb nagar,restaurant,node/4576382091,17.3458927,78.552418,
+ambiguous_contains_chain_name,lucky,LUCKY RESTURANT,lucky resturant,restaurant,way/680561235,17.3654428,78.5575521,
+ambiguous_contains_chain_name,lucky,Lucky Arabian Mandi,lucky arabian mandi,restaurant,node/5608451367,17.4201515,78.5166572,
+ambiguous_contains_chain_name,lucky,"lucky chicken,mutton shop",lucky chicken mutton shop,fast_food,node/7246495620,17.5230776,78.4188283,
+ambiguous_contains_chain_name,mehfil,Mehfil Mandi House,mehfil mandi house,restaurant,node/10836288178,17.3765149,78.4296741,
+ambiguous_contains_chain_name,minerva,Grand Minerva,grand minerva,restaurant,node/890303724,17.413531,78.445005,
+ambiguous_contains_chain_name,minerva,Minerva Coffee House,minerva coffee house,cafe,node/613410619,17.4013136,78.4853821,
+ambiguous_contains_chain_name,minerva,Minerva Coffee Shop,minerva coffee shop,restaurant,node/817354361,17.4289627,78.4557226,
+ambiguous_contains_chain_name,niloufer,Niloufer Bakery,niloufer bakery,cafe,node/6187870386,17.4005982,78.4628453,
+ambiguous_contains_chain_name,ohri s,Ohri's Nautankigalli,ohri s nautankigalli,restaurant,node/7248877416,17.4446507,78.376725,
+ambiguous_contains_chain_name,paradise,Amrutha paradise,amrutha paradise,restaurant,node/7113730686,17.4946659,78.3951704,
+ambiguous_contains_chain_name,paradise,Hotel Persis Paradise,persis paradise,restaurant,node/7644477014,17.4417049,78.4874265,
+ambiguous_contains_chain_name,paradise,Paradise Biriyani,paradise biriyani,restaurant,node/1642224750,17.4506315,78.3792865,
+ambiguous_contains_chain_name,paradise,Paradise Biryani,paradise biryani,restaurant,node/6212803090,17.4443541,78.4625019,
+ambiguous_contains_chain_name,paradise,Paradise Secunderabad,paradise secunderabad,restaurant,node/13707220102,17.4414783,78.4873114,
+ambiguous_contains_chain_name,paradise,metro paradise,metro paradise,restaurant,way/331634059,17.4987976,78.390237,
+ambiguous_contains_chain_name,santhosh dhaba,Shree Santhosh Family Dhaba,shree santhosh dhaba,restaurant,node/7025820902,17.4416446,78.3906575,
+ambiguous_contains_chain_name,seasons,4 Seasons,4 seasons,restaurant,node/1042239866,17.4580493,78.3716287,
+ambiguous_contains_chain_name,seasons,4 Seasons,4 seasons,restaurant,node/7035236531,17.4345566,78.3864346,
+ambiguous_contains_chain_name,seasons,Four Seasons,four seasons,restaurant,node/1971369284,17.3969403,78.4248354,
+ambiguous_contains_chain_name,sitara,Hotel Sitara Grand,sitara grand,restaurant,node/7243946116,17.4946078,78.3544063,
+ambiguous_contains_chain_name,sitara,SITARA FOODS,sitara foods,restaurant,node/6822126615,17.443536,78.433898,
+ambiguous_contains_chain_name,sitara,Sitara Grand,sitara grand,restaurant,node/2217950120,17.3458931,78.5525297,
+ambiguous_contains_chain_name,surabhi,Hotel Surabhi Udupi Veg,surabhi udupi veg,restaurant,node/7473072329,17.3986302,78.5605419,
+ambiguous_contains_chain_name,surabhi,Surabhi Bar and Restaurant,surabhi bar,restaurant,node/8111070732,17.4285032,78.5511175,
+ambiguous_contains_chain_name,surabhi,Surabhi Udupi Veg Restaurant,surabhi udupi veg,restaurant,node/13707166668,17.4417164,78.4866022,
+ambiguous_contains_chain_name,surabhi,surabhi tiffin center,surabhi tiffin center,restaurant,node/12854677474,17.3960042,78.5294073,
+ambiguous_contains_chain_name,swagath,Hotel Swagath grand,swagath grand,restaurant,node/12538926485,17.4767264,78.5639573,
+ambiguous_contains_chain_name,swagath,Swagath Grand,swagath grand,restaurant,node/3387327055,17.4931585,78.4038869,
+ambiguous_contains_chain_name,swagath,swagath grand,swagath grand,restaurant,node/4367831991,17.3637119,78.5438237,
+ambiguous_contains_chain_name,swagath,swagath grand,swagath grand,restaurant,node/7244113126,17.3682535,78.5254193,
+ambiguous_contains_chain_name,swagath,swagath grand,swagath grand,restaurant,node/7246516891,17.4926212,78.4051466,
+ambiguous_contains_chain_name,swagath,swagath grand,swagath grand,restaurant,way/331629090,17.4823279,78.5534768,
+ambiguous_contains_chain_name,sweekar,Sweekar Tiffins,sweekar tiffins,restaurant,node/2712663887,17.4122874,78.488786,
+ambiguous_contains_chain_name,tiffin center,Amogha Tiffin Center,amogha tiffin center,restaurant,way/568468273,17.4892011,78.5506156,
+ambiguous_contains_chain_name,tiffin center,Fast food and tiffin center,fast food tiffin center,fast_food,node/7113964286,17.4321538,78.4258487,
+ambiguous_contains_chain_name,tiffin center,Mahesh Tiffin Center,mahesh tiffin center,restaurant,node/9918495806,17.5079315,78.4299495,
+ambiguous_contains_chain_name,tiffin center,Reddy's tiffin center,reddy s tiffin center,restaurant,node/7244480642,17.3926284,78.4379201,
+ambiguous_contains_chain_name,tiffin center,Reddy's tiffin center,reddy s tiffin center,restaurant,node/7244480649,17.3944178,78.4352303,
+ambiguous_contains_chain_name,tiffin center,abbai tiffin center,abbai tiffin center,restaurant,way/265631788,17.4133762,78.4902579,
+ambiguous_contains_chain_name,tiffin center,ragavendhra tiffin center,ragavendhra tiffin center,restaurant,way/358053596,17.3711623,78.540642,
+ambiguous_contains_chain_name,tiffin center,surabhi tiffin center,surabhi tiffin center,restaurant,node/12854677474,17.3960042,78.5294073,
+ambiguous_contains_chain_name,turning point,Turning Point Tiffin Centre,turning point tiffin centre,restaurant,node/5539317125,17.4194644,78.5196787,
+ambiguous_contains_chain_name,udipi,Sandarshini Udipi Veg,sandarshini udipi veg,restaurant,node/6765562772,17.4214948,78.5172782,
+ambiguous_contains_chain_name,udipi,Sri Raghavendra Bhavan Udipi,sri raghavendra bhavan udipi,restaurant,node/7836389749,17.4948857,78.3532779,
+ambiguous_contains_chain_name,udipi,Sri Raghavendra Udipi Veg,sri raghavendra udipi veg,restaurant,node/6765562773,17.4295332,78.5126616,
+ambiguous_contains_chain_name,udipi,Udipi Park Hotel,udipi park,restaurant,node/6370434382,17.4374107,78.4456459,
+ambiguous_contains_chain_name,udipi,Udipi's Aahar,udipi s aahar,restaurant,node/9958221196,17.449277,78.3639805,
+possible_spelling_variant,4 seasons,Seasons,seasons,restaurant,node/2708158479,17.3948399,78.5111571,0.88
+possible_spelling_variant,4 seasons,seasons,seasons,restaurant,node/12852192070,17.3957405,78.5288869,0.88
+possible_spelling_variant,angaara,Angaara5 Restaurant,angaara5,restaurant,node/6822126483,17.3915423,78.4652788,0.93
+possible_spelling_variant,athidhi,Athidi Family Restaurant,athidi,restaurant,node/7473077258,17.3990375,78.5607014,0.92
+possible_spelling_variant,bawarchi,Bawarichi,bawarichi,restaurant,node/1215251806,17.4612961,78.3668145,0.94
+possible_spelling_variant,chaitanya food court,Ananya Food Court,ananya food court,fast_food,node/9917000634,17.4501371,78.3915731,0.86
+possible_spelling_variant,coffee day,Cafe Coffe day,coffe day,cafe,node/12852305277,17.4056483,78.515799,0.95
+possible_spelling_variant,hi tech bawarchi,Hitech Bawarchi,hitech bawarchi,restaurant,node/9917006217,17.4411978,78.3916463,0.97
+possible_spelling_variant,hyderabad house,hyderabad host,hyderabad host,restaurant,node/6259475085,17.4417444,78.3966967,0.9
+possible_spelling_variant,jntu canteen,JNTUH Canteen,jntuh canteen,fast_food,node/13715467229,17.4942903,78.3928178,0.96
+possible_spelling_variant,kritunga,Kritugua,kritugua,restaurant,node/11420436685,17.4283748,78.4552907,0.88
+possible_spelling_variant,lucky,Luckys,luckys,restaurant,node/8387157866,17.3944819,78.5106555,0.91
+possible_spelling_variant,madina,Mdina Hotel And Cafe,mdina,restaurant,node/11082688354,17.4535391,78.4090708,0.91
+possible_spelling_variant,mcdonald s,Mc Donalds,mc donalds,restaurant,node/8465488368,17.5156438,78.4808725,0.9
+possible_spelling_variant,nilofer,Cafe Niloufer,niloufer,cafe,node/11771783710,17.413327,78.4277314,0.93
+possible_spelling_variant,nilofer,Niloufer,niloufer,cafe,node/13906515288,17.4342994,78.3770261,0.93
+possible_spelling_variant,niloufer,New Nilofer,nilofer,cafe,node/6187870785,17.3996049,78.4629214,0.93
+possible_spelling_variant,niloufer,Nilofer Cafe,nilofer,cafe,node/2052610437,17.3996015,78.4627111,0.93
+possible_spelling_variant,ohri s,Ohris,ohris,restaurant,node/2352108916,17.4083441,78.4390226,0.91
+possible_spelling_variant,palamuru grill,Palamuri Grill,palamuri grill,restaurant,node/6259475585,17.4522477,78.3850331,0.93
+possible_spelling_variant,santhosh dhaba,Santosh Daba,santosh daba,restaurant,node/6255329590,17.3911253,78.4776842,0.92
+possible_spelling_variant,santhosh dhaba,Santosh Dhaba,santosh dhaba,restaurant,node/2708121233,17.3921507,78.5106188,0.96
+possible_spelling_variant,santhosh dhaba,Santosh Dhaba,santosh dhaba,restaurant,node/7473097036,17.398302,78.5604673,0.96
+possible_spelling_variant,santhosh dhaba,Santosh dhaba,santosh dhaba,restaurant,node/5405056315,17.4410918,78.3605047,0.96
+possible_spelling_variant,santhosh dhaba,Santosh family dhaba,santosh dhaba,restaurant,node/9605300297,17.4894064,78.3143474,0.96
+possible_spelling_variant,santhosh dhaba,santosh dabba,santosh dabba,restaurant,way/357969299,17.373713,78.5415062,0.89
+possible_spelling_variant,santosh dabha,Santhosh Dhaba,santhosh dhaba,restaurant,node/2261567007,17.3871359,78.4776933,0.89
+possible_spelling_variant,santosh dabha,Santhosh Family Dhaba,santhosh dhaba,restaurant,node/7243983830,17.4138568,78.3948337,0.89
+possible_spelling_variant,santosh dabha,Santosh Daba,santosh daba,restaurant,node/6255329590,17.3911253,78.4776842,0.96
+possible_spelling_variant,santosh dabha,Santosh Dhaba,santosh dhaba,restaurant,node/2708121233,17.3921507,78.5106188,0.92
+possible_spelling_variant,santosh dabha,Santosh Dhaba,santosh dhaba,restaurant,node/7473097036,17.398302,78.5604673,0.92
+possible_spelling_variant,santosh dabha,Santosh dhaba,santosh dhaba,restaurant,node/5405056315,17.4410918,78.3605047,0.92
+possible_spelling_variant,santosh dabha,Santosh family dhaba,santosh dhaba,restaurant,node/9605300297,17.4894064,78.3143474,0.92
+possible_spelling_variant,santosh dabha,santhosh family dhaba,santhosh dhaba,restaurant,node/7244033603,17.367634,78.5215669,0.89
+possible_spelling_variant,santosh dabha,santosh dabba,santosh dabba,restaurant,way/357969299,17.373713,78.5415062,0.92
+possible_spelling_variant,santosh dhaba,Santhosh Dhaba,santhosh dhaba,restaurant,node/2261567007,17.3871359,78.4776933,0.96
+possible_spelling_variant,santosh dhaba,Santhosh Family Dhaba,santhosh dhaba,restaurant,node/7243983830,17.4138568,78.3948337,0.96
+possible_spelling_variant,santosh dhaba,Santosh Daba,santosh daba,restaurant,node/6255329590,17.3911253,78.4776842,0.96
+possible_spelling_variant,santosh dhaba,santhosh family dhaba,santhosh dhaba,restaurant,node/7244033603,17.367634,78.5215669,0.96
+possible_spelling_variant,santosh dhaba,santosh dabba,santosh dabba,restaurant,way/357969299,17.373713,78.5415062,0.92
+possible_spelling_variant,tiffin center,Tiffin Centre,tiffin centre,fast_food,node/6765562783,17.4232105,78.5135831,0.92
+possible_spelling_variant,zeeshan,Zeeshaan Cafe,zeeshaan,cafe,node/10732482012,17.397285,78.4006455,0.93

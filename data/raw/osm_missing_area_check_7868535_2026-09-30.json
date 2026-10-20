@@ -1,0 +1,93 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-09-30T07:33:51Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2460862103,
+  "lat": 17.4337246,
+  "lon": 78.5006827,
+  "tags": {
+    "int_name": "Sikandarabad",
+    "name": "Secunderabad",
+    "name:ar": "سكندرأباد",
+    "name:bn": "সিকন্দারাবাদ",
+    "name:ceb": "Sikandrābād",
+    "name:eo": "Sikandrabado",
+    "name:fa": "سکندرآباد",
+    "name:hi": "सिकंदराबाद",
+    "name:hi-Latn": "Sikandrābād",
+    "name:kn": "ಸಿಕಂದರಾಬಾದ್",
+    "name:ml": "സെക്കന്ദ്രാബാദ്",
+    "name:pa": "ਸਿਕੰਦਰਾਬਾਦ",
+    "name:ru": "Секандерабад",
+    "name:ta": "சிக்கந்தராபாத்",
+    "name:te": "సికింద్రాబాద్",
+    "name:tl": "Sikandrābād",
+    "name:ur": "سکندر آباد",
+    "name:ur-Latn": "Sikandrābād",
+    "place": "city",
+    "population": "213698",
+    "postal_code": "500003",
+    "wikidata": "Q1003502",
+    "wikipedia": "en:Secunderabad"
+  }
+},
+{
+  "type": "node",
+  "id": 2583708951,
+  "lat": 17.4255371,
+  "lon": 78.5306786,
+  "tags": {
+    "amenity": "hospital",
+    "name": "Tarnaka Flyover;TGSRTC Hospital",
+    "place": "locality"
+  }
+},
+{
+  "type": "node",
+  "id": 2929579785,
+  "lat": 17.4511764,
+  "lon": 78.5368997,
+  "tags": {
+    "name": "Malkajgiri",
+    "name:ar": "مالكاجغيري",
+    "name:fa": "ملکاجگیری",
+    "name:ml": "മൽകാജ്ഗിരി",
+    "name:te": "మల్కాజిగిరి",
+    "place": "town",
+    "wikidata": "Q640210",
+    "wikimedia_commons": "Category:Malkajgiri",
+    "wikipedia": "en:Malkajgiri"
+  }
+},
+{
+  "type": "node",
+  "id": 2935018014,
+  "lat": 17.4037073,
+  "lon": 78.3766148,
+  "tags": {
+    "name": "Manikonda",
+    "name:fa": "مانیکوندا",
+    "name:te": "మణికొండ",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4462901596,
+  "lat": 17.4146380,
+  "lon": 78.3766586,
+  "tags": {
+    "name": "Manikonda",
+    "place": "neighbourhood"
+  }
+}
+
+  ]
+}

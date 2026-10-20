@@ -1,0 +1,292 @@
+{
+ "_note": "Dev preview only. Plans and cards: real plan_meal output from the local test DB; reply texts: hand-written.",
+ "messages": [
+  {
+   "id": 1,
+   "role": "user",
+   "text": "₹900 for 2 people, one is vegetarian, something spicy, Madhapur"
+  },
+  {
+   "id": 2,
+   "role": "assistant",
+   "status": "ok",
+   "steps": [
+    {
+     "step": 1,
+     "tool": "plan_meal",
+     "arguments": {
+      "budget": 900,
+      "people": 2,
+      "veg_count": 1,
+      "spice_preference": "spicy",
+      "area": "Madhapur"
+     },
+     "status": "ok",
+     "ok": true,
+     "latency_ms": 1840,
+     "counts": {
+      "plans_count": 3
+     }
+    }
+   ],
+   "card": null,
+   "plans": [
+    {
+     "plan_id": "038401456cce2191a276",
+     "label": "Best value",
+     "grand_total": 230,
+     "items_total": 180,
+     "delivery_total": 35,
+     "taxes_total": 15,
+     "diet_note": "2 main portions for 2; 2 veg for 1 vegetarian; spicy (spice 2–3) for everyone, as asked.",
+     "budget_left": 670,
+     "restaurants": [
+      {
+       "restaurant": "Tiffin center",
+       "branch_id": "b-n11082456191",
+       "branch_label": "Borabanda",
+       "distance_km": 2.5,
+       "delivery_fee": 35,
+       "free_delivery": false,
+       "taxes": 15,
+       "total": 230,
+       "items": [
+        {
+         "name": "Ghee Karam Idli",
+         "qty": 2,
+         "line_total": 140,
+         "is_veg": true,
+         "spice_level": 2,
+         "role": "main"
+        },
+        {
+         "name": "Sambar",
+         "qty": 1,
+         "line_total": 40,
+         "is_veg": true,
+         "spice_level": 1,
+         "role": "side"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "plan_id": "08b9ed46a1940cd4ed12",
+     "label": "Best match",
+     "grand_total": 693,
+     "items_total": 660,
+     "delivery_total": 0,
+     "taxes_total": 33,
+     "diet_note": "2 main portions for 2; 1 veg for 1 vegetarian; spicy (spice 2–3) for everyone, as asked.",
+     "budget_left": 207,
+     "restaurants": [
+      {
+       "restaurant": "Chinese Cornerz",
+       "branch_id": "b-n7025820782",
+       "branch_label": "Madhapur",
+       "distance_km": 0.6,
+       "delivery_fee": 0,
+       "free_delivery": true,
+       "taxes": 33,
+       "total": 693,
+       "items": [
+        {
+         "name": "Schezwan Fried Rice",
+         "qty": 1,
+         "line_total": 220,
+         "is_veg": true,
+         "spice_level": 3,
+         "role": "main"
+        },
+        {
+         "name": "Chicken Schezwan Fried Rice",
+         "qty": 1,
+         "line_total": 250,
+         "is_veg": false,
+         "spice_level": 3,
+         "role": "main"
+        },
+        {
+         "name": "Veg Spring Roll",
+         "qty": 1,
+         "line_total": 190,
+         "is_veg": true,
+         "spice_level": 1,
+         "role": "side"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "plan_id": "8692f8f4b6cfecb2fa69",
+     "label": "Variety",
+     "grand_total": 630,
+     "items_total": 600,
+     "delivery_total": 0,
+     "taxes_total": 30,
+     "diet_note": "2 main portions for 2; 1 veg for 1 vegetarian; spicy (spice 2–3) for everyone, as asked.",
+     "budget_left": 270,
+     "restaurants": [
+      {
+       "restaurant": "Rayalaseema Ruchulu",
+       "branch_id": "b-n5970759667",
+       "branch_label": "HITEC City",
+       "distance_km": 1.0,
+       "delivery_fee": 0,
+       "free_delivery": true,
+       "taxes": 30,
+       "total": 630,
+       "items": [
+        {
+         "name": "Pulihora",
+         "qty": 1,
+         "line_total": 130,
+         "is_veg": true,
+         "spice_level": 2,
+         "role": "main"
+        },
+        {
+         "name": "Andhra Kodi Kura",
+         "qty": 1,
+         "line_total": 330,
+         "is_veg": false,
+         "spice_level": 3,
+         "role": "main"
+        },
+        {
+         "name": "Chapati",
+         "qty": 2,
+         "line_total": 70,
+         "is_veg": true,
+         "spice_level": 0,
+         "role": "bread or rice"
+        },
+        {
+         "name": "Sambar",
+         "qty": 1,
+         "line_total": 70,
+         "is_veg": true,
+         "spice_level": 1,
+         "role": "side"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "text": "Here are **three plans** for 2 in Madhapur, all within ₹900:\n\n- Best value keeps the most budget left\n- Best match fits the spice best\n- Variety mixes it up\n\nWhich one would you like?"
+  },
+  {
+   "id": 3,
+   "role": "user",
+   "text": "I'll take the “Best value” plan (₹230)."
+  },
+  {
+   "id": 4,
+   "role": "assistant",
+   "status": "ok",
+   "steps": [
+    {
+     "step": 1,
+     "tool": "add_plan_to_cart",
+     "arguments": {
+      "plan_id": "038401456cce2191a276"
+     },
+     "status": "ok",
+     "ok": true,
+     "latency_ms": 420,
+     "counts": {}
+    },
+    {
+     "step": 2,
+     "tool": "view_cart",
+     "arguments": {},
+     "status": "ok",
+     "ok": true,
+     "latency_ms": 95,
+     "counts": {
+      "branches_count": 1
+     }
+    }
+   ],
+   "card": {
+    "kind": "order",
+    "cart_id": "preview-cart",
+    "quote_id": "preview-quote",
+    "grand_total": 230,
+    "deliver_to": "Madhapur",
+    "lines": [
+     {
+      "name": "Ghee Karam Idli",
+      "qty": 2,
+      "line_total": 140,
+      "is_veg": true,
+      "restaurant": "Tiffin center"
+     },
+     {
+      "name": "Sambar",
+      "qty": 1,
+      "line_total": 40,
+      "is_veg": true,
+      "restaurant": "Tiffin center"
+     }
+    ],
+    "card_id": "cacfe77fde75f175"
+   },
+   "plans": null,
+   "text": "Added the Best value plan to your cart. Shall I place the order?"
+  }
+ ],
+ "plan_card": {
+  "kind": "plan",
+  "plan_id": "038401456cce2191a276",
+  "request": {
+   "budget": 900,
+   "people": 2,
+   "veg_count": 1,
+   "spice_preference": "spicy",
+   "area": "Madhapur"
+  },
+  "label": "Best value",
+  "grand_total": 230,
+  "lines": [
+   {
+    "name": "Ghee Karam Idli",
+    "qty": 2,
+    "line_total": 140,
+    "is_veg": true,
+    "restaurant": "Tiffin center"
+   },
+   {
+    "name": "Sambar",
+    "qty": 1,
+    "line_total": 40,
+    "is_veg": true,
+    "restaurant": "Tiffin center"
+   }
+  ],
+  "deliver_to": "Madhapur",
+  "replace": false,
+  "nonveg": [],
+  "saved_diet": null,
+  "card_id": "4862ae5646543a46"
+ },
+ "live_steps": [
+  {
+   "step": 1,
+   "tool": "search_dishes",
+   "arguments": {
+    "query": "paneer tikka",
+    "area": "Madhapur"
+   },
+   "status": "ok",
+   "ok": true,
+   "latency_ms": 310,
+   "counts": {
+    "results_count": 9
+   }
+  }
+ ]
+}

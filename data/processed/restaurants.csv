@@ -1,0 +1,1113 @@
+﻿restaurant_id,name,is_chain,branch_count,cuisines,primary_cuisine,veg_only,grouping
+r-barbeque-nation,Barbeque Nation,True,4,Kebab & Grill;Indian,Kebab & Grill,False,reviewed brand (chain_mapping.csv)
+r-barista,Barista,True,5,Cafe,Cafe,False,reviewed brand (chain_mapping.csv)
+r-blue-fox,Blue Fox,True,5,Indian,Indian,False,reviewed brand (chain_mapping.csv)
+r-bowl-o-china,Bowl O China,True,4,Chinese,Chinese,False,reviewed brand (chain_mapping.csv)
+r-burger-king,Burger King,True,6,Burgers,Burgers,False,reviewed brand (chain_mapping.csv)
+r-cafe-coffee-day,Cafe Coffee Day,True,26,Cafe,Cafe,False,reviewed brand (chain_mapping.csv)
+r-cafe-nandini,Cafe Nandini,True,4,Cafe;Indian,Cafe,False,reviewed brand (chain_mapping.csv)
+r-cafe-niloufer,Cafe Niloufer,True,4,Cafe;Tea;Bakery,Cafe,False,reviewed brand (chain_mapping.csv)
+r-california-burrito,California Burrito,True,2,Mexican,Mexican,False,reviewed brand (chain_mapping.csv)
+r-chai-point,Chai Point,True,3,Cafe,Cafe,False,reviewed brand (chain_mapping.csv)
+r-chutneys,Chutneys,True,7,Indian;South Indian;Desserts,Indian,True,reviewed brand (chain_mapping.csv)
+r-domino-s,Domino's,True,34,Pizza;Burgers,Pizza,False,reviewed brand (chain_mapping.csv)
+r-dunkin,Dunkin',True,3,Bakery;Cafe,Bakery,False,reviewed brand (chain_mapping.csv)
+r-green-bawarchi,Green Bawarchi,True,4,Indian,Indian,False,reviewed brand (chain_mapping.csv)
+r-hi-tech-bawarchi,Hi-Tech Bawarchi,True,3,Kebab & Grill;Indian,Kebab & Grill,False,reviewed brand (chain_mapping.csv)
+r-just-bake,Just Bake,True,2,Desserts;Bakery;Burgers,Desserts,False,reviewed brand (chain_mapping.csv)
+r-kfc,KFC,True,26,Fried Chicken;Fast Food,Fried Chicken,False,reviewed brand (chain_mapping.csv)
+r-kritunga,Kritunga,True,12,Indian,Indian,False,reviewed brand (chain_mapping.csv)
+r-mcdonald-s,McDonald's,True,15,Burgers,Burgers,False,reviewed brand (chain_mapping.csv)
+r-mehfil,Mehfil,True,8,Indian;Fried Chicken;Chinese,Indian,False,reviewed brand (chain_mapping.csv)
+r-minerva-coffee-shop,Minerva Coffee Shop,True,2,South Indian;Cafe,South Indian,True,reviewed brand (chain_mapping.csv)
+r-palamuru-grill,Palamuru Grill,True,4,Kebab & Grill;Seafood;Fried Chicken,Kebab & Grill,False,reviewed brand (chain_mapping.csv)
+r-paradise,Paradise,True,12,Biryani;Indian,Biryani,False,reviewed brand (chain_mapping.csv)
+r-pista-house,Pista House,True,4,Multi-cuisine,Multi-cuisine,False,reviewed brand (chain_mapping.csv)
+r-pizza-hut,Pizza Hut,True,11,Pizza;Burgers,Pizza,False,reviewed brand (chain_mapping.csv)
+r-santosh-dhaba,Santosh Dhaba,True,7,North Indian;Indian,North Indian,False,reviewed brand (chain_mapping.csv)
+r-santosh-family-dhaba,Santosh Family Dhaba,True,4,North Indian,North Indian,False,reviewed brand (chain_mapping.csv)
+r-sarvi,Sarvi,True,4,Indian;Kebab & Grill,Indian,False,reviewed brand (chain_mapping.csv)
+r-starbucks,Starbucks,True,6,Cafe,Cafe,False,reviewed brand (chain_mapping.csv)
+r-subway,Subway,True,15,Sandwiches,Sandwiches,False,reviewed brand (chain_mapping.csv)
+r-swagath-grand,Swagath Grand,True,6,Multi-cuisine,Multi-cuisine,False,reviewed brand (chain_mapping.csv)
+r-taco-bell,Taco Bell,True,5,Mexican,Mexican,False,reviewed brand (chain_mapping.csv)
+r-the-chocolate-room,The Chocolate Room,True,4,Desserts;Cafe,Desserts,False,reviewed brand (chain_mapping.csv)
+r-tower-bavarchi-multi-cuisine-restaurant-n10012888587,Tower Bavarchi Multi Cuisine Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-x-n10087099043,پشاور,False,1,Indian;Kebab & Grill;Desserts,Indian,False,own name
+r-900-degree-brick-oven-pizza-n10150963018,900 Degree Brick Oven Pizza,False,1,Pizza,Pizza,False,own name
+r-red-bucket-n10171328862,Red Bucket,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mukka-mudda-n10171328869,Mukka Mudda,False,1,Indian,Indian,False,own name
+r-cosa-de-rosa-n10171328871,Cosa de Rosa,False,1,Cafe,Cafe,False,own name
+r-raju-gari-biriyani-n10171342017,Raju Gari Biriyani,False,1,Biryani,Biryani,False,own name
+r-fresh-juice-n10171342023,Fresh Juice,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-nectar-kitchen-bar-n10178228307,Nectar Kitchen & Bar,False,1,Indian;Chinese;Desserts,Indian,False,own name
+r-la-milano-pizzeria-n10181926246,La Milano Pizzeria,False,1,Pizza;Mexican;Italian,Pizza,False,own name
+r-prem-chapathi-n10185204317,Prem Chapathi,False,1,Indian;South Indian,Indian,False,own name
+r-turkish-central-n10253790109,Turkish Central,False,1,Kebab & Grill;Sandwiches,Kebab & Grill,False,own name
+r-reddy-s-kitchen-n10262078608,Reddy's Kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-satya-narayana-cafe-n10262083190,Satya Narayana Cafe,False,1,Cafe,Cafe,False,own name
+r-galaxy-fast-food-n10262083200,Galaxy fast food,False,1,Fried Chicken,Fried Chicken,False,own name
+r-golden-palace-restaurant-n10262130736,Golden palace restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-shri-golden-palace-n10262331700,Shri golden palace,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-udipi-n10262331701,Udipi,False,1,South Indian,South Indian,True,own name
+r-ani-n10277927479,Ani,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-cafe1-n10277927482,Cafe1,False,1,Cafe,Cafe,False,own name
+r-uni-n10277927484,Uni,False,1,Fast Food,Fast Food,False,own name
+r-mezban-hotel-n10279481522,Mezban Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-surabhi-restaurant-n10279697199,Surabhi Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-asiatic-cafe-n10279842278,Asiatic cafe,False,1,Cafe,Cafe,False,own name
+r-chinese-kitchen-n10279859237,Chinese Kitchen,False,1,Chinese,Chinese,False,own name
+r-mandi-36-n10280159817,Mandi 36,False,1,Arabian,Arabian,False,own name
+r-onesta-pizza-n10280159819,Onesta Pizza,False,1,Pizza,Pizza,False,own name
+r-the-seventh-heaven-restuarant-and-bar-n10280159833,The Seventh Heaven Restuarant and Bar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-banjara-9-n10300324812,Banjara 9,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-kshatriya-foods-n10314279709,Kshatriya Foods,False,1,Indian,Indian,False,own name
+r-nakshatra-n1038397980,Nakshatra,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-food-republic-n1041920541,Food Republic,False,1,Fast Food,Fast Food,False,own name
+r-big-dosa-n1042232799,Big Dosa,False,1,South Indian,South Indian,False,own name
+r-4-seasons-n1042239866,4 Seasons,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-club-jayabheri-n1042239873,Club Jayabheri,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-red-bucket-biryani-n10687757496,Red Bucket Biryani,False,1,Biryani;Fried Chicken,Biryani,False,own name
+r-mccafe-n10718145768,McCafé,False,1,Cafe,Cafe,False,own name
+r-fire-water-n10718145771,Fire Water,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-karachi-cafe-n10718148977,Karachi Cafe,False,1,Cafe,Cafe,False,own name
+r-aharam-n10718148979,Aharam,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-zeeshaan-cafe-n10732482012,Zeeshaan Cafe,False,1,Cafe,Cafe,False,own name
+r-shazaan-cafe-n10732489637,Shazaan Cafe,False,1,Cafe,Cafe,False,own name
+r-hyderama-n10790345914,Hyderama,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-naatu-n10790477557,Naatu,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-krishnapatnam-n10790483073,Krishnapatnam,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-president-dhaba-n10790483074,President Dhaba,False,1,North Indian,North Indian,False,own name
+r-aaromale-n10795095588,Aaromale,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-legend-s-food-court-n10796197655,Legend's Food Court,False,1,Chinese,Chinese,False,own name
+r-red-bucket-biryani-n10821080200,Red Bucket biryani,False,1,Biryani,Biryani,False,own name
+r-dragan-food-court-n10836288173,Dragan Food Court,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-saba-cafe-n10836288174,Saba Cafe,False,1,Cafe,Cafe,False,own name
+r-aman-hotel-n10836288177,Aman Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mehfil-mandi-house-n10836288178,Mehfil Mandi House,False,1,Arabian,Arabian,False,own name
+r-aha-chinese-restaurant-n10897832054,AHA Chinese Restaurant,False,1,Chinese,Chinese,False,own name
+r-navya-millets-n10902969261,Navya Millets,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-shiva-ganga-juice-n10903143809,Shiva Ganga Juice,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-cafe-day-n10903231372,Cafe Day,False,1,Cafe,Cafe,False,own name
+r-pakodi-n10903269863,Pakodi,False,1,Fast Food,Fast Food,False,own name
+r-heathage-food-point-n10903291098,Heathage Food Point,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hot-chips-n10903301283,Hot Chips,False,1,Fast Food,Fast Food,False,own name
+r-bronzy-fried-chicken-n11015823658,Bronzy Fried Chicken,False,1,Fried Chicken,Fried Chicken,False,own name
+r-rose-land-cafe-n11027534546,Rose land cafe,False,1,Cafe,Cafe,False,own name
+r-hotel-sarovar-n11027534561,Hotel Sarovar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-swathi-tiffins-n11033994406,Swathi Tiffins,False,1,South Indian,South Indian,False,own name
+r-annapoorna-darshini-tiffins-meals-n11034008431,Annapoorna Darshini Tiffins & Meals,False,1,South Indian,South Indian,True,own name
+r-habeeb-hotel-and-cafe-n11082456157,Habeeb Hotel and cafe,False,1,Cafe,Cafe,False,own name
+r-hina-j-k-point-n11082456164,Hina J.K Point,False,1,Cafe,Cafe,False,own name
+r-tiffin-center-n11082456191,Tiffin center,False,1,South Indian,South Indian,False,own name
+r-mdina-hotel-and-cafe-n11082688354,Mdina Hotel And Cafe,False,1,Indian;Tea,Indian,False,own name
+r-blue-star-restaurant-n11084918124,Blue Star Restaurant,False,1,Chinese;Fried Chicken;Indian,Chinese,False,own name
+r-mubarak-cafe-and-restarunt-n11084918128,Mubarak Cafe And Restarunt,False,1,Kebab & Grill;Indian,Kebab & Grill,False,own name
+r-a-k-cafe-n11084918135,A.K cafe,False,1,Tea,Tea,False,own name
+r-ali-cafe-n11084918136,Ali Cafe,False,1,Cafe,Cafe,False,own name
+r-bread-shop-n11084918139,Bread Shop,False,1,Fast Food,Fast Food,False,own name
+r-erra-karam-n11084969227,Erra Karam,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-wow-momos-n11099906308,WOW Momos,False,1,Chinese,Chinese,False,own name
+r-coffee-maniac-n11117599908,Coffee Maniac,False,1,Cafe;Pizza;Burgers,Cafe,False,own name
+r-fruzos-n11332747887,Fruzos,False,1,Sandwiches;Juices & Shakes;Fast Food,Sandwiches,False,own name
+r-jack-jill-n11343121738,Jack & Jill,False,1,Pizza;Chinese;Burgers,Pizza,False,own name
+r-jain-kitchen-pure-vegetarian-restaurant-n11358156620,"Jain Kitchen, Pure Vegetarian Restaurant",False,1,Indian,Indian,True,own name
+r-bhaskar-chat-bandar-n11358156623,Bhaskar Chat Bandar,False,1,Indian,Indian,False,own name
+r-khandani-rajdhani-n11358156629,Khandani Rajdhani,False,1,Indian,Indian,False,own name
+r-tgi-fridays-n11358156630,TGI Fridays,False,1,Burgers;Italian,Burgers,False,own name
+r-sushma-tea-point-n11361156221,Sushma Tea Point,False,1,Cafe,Cafe,False,own name
+r-svr-grand-family-restaurant-n11414945481,SVR Grand Family Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tea-and-snacks-n11422123769,Tea and Snacks,False,1,Tea,Tea,False,own name
+r-jdm-punjabi-dhaba-n11460511433,JDM Punjabi Dhaba,False,1,Indian,Indian,False,own name
+r-being-hungry-n11460511434,Being Hungry,False,1,Indian,Indian,False,own name
+r-ariban-mandi-knights-n11484298991,Ariban Mandi Knights,False,1,Arabian,Arabian,False,own name
+r-vishal-nagar-aru-restaurant-n11484345718,"Vishal Nagar , Aru Restaurant",False,1,Cafe,Cafe,False,own name
+r-cafe-coffee-n11484352543,Cafe Coffee,False,1,Cafe,Cafe,False,own name
+r-so-the-sky-kitchen-n11597256218,SO - The Sky Kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-roastery-n11597323663,Roastery,False,1,Cafe,Cafe,False,own name
+r-third-wave-coffee-n11597368004,Third Wave Coffee,False,1,Cafe,Cafe,False,own name
+r-autumn-leaf-n11597368919,Autumn Leaf,False,1,Cafe,Cafe,False,own name
+r-oh-calcutta-n11597374603,Oh! Calcutta,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-v-eat-n-enjoy-corner-n11684797110,V Eat N Enjoy corner,False,1,Chinese;Indian,Chinese,False,own name
+r-bajrang-char-bhandar-n11684797111,Bajrang char Bhandar,False,1,Indian,Indian,False,own name
+r-tea-time-n11684845903,Tea Time,False,1,Cafe,Cafe,False,own name
+r-chick-blast-n11690238100,Chick Blast,False,1,Fried Chicken,Fried Chicken,False,own name
+r-ulavacharu-n11690756884,Ulavacharu,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-fresh-juice-point-n11690776124,Fresh Juice Point,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-hot-chips-n11690792920,Hot Chips,False,1,Fast Food,Fast Food,False,own name
+r-nio-o-nine-n11690820970,Nio O Nine,False,1,Cafe,Cafe,False,own name
+r-arch-cafe-n11690847010,Arch Cafe,False,1,Cafe,Cafe,False,own name
+r-viyyala-vari-vindu-n11690890444,Viyyala Vari Vindu,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-veggie-chinese-n11690958877,Veggie Chinese,False,1,Chinese,Chinese,True,own name
+r-dlite-shakes-n11696546991,Dlite Shakes,False,1,Tea,Tea,False,own name
+r-flechazo-n11696701942,Flechazo,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-dosa-street-n11730656638,Dosa Street,False,1,Indian,Indian,False,own name
+r-jntu-canteen-n11736398311,Jntu Canteen,False,1,Sandwiches;Fried Chicken,Sandwiches,False,own name
+r-nayudu-gari-kunda-biriyani-n11736410527,Nayudu Gari Kunda Biriyani,False,1,Biryani,Biryani,False,own name
+r-vistari-kitchen-n11747869748,Vistari Kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-vistari-kitchen-n11747869749,Vistari KITCHEN,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-desi-chai-adda-n11747949473,Desi Chai Adda,False,1,Cafe,Cafe,False,own name
+r-tawakal-cafe-n11772090397,Tawakal Cafe,False,1,Cafe,Cafe,False,own name
+r-hangout-n11773916556,Hangout,False,1,Cafe,Cafe,False,own name
+r-cafe-chit-chat-chai-kondapur-n12110291337,Cafe Chit Chat Chai - Kondapur,False,1,Tea;Cafe,Tea,False,own name
+r-wings-n-fries-n1215214987,Wings n Fries,False,1,Fried Chicken;Seafood,Fried Chicken,False,own name
+r-spice-village-n1215243542,Spice Village,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-oysters-blue-n1215250883,Oysters Blue,False,1,Indian,Indian,False,own name
+r-bawarichi-n1215251806,Bawarichi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tasty-food-tamilnadu-cuisine-n1215744396,Tasty Food TamilNadu cuisine,False,1,Indian,Indian,False,own name
+r-hazelnut-bakers-n1215747409,HazelNut Bakers,False,1,Bakery,Bakery,False,own name
+r-highland-nonveg-n1215750038,HighLand NonVeg,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-angaara-n1215790311,Angaara,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chicken-kabab-n1224527813,Chicken kabab,False,1,Indian,Indian,False,own name
+r-punjabi-rasoi-ac-n1224527821,Punjabi Rasoi AC,False,1,Indian,Indian,False,own name
+r-kismath-kerala-restaurand-n12257749405,kismath kerala Restaurand,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-wraps-broast-n12298767100,Wraps & Broast,False,1,Pizza;Italian;Fried Chicken,Pizza,False,own name
+r-f3-cafe-and-bistro-n12410036601,F3 Café and Bistro,False,1,Cafe,Cafe,False,own name
+r-hibacci-asian-fusion-restaurant-n12410053301,Hibacci - Asian Fusion Restaurant,False,1,Asian,Asian,False,own name
+r-aahaar-tiffins-n12410904332,Aahaar Tiffins,False,1,South Indian,South Indian,False,own name
+r-amogham-n12413100573,Amogham,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-cafeteria-in-krishnakanth-park-n1242249939,Cafeteria in Krishnakanth Park,False,1,Cafe,Cafe,False,own name
+r-naga-bhushana-mess-n12536226041,Naga Bhushana Mess,False,1,South Indian,South Indian,False,own name
+r-de-alphabet-hotel-n12536226052,De Alphabet Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tiffi-canteen-n12536226053,Tiffi Canteen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-pithapuram-chicken-pakodi-n12536226069,Pithapuram Chicken Pakodi,False,1,Fried Chicken,Fried Chicken,False,own name
+r-sri-venkataeswara-tiffins-n12536226071,Sri Venkataeswara tiffins,False,1,South Indian,South Indian,False,own name
+r-woodside-hotel-n12536226076,Woodside Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-frenchie-n12536226094,Frenchie,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-midhunam-resturant-n12536226096,midhunam Resturant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sri-lakshmi-restaurant-n12536257515,Sri Lakshmi Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mandi-n12538717578,Mandi,False,1,Arabian,Arabian,False,own name
+r-aurant-restaurant-n12538877497,Aurant Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-balaji-family-dhaba-n12538877498,Balaji Family Dhaba,False,1,North Indian,North Indian,False,own name
+r-yum-yum-tree-n12538877499,Yum Yum Tree,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-wr-woodland-n12538889104,WR Woodland,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-maythri-hotel-n12538926492,Maythri Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-vennela-fast-food-n12541130547,Vennela Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-kings-briyani-n12541130551,Kings Briyani,False,1,Biryani,Biryani,False,own name
+r-frenchie-n12541130554,Frenchie,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-stellar-reserve-n12695800228,Stellar Reserve,False,1,Burgers;Italian;Bakery,Burgers,False,own name
+r-khana-e-khaas-n1271862360,Khana E Khaas,False,1,Continental,Continental,False,own name
+r-gingercourt-n1275490936,Gingercourt,False,1,Indian,Indian,False,own name
+r-vibrant-living-n12839760926,Vibrant Living,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-vibrant-living-n12839760927,Vibrant Living,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-haldiram-s-n12841239558,Haldiram's,False,1,Indian,Indian,False,own name
+r-panjab-restaurant-n12848339177,Panjab Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-seasons-n12852192070,Seasons,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-eagles-pizza-center-n12852234055,Eagles pizza center,False,1,Pizza,Pizza,False,own name
+r-sara-restaurant-n12852271071,Sara restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-eat-street-n12852350346,Eat street,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-shivanand-hotel-n12854573905,Shivanand Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ss-juice-shop-n12854573911,SS Juice shop,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-sea-rock-cafe-n12854596350,Sea Rock Cafe,False,1,Cafe,Cafe,False,own name
+r-chand-fast-food-n12854606944,Chand Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-surabhi-tiffin-center-n12854677474,Surabhi Tiffin Center,False,1,South Indian,South Indian,False,own name
+r-krishna-godavari-ruchulu-n12972172341,Krishna Godavari Ruchulu,False,1,Indian,Indian,False,own name
+r-maryada-ramanna-n12972335835,Maryada Ramanna,False,1,Indian,Indian,False,own name
+r-swaraaj-military-hotel-n12972335836,Swaraaj military hotel,False,1,Indian,Indian,False,own name
+r-mamagoto-n12972335837,Mamagoto,False,1,Chinese,Chinese,False,own name
+r-taara-south-indian-kitchen-n12972335840,Taara South Indian Kitchen,False,1,Indian,Indian,False,own name
+r-figaro-pizza-n12972335841,Figaro Pizza,False,1,Pizza,Pizza,False,own name
+r-seven-sisters-n12976196537,Seven Sisters,False,1,Asian,Asian,False,own name
+r-churrolto-n12976261868,Churrolto,False,1,Italian;Mexican;Continental,Italian,False,own name
+r-delicious-village-n13045818868,Delicious Village,False,1,Indian,Indian,False,own name
+r-bharateeyam-the-indian-cusine-n13064757269,Bharateeyam The Indian Cusine,False,1,Indian;Cafe;Fried Chicken,Indian,False,own name
+r-juices-and-fast-food-n13088224018,Juices and Fast Food,False,1,Juices & Shakes;Fast Food,Juices & Shakes,False,own name
+r-hotel-astoria-n1309296596,Hotel Astoria,False,1,Cafe,Cafe,False,own name
+r-beijing-bites-n13100767309,Beijing bites,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-leons-burgers-and-wings-n13100785232,Leons burgers and wings,False,1,Burgers,Burgers,False,own name
+r-iguru-n13123278412,Iguru,False,1,Indian,Indian,False,own name
+r-melbourne-fried-chicken-n13140816146,Melbourne Fried chicken,False,1,Fried Chicken,Fried Chicken,False,own name
+r-this-the-place-n13196312446,This The Place!,False,1,Cafe,Cafe,False,own name
+r-isabel-n13196312447,Isabel,False,1,Cafe,Cafe,False,own name
+r-karachi-bakery-n13198367701,Karachi Bakery,False,1,Bakery,Bakery,False,own name
+r-patiala-plate-n13198367702,Patiala Plate,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-arya-bhavan-n13208170233,Arya Bhavan,False,1,South Indian,South Indian,True,own name
+r-hyderabad-house-n13208186038,Hyderabad House,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-arya-bhavan-n13208186040,Arya Bhavan,False,1,South Indian,South Indian,True,own name
+r-hotel-surabhi-n13227662862,Hotel Surabhi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-forget-me-not-cafe-n13279648101,Forget Me Not Cafe,False,1,Fried Chicken;Cafe;Kebab & Grill,Fried Chicken,False,own name
+r-under-the-stars-n13285111310,Under The Stars,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-subhodayam-tiffins-n13285248836,Subhodayam Tiffins,False,1,South Indian,South Indian,False,own name
+r-sri-vindha-tiffins-n13285248838,Sri Vindha Tiffins,False,1,South Indian,South Indian,False,own name
+r-mojo-pizza-n13285248840,Mojo Pizza,False,1,Pizza,Pizza,False,own name
+r-palleturi-dosa-n13285248842,Palleturi Dosa,False,1,South Indian,South Indian,False,own name
+r-chai-kings-n13285248845,Chai Kings,False,1,Tea,Tea,False,own name
+r-iron-hill-cafe-n13285248850,Iron Hill Cafe,False,1,Cafe,Cafe,False,own name
+r-rs-dhaba-restaurant-n13287712047,RS Dhaba Restaurant,False,1,North Indian,North Indian,False,own name
+r-madina-hotel-n13287712051,Madina Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-enjoy-cafe-n1332279003,Enjoy Cafe,False,1,Cafe,Cafe,False,own name
+r-chirag-arabian-mandi-n13335598227,Chirag Arabian Mandi,False,1,Arabian,Arabian,False,own name
+r-good-luck-cafe-n1334686105,Good Luck Cafe,False,1,Indian,Indian,False,own name
+r-almond-house-n13361820588,Almond House,False,1,Cafe;Indian,Cafe,False,own name
+r-tteokbokki-n13408726292,Tteokbokki,False,1,Asian,Asian,False,own name
+r-swathi-tiffins-n1340889258,Swathi Tiffins,False,1,South Indian,South Indian,False,own name
+r-si-nonna-s-n13409224011,Si Nonna's,False,1,Pizza,Pizza,False,own name
+r-dwaraka-tiffins-n13415039401,Dwaraka Tiffins,False,1,South Indian,South Indian,False,own name
+r-keshav-reddy-sweets-n13423220018,Keshav Reddy Sweets,False,1,Indian,Indian,False,own name
+r-emerald-mithai-shop-n13423220019,Emerald Mithai Shop,False,1,Indian,Indian,False,own name
+r-tea-time-n13436948447,Tea Time,False,1,Tea,Tea,False,own name
+r-fast-food-centre-n13436948467,Fast Food Centre,False,1,Fast Food,Fast Food,False,own name
+r-cie-canteen-n13494968219,CIE Canteen,False,1,Fast Food,Fast Food,False,own name
+r-y2k-restaurant-n13532195617,Y2K Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-zaica-restaurant-n13532195626,Zaica Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-accro-n13535859847,Accro,False,1,Cafe,Cafe,False,own name
+r-hotel-marjaan-n13536912455,Hotel Marjaan,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chai-club-n13536912467,Chai Club,False,1,Tea,Tea,False,own name
+r-kinghorn-n1361329779,Kinghorn,False,1,Indian,Indian,False,own name
+r-ajay-fast-food-n13637629024,Ajay Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-sweet-nirvana-n1365116006,Sweet Nirvana,False,1,Continental,Continental,False,own name
+r-fast-food-centre-n13673338578,Fast Food Centre,False,1,Fast Food,Fast Food,False,own name
+r-tea-house-n13673574376,Tea house,False,1,Tea,Tea,False,own name
+r-fresh-juice-centre-n13673574378,Fresh juice centre,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-surabhi-udupi-veg-restaurant-n13707166668,Surabhi Udupi Veg Restaurant,False,1,Indian,Indian,True,own name
+r-kims-canteen-n13707317015,KIMS Canteen,False,1,Fast Food,Fast Food,False,own name
+r-fast-food-n13715414721,Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-the-study-sip-n13715448258,The Study Sip,False,1,Pizza;Cafe;Burgers,Pizza,False,own name
+r-jntuh-canteen-n13715467229,JNTUH Canteen,False,1,Fast Food,Fast Food,False,own name
+r-fast-food-n13715470798,Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-fast-food-n13715470799,Fast Food,False,1,Sandwiches;Fried Chicken;Pizza,Sandwiches,False,own name
+r-chithra-vindu-n13715498350,Chithra Vindu,False,1,Cafe,Cafe,False,own name
+r-saudi-arebian-restaurant-n13737407382,Saudi Arebian restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-arya-tiffins-n13954891165,Arya Tiffins,False,1,Indian,Indian,False,own name
+r-ahanva-n13965391448,Ahanva,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-nawaabs-n13965391454,The Nawaabs,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-thickshake-factory-n13965391466,The Thickshake Factory,False,1,Fast Food,Fast Food,False,own name
+r-konaseema-ruchulu-n13965391467,Konaseema Ruchulu,False,1,Andhra,Andhra,False,own name
+r-pepper-green-n13965391468,Pepper Green,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-casa-restaurant-n13965391469,Casa Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ellipaya-karam-express-n13965391470,Ellipaya Karam Express,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chai-buster-n13965391471,Chai Buster,False,1,Tea,Tea,False,own name
+r-ikea-restaurant-n13988291743,IKEA Restaurant,False,1,Continental,Continental,False,own name
+r-churrolto-n14022778139,Churrolto,False,1,Cafe,Cafe,False,own name
+r-globe-buffetio-n14022778148,Globe Buffetio,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-kritaa-nagar-n14022778149,Kritaa Nagar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-big-star-n14022778150,Big Star,False,1,Cafe,Cafe,False,own name
+r-sri-baswalinga-avadootha-krupa-tiffin-point-n14049622249,Sri Baswalinga Avadootha Krupa Tiffin Point,False,1,Indian;South Indian,Indian,False,own name
+r-sri-satya-chaat-bhandar-n14051936333,Sri Satya Chaat Bhandar,False,1,Indian,Indian,False,own name
+r-bawarchi-n14065837228,Bawarchi,False,1,Indian,Indian,False,own name
+r-raw-cafe-n14098845100,.RAW Cafe,False,1,Pizza,Pizza,False,own name
+r-milano-ice-cream-jublee-hills-n14143947801,"Milano Ice cream, Jublee Hills",False,1,Italian;Pizza;Arabian,Italian,False,own name
+r-concu-n14144416901,Conçu,False,1,Italian,Italian,False,own name
+r-pickles-n1416850704,Pickles,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-kadamba-mess-n14208969543,Kadamba Mess,False,1,Indian;South Indian,Indian,False,own name
+r-dolphin-hotel-n1435296177,Dolphin Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-turning-point-n1435322442,Turning Point,False,1,Cafe,Cafe,False,own name
+r-roll-cal-n1452415913,Roll Cal,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-softyden-ice-creams-n1553576907,SoftyDen Ice Creams,False,1,Desserts,Desserts,False,own name
+r-universal-bakers-n1595853359,Universal Bakers,False,1,Bakery,Bakery,False,own name
+r-big-dosa-n1641547337,Big Dosa,False,1,South Indian,South Indian,False,own name
+r-hideout-n1650424028,Hideout,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-annapoorna-n1699060676,Annapoorna,False,1,Indian,Indian,False,own name
+r-raghavendra-tiffins-n1713960847,Raghavendra Tiffins,False,1,South Indian,South Indian,False,own name
+r-aviyal-veg-restaurant-n1802664777,Aviyal Veg Restaurant,False,1,Multi-cuisine,Multi-cuisine,True,own name
+r-the-clay-pot-n1883409259,The Clay Pot,False,1,Indian,Indian,False,own name
+r-noodles-king-n1883475067,Noodles King,False,1,Chinese,Chinese,False,own name
+r-basil-n1883487156,Basil,False,1,Indian,Indian,False,own name
+r-cream-stone-n1885680325,Cream Stone,False,1,Desserts,Desserts,False,own name
+r-berry-cool-n1885682076,Berry Cool,False,1,Desserts,Desserts,False,own name
+r-mamu-n1891013309,Mamu,False,1,Fast Food,Fast Food,False,own name
+r-itc-kakatiya-n1891041167,ITC Kakatiya,False,1,Indian,Indian,False,own name
+r-vindhya-canteen-n1905930612,Vindhya Canteen,False,1,Fast Food,Fast Food,False,own name
+r-spicetribe-n1909499642,SpiceTribe,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-cafe-bahar-n1932925761,Cafe Bahar,False,1,Indian,Indian,False,own name
+r-thai-express-n1948590601,Thai Express,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mandar-n1971368294,Mandar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-four-seasons-n1971369284,Four Seasons,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-udupi-uphar-n1985561846,Udupi Uphar,False,1,Indian,Indian,True,own name
+r-srikanya-n2051380355,Srikanya,False,1,Indian,Indian,False,own name
+r-rayalaseema-ruchulu-n2052606568,Rayalaseema Ruchulu,False,1,Indian,Indian,False,own name
+r-chick-king-n2134522890,Chick King,False,1,Sandwiches,Sandwiches,False,own name
+r-dil-punjabi-n2134523285,Dil Punjabi,False,1,Asian,Asian,False,own name
+r-udupi-vihar-n2134523286,Udupi Vihar,False,1,South Indian,South Indian,True,own name
+r-vinflora-n2177955040,Vinflora,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sitara-grand-n2217950120,Sitara Grand,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-deccan-orchid-restaurant-n2294789394,Deccan Orchid Restaurant,False,1,Continental,Continental,False,own name
+r-red-rose-cafe-n2352094397,Red rose cafe,False,1,Tea,Tea,False,own name
+r-sitara-n2352106017,Sitara,False,1,Indian,Indian,False,own name
+r-ohris-n2352108916,Ohris,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-bhimas-n2354681432,Hotel Bhimas,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-minerva-n2403426783,Minerva,False,1,Cafe,Cafe,False,own name
+r-angaara-restaurant-n2428137451,Angaara Restaurant,False,1,Chinese;Kebab & Grill;Indian,Chinese,False,own name
+r-gokul-chat-n2429976498,Gokul Chat,False,1,Fast Food,Fast Food,False,own name
+r-kim-fung-n2466615436,Kim Fung,False,1,Chinese,Chinese,False,own name
+r-sanman-n2466623373,Sanman,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-goodlands-n2466627233,Goodlands,False,1,Indian;Chinese;Hyderabadi,Indian,False,own name
+r-pollito-s-n2521055369,Pollito's,False,1,Fried Chicken,Fried Chicken,False,own name
+r-shiva-ganga-resturant-n2542979700,Shiva Ganga Resturant,False,1,Fried Chicken,Fried Chicken,False,own name
+r-manpasand-veg-restaurant-n2550415995,Manpasand Veg restaurant,False,1,Indian,Indian,True,own name
+r-coffee-tree-n2579739895,Coffee Tree,False,1,Cafe,Cafe,False,own name
+r-delicacy-n2579745472,Delicacy,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-rollacosta-n2579745473,Rollacosta,False,1,Sandwiches,Sandwiches,False,own name
+r-maitree-cafetaria-n2580734986,Maitree Cafetaria,False,1,Cafe,Cafe,False,own name
+r-ohri-s-restaurant-n2590035130,Ohri's Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-rock-castle-n2606351757,Rock Castle,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-coffee-food-art-n2630309964,Coffee Food & Art,False,1,Fast Food,Fast Food,False,own name
+r-parivaar-n2653184588,Parivaar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hyderabad-restaurant-n2706495174,Hyderabad Restaurant,False,1,Continental;Arabian;Kebab & Grill,Continental,False,own name
+r-margi-hotel-n2706495852,Margi Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-seasons-n2708158479,Seasons,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-enjoy-fast-food-n2708167564,Enjoy Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-srr-dickys-n2708172405,SRR Dickys,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-papaji-dhaba-n2708177366,Papaji Dhaba,False,1,North Indian,North Indian,False,own name
+r-shanti-deluxe-n2708250165,Shanti Deluxe,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-limra-shawarma-n2710626246,Limra Shawarma,False,1,Arabian,Arabian,False,own name
+r-rumaan-cafe-n2710632106,Rumaan Cafe,False,1,Cafe,Cafe,False,own name
+r-nfc-n2710767846,NFC,False,1,Burgers,Burgers,False,own name
+r-udupi-tiffins-n2710846678,Udupi Tiffins,False,1,South Indian,South Indian,True,own name
+r-nimrah-n2710929650,Nimrah,False,1,Cafe,Cafe,False,own name
+r-sweekar-tiffins-n2712663887,Sweekar Tiffins,False,1,South Indian,South Indian,False,own name
+r-tiffin-center-n2715299136,Tiffin center,False,1,Indian,Indian,False,own name
+r-ritik-kitchen-n2715307359,Ritik Kitchen,False,1,Chinese,Chinese,False,own name
+r-cafe-n2729406949,Cafe,False,1,Cafe,Cafe,False,own name
+r-zam-zam-hotel-n2794664335,Zam Zam Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hot-chips-n2794745076,Hot Chips,False,1,Fast Food,Fast Food,False,own name
+r-santhi-bakers-n2817350830,Santhi Bakers,False,1,Bakery,Bakery,False,own name
+r-midland-bakery-n2835235995,Midland bakery,False,1,Burgers,Burgers,False,own name
+r-surabhi-restaurant-n2835242778,Surabhi Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-jalakanya-hotel-n2843585223,Jalakanya Hotel,False,1,Cafe,Cafe,False,own name
+r-maharaja-chat-n2875118608,Maharaja Chat,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-eat-central-n3008092655,Eat Central,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-heartcup-coffee-n3010475772,HeartCup Coffee,False,1,Cafe,Cafe,False,own name
+r-cake-exotica-n3159027234,Cake Exotica,False,1,Burgers;Pizza;Bakery,Burgers,False,own name
+r-mainland-china-n3159028270,Mainland China,False,1,Chinese,Chinese,False,own name
+r-cafe-ice-magic-n3166130282,Cafe Ice Magic,False,1,Cafe,Cafe,False,own name
+r-taj-tristar-n324834915,Taj Tristar,False,1,Multi-cuisine,Multi-cuisine,True,own name
+r-bawarchi-n3249112569,Bawarchi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ohri-s-n3249987884,Ohri's,False,1,Indian,Indian,False,own name
+r-gousia-cafe-n3384194299,Gousia Cafe,False,1,Cafe,Cafe,False,own name
+r-siva-reddy-foods-n3387327074,Siva Reddy Foods,False,1,Fast Food,Fast Food,False,own name
+r-delhiwala-chat-bhandar-n3387346327,Delhiwala Chat Bhandar,False,1,Fast Food,Fast Food,False,own name
+r-cream-stone-n3388784598,Cream Stone,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-anupama-restaurant-n3388911677,Anupama Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-bombay-chat-n3388932508,Bombay Chat,False,1,Fast Food,Fast Food,False,own name
+r-siddique-n3390819953,Siddique,False,1,Fast Food,Fast Food,False,own name
+r-aishwarya-n3391101895,Aishwarya,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ks-bakers-n3392141193,KS Bakers,False,1,Bakery;Pizza;Burgers,Bakery,False,own name
+r-pizza-corner-n344033883,Pizza Corner,False,1,Pizza,Pizza,False,own name
+r-windows-of-the-world-n344033897,Windows of the World,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-godavari-ruchulu-n3474702622,Godavari ruchulu,False,1,Andhra,Andhra,False,own name
+r-sangeetha-fine-dining-restaurant-n3490099034,Sangeetha fine dining restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-malgudi-restaurant-n349018446,Malgudi Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-olive-garden-n349270034,Olive Garden,False,1,Italian,Italian,False,own name
+r-ganga-jamuna-hotel-n3506878893,Ganga Jamuna Hotel,False,1,Cafe,Cafe,False,own name
+r-irani-hotel-n3507964234,Irani hotel,False,1,Irani Cafe,Irani Cafe,False,own name
+r-mukram-hotel-n3509608990,Mukram Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-suprabhat-n3523097051,Hotel Suprabhat,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-cuppa-n3538200897,Cuppa,False,1,Fast Food,Fast Food,False,own name
+r-minerva-n3554603085,Minerva,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-parathas-n3554603086,Parathas,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-rumaan-n3554603087,Rumaan,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-square-n3558158456,The Square,False,1,Continental,Continental,False,own name
+r-taj-mahal-hotel-n3619374555,Taj Mahal Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-little-italy-n3638711628,Little Italy,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-grand-ma-bakery-n3638804612,Grand Ma Bakery,False,1,Bakery,Bakery,False,own name
+r-empala-hotel-n3784353141,Empala Hotel,False,1,Fast Food,Fast Food,False,own name
+r-habanero-n3943140439,Habanero,False,1,Mexican,Mexican,False,own name
+r-napasang-restaurant-n3943151562,Napasang restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-telahu-n3943151563,Telahu,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-bawarchi-restaurant-n4107110489,Bawarchi Restaurant,False,1,Indian,Indian,False,own name
+r-hyder-cafe-n4187283992,Hyder Cafe,False,1,Cafe,Cafe,False,own name
+r-adarsh-cafe-n4187300502,Adarsh Cafe,False,1,Cafe,Cafe,False,own name
+r-anand-bhavan-n4196826121,Anand Bhavan,False,1,South Indian,South Indian,True,own name
+r-rang-rasiya-n4196826123,Rang Rasiya,False,1,South Indian,South Indian,False,own name
+r-roti-wala-n4214136895,Roti Wala,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-deccan-n4320884394,Deccan,False,1,Indian,Indian,False,own name
+r-cyber-spice-n4365179430,Cyber Spice,False,1,Fast Food,Fast Food,False,own name
+r-aqua-cafe-n4378873492,Aqua Cafe,False,1,Cafe,Cafe,False,own name
+r-sri-navayuga-hotel-n4398614589,Sri Navayuga Hotel,False,1,Indian;Desserts,Indian,False,own name
+r-house-of-dosas-n4407583397,House of Dosas,False,1,Indian,Indian,False,own name
+r-rams-dosa-n4407603692,Rams Dosa,False,1,South Indian,South Indian,False,own name
+r-andhra-cafe-n4415336191,Andhra Cafe,False,1,Andhra;Cafe,Andhra,False,own name
+r-kabab-restaurant-n4417155890,Kabab restaurant,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-almas-n4418972989,Almas,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-suprabhat-tiffins-n4486627616,Suprabhat Tiffins,False,1,South Indian,South Indian,False,own name
+r-grand-n4499582389,Grand,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-balaji-darshan-n4508429695,Balaji darshan,False,1,Cafe,Cafe,False,own name
+r-kapil-towers-food-court-n4508556289,Kapil Towers Food Court,False,1,Pizza;Indian;Burgers,Pizza,False,own name
+r-rice-bowl-n4515082115,Rice Bowl,False,1,Fast Food,Fast Food,False,own name
+r-rotiwala-n4516680141,Rotiwala,False,1,North Indian,North Indian,False,own name
+r-greenland-n4516712845,Greenland,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-aishwarya-metro-restaurent-a-c-n4523070490,Aishwarya Metro Restaurent A/C,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-amoga-n4526392727,Amoga,False,1,Fast Food,Fast Food,False,own name
+r-cafe-bahar-n4526392729,Cafe Bahar,False,1,Cafe,Cafe,False,own name
+r-mc-domino-s-n4531956291,Mc Domino's,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-cafe-mocha-n453580264,Cafe Mocha,False,1,Cafe,Cafe,False,own name
+r-swaadh-dine-n4548771589,Swaadh Dine,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tiny-village-n4555556395,Tiny Village,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-absolute-barbecues-abs-n4566238603,Absolute Barbecues (ABs),False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-wild-west-restaurant-n4575248395,Wild West Restaurant,False,1,Burgers;Sandwiches;Breakfast,Burgers,False,own name
+r-bavarchi-multi-cusine-n4576289991,Bavarchi Multi cusine,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-dadu-s-n4614088300,Dadu's,False,1,Fast Food,Fast Food,False,own name
+r-om-siddhi-vinayak-tiffin-centre-n4614311148,Om Siddhi Vinayak Tiffin Centre,False,1,South Indian,South Indian,False,own name
+r-san-s-pizza-den-n4614311149,San's Pizza Den,False,1,Pizza,Pizza,False,own name
+r-ambica-mess-n4646388694,Ambica Mess,False,1,South Indian,South Indian,False,own name
+r-biryanis-n4665333893,Biryanis,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-godavari-ruchulu-n4670788289,Godavari Ruchulu,False,1,Chinese;Indian,Chinese,False,own name
+r-lakshmi-priya-restaurant-n4676142991,Lakshmi Priya Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-kabab-inn-n4683188792,Kabab Inn,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-salarjung-museum-tea-stall-n4684713994,Salarjung Museum Tea Stall,False,1,Tea,Tea,False,own name
+r-sardarji-s-dhaba-n4705388500,Sardarji's Dhaba,False,1,North Indian,North Indian,False,own name
+r-swagath-restaurant-n4711427792,Swagath Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-maha-lakshmi-family-dhaba-n4713368292,Maha Lakshmi Family Dhaba,False,1,Indian,Indian,False,own name
+r-sirisha-hotel-n4716858191,Sirisha Hotel,False,1,Fast Food,Fast Food,False,own name
+r-bahar-cafe-n4716873493,Bahar Cafe,False,1,Cafe,Cafe,False,own name
+r-sri-sankar-vilas-n4716915296,Sri Sankar Vilas,False,1,Fast Food,Fast Food,False,own name
+r-olive-kitchen-n4729118789,Olive Kitchen,False,1,Chinese;Indian;Kebab & Grill,Chinese,False,own name
+r-diner-s-pavilion-n4729119789,Diner's Pavilion,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-yuktahar-mess-n4736930768,Yuktahar Mess,False,1,Indian,Indian,True,own name
+r-brundavan-n4769501963,Brundavan,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-labonel-fine-baking-n4784090873,Labonel fine baking,False,1,Cafe,Cafe,False,own name
+r-dine-o-china-n4784090874,Dine o China,False,1,Chinese,Chinese,False,own name
+r-eat-well-n4790969321,Eat Well,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-khan-saab-n4826996023,Khan Saab,False,1,Indian,Indian,False,own name
+r-shanbhag-restaurant-n487804834,Shanbhag Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-heavenz-n4920193221,Heavenz,False,1,Cafe,Cafe,False,own name
+r-trupthi-restaurant-n4939727621,Trupthi Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-spicy-restaurant-n4978782272,Spicy Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tabla-nagole-n4979122956,Tabla Nagole,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sweekar-n4980149821,Sweekar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-akshaya-n4981536922,Hotel Akshaya,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-swanthi-curry-restaurant-n4985144421,Swanthi curry restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-suprabat-tiffins-n5104431823,Suprabat Tiffins,False,1,South Indian,South Indian,False,own name
+r-hyderabad-house-n513010279,Hyderabad House,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-president-dhaba-n5160665781,President Dhaba,False,1,Indian;Chinese,Indian,False,own name
+r-taj-belson-n525052103,Taj Belson,False,1,Multi-cuisine,Multi-cuisine,True,own name
+r-ciclo-cafe-n5257229421,Ciclo Café,False,1,Cafe,Cafe,False,own name
+r-kaficko-n5259994123,Kaficko,False,1,Cafe,Cafe,False,own name
+r-paaka-organic-cafe-n5261952123,Paaka Organic Cafe,False,1,Indian,Indian,False,own name
+r-hyderabad-spice-n5291150521,Hyderabad Spice,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-grannies-millets-and-grains-n5350186098,Grannies Millets and Grains,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tom-yum-yum-n5375596703,Tom Yum Yum,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-golden-cave-restaurant-n538425766,Golden Cave Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mythri-restaurant-and-bar-n538425769,Mythri Restaurant and Bar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-svk-canteen-n5404824143,SVK canteen,False,1,Cafe,Cafe,False,own name
+r-al-lbbik-shwrma-n5405054117,Al lbbik shwrma,False,1,Fast Food,Fast Food,False,own name
+r-chicken-pakodi-n5405054121,Chicken pakodi,False,1,Fried Chicken,Fried Chicken,False,own name
+r-al-saba-resturant-n5405054245,Al saba resturant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-13-dhaba-n5405055149,13 Dhaba,False,1,North Indian,North Indian,False,own name
+r-simply-south-n5405055453,Simply south,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-rock-deal-restaurant-and-bar-n5405056232,Rock deal restaurant  and bar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-up-the-bistro-n5405056434,Up the Bistro,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sweet-basket-n5405057633,Sweet basket,False,1,Fast Food,Fast Food,False,own name
+r-pulav-curry-rice-n5405058516,Pulav curry rice,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chak-de-restaurant-n5405060691,Chak de restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-raja-vari-ruchulu-n5409161322,Raja Vari Ruchulu,False,1,Seafood;Desserts;Chinese,Seafood,False,own name
+r-jyothi-restaurant-n5418049576,Jyothi Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-kafe-tirupati-n5459525615,Kafe Tirupati,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-kalinga-s-kitchen-n5467328880,Kalinga's Kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-annapurna-tiffens-n5469130135,Annapurna Tiffens,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-annapurna-n5482822501,Annapurna,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mysore-cafe-n5485690539,Mysore Cafe,False,1,Cafe,Cafe,False,own name
+r-melting-pot-n5515637839,Melting pot,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-turning-point-cafe-n5539317124,Turning Point Cafe,False,1,Cafe,Cafe,False,own name
+r-turning-point-tiffin-centre-n5539317125,Turning Point Tiffin Centre,False,1,South Indian,South Indian,False,own name
+r-lucky-arabian-mandi-n5608451367,Lucky Arabian Mandi,False,1,Arabian,Arabian,False,own name
+r-mumtaz-restaurant-n5608451368,Mumtaz Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sree-balaji-sweet-shop-n5608451451,Sree Balaji Sweet Shop,False,1,Indian,Indian,False,own name
+r-luckys-biryani-padmaraonagar-n5608454992,Luckys Biryani - PadmaraoNagar,False,1,Biryani;Indian,Biryani,False,own name
+r-bahar-cafe-n5611008663,Bahar café,False,1,Cafe,Cafe,False,own name
+r-limrah-tea-snaks-n5644406041,Limrah Tea & Snaks,False,1,Indian,Indian,False,own name
+r-sampradhaya-curry-point-n5692072169,Sampradhaya curry point,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-omer-hotel-n5695960522,Omer hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-godavari-ruchulu-n5743508530,Godavari Ruchulu,False,1,Andhra,Andhra,False,own name
+r-golconda-chef-n5793698165,Golconda Chef,False,1,Indian,Indian,False,own name
+r-manichandana-restaurant-n5826347075,ManiChandana Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-m-r-c-chicken-dum-biryani-n5873950223,M R C Chicken Dum Biryani,False,1,Biryani;Fried Chicken,Biryani,False,own name
+r-driven-cafe-n5877511806,Driven Cafe,False,1,Cafe,Cafe,False,own name
+r-mudita-n5883774727,Mudita,False,1,Asian,Asian,False,own name
+r-charcoal-bbq-n5931166341,Charcoal Bbq,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-minevera-coffee-shop-n5942734591,Minevera Coffee Shop,False,1,Cafe,Cafe,False,own name
+r-flechazo-n5942781129,Flechazo,False,1,Indian;Asian,Indian,False,own name
+r-appetito-n5942783243,Appetito,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-abhiruchi-restaurant-n5942783245,Abhiruchi Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-eat-country-style-n5942847663,Eat Country Style,False,1,Fried Chicken;Chinese;Seafood,Fried Chicken,False,own name
+r-pan-shop-n5957452586,Pan Shop,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-om-sai-ram-nice-vada-pav-n5957506785,Om Sai Ram Nice Vada Pav,False,1,Fast Food,Fast Food,False,own name
+r-soma-s-kitchen-n5965559685,Soma's Kitchen,False,1,Indian,Indian,False,own name
+r-aadi-raghavendra-udupi-veg-n5965559686,Aadi Raghavendra Udupi Veg,False,1,Chinese;Indian,Chinese,True,own name
+r-rayalaseema-ruchulu-n5970759667,Rayalaseema Ruchulu,False,1,Andhra,Andhra,False,own name
+r-istanbul-authentic-doner-kebab-n5973746985,Istanbul Authentic Doner Kebab,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-istanbul-authentic-doner-kebab-n5973746986,Istanbul Authentic Doner Kebab,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-ulavucharu-n5980853188,Ulavucharu,False,1,Indian,Indian,False,own name
+r-canteen-n5994099219,Canteen,False,1,Fast Food,Fast Food,False,own name
+r-haritha-restaurant-n5994099284,Haritha Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-sukha-sagara-n5994099485,Hotel Sukha Sagara,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-spicy-hub-n6009842126,Spicy Hub,False,1,Asian;Fried Chicken;Indian,Asian,False,own name
+r-gundamma-gaari-ruchulu-n6029100806,Gundamma Gaari Ruchulu,False,1,Andhra,Andhra,False,own name
+r-hyderabadi-dawat-n6036830618,Hyderabadi dawat,False,1,Hyderabadi,Hyderabadi,False,own name
+r-absolute-barbeque-ab-s-n6036883486,Absolute barbeque (ab's),False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-hotel-shubham-celebrations-n6061146775,Hotel Shubham Celebrations,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-terrasen-cafe-n6089840786,Terrasen Cafe,False,1,Cafe,Cafe,False,own name
+r-my-friends-irani-chai-n6131962786,My Friend’s Irani Chai,False,1,Irani Cafe;Tea,Irani Cafe,False,own name
+r-hotel-skylab-irani-chai-cafe-n6133852986,Hotel Skylab Irani Chai Cafe,False,1,Irani Cafe;Tea;Cafe,Irani Cafe,False,own name
+r-rao-s-guest-house-n6133852987,Rao's Guest House,False,1,Indian,Indian,False,own name
+r-coronation-cafe-n6134655288,Coronation Cafe,False,1,Cafe,Cafe,False,own name
+r-peshawar-n6187870086,Peshawar,False,1,Indian,Indian,False,own name
+r-himalaya-cafe-n6187870385,Himalaya Cafe,False,1,Cafe,Cafe,False,own name
+r-dastarkhan-n6187870387,Dastarkhan,False,1,Indian,Indian,False,own name
+r-new-nilofer-n6187870785,New Nilofer,False,1,Cafe,Cafe,False,own name
+r-hot-chips-n6191414038,Hot Chips,False,1,Fast Food,Fast Food,False,own name
+r-b-eats-n6191762120,B- Eats,False,1,Biryani;Chinese;South Indian,Biryani,False,own name
+r-chinese-fast-food-n6199003985,Chinese Fast Food,False,1,Chinese;Fast Food,Chinese,False,own name
+r-blue-moon-irani-chai-cafe-n6205211485,Blue Moon Irani Chai Cafe,False,1,Irani Cafe;Tea;Cafe,Irani Cafe,False,own name
+r-hotel-shezan-n6208309185,Hotel Shezan,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-khan-e-khaas-n6208309186,Khan-e-Khaas,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-aadab-n6208309285,Hotel Aadab,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-zam-zam-cafe-n6208309286,Zam Zam Cafe,False,1,Cafe,Cafe,False,own name
+r-afgan-darbar-resturant-n6208465485,Afgan Darbar Resturant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-cafe-555-n6209822886,Cafe 555,False,1,Cafe,Cafe,False,own name
+r-dine-hill-n6209876085,Dine Hill,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mugal-resturant-n6209973186,Mugal Resturant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sri-venkateshwara-tiffins-n6209979089,Sri Venkateshwara Tiffins,False,1,South Indian,South Indian,False,own name
+r-coronation-cafe-n6209984886,Coronation Cafe,False,1,Cafe,Cafe,False,own name
+r-sitara-cafe-n6209990590,Sitara Cafe,False,1,Cafe,Cafe,False,own name
+r-jubilee-hills-peddammathalli-mess-n6213051886,Jubilee Hills Peddammathalli Mess,False,1,South Indian,South Indian,False,own name
+r-harika-tiffins-snacks-n6213051887,Harika Tiffins &Snacks,False,1,South Indian,South Indian,False,own name
+r-sri-vijaya-laxmi-food-court-n6215854388,Sri Vijaya Laxmi Food Court,False,1,Fried Chicken;Breakfast,Fried Chicken,False,own name
+r-raghavendra-chips-shop-n6216842785,Raghavendra Chips Shop,False,1,Fast Food,Fast Food,False,own name
+r-tiffins-n6216842786,Tiffins,False,1,South Indian,South Indian,False,own name
+r-paya-house-n6218822186,Paya House,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-spicy-express-n6235740585,Spicy Express,False,1,Fast Food,Fast Food,False,own name
+r-sangam-hotel-n6246300070,Sangam Hotel,False,1,Cafe,Cafe,False,own name
+r-freak-shake-n6246440085,Freak Shake,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-fisher-me-n6246451485,Fisher Me,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-thansi-n6248946494,Thansi,False,1,Fast Food,Fast Food,False,own name
+r-ahilobhilam-foods-n6248961886,Ahilobhilam Foods,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-vistara-n6249185487,Vistara,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-abhiruchi-n6249187285,Abhiruchi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mayur-pan-shop-n6254336889,Mayur Pan Shop,False,1,Fast Food,Fast Food,False,own name
+r-yousufuan-n6254339285,Yousufuan,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-famous-bread-omlet-n6255342089,Famous Bread Omlet,False,1,Fast Food,Fast Food,False,own name
+r-sitara-n6255631790,Sitara,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-flavors-n6257498485,Flavors,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-puff-house-n6257501985,Puff House,False,1,Fast Food,Fast Food,False,own name
+r-hyderabad-host-n6259475085,Hyderabad Host,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-annapurna-food-court-n6259475385,Annapurna Food court,False,1,South Indian,South Indian,False,own name
+r-urban-vilage-n6261439688,Urban Vilage,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-wingster-n6261444885,Wingster,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-twister-juice-n6261508286,Twister Juice,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-madhura-mexican-fried-chicken-n6261508385,Madhura Mexican Fried Chicken,False,1,Fried Chicken,Fried Chicken,False,own name
+r-madhura-n6261536395,Madhura,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hamza-restaurant-n6263697388,Hamza Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-krishna-reddy-sweets-n6263697389,Krishna Reddy Sweets,False,1,Desserts,Desserts,False,own name
+r-drunken-monkey-n6266078685,Drunken Monkey,False,1,Fast Food,Fast Food,False,own name
+r-feel-in-saudi-n6266191385,Feel In Saudi,False,1,Fast Food,Fast Food,False,own name
+r-t-grill-n6268103691,T-grill,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-brickwood-n6268240985,Brickwood,False,1,Fast Food,Fast Food,False,own name
+r-zeeshan-hotel-n626896819,Zeeshan Hotel,False,1,Cafe,Cafe,False,own name
+r-iqbal-hotel-n626896986,Iqbal Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-ajwa-n626896999,Hotel Ajwa,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-choice-hotel-n626897013,Choice Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-seven-star-cafe-n626897044,Seven Star Cafe,False,1,Cafe,Cafe,False,own name
+r-ali-cafe-n626897176,Ali Cafe,False,1,Cafe,Cafe,False,own name
+r-new-ali-cafe-n626897179,New Ali Cafe,False,1,Cafe,Cafe,False,own name
+r-husnain-hotel-n626897256,Husnain hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-new-grand-restaurent-n626897364,New Grand Restaurent,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-nayab-hotel-n626897404,Nayab Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-shadab-n626897444,شاداب ہوٹل (Hotel Shadab),False,1,Indian;Kebab & Grill;Desserts,Indian,False,own name
+r-madina-hotel-n626897451,Madina Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-shahran-hotel-n626897569,Shahran hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-anand-bhavan-vegetarian-n626897584,Anand Bhavan (vegetarian),False,1,South Indian,South Indian,True,own name
+r-farasha-cafe-n626897768,Farasha Cafe,False,1,Cafe,Cafe,False,own name
+r-kwality-tiffins-n6269697286,Kwality Tiffins,False,1,South Indian,South Indian,False,own name
+r-maggi-point-n6269697485,Maggi Point,False,1,Fast Food,Fast Food,False,own name
+r-prince-driveinn-n6273886287,Prince DriveInn,False,1,Fast Food,Fast Food,False,own name
+r-am-pm-hotel-n6308262617,AM PM Hotel,False,1,Cafe,Cafe,False,own name
+r-chop-stick-n6340136985,Chop Stick,False,1,Chinese,Chinese,False,own name
+r-dostea-chai-cafe-n6352370685,Dostea Chai Café,False,1,Tea;Cafe,Tea,False,own name
+r-tawah-n635576797,Tawah,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chai-village-n6369867752,Chai village,False,1,Tea,Tea,False,own name
+r-udipi-park-hotel-n6370434382,Udipi Park Hotel,False,1,South Indian,South Indian,True,own name
+r-chicken-express-n6372268859,Chicken Express,False,1,Fried Chicken,Fried Chicken,False,own name
+r-appus-fast-food-n6372299524,Appus Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-tea-n6372301072,Tea,False,1,Tea,Tea,False,own name
+r-chicken-center-n6372311276,Chicken Center,False,1,Fried Chicken,Fried Chicken,False,own name
+r-lucky-restaurant-n6372374345,Lucky Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-adharsha-sweet-shop-n6372374836,Adharsha Sweet Shop,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sunrise-food-court-n6372375643,SunRise food court,False,1,Indian;Fast Food,Indian,False,own name
+r-irani-n6372463303,Irani,False,1,Irani Cafe,Irani Cafe,False,own name
+r-good-will-hotel-n6375069342,Good Will Hotel,False,1,Cafe,Cafe,False,own name
+r-anand-tiffins-n6390338960,Anand Tiffins,False,1,South Indian,South Indian,False,own name
+r-kaveri-curry-point-n6390378855,Kaveri Curry Point,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-delicious-dosa-n6390378856,Delicious Dosa,False,1,South Indian,South Indian,False,own name
+r-mandi-36-n6409579586,Mandi@36,False,1,Arabian,Arabian,False,own name
+r-wafl-cafe-n6411856963,WAFL Café,False,1,Cafe,Cafe,False,own name
+r-indi-chai-n6414144247,Indi Chai,False,1,Indian,Indian,False,own name
+r-jonathan-s-kitchen-n6461024946,Jonathan`s Kitchen,False,1,Italian;Indian;Seafood,Italian,False,own name
+r-lucky-restaurant-n6485323329,Lucky Restaurant,False,1,Indian,Indian,False,own name
+r-time-square-the-landmark-hotel-n6563212163,Time Square-The Landmark Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-nova-banquet-hall-n6581444879,Nova Banquet Hall,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-english-cafe-n6594823489,The English Cafe,False,1,Cafe,Cafe,False,own name
+r-deli-9-n6594823490,Deli 9,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-something-fishy-n660914316,Something Fishy,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-taaza-kitchen-n6621607787,Taaza Kitchen,False,1,Indian;South Indian,Indian,False,own name
+r-southern-spice-n662721790,Southern Spice,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-itc-kohenur-n6633197605,ITC Kohenur,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-x-n6652622285,امپیریل ملٹی کزن ریسٹورنٹ,False,1,Indian;Kebab & Grill;Desserts,Indian,False,own name
+r-sherton-restaurant-n6652949189,Sherton Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-khan-saheb-n6652949191,Khan Saheb,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-ramus-tiffins-amd-roti-center-n6653388785,Ramus tiffins amd roti center,False,1,South Indian,South Indian,False,own name
+r-jai-bhavani-tiffins-n6653388885,Jai Bhavani Tiffins,False,1,South Indian,South Indian,False,own name
+r-masala-chapati-chat-n6653389786,Masala Chapati Chat,False,1,Fast Food,Fast Food,False,own name
+r-sai-darshini-n6684817721,Sai Darshini,False,1,South Indian,South Indian,True,own name
+r-shareef-bhai-chicken-fish-fry-bandi-n6684817722,Shareef Bhai Chicken & Fish Fry Bandi,False,1,Indian,Indian,False,own name
+r-crown-cafe-n6690779940,Crown Cafe,False,1,Cafe,Cafe,False,own name
+r-hotel-new-city-diamond-n6693360854,Hotel New City Diamond,False,1,Hyderabadi,Hyderabadi,False,own name
+r-prince-hotel-n6693360857,Prince Hotel,False,1,Hyderabadi,Hyderabadi,False,own name
+r-naseeb-kalyani-biryani-n6693360858,Naseeb Kalyani Biryani,False,1,Biryani,Biryani,False,own name
+r-mandar-fast-food-n6693360861,Mandar Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-amfah-biryani-n6693360862,Amfah Biryani,False,1,Biryani;Hyderabadi,Biryani,False,own name
+r-imroze-cafe-n6697930152,Imroze Cafe,False,1,Cafe,Cafe,False,own name
+r-new-sagar-restaurant-bakers-n6700697489,New Sagar Restaurant & Bakers,False,1,Indian,Indian,False,own name
+r-rio-cafe-n6710912114,Rio Cafe,False,1,Cafe,Cafe,False,own name
+r-nr-anand-tiffins-n6710912131,NR Anand Tiffins,False,1,South Indian,South Indian,False,own name
+r-babu-lalji-dhai-samosa-n6710912142,Babu Lalji Dhai Samosa,False,1,Fast Food,Fast Food,False,own name
+r-arati-fast-food-n6723691439,Arati Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-universal-kababs-biryani-n6723691440,Universal Kababs & Biryani,False,1,Biryani;Indian,Biryani,False,own name
+r-whatta-waffle-and-the-chicken-ompany-n6752980030,Whatta Waffle and The Chicken ompany,False,1,Pizza;Burgers;Italian,Pizza,False,own name
+r-swagath-n675646780,Swagath,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-astoria-n675646783,Astoria,False,1,Indian;Kebab & Grill;Desserts,Indian,False,own name
+r-bawarchi-n675646784,Bawarchi,False,1,Indian;Kebab & Grill;Desserts,Indian,False,own name
+r-ali-star-hotel-n6758497444,Ali Star Hotel,False,1,Biryani,Biryani,False,own name
+r-sholey-curry-point-chinese-fast-food-n6758497449,Sholey Curry Point & Chinese Fast Food,False,1,Chinese;Fast Food,Chinese,False,own name
+r-nebraska-hotel-n6758497452,Nebraska Hotel,False,1,Cafe,Cafe,False,own name
+r-james-chan-chinese-fast-food-n6758497455,James Chan Chinese Fast Food,False,1,Chinese;Indian,Chinese,False,own name
+r-crown-hotel-n6758497456,Crown Hotel,False,1,Arabian;Hyderabadi,Arabian,False,own name
+r-shine-cafe-n6765562759,Shine Cafe,False,1,Cafe,Cafe,False,own name
+r-shawarma-n6765562765,Shawarma,False,1,Arabian,Arabian,False,own name
+r-raghavedndra-vegitarian-n6765562767,Raghavedndra Vegitarian,False,1,Multi-cuisine,Multi-cuisine,True,own name
+r-sandarshini-udipi-veg-n6765562772,Sandarshini Udipi Veg,False,1,South Indian,South Indian,True,own name
+r-sri-raghavendra-udipi-veg-n6765562773,Sri Raghavendra Udipi Veg,False,1,South Indian,South Indian,True,own name
+r-tiffin-centre-n6765562783,Tiffin Centre,False,1,South Indian,South Indian,False,own name
+r-sri-kanya-comfort-n6771713700,Sri Kanya Comfort,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-samosa-n6772788270,Samosa,False,1,Fast Food,Fast Food,False,own name
+r-d-lite-frankie-n6772788271,D-Lite Frankie,False,1,Sandwiches,Sandwiches,False,own name
+r-golden-point-n6772788273,Golden Point,False,1,Cafe,Cafe,False,own name
+r-gold-bawarchi-n6772788276,Gold Bawarchi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chapathi-curry-point-n6773025653,Chapathi & Curry Point,False,1,Fast Food,Fast Food,False,own name
+r-jowar-roti-point-n6773025658,Jowar Roti Point,False,1,Fast Food,Fast Food,False,own name
+r-currry-point-n6773025663,Currry Point,False,1,Fast Food,Fast Food,False,own name
+r-pizza-den-n6774880496,Pizza Den,False,1,Pizza,Pizza,False,own name
+r-al-madini-mandi-house-n6779797463,Al-Madini Mandi House,False,1,Arabian;Fried Chicken,Arabian,False,own name
+r-fast-food-n6779912961,Fast Food,False,1,Chinese,Chinese,False,own name
+r-ahwaanam-fast-food-n6821427385,Ahwaanam Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-yaqoob-ali-cafe-n6822126474,Yaqoob Ali Cafe,False,1,Cafe,Cafe,False,own name
+r-angaara5-restaurant-n6822126483,Angaara5 Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-mourya-s-restaurant-n6822126487,Hotel Mourya's Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-fresh-and-honest-cafe-ltd-n6822126495,Fresh And Honest Cafe Ltd,False,1,Cafe,Cafe,False,own name
+r-athidi-aahar-n6822126500,Athidi Aahar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-grand-avighnaa-n6822126502,Grand Avighnaa,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-turkish-restaurant-n6822126520,Turkish restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-shivanya-restaurant-n6822126525,Shivanya Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-siva-sai-biryani-point-n6822126528,Siva Sai Biryani Point,False,1,Biryani,Biryani,False,own name
+r-telangana-tea-stall-n6822126533,Telangana Tea Stall,False,1,Tea,Tea,False,own name
+r-al-hejaz-cafeteria-n6822126537,Al Hejaz Cafeteria,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-drunken-monkey-n6822126558,Drunken Monkey,False,1,Cafe,Cafe,False,own name
+r-sai-balaji-tiffins-n6822126568,Sai Balaji Tiffins,False,1,South Indian,South Indian,False,own name
+r-pizza-time-n6822126575,Pizza Time,False,1,Pizza,Pizza,False,own name
+r-broadway-cafe-bakers-tiffins-n6822126581,"Broadway Cafe, Bakers & Tiffins",False,1,South Indian;Bakery;Cafe,South Indian,False,own name
+r-new-banjara-cafe-n6822126589,New Banjara Cafe,False,1,Cafe,Cafe,False,own name
+r-chandini-family-dhaba-n6822126603,Chandini Family Dhaba,False,1,North Indian,North Indian,False,own name
+r-date-with-soup-restaurant-n6822126608,Date With Soup Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sitara-foods-n6822126615,Sitara Foods,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sikander-irani-tea-and-snacks-point-n6822126623,Sikander Irani Tea And Snacks Point,False,1,Irani Cafe;Tea,Irani Cafe,False,own name
+r-sudha-hotel-n6822126628,Sudha Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-burger-chefs-n6822126639,The Burger chefs,False,1,Burgers,Burgers,False,own name
+r-akhila-tiffins-n6822126642,Akhila Tiffins,False,1,South Indian,South Indian,False,own name
+r-7-seven-hills-restaurant-n6822126648,7 Seven Hills Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-b-dubs-n6840941123,B. Dubs,False,1,Cafe,Cafe,False,own name
+r-sanman-tiffins-n6847914720,Sanman Tiffins,False,1,South Indian,South Indian,False,own name
+r-collection-o-209-sivarampalli-galaxy-hotal-n6847914868,Collection O 209 Sivarampalli (Galaxy Hotal),False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-siddique-kebab-n6855217386,Siddique Kebab,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-kabab-house-n6865920697,Kabab house,False,1,Fried Chicken,Fried Chicken,False,own name
+r-delhi-wala-sweets-n6868660419,Delhi Wala Sweets,False,1,Desserts,Desserts,False,own name
+r-brothers-bawarchi-n6868689295,Brothers Bawarchi,False,1,Kebab & Grill;Indian;Fried Chicken,Kebab & Grill,False,own name
+r-esplanade-n6893579787,Esplanade,False,1,Indian,Indian,False,own name
+r-aaha-coffee-shop-n6909347687,Aaha Coffee Shop,False,1,Indian,Indian,False,own name
+r-aaha-food-village-n6909365985,Aaha Food Village,False,1,Indian,Indian,False,own name
+r-fudzy-n6934838950,Fudzy,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-rams-n6935318131,Rams,False,1,Cafe;Burgers;Kebab & Grill,Cafe,False,own name
+r-himalayan-bar-and-restuarant-n6935424689,Himalayan Bar and Restuarant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-celebrations-n6935457683,Celebrations,False,1,Cafe,Cafe,False,own name
+r-bake-2-bake-n6935469225,Bake 2 Bake,False,1,Sandwiches;Burgers,Sandwiches,False,own name
+r-the-grand-truck-road-n6935579741,The grand truck road,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-sweet-tooth-n6935609217,The sweet tooth,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-m-s-biryani-point-n6935617664,M.S Biryani Point,False,1,Biryani,Biryani,False,own name
+r-asp-chinese-fast-food-n6935617665,ASP Chinese Fast Food,False,1,Chinese;Fast Food,Chinese,False,own name
+r-bawarchi-restaurant-n6936829973,Bawarchi Restaurant,False,1,Indian;Kebab & Grill;Fried Chicken,Indian,False,own name
+r-punjabi-tadka-n6937779968,Punjabi Tadka,False,1,North Indian,North Indian,False,own name
+r-180-degree-oven-n6938853685,180 Degree Oven,False,1,Fast Food,Fast Food,False,own name
+r-walnut-bakes-confectionery-n6950562605,Walnut Bakes & Confectionery,False,1,Pizza;Burgers;Sandwiches,Pizza,False,own name
+r-cafe-bawarchi-n6955225189,Cafe Bawarchi,False,1,Cafe,Cafe,False,own name
+r-zara-hi-fi-n6982568886,ZARA Hi-Fi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-y9-cafe-restuarant-n6982568887,Y9 Cafe & Restuarant,False,1,Cafe,Cafe,False,own name
+r-abhiruchi-n6994597339,Abhiruchi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-hoppery-n6997870508,The Hoppery,False,1,Asian,Asian,False,own name
+r-lassi-shop-n7004557287,Lassi Shop,False,1,Desserts;Juices & Shakes,Desserts,False,own name
+r-southern-kitchen-n7007941046,Southern Kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-raja-rani-ruchulu-n7008120224,Raja Rani Ruchulu,False,1,Andhra,Andhra,False,own name
+r-desert-place-n7008880760,Desert Place,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-spar-kitchen-n7010429411,Spar Kitchen,False,1,Continental;Italian;Pizza,Continental,False,own name
+r-mumtaz-n7016789694,Mumtaz,False,1,Cafe,Cafe,False,own name
+r-amber-n7021303608,Amber,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-foodie-resto-n7021303640,Foodie Resto,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tea-trails-cafe-n7021303711,Tea Trails Cafe,False,1,Tea;Cafe,Tea,False,own name
+r-chinatown-n7021303726,Chinatown,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-krazy-chef-n7021303727,Krazy Chef,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-urban-spice-kitchen-n7021303729,Urban Spice kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-onesta-restaurant-n7021303730,Onesta Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sambal-n7021303731,Sambal,False,1,Asian,Asian,False,own name
+r-southwok-restaurant-n7021303732,Southwok Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-grand-spicy-bawarchi-n7021303733,Grand Spicy Bawarchi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ayathi-restaurant-n7021303734,Ayathi Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-naidu-gari-ruchulu-n7021303735,Naidu Gari Ruchulu,False,1,Andhra,Andhra,False,own name
+r-simhapuri-deluxe-n7021303736,Simhapuri Deluxe,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-nala-bhimas-restaurant-n7021303737,Nala Bhimas Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-barbeque-pride-n7021303738,Barbeque Pride,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-sk-fast-food-n7021303761,SK Fast Food,False,1,Fast Food,Fast Food,False,own name
+r-indira-veg-non-veg-n7023081189,Indira veg non veg,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ankapur-kitchen-n7025803845,Ankapur Kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-balaji-hyderabad-mithai-bhandar-n7025820724,Balaji Hyderabad Mithai Bhandar,False,1,Fast Food,Fast Food,False,own name
+r-sampradaya-ruchulu-restaurant-n7025820753,Sampradaya Ruchulu Restaurant,False,1,Andhra,Andhra,False,own name
+r-cafe-blue-diamond-chinese-fast-food-n7025820756,Cafe Blue Diamond & Chinese Fast Food,False,1,Chinese;Cafe;Fast Food,Chinese,False,own name
+r-beach-house-n7025820764,Beach House,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-bake-factory-kitchens-n7025820773,Bake Factory Kitchens,False,1,Bakery,Bakery,False,own name
+r-the-blender-s-cafe-n7025820780,The Blender's Cafe,False,1,Cafe,Cafe,False,own name
+r-chinese-cornerz-n7025820782,Chinese Cornerz,False,1,Chinese,Chinese,False,own name
+r-desi-dhabha-n7025820783,Desi Dhabha,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-golconda-chefs-n7025820784,Golconda Chefs,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sree-uma-grand-multicuisine-restaurant-n7025820793,Sree Uma Grand - Multicuisine Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mustard-n7025820810,Mustard,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-burgandi-n7025820811,Burgandi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-shake-stories-n7025820813,Shake Stories,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-hutk-restaurant-n7025820814,HutK Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-dhanyatha-foods-n7025820815,Dhanyatha Foods,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-super-lean-meals-n7025820821,Super Lean Meals,False,1,South Indian,South Indian,False,own name
+r-the-london-shakes-n7025820823,The London Shakes,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-organic-thali-kitchen-n7025820825,Organic Thali kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-inner-chef-n7025820832,Inner Chef,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-waffle-house-n7025820838,Waffle House,False,1,Desserts,Desserts,False,own name
+r-krishna-s-kitchen-n7025820842,Krishna's Kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-zza-bar-syala-95a-n7025820846,Zza Bar @ Syala 95A,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ciclo-cafe-bicycle-shop-n7025820854,Ciclo Cafe & Bicycle Shop,False,1,Cafe,Cafe,False,own name
+r-7ten-spa-n7025820863,7Ten Spa,False,1,Cafe,Cafe,False,own name
+r-thurum-khan-restaurant-n7025820871,Thurum Khan Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-morning-dew-n7025820874,Morning Dew,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ghar-ka-khaana-n7025820883,Ghar Ka Khaana,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-madhapur-bawarchi-n7025820886,Madhapur Bawarchi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-oven-italia-n7025820891,Oven Italia,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sri-sai-venkateshwara-hotel-n7025820893,Sri Sai Venkateshwara Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-adda-n7025820897,The Adda,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-shree-santhosh-family-dhaba-n7025820902,Shree Santhosh Family Dhaba,False,1,North Indian,North Indian,False,own name
+r-sanjha-chulha-punjabi-food-joint-n7025820906,Sanjha Chulha Punjabi Food Joint,False,1,North Indian,North Indian,False,own name
+r-brickwood-pizza-n7025820911,Brickwood Pizza,False,1,Pizza,Pizza,False,own name
+r-lassi-bistro-n7025820913,Lassi Bistro,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-the-burrito-bowl-n7025820916,The Burrito Bowl,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tumba-bengali-food-n7025820918,Tumba Bengali Food,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-eatsome-n7025820919,Eatsome,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-restaurant-guest-wifi-solutions-n7027716893,Restaurant Guest Wifi Solutions,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-kitchen-007-n7027716895,Kitchen 007,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tollywood-thick-shakes-n7027716897,Tollywood Thick Shakes,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-zeeshan-hotel-n7027876786,Zeeshan hotel,False,1,Cafe,Cafe,False,own name
+r-4-seasons-n7035236531,4 Seasons,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-samskruthi-hotel-n7043416947,Samskruthi Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-bikanervala-n704475632,Bikanervala,False,1,Fast Food,Fast Food,False,own name
+r-shadhab-bekary-cafe-n7088103681,Shadhab bekary & cafe,False,1,Cafe,Cafe,False,own name
+r-hotel-sweekar-n7088336244,Hotel Sweekar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-delicious-bakery-n7088336247,Delicious Bakery,False,1,Bakery,Bakery,False,own name
+r-ayyangar-bakery-n7088365506,Ayyangar Bakery,False,1,Bakery,Bakery,False,own name
+r-surekha-tiffins-n7088581772,Surekha Tiffins,False,1,Indian,Indian,False,own name
+r-dwaraka-restaurant-n7113634286,Dwaraka Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chillies-restaurant-n7113643285,Chillies Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-amrutha-paradise-n7113730686,Amrutha paradise,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-fast-food-and-tiffin-center-n7113964286,Fast food and tiffin center,False,1,South Indian;Fast Food,South Indian,False,own name
+r-hot-chips-n7113964485,Hot chips,False,1,Fast Food,Fast Food,False,own name
+r-laiba-s-cafe-n7113996685,Laiba's cafe,False,1,Cafe,Cafe,False,own name
+r-fit-food-company-n7113998188,Fit food company,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-exotic-shawarma-n7114016585,The Exotic Shawarma,False,1,Arabian,Arabian,False,own name
+r-the-cups-n7114069985,The Cups,False,1,Fast Food,Fast Food,False,own name
+r-dwaraka-n712859906,Dwaraka,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ms-bakers-n7165460276,MS Bakers,False,1,Bakery,Bakery,False,own name
+r-lassi-shop-n7168572262,Lassi shop,False,1,Desserts;Juices & Shakes,Desserts,False,own name
+r-dominos-s-pizza-n7168590392,Dominos's Pizza,False,1,Pizza,Pizza,False,own name
+r-rayudu-tiffen-center-n7171334821,Rayudu Tiffen Center,False,1,Fast Food,Fast Food,False,own name
+r-rayudu-family-restarant-n7171334823,Rayudu family restarant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-midland-n7171348236,Midland,False,1,Fast Food,Fast Food,False,own name
+r-diners-restaurant-n7174406403,Diners Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hospital-canteen-n7180147129,Hospital Canteen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-savage-chinese-and-american-bistroo-n7243928590,Savage Chinese and American Bistroo,False,1,Pizza;Burgers;Chinese,Pizza,False,own name
+r-hotel-sitara-grand-n7243946116,Hotel Sitara Grand,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sheela-cafe-n7243974415,Sheela Cafe,False,1,Cafe,Cafe,False,own name
+r-raju-fast-food-n7243974418,Raju fast food,False,1,Fast Food,Fast Food,False,own name
+r-mrcb-restaurant-n7243983824,MRCB  Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-dhivija-s-take-away-n7243983826,Dhivija's Take away,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mahati-restaurant-n7244017401,Mahati restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chat-bander-n7244022650,Chat bander,False,1,Fast Food,Fast Food,False,own name
+r-rajugari-pulav-n7244029373,Rajugari Pulav,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-biryani-s-more-n7244029374,Biryani's & More,False,1,Biryani,Biryani,False,own name
+r-eat-in-peace-n7244113094,Eat in peace,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-meeraj-bawarchi-n7244140128,Meeraj Bawarchi,False,1,Indian;Chinese,Indian,False,own name
+r-hot-chips-n7244141585,Hot Chips,False,1,Fast Food,Fast Food,False,own name
+r-sri-ratna-n7244226215,Sri Ratna,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-dairy-queen-n7244238271,Dairy Queen,False,1,Desserts;Burgers,Desserts,False,own name
+r-siddharath-mess-n7244243970,Siddharath Mess,False,1,South Indian,South Indian,False,own name
+r-driveway-n7244246181,Driveway,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sandwich-eatery-n7244260608,Sandwich Eatery,False,1,Sandwiches,Sandwiches,False,own name
+r-taaza-tiffins-n7244263505,Taaza Tiffins,False,1,Indian,Indian,False,own name
+r-reddy-s-tiffin-center-n7244480642,Reddy's tiffin center,False,1,South Indian,South Indian,False,own name
+r-reddy-s-tiffin-center-n7244480649,Reddy's tiffin center,False,1,South Indian,South Indian,False,own name
+r-anupama-restaurant-n7244480683,Anupama Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-paradise-n7244487785,Hotel Paradise,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-kings-restaurant-n7244487791,King’s Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-food-on-fire-n7244487828,Food on fire,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-delhi-chat-food-court-n7246495319,Delhi Chat Food Court,False,1,Fast Food,Fast Food,False,own name
+r-sri-sai-bakery-and-fastfood-n7246495502,Sri sai bakery and fastfood,False,1,Bakery;Fast Food,Bakery,False,own name
+r-lucky-chicken-mutton-shop-n7246495620,"Lucky Chicken,Mutton Shop",False,1,Fried Chicken,Fried Chicken,False,own name
+r-makers-of-milkshake-n7246498944,Makers of Milkshake,False,1,Cafe,Cafe,False,own name
+r-guma-gumalu-n7246509983,Guma Gumalu,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-rv-spice-n7246517950,RV Spice,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-indian-cafe-n7246564074,Indian cafe,False,1,Cafe,Cafe,False,own name
+r-akshaya-n7246579316,Akshaya,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ratna-pure-veg-n7246751300,Ratna pure veg,False,1,Multi-cuisine,Multi-cuisine,True,own name
+r-pakwan-grand-n7248877412,Pakwan Grand,False,1,Kebab & Grill;Indian;Fried Chicken,Kebab & Grill,False,own name
+r-shah-ghouse-n7248877413,Shah Ghouse,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ohri-s-nautankigalli-n7248877416,Ohri's Nautankigalli,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-king-cardinal-n726706999,King & Cardinal,False,1,Fast Food,Fast Food,False,own name
+r-lucky-hotel-n728328520,Lucky Hotel,False,1,Cafe,Cafe,False,own name
+r-hotel-fishland-n728861440,Hotel Fishland,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sahara-restaurant-n7463187079,Sahara Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-surabhi-udupi-veg-n7473072329,Hotel Surabhi Udupi Veg,False,1,South Indian,South Indian,True,own name
+r-athidi-family-restaurant-n7473077258,Athidi Family Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-master-chef-n7473080338,Master Chef,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-x-n7508813778,نیاگرا ہوٹل,False,1,Indian;Kebab & Grill;Desserts,Indian,False,own name
+r-grand-bavarchi-n7576018686,Grand Bavarchi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-bezawada-bhojanam-n7608583804,Bezawada Bhojanam,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ye-lo-chai-n7608653251,Ye Lo Chai,False,1,Cafe,Cafe,False,own name
+r-bihari-mama-hotel-n7608736502,Bihari Mama Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-rasooi-ghar-n7611073843,Rasooi Ghar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chatees-36-n762995567,Chatees 36,False,1,Indian,Indian,False,own name
+r-royal-reve-hotel-n7642365583,Royal Reve Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-persis-paradise-n7644477014,Hotel Persis Paradise,False,1,Indian;Kebab & Grill;Desserts,Indian,False,own name
+r-lake-view-bar-restaurant-n7796335942,Lake view bar & restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-times-tiffins-n7834287539,Times Tiffins,False,1,South Indian,South Indian,False,own name
+r-chikpet-donne-biriyani-house-n7836389745,Chikpet Donne Biriyani House,False,1,Biryani,Biryani,False,own name
+r-sri-raghavendra-bhavan-udipi-n7836389749,Sri Raghavendra Bhavan Udipi,False,1,North Indian;Chinese;Indian,North Indian,True,own name
+r-athidhi-restaurant-n7836389751,Athidhi Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-lassi-shop-n7860471142,Lassi Shop,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-holy-kitchen-n7874934614,Holy Kitchen,False,1,Chinese;Asian,Chinese,False,own name
+r-deccan-elite-restaurant-n7892309462,Deccan Elite Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tabla-restaurant-n7936153755,Tabla Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-brijswer-aahar-n8006967780,Brijswer Aahar,False,1,Fast Food,Fast Food,False,own name
+r-leon-s-burger-n8007003786,Leon's Burger,False,1,Burgers,Burgers,False,own name
+r-x-n8066278048,لکی ریسٹورانٹ,False,1,Indian;Kebab & Grill;Desserts,Indian,False,own name
+r-sai-darshini-n8107751448,Sai Darshini,False,1,Cafe;Chinese,Cafe,False,own name
+r-m-s-grills-n-chills-n8107755744,M/s. Grills N Chills,False,1,Kebab & Grill;Indian;Chinese,Kebab & Grill,False,own name
+r-amaravathi-tiffens-n8107767453,Amaravathi Tiffens,False,1,Indian,Indian,False,own name
+r-akshya-tiffens-n8107785189,Akshya Tiffens,False,1,Indian,Indian,False,own name
+r-9-amma-mandi-n8110848041,9 Amma Mandi,False,1,Arabian,Arabian,False,own name
+r-master-kabab-n8110979060,Master Kabab,False,1,Fried Chicken;Seafood;Kebab & Grill,Fried Chicken,False,own name
+r-laxman-ki-bandi-n8110990943,Laxman ki bandi,False,1,Indian,Indian,False,own name
+r-suprabath-tiffins-n8110991126,Suprabath Tiffins,False,1,South Indian,South Indian,False,own name
+r-mahalaxmi-tiffins-n8110994555,Mahalaxmi tiffins,False,1,Indian;South Indian,Indian,False,own name
+r-surabhi-bar-and-restaurant-n8111070732,Surabhi Bar and Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-subash-chandra-bose-n8113801608,Subash Chandra Bose,False,1,Fast Food,Fast Food,False,own name
+r-bismillah-hotel-n8170346620,Bismillah Hotel,False,1,Tea;Cafe,Tea,False,own name
+r-cocos-n817353890,Cocos,False,1,Indian,Indian,False,own name
+r-pizza-corner-n817354197,Pizza Corner,False,1,Pizza,Pizza,False,own name
+r-tabala-n8195791311,Tabala,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sri-raghavendra-hotel-n8230990104,Sri Raghavendra Hotel,False,1,Chinese,Chinese,False,own name
+r-qutub-shahi-kitchens-n8230990105,Qutub Shahi Kitchens,False,1,Chinese;Indian,Chinese,False,own name
+r-sri-balaji-veg-n8232796799,Sri Balaji Veg,False,1,Multi-cuisine,Multi-cuisine,True,own name
+r-oyalo-pizza-n8233202642,Oyalo Pizza,False,1,Pizza,Pizza,False,own name
+r-david-s-kitchen-n8233202644,David's Kitchen,False,1,Chinese,Chinese,False,own name
+r-noodles-corner-n8233202645,Noodles Corner,False,1,Chinese;Kebab & Grill,Chinese,False,own name
+r-ganesh-food-court-n8233202654,Ganesh Food Court,False,1,Pizza;Burgers;Sandwiches,Pizza,False,own name
+r-hotel-akshaya-n8233700526,Hotel Akshaya,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-vv-tiffins-n8240054571,VV Tiffins,False,1,Breakfast,Breakfast,False,own name
+r-sreem-curry-point-n8287449487,Sreem Curry Point,False,1,Fast Food,Fast Food,False,own name
+r-shagh-house-n8315147286,Shagh House,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sreezen-the-shawarma-hub-n8332734825,Sreezen the Shawarma Hub,False,1,Arabian;Kebab & Grill,Arabian,False,own name
+r-lucky-restaurant-n8386499083,Lucky Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tasty-train-n8386503704,Tasty Train,False,1,Indian;Chinese;Fried Chicken,Indian,False,own name
+r-hi-tech-fast-food-center-n8386697006,Hi-tech fast food center,False,1,Fast Food,Fast Food,False,own name
+r-shade-n8387157865,Shade,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-luckys-n8387157866,Luckys,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-manus-kitchen-n8387157890,Manus Kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-raaga-n8465488365,Raaga,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-spg-grand-n8465488367,SPG Grand,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ghmc-annapurna-food-center-n8514798391,GHMC Annapurna Food Center,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ghmc-annapurna-center-n8514821417,GHMC Annapurna Center,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-garden-restaurant-n854960920,Garden Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-moon-bean-cafe-bar-n8866661348,Moon Bean Cafe bar,False,1,Cafe,Cafe,False,own name
+r-hard-rock-cafe-n889642289,Hard Rock Cafe,False,1,Burgers,Burgers,False,own name
+r-haveli-n889650690,Haveli,False,1,Indian,Indian,False,own name
+r-kamath-hotel-n889674219,Kamath Hotel,False,1,Multi-cuisine,Multi-cuisine,True,own name
+r-nanking-n889676523,Nanking,False,1,Chinese,Chinese,False,own name
+r-grand-minerva-n890303724,Grand Minerva,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-indijoe-n890308905,Indijoe,False,1,Burgers,Burgers,False,own name
+r-aromas-of-china-n890310144,Aromas of China,False,1,Chinese,Chinese,False,own name
+r-sahib-sindh-sultan-n890311840,Sahib Sindh Sultan,False,1,Indian,Indian,False,own name
+r-oh-my-grill-n8909248520,Oh My Grill,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-sai-durga-family-restuarant-n8909248526,Sai Durga Family Restuarant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chilly-s-restaurant-n891324851,Chilly's Restaurant,False,1,Multi-cuisine,Multi-cuisine,True,own name
+r-hashtag-n8921450263,Hashtag,False,1,Cafe,Cafe,False,own name
+r-x-n8978050171,پستا ہاؤس,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-protein-and-more-n8990526578,Protein And More,False,1,Kebab & Grill,Kebab & Grill,False,own name
+r-joint-al-mandi-n8990527620,Joint-Al-Mandi,False,1,Arabian,Arabian,False,own name
+r-parivar-vegetarian-n8990527811,Parivar Vegetarian,False,1,Multi-cuisine,Multi-cuisine,True,own name
+r-krithunga-restaurent-n8990530850,Krithunga Restaurent,False,1,Indian,Indian,False,own name
+r-am-pm-shawarma-n8995827803,AM-PM Shawarma,False,1,Arabian,Arabian,False,own name
+r-pizza-corner-n902311098,Pizza Corner,False,1,Pizza,Pizza,False,own name
+r-aqeeq-multi-cuisine-restaurant-cafe-555-n9093559317,Aqeeq Multi Cuisine Restaurant & Cafe 555,False,1,Indian,Indian,False,own name
+r-ammamagari-illu-n9093598817,Ammamagari Illu,False,1,Cafe,Cafe,False,own name
+r-vindhu-tiffins-n9094232018,Vindhu Tiffins,False,1,South Indian,South Indian,False,own name
+r-hummingbird-cafe-n9150847517,HummingBird Café,False,1,Cafe,Cafe,False,own name
+r-water-front-n928692476,Water Front,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-annapurna-tiffins-n9369549951,Annapurna tiffins,False,1,Indian,Indian,False,own name
+r-aaswadh-n9369819264,Aaswadh,False,1,Indian,Indian,False,own name
+r-kings-palace-n9369819267,Kings palace,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-zam-zam-n9369819268,Zam Zam,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mcdonals-mcd-n9370052905,Mcdonals.(Mcd),False,1,Pizza,Pizza,False,own name
+r-terrace-grill-n9370052907,Terrace grill,False,1,Burgers,Burgers,False,own name
+r-sai-cakes-and-bakes-n9414614413,Sai Cakes and Bakes,False,1,Pizza;Chinese;Desserts,Pizza,False,own name
+r-amaravati-restaurant-n9414622045,Amaravati Restaurant,False,1,Indian,Indian,False,own name
+r-roobaroo-cafe-n9713129747,Roobaroo Cafe,False,1,Cafe,Cafe,False,own name
+r-n-s-pizza-hub-n9731704308,N S Pizza Hub,False,1,Pizza,Pizza,False,own name
+r-ram-ki-bandi-n9732460760,Ram Ki Bandi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-jusylife-n9748215760,JusyLife,False,1,Indian;Asian;Continental,Indian,False,own name
+r-amano-cafe-n9766930174,Amano Cafe,False,1,Mexican,Mexican,False,own name
+r-grill-n9903794533,Grill,False,1,Fried Chicken;Kebab & Grill;Indian,Fried Chicken,False,own name
+r-hderabad-restaurant-n9903874812,Hderabad restaurant,False,1,Chinese;Biryani,Chinese,False,own name
+r-kodi-kura-chitti-gari-n9903904322,Kodi kura chitti gari,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-orient-cafe-n9903904325,Orient Cafe,False,1,Cafe,Cafe,False,own name
+r-desi-donne-biryani-n9907852281,Desi Donne Biryani,False,1,Biryani;Indian,Biryani,False,own name
+r-italian-pizzeria-n9913821026,Italian Pizzeria,False,1,Pizza,Pizza,False,own name
+r-tasty-touch-n9914161642,Tasty Touch,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ananya-food-court-n9917000634,Ananya Food Court,False,1,Fast Food,Fast Food,False,own name
+r-mahesh-tiffin-center-n9918495806,Mahesh Tiffin Center,False,1,South Indian,South Indian,False,own name
+r-chick-blast-n9918552428,Chick Blast,False,1,Fried Chicken,Fried Chicken,False,own name
+r-the-7-hills-restaurant-and-bar-n9918563534,The 7 Hills Restaurant and Bar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sagar-s-kitchen-n9918563535,Sagar's Kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mandi-chaloo-n9924632184,Mandi chaloo,False,1,Arabian,Arabian,False,own name
+r-city-cafe-n9924632185,City Cafe,False,1,Cafe,Cafe,False,own name
+r-udipi-s-aahar-n9958221196,Udipi's Aahar,False,1,South Indian,South Indian,True,own name
+r-delhi-mitai-vatika-w1043695034,Delhi Mitai Vatika,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-roast-ccx-w1059327349,Roast CCx,False,1,Cafe,Cafe,False,own name
+r-laya-restaurant-w1076262691,Laya Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-eruvaka-food-zone-w1123874128,Eruvaka food zone,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mayur-tiffins-w1161973357,Mayur Tiffins,False,1,South Indian,South Indian,False,own name
+r-raghavendra-tiffin-centre-w1164100703,Raghavendra Tiffin Centre,False,1,South Indian,South Indian,False,own name
+r-meghana-s-biryani-w1186765004,Meghana's Biryani,False,1,Biryani,Biryani,False,own name
+r-swach-w1199766652,Swach,False,1,South Indian;Indian,South Indian,False,own name
+r-concu-w1235253343,Conçu,False,1,Cafe,Cafe,False,own name
+r-tiffin-center-w1236743616,Tiffin Center,False,1,South Indian,South Indian,False,own name
+r-chicken-centre-w1236750025,Chicken Centre,False,1,Fried Chicken,Fried Chicken,False,own name
+r-lakshmi-fast-food-w1236750026,Lakshmi Fast Food,False,1,Mexican,Mexican,False,own name
+r-ayappa-hotel-w1256876005,Ayappa Hotel,False,1,Indian,Indian,False,own name
+r-cara-cara-hyderabad-w1279292305,Cara Cara Hyderabad,False,1,Continental;Indian;Asian,Continental,False,own name
+r-snap-mandi-w1303942376,Snap Mandi,False,1,Arabian;Fried Chicken;Seafood,Arabian,False,own name
+r-aazebo-the-royal-arabian-restaurant-w1349738795,Aazebo - The Royal Arabian Restaurant,False,1,Arabian,Arabian,False,own name
+r-sher-e-punjab-dhaba-w1385721771,Sher-e-Punjab Dhaba,False,1,Indian,Indian,False,own name
+r-ira-kitchen-and-bar-w1416994348,IRA Kitchen and Bar,False,1,Indian;Chinese;Continental,Indian,False,own name
+r-cosmos-cafe-w1426461988,Cosmos Cafe,False,1,Cafe,Cafe,False,own name
+r-swaad-w1452411994,Swaad,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-badugu-david-s-canteen-w1459903876,Badugu David's Canteen,False,1,Indian;Rolls & Wraps;Fast Food,Indian,False,own name
+r-juice-canteen-w1460129001,Juice Canteen,False,1,Juices & Shakes,Juices & Shakes,False,own name
+r-bakul-mess-w1460129004,Bakul Mess,False,1,South Indian,South Indian,False,own name
+r-multi-cuisine-restaurant-baghlingampally-w1465001194,Multi Cuisine Restaurant baghlingampally,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-coffee-centre-w1465001200,Coffee Centre,False,1,Cafe,Cafe,False,own name
+r-kahani-cafe-w1489792397,Kahani Cafe,False,1,Indian;Fried Chicken;Italian,Indian,False,own name
+r-plaza-w1500229722,Plaza,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ouce-canteen-w1544837614,Ouce Canteen,False,1,Breakfast,Breakfast,False,own name
+r-al-rabia-wrap-w1551222726,Al rabia wrap,False,1,Burgers;Fried Chicken;Seafood,Burgers,False,own name
+r-spicy-hub-w232954418,Spicy Hub,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-udupy-ahar-w251804591,Udupy Ahar,False,1,South Indian,South Indian,True,own name
+r-canteen-w256686042,Canteen,False,1,Cafe,Cafe,False,own name
+r-al-saba-restaurant-w264993835,Al-Saba Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-vashista-restaurant-w265418249,Vashista Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-wine-shop-w265419661,Wine Shop,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ruchi-chinese-fast-food-w265419897,Ruchi Chinese Fast Food,False,1,Chinese;Fast Food,Chinese,False,own name
+r-moksh-banquets-w265428993,Moksh Banquets,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-abbai-tiffin-center-w265631788,Abbai Tiffin Center,False,1,South Indian,South Indian,False,own name
+r-salsa-w265634539,Salsa,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-raghavendra-tiffins-w331355959,Raghavendra Tiffins,False,1,South Indian,South Indian,False,own name
+r-one-place-w331631419,One Place,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-woodlands-w331633398,Woodlands,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-metro-paradise-w331634059,Metro Paradise,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chaitanya-food-court-w332095970,Chaitanya Food Court,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-cliff-cafe-w339702114,Cliff Cafe,False,1,Pizza;Burgers;Cafe,Pizza,False,own name
+r-sri-forum-food-court-w340062816,Sri Forum Food Court,False,1,Fried Chicken;Cafe;Kebab & Grill,Fried Chicken,False,own name
+r-madhushala-w340235296,Madhushala,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-country-oven-w340800630,Country Oven,False,1,Burgers;Pizza;Sandwiches,Burgers,False,own name
+r-cafe-shop-w343607169,Cafe Shop,False,1,Cafe,Cafe,False,own name
+r-bommarillu-restaurant-w355685923,Bommarillu Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-urban-kitchen-w355894929,Urban Kitchen,False,1,Indian,Indian,False,own name
+r-udipi-hotel-w355895211,Udipi Hotel,False,1,Breakfast,Breakfast,True,own name
+r-hotel-california-w355950444,Hotel California,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mr-monk-w355962356,Mr Monk,False,1,Burgers;Cafe;Sandwiches,Burgers,False,own name
+r-food-court-w355996195,Food court,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-monginis-cake-shop-w356021831,Monginis Cake Shop,False,1,Bakery,Bakery,False,own name
+r-industrial-cafe-w356175873,Industrial cafe,False,1,Cafe,Cafe,False,own name
+r-momadia-shawarma-w356176894,Momadia Shawarma,False,1,Arabian,Arabian,False,own name
+r-beyond-coffee-w356233926,Beyond Coffee,False,1,Cafe,Cafe,False,own name
+r-le-vantage-cafe-bar-w356234447,Le Vantage Cafe Bar,False,1,Cafe,Cafe,False,own name
+r-jamun-hyderabad-w356234471,Jamun Hyderabad,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-mefhil-w356283222,Mefhil,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-spicy-venue-w356287939,The Spicy Venue,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-rangoli-food-court-w356438957,Rangoli Food Court,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-telangana-spice-kitchen-bar-grill-w356458936,Telangana Spice Kitchen Bar&Grill,False,1,Kebab & Grill;Andhra,Kebab & Grill,False,own name
+r-hashi-w356459249,Hashi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-bawarchi-hotel-w356460179,Bawarchi Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-rambharosa-tiffins-w356482415,Rambharosa Tiffins,False,1,Indian,Indian,False,own name
+r-capital-resturant-w356511728,Capital Resturant,False,1,Kebab & Grill;Fried Chicken;Indian,Kebab & Grill,False,own name
+r-daffodils-cafe-w356516843,Daffodils cafe,False,1,Bakery;Italian;Cafe,Bakery,False,own name
+r-orleans-chamber-w356520827,Orleans chamber,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-heart-cup-coffee-w356548235,Heart Cup Coffee,False,1,Pizza;Burgers;Cafe,Pizza,False,own name
+r-marjan-hotel-w356555646,Marjan hotel,False,1,Arabian,Arabian,False,own name
+r-suruchi-w357040594,Suruchi,False,1,Cafe,Cafe,False,own name
+r-captian-cook-resturant-w357047208,Captian Cook Resturant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-arun-icecream-w357354905,Arun Icecream,False,1,Desserts,Desserts,False,own name
+r-louis-burger-w357457072,Louis Burger,False,1,Burgers,Burgers,False,own name
+r-joy-cafe-w357589514,Joy cafe,False,1,Cafe,Cafe,False,own name
+r-sri-balaji-mithai-shop-w357589698,Sri Balaji Mithai Shop,False,1,Desserts,Desserts,False,own name
+r-sri-chandana-w357589744,Sri Chandana,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-chat-bandhar-w357590918,Chat Bandhar,False,1,Indian,Indian,False,own name
+r-x-w357628456,سہیل ہوٹل,False,1,Indian;Kebab & Grill;Desserts,Indian,False,own name
+r-happy-tummy-hotel-w357692529,Happy Tummy Hotel,False,1,Indian;Chinese,Indian,False,own name
+r-santosh-dabba-w357969299,Santosh Dabba,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-ragavendhra-tiffin-center-w358053596,Ragavendhra Tiffin Center,False,1,South Indian,South Indian,False,own name
+r-lush-cafe-by-the-lake-w360462644,Lush Cafe | By the Lake,False,1,Cafe,Cafe,False,own name
+r-grill-9-w360822872,Grill 9,False,1,Indian,Indian,False,own name
+r-alfa-hotel-w361507579,Alfa Hotel,False,1,Indian,Indian,False,own name
+r-the-glass-onion-w412935840,The Glass Onion,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-hive-drive-in-w416986626,The Hive Drive In,False,1,Burgers;Pizza;Chinese,Burgers,False,own name
+r-chai-shai-bar-w466833777,Chai Shai Bar,False,1,Tea,Tea,False,own name
+r-bawarchi-w466872240,Bawarchi,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-sanchalan-bhavan-canteen-w536886955,Sanchalan Bhavan Canteen,False,1,South Indian,South Indian,True,own name
+r-bolledupati-sitaram-and-brothers-bsb-canteen-w540025634,Bolledupati Sitaram and Brothers (BSB) Canteen,False,1,Indian;Breakfast;South Indian,Indian,False,own name
+r-ginger-spice-restaurant-w546498877,Ginger Spice Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-drive-n-dine-drive-in-restaurant-w551247982,Drive N' Dine - Drive in Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-amogha-tiffin-center-w568468273,Amogha Tiffin Center,False,1,South Indian,South Indian,False,own name
+r-white-board-cafe-w596783347,White Board Cafe,False,1,Cafe,Cafe,False,own name
+r-chaitanya-banquet-hall-w621792361,Chaitanya Banquet Hall,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-indu-deluxe-w627094416,Hotel Indu Deluxe,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-hotel-kamat-w627094419,Hotel Kamat,False,1,Multi-cuisine,Multi-cuisine,True,own name
+r-hotel-panchsheel-pakwaan-w627094420,Hotel Panchsheel Pakwaan,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-tilaks-kitchen-w642208375,Tilaks Kitchen,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-lucky-resturant-w680561235,Lucky Resturant,False,1,Indian;Kebab & Grill;Desserts,Indian,False,own name
+r-pine-w733460791,Pine,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-rameshwaram-cafe-w744820578,The Rameshwaram Cafe,False,1,South Indian,South Indian,False,own name
+r-madura-indian-fusion-restaurant-w753231497,Madura Indian Fusion Restaurant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-trp-resturant-w756209350,TRP Resturant,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-laya-w758927127,Laya,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-modern-hotel-w758940800,Modern Hotel,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-syala-drive-in-w768455933,Syala Drive in,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-savage-chinese-and-american-bistro-w776390925,Savage Chinese and American Bistro,False,1,Burgers;Pizza;Fried Chicken,Burgers,False,own name
+r-sri-sai-bakery-w776650861,Sri Sai bakery,False,1,Bakery,Bakery,False,own name
+r-am-pm-cafe-w793742731,Am- Pm cafe,False,1,Indian,Indian,False,own name
+r-blue-sky-restaurant-bar-w840882469,Blue Sky Restaurant & Bar,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-the-pavilion-drive-in-w889543541,The Pavilion Drive-In,False,1,Burgers;Pizza;Italian,Burgers,False,own name
+r-panchabhakshya-w901041083,Panchabhakshya,False,1,Indian;Chinese,Indian,False,own name
+r-one-drive-in-w960681062,One Drive In,False,1,Multi-cuisine,Multi-cuisine,False,own name
+r-theory-cafe-desert-bar-w960681063,Theory Cafe & Desert Bar,False,1,Cafe,Cafe,False,own name
+r-palash-mess-w96346275,Palash Mess,False,1,South Indian,South Indian,False,own name

@@ -1,0 +1,320 @@
+﻿dish_id,name,category,course,is_veg,spice_level,serves,price_low,price_high,aliases,notes
+chicken-dum-biryani,Chicken Dum Biryani,biryani,main,false,2,1,220,420,chicken biryani;chicken biriyani;chicken briyani;chicken biryaani;chicken beryani;chiken biryani;chkn biryani;chicken dum biriyani;hyderabadi chicken biryani;hyderabadi biryani;murgh biryani;murg biryani;murgh dum biryani;kodi biryani;kodi biriyani;kodi biryani hyderabadi;చికెన్ బిర్యానీ;కోడి బిర్యానీ;చికెన్ దమ్ బిర్యానీ;హైదరాబాదీ బిర్యానీ,half plate
+chicken-dum-biryani-full,Chicken Dum Biryani (Full),biryani,main,false,2,2,380,750,chicken biryani full;full chicken biryani;full biryani;biryani full plate;chicken biryani for two;chicken biryani 2 persons;chicken biryani family pack;family pack biryani;kodi biryani full;ఫుల్ బిర్యానీ;చికెన్ బిర్యానీ ఫుల్,full plate serves 2
+chicken-fry-piece-biryani,Chicken Fry Piece Biryani,biryani,main,false,2,1,240,380,fry piece biryani;fry piece biriyani;chicken fry piece biriyani;chicken fry biryani;fried chicken biryani;kodi vepudu biryani;ఫ్రై పీస్ బిర్యానీ;చికెన్ ఫ్రై పీస్ బిర్యానీ,
+chicken-65-biryani,Chicken 65 Biryani,biryani,main,false,3,1,250,380,65 biryani;chicken 65 biriyani;chicken sixty five biryani;చికెన్ 65 బిర్యానీ,
+mutton-dum-biryani,Mutton Dum Biryani,biryani,main,false,2,1,320,560,mutton biryani;mutton biriyani;mutton briyani;muton biryani;mutton dum biriyani;gosht biryani;ghosht biryani;gosht ki biryani;lamb biryani;goat biryani;mamsam biryani;maamsam biryani;hyderabadi mutton biryani;kacchi biryani;kachchi biryani;kacchi gosht biryani;మటన్ బిర్యానీ;మాంసం బిర్యానీ;మటన్ దమ్ బిర్యానీ,half plate
+mutton-dum-biryani-full,Mutton Dum Biryani (Full),biryani,main,false,2,2,580,1000,mutton biryani full;full mutton biryani;mutton biryani for two;mutton biryani 2 persons;mutton biryani family pack;మటన్ బిర్యానీ ఫుల్,full plate serves 2
+egg-biryani,Egg Biryani,biryani,main,false,2,1,170,300,egg biriyani;egg briyani;egg biryaani;anda biryani;ande ki biryani;guddu biryani;kodiguddu biryani;ఎగ్ బిర్యానీ;గుడ్డు బిర్యానీ,egg counts as non-veg
+veg-dum-biryani,Veg Dum Biryani,biryani,main,true,2,1,170,320,veg biryani;veg biriyani;veg briyani;vej biryani;vegetable biryani;vegetable dum biryani;subz biryani;sabzi biryani;tarkari biryani;shakahari biryani;kuragayala biryani;వెజ్ బిర్యానీ;కూరగాయల బిర్యానీ,
+paneer-biryani,Paneer Biryani,biryani,main,true,2,1,220,360,paneer biriyani;paneer briyani;panner biryani;paner biryani;పనీర్ బిర్యానీ,
+mushroom-biryani,Mushroom Biryani,biryani,main,true,2,1,200,330,mushroom biriyani;mashroom biryani;puttagodugu biryani;మష్రూమ్ బిర్యానీ;పుట్టగొడుగు బిర్యానీ,
+prawns-biryani,Prawns Biryani,biryani,main,false,2,1,320,520,prawn biryani;prawns biriyani;prawn biriyani;shrimp biryani;jhinga biryani;royyala biryani;royyalu biryani;రొయ్యల బిర్యానీ,
+fish-biryani,Fish Biryani,biryani,main,false,2,1,300,480,fish biriyani;machli biryani;machhi biryani;chepa biryani;chepala biryani;చేపల బిర్యానీ;ఫిష్ బిర్యానీ,
+ulavacharu-chicken-biryani,Ulavacharu Chicken Biryani,biryani,main,false,3,1,260,400,ulavacharu biryani;ulava charu biryani;ulavacharu kodi biryani;horse gram chicken biryani;ఉలవచారు బిర్యానీ;ఉలవచారు చికెన్ బిర్యానీ,Andhra
+gongura-chicken-biryani,Gongura Chicken Biryani,biryani,main,false,3,1,250,380,gongura biryani;gongura kodi biryani;gongoora biryani;గోంగూర బిర్యానీ;గోంగూర చికెన్ బిర్యానీ,Andhra
+natu-kodi-biryani,Natu Kodi Biryani,biryani,main,false,3,1,300,480,natu kodi biriyani;country chicken biryani;desi chicken biryani;desi murgh biryani;naatu kodi biryani;నాటు కోడి బిర్యానీ,country chicken
+chicken-donne-biryani,Chicken Donne Biryani,biryani,main,false,2,1,220,350,donne biryani;donne biriyani;dhonne biryani;bangalore biryani;chicken donne biriyani;దొన్నె బిర్యానీ,Bangalore style; name hint only
+chicken-kunda-biryani,Chicken Kunda Biryani,biryani,main,false,2,1,260,420,kunda biryani;kunda biriyani;pot biryani;matka biryani;handi biryani;కుండ బిర్యానీ,clay-pot style; name hint only
+bagara-rice,Bagara Rice,rice,side,true,1,1,120,200,bagara annam;bagara khana;khuska rice;kushka;khushka;biryani rice;plain biryani;బగారా అన్నం;బగారా రైస్,Hyderabadi spiced rice
+chicken-mandi,Chicken Mandi,mandi,main,false,1,1,280,450,chicken mandhi;chiken mandi;murgh mandi;kodi mandi;arabian chicken mandi;mandi chicken;చికెన్ మండి,single
+chicken-mandi-full,Chicken Mandi (Serves 2),mandi,main,false,1,2,480,850,chicken mandi full;full chicken mandi;chicken mandi for two;mandi for two;chicken mandi 2 persons;family mandi;చికెన్ మండి ఫుల్,serves 2
+chicken-fry-mandi,Chicken Fry Mandi,mandi,main,false,2,1,300,480,fry mandi;fried chicken mandi;chicken fry mandhi;ఫ్రై మండి;చికెన్ ఫ్రై మండి,
+mutton-mandi,Mutton Mandi,mandi,main,false,1,1,420,650,mutton mandhi;gosht mandi;lamb mandi;mamsam mandi;మటన్ మండి,single
+mutton-mandi-full,Mutton Mandi (Serves 2),mandi,main,false,1,2,750,1300,mutton mandi full;full mutton mandi;mutton mandi for two;mutton mandi 2 persons;మటన్ మండి ఫుల్,serves 2
+fish-mandi,Fish Mandi,mandi,main,false,2,1,350,550,fish mandhi;machli mandi;chepa mandi;చేపల మండి,
+mandi-rice,Mandi Rice (Plain),rice,side,true,0,1,130,220,mandi rice;plain mandi rice;mandi rice only;mandi chawal;మండి రైస్,
+alfaham-chicken,Alfaham Chicken (Half),kebab,main,false,1,1,220,380,alfaham chicken;alfaham;al faham;alfahm;alfaham chicken half;arabian grilled chicken;అల్ఫహం,
+hummus-pita,Hummus with Pita,starter,side,true,0,1,180,300,hummus;humus;hommos;houmous;hummus pita;hummus with pita bread;హమ్మస్,
+falafel-wrap,Falafel Wrap,roll,main,true,1,1,130,240,falafel;felafel;falafel roll;falafel sandwich;falafel shawarma;ఫలాఫెల్,
+chicken-shawarma-roll,Chicken Shawarma Roll,shawarma,main,false,1,1,100,190,chicken shawarma;shawarma;shawarma roll;shawerma;shwarma;shawarama;sharwama;chicken shawerma;chicken shwarma;shawarma wrap;షవర్మా;చికెన్ షవర్మా,
+chicken-shawarma-plate,Chicken Shawarma Plate,shawarma,main,false,1,1,180,320,shawarma plate;plate shawarma;chicken shawarma platter;arabic shawarma plate;shawarma platter;షవర్మా ప్లేట్,
+paneer-shawarma,Paneer Shawarma Roll,shawarma,main,true,1,1,110,200,paneer shawarma;veg shawarma;paneer shawerma;paneer shwarma;పనీర్ షవర్మా,
+kunafa,Kunafa,dessert,dessert,true,0,1,180,320,kunafeh;knafeh;kanafa;kunefe;kunafah;కునాఫా,
+tandoori-chicken-half,Tandoori Chicken (Half),kebab,main,false,2,1,260,450,tandoori chicken;tandoori chicken half;half tandoori;half tandoori chicken;tandoori murgh;tandoori kodi;tanduri chicken;తందూరీ చికెన్,
+tandoori-chicken-full,Tandoori Chicken (Full),kebab,main,false,2,2,480,800,full tandoori chicken;tandoori chicken full;whole tandoori chicken;full tandoori;తందూరీ చికెన్ ఫుల్,serves 2
+chicken-tikka,Chicken Tikka,kebab,side,false,2,1,260,420,chiken tikka;murgh tikka;murg tikka;chicken tikka kebab;chicken tikka kabab;kodi tikka;చికెన్ టిక్కా,
+malai-tikka,Chicken Malai Tikka,kebab,side,false,1,1,280,440,malai tikka;murgh malai tikka;malai kebab;malai kabab;cream chicken tikka;reshmi tikka;reshmi kebab;మలై టిక్కా,
+chicken-seekh-kebab,Chicken Seekh Kebab,kebab,side,false,2,1,260,420,chicken seekh;chicken seekh kabab;chicken sheekh kabab;chicken seek kebab;chicken sheek kebab;చికెన్ సీక్ కబాబ్,
+mutton-seekh-kebab,Mutton Seekh Kebab,kebab,side,false,2,1,320,520,mutton seekh;seekh kebab;seekh kabab;sheek kabab;sheekh kebab;seek kabab;gosht seekh;mutton seek kebab;mutton sheek kabab;సీక్ కబాబ్,
+chicken-tangdi-kebab,Chicken Tangdi Kebab,kebab,side,false,2,1,280,450,tangdi kebab;tangdi kabab;tangri kabab;tangri kebab;chicken tangdi;chicken leg tandoori;టంగ్డీ కబాబ్,
+paneer-tikka,Paneer Tikka,kebab,side,true,1,1,240,380,panner tikka;paner tikka;paneer tikka kebab;paneer tikka kabab;tandoori paneer;పనీర్ టిక్కా,
+tandoori-mushroom,Tandoori Mushroom,kebab,side,true,1,1,220,340,mushroom tikka;tandoori mushrooms;mushroom tandoori;తందూరీ మష్రూమ్,
+fish-tikka,Fish Tikka,kebab,side,false,2,1,320,500,tandoori fish;machli tikka;fish tandoori;chepa tikka;ఫిష్ టిక్కా,
+tandoori-prawns,Tandoori Prawns,kebab,side,false,2,1,380,600,prawn tikka;prawns tikka;jhinga tandoori;tandoori jhinga;royyala tandoori;తందూరీ రొయ్యలు,
+mutton-shikampuri-kebab,Mutton Shikampuri Kebab,kebab,side,false,1,1,280,420,shikampuri;shikampuri kebab;shikampuri kabab;shikampoori;shami kebab;shami kabab;shammi kebab;shammi kabab;షికంపురి కబాబ్,Hyderabadi
+pathar-ka-gosht,Pathar ka Gosht,kebab,main,false,2,1,380,600,pathar gosht;patthar ka gosht;patthar gosht;pather ka gosht;stone grilled mutton;పత్తర్ కా గోష్ట్,Hyderabadi
+chicken-65,Chicken 65,starter,side,false,3,1,220,380,chicken sixty five;chiken 65;chkn 65;chicken 65 dry;kodi 65;chicken65;చికెన్ 65,
+chicken-majestic,Chicken Majestic,starter,side,false,2,1,240,380,majestic chicken;chicken majestik;చికెన్ మెజెస్టిక్,Hyderabadi
+chicken-lollipop,Chicken Lollipop,starter,side,false,2,1,240,380,chicken lolipop;chicken lollypop;lollipop chicken;lollipop;drums of heaven;చికెన్ లాలిపాప్,
+chilli-chicken,Chilli Chicken,starter,side,false,3,1,240,380,chili chicken;chilly chicken;chilli chicken dry;chicken chilli;చిల్లీ చికెన్,
+chicken-manchurian,Chicken Manchurian,starter,side,false,2,1,240,360,chicken manchuria;chicken manchoorian;chicken manchurian dry;చికెన్ మంచూరియా,
+dragon-chicken,Dragon Chicken,starter,side,false,3,1,260,400,dragon chiken;డ్రాగన్ చికెన్,
+pepper-chicken,Pepper Chicken,starter,side,false,3,1,260,400,chicken pepper fry;pepper chicken fry;miriyala kodi;miriyala chicken;kali mirch chicken;పెప్పర్ చికెన్;మిరియాల కోడి,
+apollo-fish,Apollo Fish,starter,side,false,3,1,300,480,appolo fish;apolo fish;apollo fish fry;అపోలో ఫిష్,Hyderabadi
+fish-fry,Fish Fry,starter,side,false,2,1,260,450,fried fish;chepa vepudu;chepala vepudu;chepala fry;chepa fry;machli fry;machhi fry;చేప వేపుడు;ఫిష్ ఫ్రై,
+prawns-fry,Prawns Fry,starter,side,false,3,1,320,520,prawn fry;prawns fry dry;royyala vepudu;royyalu fry;royyala fry;jhinga fry;రొయ్యల వేపుడు,
+chicken-fry-andhra,Andhra Chicken Fry,starter,side,false,3,1,240,380,chicken fry;kodi vepudu;kodi fry;andhra chicken fry;chicken vepudu;spicy chicken fry;కోడి వేపుడు;చికెన్ ఫ్రై,Andhra
+mutton-fry,Mutton Fry,starter,side,false,3,1,340,520,mutton vepudu;mamsam vepudu;maamsam vepudu;gosht fry;mutton sukka;మటన్ ఫ్రై;మాంసం వేపుడు,
+veg-manchurian,Veg Manchurian,starter,side,true,2,1,180,280,veg manchuria;vegetable manchurian;veg manchoorian;veg manchurian dry;manchurian;వెజ్ మంచూరియా;మంచూరియా,
+gobi-manchurian,Gobi Manchurian,starter,side,true,2,1,170,270,gobi manchuria;gobhi manchurian;cauliflower manchurian;gobi manchoorian;gobi 65;గోబీ మంచూరియా;క్యాలీఫ్లవర్ మంచూరియా,
+baby-corn-manchurian,Baby Corn Manchurian,starter,side,true,2,1,190,290,babycorn manchurian;baby corn manchuria;baby corn fry;బేబీ కార్న్ మంచూరియా,
+chilli-paneer,Chilli Paneer,starter,side,true,2,1,220,340,chili paneer;chilly paneer;paneer chilli;chilli panner;చిల్లీ పనీర్,
+paneer-65,Paneer 65,starter,side,true,2,1,220,340,panner 65;paneer sixty five;పనీర్ 65,
+crispy-corn,Crispy Corn,starter,side,true,1,1,180,280,crispy corn kernels;corn fry;crispy fried corn;క్రిస్పీ కార్న్,
+honey-chilli-potato,Honey Chilli Potato,starter,side,true,1,1,180,280,honey chili potato;chilli potato;honey potato;హనీ చిల్లీ పొటాటో,
+veg-spring-roll,Veg Spring Roll,starter,side,true,1,1,150,250,spring roll;spring rolls;veg spring rolls;vegetable spring roll;స్ప్రింగ్ రోల్,
+chicken-spring-roll,Chicken Spring Roll,starter,side,false,1,1,180,280,chicken spring rolls;చికెన్ స్ప్రింగ్ రోల్,
+chicken-pakoda,Chicken Pakoda,snack,side,false,2,1,150,260,chicken pakora;kodi pakodi;chicken pakodi;చికెన్ పకోడి,
+korean-fried-chicken,Korean Fried Chicken,starter,side,false,2,1,300,480,korean chicken;korean fried chiken;gochujang chicken;kfc korean style;కొరియన్ ఫ్రైడ్ చికెన్,
+mirchi-bajji,Mirchi Bajji,snack,side,true,2,1,40,90,mirchi bhajji;mirchi baji;mirapakaya bajji;mirchi pakoda;chilli bajji;మిర్చి బజ్జీ;మిరపకాయ బజ్జీ,
+onion-pakoda,Onion Pakoda,snack,side,true,1,1,60,120,onion pakora;pakoda;pakora;pakodi;onion bhaji;ullipaya pakodi;ulli pakodi;pyaaz pakoda;kanda bhaji;ఉల్లిపాయ పకోడి;పకోడి,
+samosa,Samosa (2 pcs),snack,side,true,1,1,20,60,samosa;samosas;samoosa;aloo samosa;samosa 2 pcs;సమోసా,
+lukhmi,Mutton Lukhmi,snack,side,false,1,1,30,70,lukhmi;lukmi;keema lukhmi;lukhmi samosa;లుఖ్మీ,Hyderabadi keema pastry
+bonda,Mysore Bonda,snack,side,true,1,1,50,90,bonda;mysore bonda;punugulu;punugu;bajji bonda;బోండా;పునుగులు,
+french-fries,French Fries,snack,side,true,0,1,90,200,fries;french fry;finger chips;chips;potato fries;salted fries;ఫ్రెంచ్ ఫ్రైస్,
+peri-peri-fries,Peri Peri Fries,snack,side,true,1,1,110,220,piri piri fries;peri peri french fries;masala fries;spicy fries;పెరి పెరి ఫ్రైస్,
+chicken-nuggets,Chicken Nuggets,fried_chicken,side,false,0,1,140,260,nuggets;chicken nugget;chiken nuggets;చికెన్ నగ్గెట్స్,
+popcorn-chicken,Popcorn Chicken,fried_chicken,side,false,1,1,150,260,chicken popcorn;popcorn chiken;పాప్‌కార్న్ చికెన్,
+chicken-wings,Chicken Wings,fried_chicken,side,false,2,1,200,350,wings;bbq wings;hot wings;peri peri wings;chicken wing;చికెన్ వింగ్స్,
+fried-chicken-2pc,Crispy Fried Chicken (2 pcs),fried_chicken,main,false,1,1,190,320,fried chicken;crispy fried chicken;hot and crispy chicken;fried chicken 2 piece;2 pc chicken;two piece chicken;ఫ్రైడ్ చికెన్,
+fried-chicken-bucket,Fried Chicken Bucket (Serves 2),fried_chicken,main,false,1,2,380,650,chicken bucket;bucket;fried chicken bucket;family bucket;bucket chicken;చికెన్ బకెట్,serves 2
+chicken-rice-bowl,Chicken Rice Bowl,fried_chicken,main,false,1,1,180,300,chicken bowl;chicken rice bowl meal;fried chicken rice bowl;చికెన్ రైస్ బౌల్,
+veg-rice-bowl,Veg Rice Bowl,rice,main,true,1,1,150,260,veg bowl;veg rice bowl meal;rajma rice bowl;వెజ్ రైస్ బౌల్,
+butter-chicken,Butter Chicken,curry,main,false,1,1,280,460,butter chiken;murgh makhani;murg makhani;chicken makhani;chicken makhanwala;butter chicken masala;బటర్ చికెన్,
+chicken-curry,Chicken Curry,curry,main,false,2,1,220,380,chicken masala;chiken curry;murgh curry;murgh masala;kodi kura;kodi koora;chicken kura;chicken koora;చికెన్ కర్రీ;కోడి కూర,
+kadai-chicken,Kadai Chicken,curry,main,false,2,1,260,420,kadhai chicken;karahi chicken;chicken kadai;chicken kadhai;కడాయి చికెన్,
+chicken-tikka-masala,Chicken Tikka Masala,curry,main,false,2,1,280,440,tikka masala;murgh tikka masala;chicken tikka curry;చికెన్ టిక్కా మసాలా,
+andhra-kodi-kura,Andhra Kodi Kura,curry,main,false,3,1,240,380,andhra chicken curry;andhra kodi koora;spicy chicken curry;andhra style chicken curry;ఆంధ్ర కోడి కూర,Andhra
+natu-kodi-pulusu,Natu Kodi Pulusu,curry,main,false,3,1,320,500,natu kodi curry;country chicken curry;desi murgh curry;naatu kodi pulusu;natu kodi kura;నాటు కోడి పులుసు,country chicken
+gongura-mutton,Gongura Mutton,curry,main,false,3,1,340,540,gongura mamsam;gongura maamsam;gongura gosht;gongoora mutton;sorrel mutton;గోంగూర మటన్;గోంగూర మాంసం,Andhra
+gongura-chicken,Gongura Chicken,curry,main,false,3,1,280,420,gongura kodi;gongoora chicken;gongura chicken curry;గోంగూర చికెన్;గోంగూర కోడి,Andhra
+mutton-curry,Mutton Curry,curry,main,false,2,1,320,520,mutton masala;gosht curry;gosht masala;mamsam kura;mamsam koora;maamsam kura;mutton kura;lamb curry;మటన్ కర్రీ;మాంసం కూర,
+mutton-rogan-josh,Mutton Rogan Josh,curry,main,false,2,1,360,560,rogan josh;roghan josh;rogan gosht;రోగన్ జోష్,
+mutton-korma,Mutton Korma,curry,main,false,1,1,360,560,gosht korma;mutton kurma;mutton qorma;మటన్ కుర్మా,
+chicken-korma,Chicken Korma,curry,main,false,1,1,280,440,murgh korma;chicken kurma;chicken qorma;చికెన్ కుర్మా,
+haleem,Mutton Haleem,curry,main,false,1,1,250,400,haleem;haleem mutton;hareesa;harees;halim;hyderabadi haleem;హలీమ్,Hyderabadi
+mirchi-ka-salan,Mirchi ka Salan,curry,side,true,2,1,120,200,mirchi salan;mirch ka salan;mirchi ka saalan;chilli salan;salan;మిర్చి కా సాలన్,Hyderabadi biryani side
+bagara-baingan,Bagara Baingan,curry,main,true,2,1,180,280,baghare baingan;bagare baingan;bagara vankaya;gutti vankaya;gutti vankaya kura;vankaya kura;baingan masala;brinjal curry;బగారా బైంగన్;గుత్తి వంకాయ కూర;వంకాయ కూర,Hyderabadi
+paneer-butter-masala,Paneer Butter Masala,curry,main,true,1,1,240,380,panner butter masala;paner butter masala;paneer makhani;paneer makhanwala;butter paneer;paneer butter;pbm;పనీర్ బటర్ మసాలా,
+kadai-paneer,Kadai Paneer,curry,main,true,2,1,240,380,kadhai paneer;karahi paneer;kadai panner;కడాయి పనీర్,
+palak-paneer,Palak Paneer,curry,main,true,1,1,230,360,spinach paneer;saag paneer;palakura paneer;palak panner;పాలక్ పనీర్,
+shahi-paneer,Shahi Paneer,curry,main,true,1,1,250,390,shahi panner;shahi paneer korma;షాహీ పనీర్,
+paneer-tikka-masala,Paneer Tikka Masala,curry,main,true,2,1,260,400,paneer tikka curry;panner tikka masala;పనీర్ టిక్కా మసాలా,
+mix-veg-curry,Mix Veg Curry,curry,main,true,1,1,180,300,mix veg;mixed veg;mixed vegetable curry;mix vegetable curry;veg kurma;vegetable kurma;veg korma;sabzi;mix veg kura;kuragayala kura;మిక్స్ వెజ్;వెజ్ కుర్మా;కూరగాయల కూర,
+aloo-gobi,Aloo Gobi,curry,main,true,1,1,170,280,aloo gobhi;alu gobi;aloo gobi masala;potato cauliflower curry;ఆలూ గోబీ,
+chana-masala,Chana Masala,curry,main,true,2,1,170,280,chole;chhole;chole masala;chana curry;chickpea curry;senagala kura;chanay;శెనగల కూర;చనా మసాలా,
+dal-tadka,Dal Tadka,curry,main,true,1,1,150,260,dal;daal;dhal;dal fry;daal fry;dal tadka fry;tadka dal;yellow dal;pappu;dal thadka;పప్పు;దాల్ ఫ్రై;దాల్ తడ్కా,
+dal-makhani,Dal Makhani,curry,main,true,1,1,200,330,daal makhani;dal makhni;dal makhanwala;black dal;maa ki dal;kali dal;దాల్ మఖనీ,
+tomato-pappu,Tomato Pappu,curry,main,true,1,1,130,220,tomato dal;tamata pappu;tomato pappu curry;tamatar dal;టమాటా పప్పు,Andhra
+egg-curry,Egg Curry,curry,main,false,2,1,160,280,egg masala;anda curry;ande ki curry;anda masala;guddu kura;kodiguddu kura;egg kura;ఎగ్ కర్రీ;గుడ్డు కూర,egg counts as non-veg
+fish-curry,Fish Curry,curry,main,false,3,1,280,460,chepala pulusu;chepa pulusu;fish pulusu;machli curry;machhi curry;fish masala;చేపల పులుసు;ఫిష్ కర్రీ,
+prawns-curry,Prawns Curry,curry,main,false,3,1,340,540,prawn curry;prawns masala;royyala kura;royyala iguru;royyalu kura;jhinga masala;jhinga curry;రొయ్యల కూర;రొయ్యల ఇగురు,
+thai-green-curry-veg,Thai Green Curry (Veg),curry,main,true,2,1,280,450,thai green curry;green curry;veg thai curry;thai curry;veg green curry;థాయ్ గ్రీన్ కర్రీ,
+thai-green-curry-chicken,Thai Green Curry (Chicken),curry,main,false,2,1,320,500,chicken thai green curry;chicken green curry;chicken thai curry;చికెన్ థాయ్ కర్రీ,
+sambar,Sambar,curry,side,true,1,1,40,90,sambhar;saambar;sambaar;sambar bowl;సాంబార్,
+rasam,Rasam,curry,side,true,2,1,40,90,chaaru;charu;tomato rasam;miriyala rasam;pepper rasam;saaru;రసం;చారు,
+dahi-chutney,Dahi Chutney,curry,side,true,0,1,30,60,dahi ki chutney;perugu chutney;curd chutney;దహీ చట్నీ,Hyderabadi biryani side
+raita,Raita,curry,side,true,0,1,60,120,raitha;boondi raita;onion raita;perugu pachadi;dahi raita;రైతా;పెరుగు పచ్చడి,
+gongura-pachadi,Gongura Pachadi,curry,side,true,3,1,60,120,gongura chutney;gongoora pachadi;sorrel chutney;గోంగూర పచ్చడి,Andhra
+green-salad,Green Salad,salad,side,true,0,1,80,150,salad;onion salad;cucumber salad;fresh salad;గ్రీన్ సలాడ్,
+veg-caesar-salad,Veg Caesar Salad,salad,side,true,0,1,250,400,caesar salad;cesar salad;veg cesar salad;సీజర్ సలాడ్,
+chicken-caesar-salad,Chicken Caesar Salad,salad,side,false,0,1,300,460,chicken salad;chicken cesar salad;grilled chicken salad;చికెన్ సలాడ్,
+butter-naan,Butter Naan,bread,side,true,0,1,45,90,butter nan;naan butter;buttered naan;బటర్ నాన్,
+plain-naan,Plain Naan,bread,side,true,0,1,35,75,naan;nan;plain nan;నాన్,
+garlic-naan,Garlic Naan,bread,side,true,0,1,60,110,garlic nan;lahsun naan;butter garlic naan;గార్లిక్ నాన్,
+tandoori-roti,Tandoori Roti,bread,side,true,0,1,25,55,roti;tandoori rotti;tandoor roti;tanduri roti;తందూరీ రోటీ;రోటీ,
+butter-roti,Butter Roti,bread,side,true,0,1,30,65,butter tandoori roti;butter rotti;బటర్ రోటీ,
+rumali-roti,Rumali Roti,bread,side,true,0,1,30,60,roomali roti;rumaali roti;rumali rotti;handkerchief roti;రుమాలీ రోటీ,
+laccha-paratha,Laccha Paratha,bread,side,true,0,1,50,100,lachha paratha;lachcha paratha;laccha parantha;layered paratha;లచ్చా పరాఠా,
+aloo-paratha,Aloo Paratha,bread,main,true,1,1,90,170,alu paratha;aloo parantha;aloo parota;potato paratha;ఆలూ పరాఠా,
+chapati,Chapati,bread,side,true,0,1,20,40,chapathi;chapatti;chapaati;phulka;fulka;చపాతీ,
+parota,Parota,bread,side,true,0,1,30,60,parotta;porotta;kerala parotta;malabar parotta;paratha kerala;పరోటా,
+garlic-bread,Garlic Bread,bread,side,true,0,1,110,220,garlic breadsticks;cheese garlic bread;garlic bread sticks;cheesy garlic bread;గార్లిక్ బ్రెడ్,
+chole-bhature,Chole Bhature,bread,main,true,2,1,140,240,chole bhatura;chola bhatura;chana bhatura;chhole bhature;చోలే భటూరే,
+jeera-rice,Jeera Rice,rice,side,true,0,1,140,240,jira rice;cumin rice;zeera rice;జీరా రైస్,
+steamed-rice,Steamed Rice,rice,side,true,0,1,90,160,plain rice;white rice;rice;annam;chawal;sada chawal;plain chawal;అన్నం;రైస్,
+veg-pulao,Veg Pulao,rice,main,true,1,1,170,280,veg pulav;vegetable pulao;pulao;pulav;pulaav;పులావ్,
+curd-rice,Curd Rice,rice,main,true,0,1,100,180,dahi chawal;perugu annam;perugannam;thayir sadam;daddojanam;దద్దోజనం;పెరుగన్నం,
+lemon-rice,Lemon Rice,rice,main,true,1,1,90,160,nimmakaya pulihora;nimmakaya annam;nimbu chawal;chitranna;నిమ్మకాయ పులిహోర,
+pulihora,Pulihora,rice,main,true,2,1,90,160,puliyogare;puliogare;tamarind rice;chintapandu pulihora;imli chawal;పులిహోర,
+sambar-rice,Sambar Rice,rice,main,true,1,1,100,180,sambar annam;sambar sadam;sambhar rice;సాంబార్ అన్నం,
+dal-khichdi,Dal Khichdi,rice,main,true,1,1,150,250,khichdi;khichadi;khichri;kichidi;కిచిడీ,
+veg-fried-rice,Veg Fried Rice,rice,main,true,1,1,160,260,fried rice;veg fry rice;vegetable fried rice;veg fried rise;వెజ్ ఫ్రైడ్ రైస్;ఫ్రైడ్ రైస్,
+egg-fried-rice,Egg Fried Rice,rice,main,false,1,1,170,280,egg fry rice;anda fried rice;guddu fried rice;egg fried rise;ఎగ్ ఫ్రైడ్ రైస్,egg counts as non-veg
+chicken-fried-rice,Chicken Fried Rice,rice,main,false,1,1,190,320,chicken fry rice;chiken fried rice;kodi fried rice;chicken fried rise;చికెన్ ఫ్రైడ్ రైస్,
+schezwan-fried-rice,Schezwan Fried Rice,rice,main,true,3,1,180,290,szechuan fried rice;shezwan fried rice;schezwan rice;veg schezwan fried rice;sezwan fried rice;షెజ్వాన్ ఫ్రైడ్ రైస్,
+chicken-schezwan-fried-rice,Chicken Schezwan Fried Rice,rice,main,false,3,1,210,330,chicken szechuan fried rice;chicken shezwan fried rice;chicken schezwan rice;chicken sezwan rice;చికెన్ షెజ్వాన్ ఫ్రైడ్ రైస్,
+rajma-chawal,Rajma Chawal,rice,main,true,1,1,150,250,rajma rice;rajma chaawal;rajma chawal bowl;రాజ్మా చావల్,
+veg-hakka-noodles,Veg Hakka Noodles,noodles,main,true,1,1,160,270,noodles;veg noodles;hakka noodles;veg chowmein;chowmein;chow mein;vegetable noodles;నూడుల్స్;వెజ్ నూడుల్స్,
+chicken-hakka-noodles,Chicken Hakka Noodles,noodles,main,false,1,1,190,310,chicken noodles;chicken chowmein;chicken chow mein;chiken noodles;kodi noodles;చికెన్ నూడుల్స్,
+egg-noodles,Egg Noodles,noodles,main,false,1,1,170,280,egg hakka noodles;egg chowmein;anda noodles;ఎగ్ నూడుల్స్,egg counts as non-veg
+schezwan-noodles,Schezwan Noodles,noodles,main,true,3,1,180,290,szechuan noodles;shezwan noodles;sezwan noodles;veg schezwan noodles;షెజ్వాన్ నూడుల్స్,
+american-chopsuey,American Chopsuey,noodles,main,true,1,1,220,320,american chop suey;chopsuey;chop suey;veg american chopsuey;అమెరికన్ చాప్సూయ్,
+maggi,Masala Maggi,noodles,main,true,1,1,50,120,maggi;maggie;maggi noodles;maggi masala;cheese maggi;మ్యాగీ,
+chicken-pad-thai,Chicken Pad Thai,noodles,main,false,2,1,300,480,pad thai;phad thai;padthai;chicken phad thai;ప్యాడ్ థాయ్,
+chicken-ramen,Chicken Ramen,noodles,main,false,2,1,320,520,ramen;ramen bowl;chicken ramen bowl;raamen;రామెన్,
+veg-momos,Veg Momos,snack,side,true,1,1,90,180,momos;momo;veg momo;vegetable momos;veg dumplings;మోమోస్,
+chicken-momos,Chicken Momos,snack,side,false,1,1,110,220,chicken momo;chicken dumplings;chiken momos;చికెన్ మోమోస్,
+chicken-dim-sum,Chicken Dim Sum,starter,side,false,1,1,250,420,dim sum;dimsum;chicken dimsum;chicken dim sums;డిమ్ సమ్,
+veg-sushi,Veg Sushi Roll,starter,side,true,0,1,280,480,sushi;veg sushi;cucumber sushi;avocado sushi;veg maki;veg sushi roll;సుషీ,
+salmon-sushi,Salmon Sushi Roll,starter,side,false,0,1,450,750,salmon sushi;salmon maki;salmon roll;సాల్మన్ సుషీ,
+veg-sweet-corn-soup,Veg Sweet Corn Soup,soup,side,true,0,1,120,200,sweet corn soup;sweetcorn soup;corn soup;veg corn soup;స్వీట్ కార్న్ సూప్,
+chicken-sweet-corn-soup,Chicken Sweet Corn Soup,soup,side,false,0,1,140,230,chicken corn soup;chicken sweetcorn soup;చికెన్ స్వీట్ కార్న్ సూప్,
+veg-manchow-soup,Veg Manchow Soup,soup,side,true,2,1,130,210,manchow soup;manchow;veg manchow;మంచౌ సూప్,
+chicken-manchow-soup,Chicken Manchow Soup,soup,side,false,2,1,150,240,chicken manchow;chicken manchow soup spicy;చికెన్ మంచౌ సూప్,
+hot-and-sour-soup,Hot and Sour Soup,soup,side,true,2,1,130,210,hot n sour soup;hot & sour soup;veg hot and sour;hot sour soup;హాట్ అండ్ సోర్ సూప్,
+tomato-soup,Tomato Soup,soup,side,true,0,1,110,190,cream of tomato;cream of tomato soup;tamatar soup;టమాటా సూప్,
+cream-of-mushroom-soup,Cream of Mushroom Soup,soup,side,true,0,1,170,280,mushroom soup;cream of mushroom;మష్రూమ్ సూప్,
+mutton-marag,Mutton Marag,soup,side,false,1,1,220,360,marag;marag soup;mutton marag soup;మరాగ్,Hyderabadi
+mutton-paya,Mutton Paya,soup,side,false,2,1,220,380,paya;paya soup;paaya;mutton paya soup;nalli soup;పాయా,Hyderabadi
+margherita-pizza,Margherita Pizza,pizza,main,true,0,1,150,320,margherita;margarita pizza;margherita pizza regular;cheese pizza;plain cheese pizza;మార్గరీటా పిజ్జా,regular size
+veggie-supreme-pizza,Veggie Supreme Pizza,pizza,main,true,1,1,240,450,veg pizza;veggie pizza;vegetable pizza;veggie supreme;veg supreme pizza;farmhouse pizza;veg loaded pizza;వెజ్ పిజ్జా,regular size
+paneer-tikka-pizza,Paneer Tikka Pizza,pizza,main,true,2,1,260,480,paneer pizza;tandoori paneer pizza;panner pizza;పనీర్ పిజ్జా,regular size
+corn-cheese-pizza,Corn and Cheese Pizza,pizza,main,true,0,1,200,380,corn pizza;corn cheese pizza;sweet corn pizza;golden corn pizza;కార్న్ పిజ్జా,regular size
+chicken-tikka-pizza,Chicken Tikka Pizza,pizza,main,false,2,1,290,520,chicken pizza;tandoori chicken pizza;chiken pizza;చికెన్ పిజ్జా,regular size
+bbq-chicken-pizza,BBQ Chicken Pizza,pizza,main,false,1,1,300,540,barbecue chicken pizza;barbeque chicken pizza;bbq pizza;బార్బెక్యూ చికెన్ పిజ్జా,regular size
+chicken-pepperoni-pizza,Chicken Pepperoni Pizza,pizza,main,false,1,1,320,560,pepperoni pizza;chicken pepperoni;pepperoni;pepporoni pizza;పెప్పరోని పిజ్జా,regular size
+peri-peri-chicken-pizza,Peri Peri Chicken Pizza,pizza,main,false,3,1,310,540,peri peri pizza;piri piri chicken pizza;spicy chicken pizza;పెరి పెరి చికెన్ పిజ్జా,regular size
+penne-arrabbiata,Penne Arrabbiata,pasta,main,true,2,1,220,380,arrabbiata;arrabiata pasta;arabiata pasta;red sauce pasta;red pasta;penne arrabiata;రెడ్ సాస్ పాస్తా,
+penne-alfredo,Penne Alfredo,pasta,main,true,0,1,240,400,alfredo;alfredo pasta;white sauce pasta;white pasta;penne alfredo veg;వైట్ సాస్ పాస్తా,
+chicken-alfredo,Chicken Alfredo Pasta,pasta,main,false,0,1,290,460,chicken alfredo;chicken white sauce pasta;chicken pasta;చికెన్ పాస్తా,
+pink-sauce-pasta,Pink Sauce Pasta,pasta,main,true,1,1,240,400,pink pasta;mixed sauce pasta;rosa pasta;పింక్ సాస్ పాస్తా,
+spaghetti-aglio-olio,Spaghetti Aglio e Olio,pasta,main,true,1,1,260,420,aglio olio;aglio e olio;spaghetti aglio olio;garlic spaghetti;స్పఘెట్టి,
+chicken-lasagna,Chicken Lasagna,pasta,main,false,1,1,320,520,lasagna;lasagne;chicken lasagne;లజానియా,
+mushroom-risotto,Mushroom Risotto,rice,main,true,0,1,320,520,risotto;mushroom risoto;రిసోట్టో,
+veg-burger,Veg Burger,burger,main,true,1,1,80,200,aloo tikki burger;vegetable burger;veggie burger;aloo burger;veg burgar;వెజ్ బర్గర్,
+veg-cheese-burger,Veg Cheese Burger,burger,main,true,0,1,120,230,cheese burger;cheeseburger;veg cheeseburger;చీజ్ బర్గర్,
+paneer-burger,Paneer Burger,burger,main,true,1,1,130,240,crispy paneer burger;panner burger;paneer patty burger;పనీర్ బర్గర్,
+chicken-burger,Chicken Burger,burger,main,false,1,1,120,260,chiken burger;chicken patty burger;chicken burgar;చికెన్ బర్గర్,
+crispy-chicken-burger,Crispy Chicken Burger,burger,main,false,2,1,160,300,spicy chicken burger;fried chicken burger;zinger;zinger burger;crispy chiken burger;క్రిస్పీ చికెన్ బర్గర్,
+double-chicken-burger,Double Chicken Burger,burger,main,false,1,1,220,380,double patty burger;double chicken patty burger;double decker chicken burger;డబుల్ చికెన్ బర్గర్,
+veg-grilled-sandwich,Veg Grilled Sandwich,sandwich,main,true,1,1,90,220,veg sandwich;grilled sandwich;vegetable sandwich;bombay sandwich;veg grill sandwich;శాండ్విచ్;వెజ్ శాండ్విచ్,
+cheese-corn-sandwich,Cheese Corn Sandwich,sandwich,main,true,0,1,120,240,corn sandwich;corn cheese sandwich;cheese sandwich;కార్న్ శాండ్విచ్,
+paneer-tikka-sandwich,Paneer Tikka Sandwich,sandwich,main,true,2,1,150,280,paneer sandwich;panner sandwich;paneer grilled sandwich;పనీర్ శాండ్విచ్,
+chicken-sandwich,Chicken Sandwich,sandwich,main,false,1,1,140,300,grilled chicken sandwich;chicken grilled sandwich;chiken sandwich;చికెన్ శాండ్విచ్,
+chicken-tikka-sub,Chicken Tikka Sub,sandwich,main,false,2,1,200,360,chicken sub;tikka sub;chicken sub sandwich;chicken tikka sandwich;చికెన్ టిక్కా సబ్,
+veg-sub,Veg Sub,sandwich,main,true,1,1,170,300,veggie sub;veggie delight;veg sub sandwich;veggie delite;వెజ్ సబ్,
+club-sandwich,Chicken Club Sandwich,sandwich,main,false,1,1,200,360,club sandwich;chicken club;క్లబ్ శాండ్విచ్,
+egg-sandwich,Egg Sandwich,sandwich,main,false,1,1,100,200,anda sandwich;egg mayo sandwich;egg sandwhich;ఎగ్ శాండ్విచ్,egg counts as non-veg
+chicken-kathi-roll,Chicken Kathi Roll,roll,main,false,2,1,120,240,chicken roll;kathi roll;chicken frankie;chicken wrap;chicken tikka roll;chiken roll;చికెన్ రోల్,
+egg-roll,Egg Roll,roll,main,false,1,1,90,180,anda roll;egg frankie;egg kathi roll;egg wrap;ఎగ్ రోల్,egg counts as non-veg
+paneer-roll,Paneer Roll,roll,main,true,1,1,120,220,paneer kathi roll;paneer frankie;paneer wrap;panner roll;పనీర్ రోల్,
+veg-roll,Veg Roll,roll,main,true,1,1,80,180,veg frankie;veg kathi roll;vegetable roll;veg wrap;వెజ్ రోల్,
+veg-burrito,Veg Burrito,mexican,main,true,1,1,180,320,burrito;bean burrito;veggie burrito;rajma burrito;veg burito;బురిటో,
+chicken-burrito,Chicken Burrito,mexican,main,false,2,1,220,380,grilled chicken burrito;chicken burito;chiken burrito;చికెన్ బురిటో,
+veg-burrito-bowl,Veg Burrito Bowl,mexican,main,true,1,1,220,360,burrito bowl;veg burrito rice bowl;mexican rice bowl;బురిటో బౌల్,
+chicken-burrito-bowl,Chicken Burrito Bowl,mexican,main,false,2,1,260,400,chicken burrito rice bowl;chicken mexican bowl;చికెన్ బురిటో బౌల్,
+veg-tacos,Veg Tacos,mexican,main,true,1,1,150,280,taco;tacos;veg taco;crunchy taco;bean tacos;టాకోస్,
+chicken-tacos,Chicken Tacos,mexican,main,false,2,1,180,320,chicken taco;chiken tacos;చికెన్ టాకోస్,
+nachos,Cheesy Nachos,mexican,side,true,1,1,160,320,nachos;loaded nachos;nachos with cheese;nachos cheese;nacho;నాచోస్,
+chicken-quesadilla,Chicken Quesadilla,mexican,main,false,1,1,220,380,quesadilla;quesedilla;quesadila;chicken quesedilla;కేసడియా,
+veg-quesadilla,Veg Quesadilla,mexican,main,true,1,1,190,340,veg quesedilla;cheese quesadilla;veg quesadila;వెజ్ కేసడియా,
+grilled-chicken-steak,Grilled Chicken Steak,continental,main,false,1,1,350,580,grilled chicken;chicken steak;grilled chicken breast;chicken breast steak;గ్రిల్డ్ చికెన్,
+fish-and-chips,Fish and Chips,continental,main,false,0,1,350,550,fish n chips;fish & chips;fish chips;ఫిష్ అండ్ చిప్స్,
+grilled-fish,Grilled Fish,continental,main,false,1,1,380,600,fish steak;lemon butter fish;grilled fish fillet;గ్రిల్డ్ ఫిష్,
+cottage-cheese-steak,Cottage Cheese Steak,continental,main,true,1,1,300,480,paneer steak;grilled paneer steak;cottage cheese sizzler;పనీర్ స్టీక్,
+mashed-potatoes,Mashed Potatoes,continental,side,true,0,1,120,220,mashed potato;mash;creamy mashed potatoes;మాష్డ్ పొటాటో,
+sauteed-vegetables,Sauteed Vegetables,continental,side,true,0,1,150,260,sauteed veggies;butter garlic vegetables;sauteed veg;సాటే వెజిటబుల్స్,
+masala-omelette,Masala Omelette,breakfast,main,false,2,1,80,180,omelette;omelet;omlet;omlette;masala omlet;anda omelette;egg omelette;egg omlet;ఆమ్లెట్,egg counts as non-veg
+eggs-any-style,Eggs Any Style,breakfast,main,false,0,1,140,260,eggs;fried eggs;scrambled eggs;sunny side up;boiled eggs;poached eggs;గుడ్లు,egg counts as non-veg
+egg-bhurji,Egg Bhurji,breakfast,main,false,2,1,100,200,anda bhurji;egg burji;scrambled egg masala;egg podimas;ఎగ్ బుర్జీ,egg counts as non-veg
+english-breakfast,English Breakfast,breakfast,main,false,0,1,320,520,full english breakfast;big breakfast;continental breakfast;english breakfast platter;ఇంగ్లీష్ బ్రేక్‌ఫాస్ట్,eggs and chicken sausages: non-veg
+pancakes,Pancakes with Maple Syrup,breakfast,main,false,0,1,180,320,pancakes;pancake;maple pancakes;fluffy pancakes;ప్యాన్‌కేక్,contains egg: counts as non-veg
+french-toast,French Toast,breakfast,main,false,0,1,160,300,eggy bread;cinnamon french toast;frenchtoast;ఫ్రెంచ్ టోస్ట్,contains egg: counts as non-veg
+avocado-toast,Avocado Toast,breakfast,main,true,0,1,280,450,avo toast;avacado toast;అవకాడో టోస్ట్,
+bread-butter-toast,Bread Butter Toast,breakfast,side,true,0,1,50,120,bread toast;butter toast;bread butter;toast;bread jam;bread butter jam;బ్రెడ్ టోస్ట్,
+poha,Poha,breakfast,main,true,1,1,60,120,pohe;kanda poha;atukulu upma;aval upma;అటుకుల ఉప్మా,
+granola-bowl,Granola Bowl,breakfast,main,true,0,1,200,340,granola;muesli;muesli bowl;yogurt bowl;granola yogurt bowl;గ్రానోలా,
+idli,Idli (2 pcs),tiffin,main,true,0,1,50,100,idli;idly;iddli;idlies;idlis;idli sambar;idli chutney;idli vada;ఇడ్లీ,
+ghee-karam-idli,Ghee Karam Idli,tiffin,main,true,2,1,70,130,ghee karam idly;karam idli;podi idli;ghee podi idli;ghee idli;neyyi karam idli;నెయ్యి కారం ఇడ్లీ,Andhra
+medu-vada,Medu Vada (2 pcs),tiffin,main,true,1,1,50,100,medu vada;vada;vadai;wada;medu wada;medhu vada;garelu;minapa garelu;ulundu vada;uddina vada;వడ;గారెలు,
+sambar-vada,Sambar Vada,tiffin,main,true,1,1,70,120,sambhar vada;vada sambar;sambar wada;సాంబార్ వడ,
+plain-dosa,Plain Dosa,tiffin,main,true,0,1,50,110,dosa;dose;dosai;dhosa;sada dosa;plain dose;plain dosai;దోశ;దోసె,
+masala-dosa,Masala Dosa,tiffin,main,true,1,1,70,150,masala dose;masala dosai;masala dhosa;aloo dosa;potato dosa;masal dosa;మసాలా దోశ,
+onion-dosa,Onion Dosa,tiffin,main,true,1,1,70,140,ulli dosa;ullipaya dosa;pyaaz dosa;onion dose;onion dosai;ఉల్లి దోశ;ఉల్లిపాయ దోశ,
+ghee-roast-dosa,Ghee Roast Dosa,tiffin,main,true,0,1,100,180,ghee roast;ghee dosa;neyyi dosa;nei roast;ghee roast dose;paper dosa;నెయ్యి దోశ,
+mysore-masala-dosa,Mysore Masala Dosa,tiffin,main,true,2,1,90,170,mysore dosa;mysore masala dose;mysore masala dosai;మైసూర్ మసాలా దోశ,
+rava-dosa,Rava Dosa,tiffin,main,true,1,1,90,160,rava dose;ravva dosa;suji dosa;onion rava dosa;రవ్వ దోశ,
+pesarattu,Pesarattu,tiffin,main,true,1,1,70,140,pesaratu;pesarattu dosa;pesarattu upma;moong dal dosa;green gram dosa;pesara dosa;పెసరట్టు,Andhra
+upma,Upma,tiffin,main,true,1,1,50,100,uppittu;rava upma;suji upma;ravva upma;uppuma;ఉప్మా,
+pongal,Pongal,tiffin,main,true,0,1,60,120,ven pongal;khara pongal;pongali;ghee pongal;పొంగలి,
+poori,Poori,tiffin,main,true,1,1,70,130,puri;poori bhaji;puri bhaji;poori curry;poori sabzi;poori kurma;పూరీ,
+uttapam,Uttapam,tiffin,main,true,1,1,80,150,uthappam;utappa;uttappam;onion uttapam;ఊతప్పం,
+mini-tiffin,Mini Tiffin,tiffin,main,true,1,1,120,220,tiffin combo;tiffin platter;mini tiffin combo;మినీ టిఫిన్,
+egg-dosa,Egg Dosa,tiffin,main,false,1,1,80,150,anda dosa;guddu dosa;egg dose;egg dosai;ఎగ్ దోశ,egg counts as non-veg
+rava-kesari,Rava Kesari,dessert,dessert,true,0,1,50,100,kesari;kesari bath;sooji halwa;suji halwa;sheera;ravva kesari;కేసరి,
+south-indian-meals,South Indian Meals,meals,main,true,1,1,150,280,meals;veg meals;full meals;south indian thali;bhojanam;bhojanamu;limited meals;unlimited meals;మీల్స్;భోజనం,thali
+andhra-veg-meals,Andhra Veg Meals,meals,main,true,2,1,180,320,andhra meals;andhra thali;andhra bhojanam;andhra veg thali;ఆంధ్ర భోజనం,Andhra
+andhra-nonveg-meals,Andhra Non-Veg Meals,meals,main,false,3,1,260,420,non veg meals;nonveg meals;chicken meals;non veg thali;andhra non veg meals;andhra chicken meals;నాన్ వెజ్ మీల్స్,Andhra; non-veg thali with chicken curry
+north-indian-thali,North Indian Thali,meals,main,true,1,1,200,350,thali;veg thali;north indian meals;punjabi thali;deluxe thali;థాలీ,
+gulab-jamun,Gulab Jamun (2 pcs),dessert,dessert,true,0,1,50,120,gulab jamun;gulab jamoon;gulabjamun;gulab jamun 2 pcs;jamun;gulab jaamun;గులాబ్ జామూన్,
+double-ka-meetha,Double ka Meetha,dessert,dessert,true,0,1,80,160,double ka mitha;dabal ka meetha;double ka meeta;bread halwa;shahi tukda;shahi tukra;డబుల్ కా మీఠా,Hyderabadi
+qubani-ka-meetha,Qubani ka Meetha,dessert,dessert,true,0,1,100,200,khubani ka meetha;qubani;khubani;khubaani ka meetha;apricot dessert;ఖుబానీ కా మీఠా,Hyderabadi
+phirni,Phirni,dessert,dessert,true,0,1,70,140,firni;kesar phirni;phirnee;ఫిర్నీ,
+kheer,Kheer,dessert,dessert,true,0,1,70,140,payasam;paayasam;semiya payasam;rice kheer;vermicelli kheer;పాయసం,
+rasmalai,Rasmalai,dessert,dessert,true,0,1,90,170,ras malai;rasamalai;rasmalai 2 pcs;రసమలై,
+jalebi,Jalebi,dessert,dessert,true,0,1,40,100,jilebi;jilabi;jalabi;జిలేబి,
+sheer-khurma,Sheer Khurma,dessert,dessert,true,0,1,90,180,sheer kurma;sheer korma;shir khurma;షీర్ ఖుర్మా,
+ice-cream-scoop,Ice Cream (Scoop),dessert,dessert,true,0,1,70,160,ice cream;icecream;vanilla ice cream;chocolate ice cream;scoop;ఐస్ క్రీమ్,
+chocolate-sundae,Hot Chocolate Fudge Sundae,dessert,dessert,true,0,1,170,320,sundae;chocolate sundae;hot fudge sundae;hot chocolate fudge;hcf;చాక్లెట్ సండే,
+falooda,Royal Falooda,dessert,dessert,true,0,1,130,260,falooda;faluda;kulfi falooda;falooda ice cream;ఫలూదా,
+kulfi,Malai Kulfi,dessert,dessert,true,0,1,60,130,kulfi;matka kulfi;kulfi stick;కుల్ఫీ,
+chocolate-brownie,Chocolate Brownie,dessert,dessert,false,0,1,90,200,brownie;choco brownie;chocolate brownies;walnut brownie;బ్రౌనీ,contains egg: counts as non-veg
+brownie-with-ice-cream,Sizzling Brownie with Ice Cream,dessert,dessert,false,0,1,180,320,brownie with ice cream;sizzling brownie;brownie sizzler;brownie ice cream;బ్రౌనీ ఐస్ క్రీమ్,contains egg: counts as non-veg
+belgian-waffle,Belgian Waffle (Eggless),dessert,dessert,true,0,1,170,320,waffle;waffles;belgian waffle;chocolate waffle;nutella waffle;eggless waffle;వాఫిల్,eggless
+cheesecake,Blueberry Cheesecake,dessert,dessert,false,0,1,200,380,cheesecake;cheese cake;new york cheesecake;blueberry cheese cake;చీజ్ కేక్,contains egg: counts as non-veg
+tiramisu,Tiramisu,dessert,dessert,false,0,1,250,420,tiramisu cake;tiramisu slice;tiramissu;తిరామిసు,contains egg: counts as non-veg
+choco-lava-cake,Choco Lava Cake,dessert,dessert,true,0,1,100,160,chocolate lava cake;lava cake;choco lava;molten lava cake;చోకో లావా కేక్,eggless
+chocolate-truffle-cake,Chocolate Truffle Cake (500 g),bakery,dessert,false,0,2,450,850,chocolate cake;truffle cake;chocolate truffle cake;birthday cake;half kg cake;cake;చాక్లెట్ కేక్,contains egg: counts as non-veg
+black-forest-pastry,Black Forest Pastry,bakery,dessert,false,0,1,70,140,black forest;black forest cake slice;pastry;black forest pastries;బ్లాక్ ఫారెస్ట్ పేస్ట్రీ,contains egg: counts as non-veg
+pineapple-pastry,Pineapple Pastry,bakery,dessert,false,0,1,60,120,pineapple cake slice;pineapple pastries;పైనాపిల్ పేస్ట్రీ,contains egg: counts as non-veg
+eggless-chocolate-pastry,Eggless Chocolate Pastry,bakery,dessert,true,0,1,80,150,eggless pastry;eggless cake;eggless chocolate cake slice;ఎగ్‌లెస్ పేస్ట్రీ,eggless
+donut,Chocolate Donut,bakery,dessert,false,0,1,80,180,donut;doughnut;glazed donut;chocolate doughnut;donuts;డోనట్,contains egg: counts as non-veg
+croissant,Butter Croissant,bakery,side,false,0,1,100,220,croissant;croisant;butter croisant;క్రోసాంట్,egg wash: counts as non-veg
+veg-puff,Veg Puff,bakery,side,true,1,1,20,50,veg puffs;vegetable puff;aloo puff;veg patties;veg patty;వెజ్ పఫ్,
+egg-puff,Egg Puff,bakery,side,false,1,1,25,60,egg puffs;anda puff;egg patties;ఎగ్ పఫ్,egg counts as non-veg
+chicken-puff,Chicken Puff,bakery,side,false,1,1,30,70,chicken puffs;chicken patties;chicken patty;chiken puff;చికెన్ పఫ్,
+dil-khush,Dil Khush,bakery,side,true,0,1,40,90,dilkhush;dil kush;dil pasand;dilpasand;coconut bun;దిల్ ఖుష్,
+cream-bun,Cream Bun,bakery,side,true,0,1,25,60,cream buns;cream roll;fruit cream bun;క్రీమ్ బన్,
+osmania-biscuits,Osmania Biscuits (200 g),bakery,side,true,0,1,60,150,osmania biscuits;osmania biscuit;osmania;usmania biscuit;chai biscuit;osmania biskut;ఉస్మానియా బిస్కెట్,Hyderabadi
+bun-maska,Bun Maska,bakery,side,true,0,1,30,80,bun muska;maska bun;butter bun;bun butter;బన్ మస్కా,Irani cafe
+irani-chai,Irani Chai,drink,drink,true,0,1,20,45,irani tea;dum chai;hyderabadi chai;iranee chai;irani chay;ఇరానీ చాయ్,Hyderabadi
+masala-chai,Masala Chai,drink,drink,true,0,1,20,60,chai;tea;masala tea;chaha;cutting chai;tea with milk;chaay;టీ;చాయ్,
+ginger-tea,Ginger Tea,drink,drink,true,0,1,20,60,adrak chai;adrak wali chai;allam tea;allam chai;ginger chai;అల్లం టీ,
+lemon-tea,Lemon Tea,drink,drink,true,0,1,20,60,nimbu chai;black lemon tea;lemon black tea;నిమ్మకాయ టీ,
+green-tea,Green Tea,drink,drink,true,0,1,40,120,green tea hot;honey green tea;గ్రీన్ టీ,
+filter-coffee,Filter Coffee,drink,drink,true,0,1,30,70,filter kaapi;kaapi;madras coffee;south indian coffee;degree coffee;filter kapi;ఫిల్టర్ కాఫీ,
+cappuccino,Cappuccino,drink,drink,true,0,1,120,300,capuccino;cappucino;capachino;kapuchino;cappuchino;కాపుచినో,
+cafe-latte,Cafe Latte,drink,drink,true,0,1,130,300,latte;caffe latte;coffee latte;latte coffee;లాటే,
+americano,Americano,drink,drink,true,0,1,110,260,black coffee;long black;americano coffee;అమెరికానో,
+espresso,Espresso,drink,drink,true,0,1,90,200,expresso;shot of espresso;espresso shot;ఎస్ప్రెస్సో,
+cold-coffee,Cold Coffee,drink,drink,true,0,1,120,300,iced coffee;coffee frappe;frappe;cold coffee with ice cream;cold cofee;కోల్డ్ కాఫీ,
+hot-chocolate,Hot Chocolate,drink,drink,true,0,1,150,300,hot choco;hot cocoa;drinking chocolate;హాట్ చాక్లెట్,
+masala-chaas,Masala Chaas,drink,drink,true,1,1,40,90,buttermilk;chaas;chhaas;majjiga;majjige;mattha;spiced buttermilk;మజ్జిగ,
+sweet-lassi,Sweet Lassi,drink,drink,true,0,1,60,130,lassi;meethi lassi;lassi sweet;dahi lassi;లస్సీ,
+mango-lassi,Mango Lassi,drink,drink,true,0,1,80,160,aam lassi;mamidi lassi;mango lasi;మ్యాంగో లస్సీ,
+mango-shake,Mango Shake,drink,drink,true,0,1,100,220,mango milkshake;mango milk shake;aam shake;mamidi pandu shake;mamidi shake;మ్యాంగో షేక్,
+chocolate-shake,Chocolate Thick Shake,drink,drink,true,0,1,130,280,chocolate shake;chocolate milkshake;choco shake;thick shake;chocolate thickshake;చాక్లెట్ షేక్,
+oreo-shake,Oreo Shake,drink,drink,true,0,1,150,300,oreo milkshake;oreo thick shake;oreo thickshake;ఓరియో షేక్,
+strawberry-shake,Strawberry Shake,drink,drink,true,0,1,120,260,strawberry milkshake;strawberry milk shake;స్ట్రాబెర్రీ షేక్,
+fresh-lime-soda,Fresh Lime Soda,drink,drink,true,0,1,60,130,lime soda;nimbu soda;lemon soda;fresh lime soda sweet;nimmakaya soda;నిమ్మకాయ సోడా,
+fresh-lime-water,Fresh Lime Water,drink,drink,true,0,1,40,100,nimbu pani;lemonade;lemon juice;shikanji;nimmakaya juice;lime juice;నిమ్మరసం,
+orange-juice,Fresh Orange Juice,drink,drink,true,0,1,90,180,orange juice;santra juice;kamala juice;kamala pandu juice;ఆరెంజ్ జ్యూస్,
+watermelon-juice,Watermelon Juice,drink,drink,true,0,1,70,150,tarbooz juice;tarbuj juice;puchakaya juice;watermelon;పుచ్చకాయ జ్యూస్,
+mosambi-juice,Mosambi Juice,drink,drink,true,0,1,70,150,sweet lime juice;musambi juice;mausambi juice;battayi juice;బత్తాయి జ్యూస్,
+pineapple-juice,Pineapple Juice,drink,drink,true,0,1,80,160,ananas juice;anasa juice;అనాస జ్యూస్,
+mixed-fruit-juice,Mixed Fruit Juice,drink,drink,true,0,1,90,180,mix fruit juice;fruit juice;cocktail juice;mixed juice;ఫ్రూట్ జ్యూస్,
+badam-milk,Badam Milk,drink,drink,true,0,1,50,120,almond milk;badam doodh;badam paalu;badam pal;బాదం పాలు,
+iced-tea,Lemon Iced Tea,drink,drink,true,0,1,120,250,iced tea;ice tea;lemon ice tea;peach iced tea;ఐస్ టీ,
+mojito,Virgin Mojito,drink,drink,true,0,1,130,260,mojito;mint mojito;mint lime cooler;virgin mojitto;మోహిటో,
+bubble-tea,Bubble Tea,drink,drink,true,0,1,180,320,boba;boba tea;pearl milk tea;bubble milk tea;బబుల్ టీ,
+soft-drink,Soft Drink (300 ml),drink,drink,true,0,1,40,90,soft drink;cold drink;cool drink;coke;pepsi;sprite;thums up;thumbs up;fanta;soda;thanda;కూల్ డ్రింక్,
+mineral-water,Mineral Water (1 L),drink,drink,true,0,1,20,40,water;water bottle;mineral water;bottled water;paani;pani;neellu;manchi neellu;నీళ్లు;మంచి నీళ్లు,
+pav-bhaji,Pav Bhaji,snack,main,true,2,1,100,200,paav bhaji;pao bhaji;pav baji;పావ్ భాజీ,
+vada-pav,Vada Pav,snack,side,true,2,1,30,70,vada pao;wada pav;vadapav;vada paav;వడా పావ్,
+pani-puri,Pani Puri,snack,side,true,2,1,40,90,panipuri;gol gappe;golgappa;puchka;gupchup;pani poori;పానీ పూరీ,
+bhel-puri,Bhel Puri,snack,side,true,1,1,50,100,bhelpuri;bhel;bhel poori;భేల్ పూరీ,
+samosa-chaat,Samosa Chaat,snack,side,true,2,1,60,120,samosa chat;samosa chaat plate;సమోసా చాట్,
+dahi-puri,Dahi Puri,snack,side,true,1,1,60,120,dahi poori;dahi papdi chaat;papdi chaat;dahi batata puri;దహీ పూరీ,
+sweet-corn-cup,Masala Corn Cup,snack,side,true,1,1,40,90,sweet corn cup;masala corn;corn cup;butter corn;మసాలా కార్న్,

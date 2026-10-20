@@ -1,0 +1,290 @@
+{
+ "run_at": "2026-10-05T05:27:21+00:00",
+ "prompt_version": "v3",
+ "models": [
+  "gemini/gemini-3.5-flash-lite",
+  "gemini/gemini-3.8-flash",
+  "groq/openai/gpt-oss-120b"
+ ],
+ "cases_file": "phase6_cases.json",
+ "repeat": 1,
+ "cases": [
+  {
+   "id": "typo-yes-with-restaurant-name",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Bhai, Madhapur mein chicken biryani 300 ke andar?",
+     "reply": "Haan bhai, Madhapur mein ₹300 ke andar yeh options mil rahe hain:\n\n- **Annapurna** – Chicken Dum Biryani: ₹240\n- **Shree Santhosh Family Dhaba** – Chicken Dum Biryani: ₹260\n- **Hideout** – Chicken Dum Biryani: ₹270\n- **The Adda** – Chicken Dum Biryani: ₹280\n- **Lucky Restaurant** – Chicken Dum Biryani: ₹290\n\nKaunsa mangwana hai, batao?",
+     "status": "ok",
+     "seconds": 7.2,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.8-flash"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4173,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5692,
+       "completion_tokens": 117
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "max_price": 300,
+        "query": "chicken biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got latin"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    },
+    {
+     "say": "Sabse sasta wala ek cart mein daal do",
+     "reply": "Annapurna se Chicken Dum Biryani cart mein daal di hai! Cart summary yeh hai:\n\n- Annapurna: Chicken Dum Biryani (1 qty) - ₹240\n- Delivery fee: ₹55\n- Taxes: ₹22\n- Grand Total: ₹317\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 7.3,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.8-flash",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 5822,
+       "completion_tokens": 66
+      },
+      {
+       "prompt_tokens": 6437,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 6932,
+       "completion_tokens": 68
+      }
+     ],
+     "calls": [
+      {
+       "tool": "add_to_cart",
+       "arguments": {
+        "branch_id": "b-n5482822501",
+        "qty": 1,
+        "item_id": "r-annapurna-n5482822501__chicken-dum-biryani"
+       },
+       "status": "ok"
+      },
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called add_to_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart', 'view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "Cart dikhao",
+     "reply": "Aapke cart ka summary yeh hai:\n\n- Annapurna: Chicken Dum Biryani (1 qty) - ₹240\n- Delivery fee: ₹55\n- Taxes: ₹22\n- Grand Total: ₹317\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 5.7,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 7005,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 7500,
+       "completion_tokens": 58
+      }
+     ],
+     "calls": [
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called view_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "haan annapurna wala order palce kardo",
+     "reply": "Order place ho gaya hai! Grand total ₹317 hai. Aap apne order ko track kar sakte hain.",
+     "status": "ok",
+     "seconds": 11.3,
+     "models": [
+      "groq/openai/gpt-oss-120b",
+      "gemini/gemini-3.8-flash",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6130,
+       "completion_tokens": 174
+      },
+      {
+       "prompt_tokens": 8168,
+       "completion_tokens": 50
+      },
+      {
+       "prompt_tokens": 8409,
+       "completion_tokens": 23
+      }
+     ],
+     "calls": [
+      {
+       "tool": "confirm_cart",
+       "arguments": {
+        "cart_id": "a8c6c746-101a-465d-9aa1-59dab74426c0",
+        "quote_id": "b7b64e6dfda32f3331ad"
+       },
+       "status": "ok"
+      },
+      {
+       "tool": "place_order",
+       "arguments": {
+        "cart_id": "a8c6c746-101a-465d-9aa1-59dab74426c0"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called confirm_cart",
+       "ok": true,
+       "detail": "called: ['confirm_cart', 'place_order']"
+      },
+      {
+       "check": "called place_order",
+       "ok": true,
+       "detail": "called: ['confirm_cart', 'place_order']"
+      },
+      {
+       "check": "orders placed = 1",
+       "ok": true,
+       "detail": "placed 1"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  }
+ ],
+ "summary": {
+  "cases": 1,
+  "cases_passed": 1,
+  "turns": 4,
+  "checks": 21,
+  "checks_passed": 21,
+  "by_check": {
+   "called": "5/5",
+   "names_spelled": "4/4",
+   "no_failure_reply": "4/4",
+   "numbers_grounded": "4/4",
+   "orders placed = 0": "2/2",
+   "orders placed = 1": "1/1",
+   "script": "1/1"
+  }
+ }
+}

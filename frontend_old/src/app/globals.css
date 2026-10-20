@@ -1,0 +1,97 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+/* Dawat brand tokens (CLAUDE.md → Brand). Gold is for lines/icons/highlights on plum or night, NEVER text on
+   ivory (fails contrast). shadcn/ui's semantic slots below are mapped onto the brand; every text pair is checked
+   for WCAG AA in frontend/scripts/check_contrast.mjs (run it after changing a colour). Light theme only in v1. */
+@theme inline {
+  --color-plum: #5b1e4e;
+  --color-plum-deep: #45163b;
+  --color-gold: #d8ae4a;
+  --color-ivory: #faf6ef;
+  --color-night: #22161f;
+  --color-veg: #1f7a3a;
+  --color-nonveg: #a3261b;
+
+  --font-sans: var(--font-dm-sans), system-ui, sans-serif;
+  --font-heading: var(--font-cormorant), Georgia, serif;
+  --font-display: var(--font-cormorant), Georgia, serif;
+
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root {
+  --background: #faf6ef;          /* ivory */
+  --foreground: #22161f;          /* night */
+  --card: #fffdf9;
+  --card-foreground: #22161f;
+  --popover: #fffdf9;
+  --popover-foreground: #22161f;
+  --primary: #5b1e4e;             /* plum */
+  --primary-foreground: #faf6ef;
+  --secondary: #f1e6ec;           /* plum tint */
+  --secondary-foreground: #5b1e4e;
+  --muted: #f1ebe1;
+  --muted-foreground: #5f5159;
+  --accent: #f1e6ec;
+  --accent-foreground: #5b1e4e;
+  --destructive: #b42318;
+  --border: #e4d9cb;              /* dividers (decorative) */
+  --input: #8a7c84;               /* form field borders: ≥ 3:1 on ivory and card */
+  --ring: #5b1e4e;                /* focus ring */
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  button:not(:disabled), [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  html {
+    @apply font-sans;
+    /* Keyboard focus scrolls clear of the sticky cart bar (its height, set by CartBar) and the Dawat AI launcher. */
+    scroll-padding-bottom: calc(var(--cartbar-h, 0px) + 5rem);
+  }
+  h1, h2, h3 {
+    @apply font-heading;
+  }
+  /* A visible focus indicator everywhere, even on elements without their own focus style. */
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+/* Leaflet's map credit sits on 80% white over map tiles: make it solid and plum so it always meets AA (ui-checker, 7d). */
+.leaflet-control-attribution { background: rgba(255, 255, 255, 0.95) !important; }
+.leaflet-control-attribution a { color: #5b1e4e !important; }

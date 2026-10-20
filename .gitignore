@@ -1,0 +1,58 @@
+# ─── Secrets (never commit) ───────────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ─── Python ──────────────────────────────────────────────
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ─── Node / Next.js ──────────────────────────────────────
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Testing ─────────────────────────────────────────────
+playwright-report/
+test-results/
+.playwright-mcp/
+
+# ─── Supabase local ──────────────────────────────────────
+supabase/.temp/
+supabase/.branches/
+
+# ─── OS / editor ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# ─── Logs ────────────────────────────────────────────────
+*.log
+logs/
+# local dev server state (backend/dev_server.py)
+.dev_server.pid
+# the local dev login's private signing key (backend/app/devauth.py, D-059)
+.dev_login/

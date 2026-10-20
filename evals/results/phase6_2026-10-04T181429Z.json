@@ -1,0 +1,1611 @@
+{
+ "run_at": "2026-10-04T18:14:29+00:00",
+ "prompt_version": "v2",
+ "models": [
+  "gemini/gemini-3.5-flash-lite",
+  "gemini/gemini-3.8-flash",
+  "groq/openai/gpt-oss-120b"
+ ],
+ "cases_file": "phase6_cases.json",
+ "cases": [
+  {
+   "id": "en-dish-search",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Any chicken biryani in Madhapur under 300?",
+     "reply": "Yep, here are a few chicken biryanis under ₹300 in Madhapur:\n\n- Chicken Dum Biryani at Annapurna for ₹240\n- Chicken Dum Biryani at Shree Santhosh Family Dhaba for ₹260\n- Chicken Dum Biryani at Abhiruchi for ₹260\n- Chicken Dum Biryani at Hideout for ₹270\n- Chicken Dum Biryani at The Adda for ₹280\n\nWould you like to add any of these to your cart?",
+     "status": "ok",
+     "seconds": 3.1,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4045,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5564,
+       "completion_tokens": 110
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "max_price": 300,
+        "query": "chicken biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got latin"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "search_dishes arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "hinglish-dish-search",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Bhai, Kondapur mein paneer biryani milega kya?",
+     "reply": "Haan bhai, bilkul milegi! Kondapur mein Paneer Biryani available hai. Ye kuch options hain:\n\n- 4 Seasons (Kondapur) - ₹270\n- Drive N' Dine - Drive in Restaurant (Izzat Nagar) - ₹280\n- HighLand NonVeg (Izzat Nagar) - ₹280\n- Paradise (HITEC City) - ₹320\n- Aviyal Veg Restaurant (HITEC City) - ₹300\n\nIn mein se kismein order karna hai batao, cart mein add kar deta hoon!",
+     "status": "ok",
+     "seconds": 3.2,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4045,
+       "completion_tokens": 28
+      },
+      {
+       "prompt_tokens": 5549,
+       "completion_tokens": 125
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Kondapur",
+        "query": "paneer biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got latin"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "search_dishes arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "telugu-latin",
+   "user": "family",
+   "turns": [
+    {
+     "say": "Gachibowli lo veg biryani kaavali",
+     "reply": "Gachibowli lo konni good options unnaayi:\n\n- **Yuktahar Mess** - Veg Dum Biryani for ₹170\n- **Bolledupati Sitaram and Brothers (BSB) Canteen** - Veg Dum Biryani for ₹180\n- **Diner's Pavilion** - Veg Dum Biryani for ₹220\n- **Paradise** - Veg Dum Biryani for ₹270\n- **Simply south** - Veg Dum Biryani for ₹230\n\nDeetlo edhi kaavali? Order chesesthaanu!",
+     "status": "ok",
+     "seconds": 2.8,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4042,
+       "completion_tokens": 35
+      },
+      {
+       "prompt_tokens": 5707,
+       "completion_tokens": 126
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Gachibowli",
+        "query": "veg biryani",
+        "is_veg": true
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got latin"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "search_dishes arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "telugu-script",
+   "user": "family",
+   "turns": [
+    {
+     "say": "మాధాపూర్ లో చికెన్ బిర్యానీ కావాలి",
+     "reply": "మాధాపూర్ లో చికెన్ బిర్యానీ దొరికే కొన్ని ప్రదేశాలు ఇక్కడ ఉన్నాయి:\n\n- Hi-Tech Bawarchi (Madhapur 2): ₹370\n- Kritunga (Madhapur): ₹340\n- Kafe Tirupati (Madhapur): ₹330\n- Madhapur Bawarchi (Madhapur): ₹360\n- Lucky Restaurant (Madhapur): ₹290\n\nవీటిలో ఏది కావాలి?",
+     "status": "ok",
+     "seconds": 2.8,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4045,
+       "completion_tokens": 30
+      },
+      {
+       "prompt_tokens": 5655,
+       "completion_tokens": 103
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "query": "చికెన్ బిర్యానీ"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got telugu"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "search_dishes arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "demo-500-spicy",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Bro, I'm hungry. I have ₹500. I want something spicy for 2 people, but one person is vegetarian. I'm in Madhapur.",
+     "reply": "Bro, I got you covered! Here are three spicy meal options for 2 people (one vegetarian) within your ₹500 budget in Madhapur:\n\n1. **Best value — Tiffin center** (Grand total: ₹230)\n   - 2 Ghee Karam Idli (veg, spicy)\n   - 1 Sambar (veg, mild)\n   - 2 main portions for 2; 2 veg for 1 vegetarian; spicy (spice 2–3) for everyone, as asked.\n\n2. **Best match — Annapurna** (Grand total: ₹419)\n   - 1 Veg Dum Biryani (veg, spicy)\n   - 1 Egg Biryani (eggetarian, spicy)\n   - 2 main portions for 2; 1 veg for 1 vegetarian; spicy (spice 2–3) for everyone, as asked.\n\n3. **Variety — Sampradaya Ruchulu Restaurant** (Grand total: ₹471)\n   - 1 Pulihora (veg, spicy)\n   - 1 Andhra Veg Meals (veg, spicy)\n   - 1 Rasam (veg, spicy)\n   - 2 main portions for 2; 2 veg for 1 vegetarian; spicy (spice 2–3) for everyone, as asked.\n\nWhich one do you want to go with?",
+     "status": "ok",
+     "seconds": 9.3,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4068,
+       "completion_tokens": 51
+      },
+      {
+       "prompt_tokens": 5538,
+       "completion_tokens": 297
+      }
+     ],
+     "calls": [
+      {
+       "tool": "plan_meal",
+       "arguments": {
+        "budget": 500,
+        "spice_preference": "spicy",
+        "veg_count": 1,
+        "non_spicy_count": 0,
+        "area": "Madhapur",
+        "people": 2
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "diet_notes_copied",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got latin"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called plan_meal",
+       "ok": true,
+       "detail": "called: ['plan_meal']"
+      },
+      {
+       "check": "did not call add_plan_to_cart",
+       "ok": true,
+       "detail": "called: ['plan_meal']"
+      },
+      {
+       "check": "plan_meal arguments",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "plan_meal status ok",
+       "ok": true,
+       "detail": "got ['ok']"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "over-budget",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Dinner for 4 people in Madhapur, my budget is ₹150.",
+     "reply": "The cheapest plan I found for 4 people in Madhapur costs ₹324, delivery and GST included. \n\nWould you like to raise your budget to ₹324, or should I plan a meal for 1 person instead?",
+     "status": "ok",
+     "seconds": 6.6,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4049,
+       "completion_tokens": 35
+      },
+      {
+       "prompt_tokens": 4667,
+       "completion_tokens": 51
+      }
+     ],
+     "calls": [
+      {
+       "tool": "plan_meal",
+       "arguments": {
+        "meal_type": "dinner",
+        "budget": 150,
+        "people": 4,
+        "area": "Madhapur"
+       },
+       "status": "over_budget"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called plan_meal",
+       "ok": true,
+       "detail": "called: ['plan_meal']"
+      },
+      {
+       "check": "plan_meal status over_budget",
+       "ok": true,
+       "detail": "got ['over_budget']"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "outside-coverage",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Can I get biryani delivered in Manikonda?",
+     "reply": "I'm sorry, Dawat doesn't deliver to Manikonda yet!",
+     "status": "ok",
+     "seconds": 8.6,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4041,
+       "completion_tokens": 26
+      },
+      {
+       "prompt_tokens": 4228,
+       "completion_tokens": 16
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Manikonda",
+        "query": "biryani"
+       },
+       "status": "outside_coverage"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "did not call add_to_cart",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "reply mentions",
+       "ok": true,
+       "detail": "none of ['Manikonda']"
+      },
+      {
+       "check": "no prices yet",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "needs-area",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "I want biryani",
+     "reply": "Which area in Hyderabad are you in?",
+     "status": "ok",
+     "seconds": 1.5,
+     "models": [
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4035,
+       "completion_tokens": 8
+      }
+     ],
+     "calls": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "did not call add_to_cart",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "did not call get_menu",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "reply mentions",
+       "ok": true,
+       "detail": "none of ['area', 'where', 'location', 'locality']"
+      },
+      {
+       "check": "no prices yet",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "chain-branch-first",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Show me the Paradise menu",
+     "reply": "Which branch or area of Paradise would you like to see the menu for? (e.g., Gachibowli, Secunderabad, HITEC City, etc.)",
+     "status": "ok",
+     "seconds": 2.4,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4036,
+       "completion_tokens": 16
+      },
+      {
+       "prompt_tokens": 5533,
+       "completion_tokens": 36
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_restaurants",
+       "arguments": {
+        "query": "Paradise"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_restaurants",
+       "ok": true,
+       "detail": "called: ['search_restaurants']"
+      },
+      {
+       "check": "did not call get_menu",
+       "ok": true,
+       "detail": "called: ['search_restaurants']"
+      },
+      {
+       "check": "search_restaurants status ok",
+       "ok": true,
+       "detail": "got ['ok']"
+      },
+      {
+       "check": "reply mentions",
+       "ok": true,
+       "detail": "none of ['branch', 'which', 'area', 'location']"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "category-only",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Show me only the biryanis at Hi-Tech Bawarchi in Madhapur",
+     "reply": "Hi-Tech Bawarchi in Madhapur has two branches: Madhapur 1 and Madhapur 2. Which one would you like to see the biryanis for?",
+     "status": "ok",
+     "seconds": 2.5,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4048,
+       "completion_tokens": 27
+      },
+      {
+       "prompt_tokens": 4409,
+       "completion_tokens": 38
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_restaurants",
+       "arguments": {
+        "area": "Madhapur",
+        "query": "Hi-Tech Bawarchi"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_restaurants",
+       "ok": true,
+       "detail": "called: ['search_restaurants']"
+      },
+      {
+       "check": "did not call get_menu",
+       "ok": true,
+       "detail": "called: ['search_restaurants']"
+      },
+      {
+       "check": "reply mentions",
+       "ok": true,
+       "detail": "none of ['branch', 'which']"
+      }
+     ]
+    },
+    {
+     "say": "Madhapur 2",
+     "reply": "Here are the biryanis at Hi-Tech Bawarchi (Madhapur 2):\n\n- Chicken Dum Biryani: ₹370 (Medium spice, serves 1)\n- Mutton Dum Biryani: ₹500 (Medium spice, serves 1)",
+     "status": "ok",
+     "seconds": 2.3,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4453,
+       "completion_tokens": 36
+      },
+      {
+       "prompt_tokens": 4762,
+       "completion_tokens": 57
+      }
+     ],
+     "calls": [
+      {
+       "tool": "get_menu",
+       "arguments": {
+        "category": "biryani",
+        "branch_id": "b-n708303182"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called get_menu",
+       "ok": true,
+       "detail": "called: ['get_menu']"
+      },
+      {
+       "check": "get_menu arguments",
+       "ok": true,
+       "detail": ""
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "unknown-dish",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Pork biryani in Madhapur?",
+     "reply": "We don't have pork biryani here. Would you like to try chicken or mutton biryani instead?",
+     "status": "ok",
+     "seconds": 2.4,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4040,
+       "completion_tokens": 27
+      },
+      {
+       "prompt_tokens": 5845,
+       "completion_tokens": 22
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "query": "Pork biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "reply mentions",
+       "ok": true,
+       "detail": "none of ['pork']"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "typos",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "chiken biriyani in madhapur",
+     "reply": "Here are some places for chicken biryani in Madhapur:\n\n- **Hi-Tech Bawarchi** (Madhapur 2): Chicken Dum Biryani for ₹370\n- **Kritunga** (Madhapur): Chicken Dum Biryani for ₹340\n- **Kafe Tirupati** (Madhapur): Chicken Dum Biryani for ₹330\n- **Madhapur Bawarchi** (Madhapur): Chicken Dum Biryani for ₹360\n- **Lucky Restaurant** (Madhapur): Chicken Dum Biryani for ₹290\n\nWould you like to order from any of these?",
+     "status": "ok",
+     "seconds": 2.5,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4040,
+       "completion_tokens": 28
+      },
+      {
+       "prompt_tokens": 5644,
+       "completion_tokens": 129
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "query": "chiken biriyani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "order-flow-hinglish",
+   "user": "priya",
+   "turns": [
+    {
+     "say": "Bhai, Madhapur mein veg biryani 250 ke andar milegi?",
+     "reply": "Haan bhai, Madhapur mein ₹250 ke andar kaafi veg biryani options mil jayenge! Ye dekho:\n\n- Veg Dum Biryani at Morning Dew – ₹200\n- Veg Dum Biryani at The Adda – ₹210\n- Veg Dum Biryani at Hideout – ₹210\n- Veg Dum Biryani at Thurum Khan Restaurant – ₹220\n- Veg Dum Biryani at Lucky Restaurant – ₹230\n\nInme se koi order karni hai kya?",
+     "status": "ok",
+     "seconds": 2.7,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4050,
+       "completion_tokens": 40
+      },
+      {
+       "prompt_tokens": 5587,
+       "completion_tokens": 111
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "query": "veg biryani",
+        "max_price": 250,
+        "area": "Madhapur",
+        "is_veg": true
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got latin"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "Sabse sasta wala ek cart mein daal do",
+     "reply": "Done! Morning Dew se Veg Dum Biryani cart mein daal di hai (₹200). \n\nCart total ₹240 ho gaya hai (delivery fee ₹25 aur taxes ₹15 milaake). Order place karein?",
+     "status": "ok",
+     "seconds": 2.6,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 5711,
+       "completion_tokens": 67
+      },
+      {
+       "prompt_tokens": 6320,
+       "completion_tokens": 51
+      }
+     ],
+     "calls": [
+      {
+       "tool": "add_to_cart",
+       "arguments": {
+        "branch_id": "b-n7025820874",
+        "qty": 1,
+        "item_id": "r-morning-dew-n7025820874__veg-dum-biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called add_to_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart']"
+      },
+      {
+       "check": "did not call confirm_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart']"
+      },
+      {
+       "check": "did not call place_order",
+       "ok": true,
+       "detail": "called: ['add_to_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "Cart dikhao",
+     "reply": "**Morning Dew (Madhapur)**\n- Veg Dum Biryani (1x) – ₹200\n\n- Delivery fee: ₹25\n- Taxes: ₹15\n- **Grand Total: ₹240**\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 2.3,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6376,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 6863,
+       "completion_tokens": 55
+      }
+     ],
+     "calls": [
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called view_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      },
+      {
+       "check": "did not call confirm_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      },
+      {
+       "check": "did not call place_order",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "haan, order kar do",
+     "reply": "Order place ho gaya hai! Grand total ₹240 hai (Order ID: `e2dfde8a-1b32-4b30-979d-e8a2edb509a0`). Aap apna order track kar sakte hain.",
+     "status": "ok",
+     "seconds": 4.2,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6925,
+       "completion_tokens": 74
+      },
+      {
+       "prompt_tokens": 7516,
+       "completion_tokens": 51
+      },
+      {
+       "prompt_tokens": 7759,
+       "completion_tokens": 60
+      }
+     ],
+     "calls": [
+      {
+       "tool": "confirm_cart",
+       "arguments": {
+        "cart_id": "14c195f2-09c2-43b2-9c5b-f8bb7ef9d567",
+        "quote_id": "48ab2b3ca0f992bb6cbf"
+       },
+       "status": "ok"
+      },
+      {
+       "tool": "place_order",
+       "arguments": {
+        "cart_id": "14c195f2-09c2-43b2-9c5b-f8bb7ef9d567"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called confirm_cart",
+       "ok": true,
+       "detail": "called: ['confirm_cart', 'place_order']"
+      },
+      {
+       "check": "called place_order",
+       "ok": true,
+       "detail": "called: ['confirm_cart', 'place_order']"
+      },
+      {
+       "check": "orders placed = 1",
+       "ok": true,
+       "detail": "placed 1"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "ok-thanks-is-not-a-yes",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "reply": "Here are a few options for chicken biryani in Madhapur under ₹300:\n\n- **Chicken Dum Biryani** at Annapurna for ₹240\n- **Chicken Dum Biryani** at Shree Santhosh Family Dhaba for ₹260\n- **Chicken Dum Biryani** at Abhiruchi for ₹260\n- **Chicken Dum Biryani** at Hideout for ₹270\n- **Chicken Dum Biryani** at Morning Dew for ₹270\n\nWould you like to add any of these to your cart?",
+     "status": "ok",
+     "seconds": 2.7,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4044,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5563,
+       "completion_tokens": 118
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "max_price": 300,
+        "query": "Chicken biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "reply": "Added 1 **Chicken Dum Biryani** from Annapurna (Madhapur) to your cart.\n\nHere is your cart summary:\n- **Chicken Dum Biryani** (Qty: 1) – ₹240\n- **Delivery Fee**: ₹55\n- **GST**: ₹22\n- **Grand Total**: ₹317\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 4.0,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.8-flash"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 5690,
+       "completion_tokens": 66
+      },
+      {
+       "prompt_tokens": 6302,
+       "completion_tokens": 80
+      }
+     ],
+     "calls": [
+      {
+       "tool": "add_to_cart",
+       "arguments": {
+        "qty": 1,
+        "item_id": "r-annapurna-n5482822501__chicken-dum-biryani",
+        "branch_id": "b-n5482822501"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called add_to_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "Show my cart",
+     "reply": "Here is your cart summary:\n\n- **Chicken Dum Biryani** (Annapurna) x 1 – ₹240\n- **Delivery Fee**: ₹55\n- **GST**: ₹22\n- **Grand Total**: ₹317\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 2.4,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6387,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 6879,
+       "completion_tokens": 60
+      }
+     ],
+     "calls": [
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called view_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "ok thanks",
+     "reply": "Shall I place the order?",
+     "status": "ok",
+     "seconds": 1.1,
+     "models": [
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6943,
+       "completion_tokens": 6
+      }
+     ],
+     "calls": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "did not call confirm_cart",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "did not call place_order",
+       "ok": true,
+       "detail": "called: []"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "preference-not-inferred",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "I'm vegetarian today, show me biryani in Madhapur",
+     "reply": "Here are a few vegetarian biryani options in Madhapur:\n\n- **Veg Dum Biryani** at Kritunga — ₹270\n- **Veg Dum Biryani** at Kafe Tirupati — ₹260\n- **Veg Dum Biryani** at Sri Sai Venkateshwara Hotel — ₹260\n- **Paneer Biryani** at Sri Sai Venkateshwara Hotel — ₹300\n- **Veg Dum Biryani** at Ghar Ka Khaana — ₹240\n\nWould you like me to remember that you're vegetarian?",
+     "status": "ok",
+     "seconds": 2.8,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4045,
+       "completion_tokens": 31
+      },
+      {
+       "prompt_tokens": 5605,
+       "completion_tokens": 118
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "area": "Madhapur",
+        "query": "biryani",
+        "is_veg": true
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      },
+      {
+       "check": "did not call save_preference",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "preference-on-request",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Please remember that I'm vegetarian.",
+     "reply": "Got it, I've saved your preference as vegetarian. You can ask me to forget it anytime. What would you like to eat today?",
+     "status": "ok",
+     "seconds": 3.3,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4039,
+       "completion_tokens": 45
+      },
+      {
+       "prompt_tokens": 4474,
+       "completion_tokens": 29
+      }
+     ],
+     "calls": [
+      {
+       "tool": "save_preference",
+       "arguments": {
+        "key": "diet",
+        "value": "vegetarian",
+        "user_words": "Please remember that I'm vegetarian.",
+        "source": "chat_request"
+       },
+       "status": "ok"
+      }
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "english_only",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "called save_preference",
+       "ok": true,
+       "detail": "called: ['save_preference']"
+      },
+      {
+       "check": "save_preference status ok",
+       "ok": true,
+       "detail": "got ['ok']"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  }
+ ],
+ "summary": {
+  "cases": 16,
+  "cases_passed": 16,
+  "turns": 23,
+  "checks": 146,
+  "checks_passed": 146,
+  "by_check": {
+   "called": "21/21",
+   "did": "13/13",
+   "diet_notes_copied": "1/1",
+   "english_only": "12/12",
+   "get_menu arguments": "1/1",
+   "names_spelled": "23/23",
+   "no prices yet": "2/2",
+   "no_failure_reply": "23/23",
+   "numbers_grounded": "23/23",
+   "orders placed = 0": "6/6",
+   "orders placed = 1": "1/1",
+   "plan_meal arguments": "1/1",
+   "plan_meal status ok": "1/1",
+   "plan_meal status over_budget": "1/1",
+   "reply mentions": "5/5",
+   "save_preference status ok": "1/1",
+   "script": "6/6",
+   "search_dishes arguments": "4/4",
+   "search_restaurants status ok": "1/1"
+  }
+ }
+}

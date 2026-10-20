@@ -1,0 +1,846 @@
+{
+  "inputs": {
+    "places": "osm_places_7868535_2026-09-30.json",
+    "missing_area_check": "osm_missing_area_check_7868535_2026-09-30.json",
+    "food": "overpass_hyderabad_2026-09-30.json",
+    "hand_added": "data/reference/areas_hand_added.csv",
+    "overrides": "data/reference/area_overrides.csv"
+  },
+  "generated_at_utc": "2026-09-30T08:01:01+00:00",
+  "counts": {
+    "draft_areas": 165,
+    "merged_same_name": 1,
+    "added_from_osm_check": 2,
+    "added_hand": 4,
+    "final_areas": 170,
+    "final_by_source": {
+      "osm": 166,
+      "hand-added": 4
+    },
+    "areas_with_zero_food_places": 20,
+    "areas_with_aliases": 151
+  },
+  "merged": [
+    {
+      "name": "Musheerabad",
+      "dropped": "node/2460279792",
+      "kept": "node/2930536685",
+      "distance_m": 1006
+    }
+  ],
+  "added": [
+    {
+      "name": "Secunderabad",
+      "osm_place": "city",
+      "source_ref": "node/2460862103"
+    },
+    {
+      "name": "Malkajgiri",
+      "osm_place": "town",
+      "source_ref": "node/2929579785"
+    },
+    {
+      "name": "Charminar",
+      "osm_place": "",
+      "source_ref": "hand-added"
+    },
+    {
+      "name": "Amberpet",
+      "osm_place": "",
+      "source_ref": "hand-added"
+    },
+    {
+      "name": "ECIL",
+      "osm_place": "",
+      "source_ref": "hand-added"
+    },
+    {
+      "name": "Tarnaka",
+      "osm_place": "",
+      "source_ref": "hand-added"
+    }
+  ],
+  "skipped": [
+    {
+      "name": "Tarnaka Flyover;TGSRTC Hospital",
+      "osm_place": "locality",
+      "source_ref": "node/2583708951",
+      "why": "place=locality is not an area-level tag (city/town/suburb)"
+    },
+    {
+      "name": "Manikonda",
+      "osm_place": "suburb",
+      "source_ref": "node/2935018014",
+      "why": "outside relation 7868535"
+    },
+    {
+      "name": "Manikonda",
+      "osm_place": "neighbourhood",
+      "source_ref": "node/4462901596",
+      "why": "outside relation 7868535"
+    },
+    {
+      "name": "Bowenpally",
+      "source_ref": "hand-added",
+      "why": "outside relation 7868535"
+    }
+  ],
+  "new_area_neighbours": {
+    "Secunderabad": [
+      {
+        "area": "Boiguda",
+        "m": 688
+      },
+      {
+        "area": "Chilkalguda",
+        "m": 729
+      }
+    ],
+    "Malkajgiri": [
+      {
+        "area": "RK Nagar",
+        "m": 727
+      },
+      {
+        "area": "Safilguda",
+        "m": 1735
+      }
+    ],
+    "Charminar": [
+      {
+        "area": "Moghalpura",
+        "m": 519
+      },
+      {
+        "area": "Alijah Kotla",
+        "m": 585
+      }
+    ],
+    "Amberpet": [
+      {
+        "area": "Nallakunta",
+        "m": 1591
+      },
+      {
+        "area": "Vidyanagar",
+        "m": 1646
+      }
+    ],
+    "ECIL": [
+      {
+        "area": "Kushaiguda",
+        "m": 1344
+      },
+      {
+        "area": "Moula Ali",
+        "m": 1819
+      }
+    ],
+    "Tarnaka": [
+      {
+        "area": "Sitaphalmandi",
+        "m": 1481
+      },
+      {
+        "area": "Habsiguda",
+        "m": 1696
+      }
+    ]
+  },
+  "distance_food_to_nearest_area": {
+    "before": {
+      "median_m": 589,
+      "p90_m": 1359,
+      "max_m": 4433,
+      "within_2km_pct": 97.9
+    },
+    "after": {
+      "median_m": 575,
+      "p90_m": 1310,
+      "max_m": 4433,
+      "within_2km_pct": 98.2
+    }
+  },
+  "before_after": {
+    "Abids": {
+      "before": 9,
+      "after": 9
+    },
+    "AC Guards": {
+      "before": 5,
+      "after": 5
+    },
+    "Adikmet": {
+      "before": 7,
+      "after": 7
+    },
+    "Afzalgunj": {
+      "before": 4,
+      "after": 4
+    },
+    "Aghapura": {
+      "before": 2,
+      "after": 2
+    },
+    "Aliabad": {
+      "before": 0,
+      "after": 0
+    },
+    "Alijah Kotla": {
+      "before": 1,
+      "after": 0
+    },
+    "Alwal": {
+      "before": 5,
+      "after": 5
+    },
+    "Amberpet": {
+      "before": null,
+      "after": 12
+    },
+    "Ameerpet": {
+      "before": 34,
+      "after": 34
+    },
+    "AS Rao Nagar": {
+      "before": 7,
+      "after": 7
+    },
+    "Ashok Nagar": {
+      "before": 1,
+      "after": 1
+    },
+    "Attapur": {
+      "before": 6,
+      "after": 6
+    },
+    "Azampura": {
+      "before": 1,
+      "after": 1
+    },
+    "Badi Chowdi": {
+      "before": 5,
+      "after": 5
+    },
+    "Bagh Lingampally": {
+      "before": 6,
+      "after": 6
+    },
+    "Bahadurpura": {
+      "before": 0,
+      "after": 0
+    },
+    "Bairamalguda": {
+      "before": 0,
+      "after": 0
+    },
+    "Balkampet": {
+      "before": 3,
+      "after": 3
+    },
+    "Bandlaguda": {
+      "before": 9,
+      "after": 9
+    },
+    "Banjara Hills": {
+      "before": 27,
+      "after": 27
+    },
+    "Barkatpura": {
+      "before": 0,
+      "after": 0
+    },
+    "Basheer Bagh": {
+      "before": 5,
+      "after": 5
+    },
+    "Begum Bazaar": {
+      "before": 0,
+      "after": 0
+    },
+    "Begumpet": {
+      "before": 18,
+      "after": 18
+    },
+    "Bharath Nagar": {
+      "before": 0,
+      "after": 0
+    },
+    "Boiguda": {
+      "before": 31,
+      "after": 6
+    },
+    "Bolarum": {
+      "before": 1,
+      "after": 1
+    },
+    "Borabanda": {
+      "before": 9,
+      "after": 9
+    },
+    "Boudha Nagar": {
+      "before": 14,
+      "after": 14
+    },
+    "Budvel": {
+      "before": 0,
+      "after": 0
+    },
+    "Chaderghat": {
+      "before": 1,
+      "after": 1
+    },
+    "Chaitanyapuri": {
+      "before": 27,
+      "after": 26
+    },
+    "Champapet": {
+      "before": 1,
+      "after": 1
+    },
+    "Chanchalguda": {
+      "before": 1,
+      "after": 1
+    },
+    "Chandanagar": {
+      "before": 9,
+      "after": 9
+    },
+    "Chandrayangutta": {
+      "before": 1,
+      "after": 1
+    },
+    "Charminar": {
+      "before": null,
+      "after": 9
+    },
+    "Cherlapally": {
+      "before": 1,
+      "after": 1
+    },
+    "Chikkadpally": {
+      "before": 2,
+      "after": 2
+    },
+    "Chilkalguda": {
+      "before": 12,
+      "after": 2
+    },
+    "Chintalkunta": {
+      "before": 8,
+      "after": 8
+    },
+    "Dabeerpura": {
+      "before": 2,
+      "after": 2
+    },
+    "Dhoolpet": {
+      "before": 0,
+      "after": 0
+    },
+    "Dilsukh Nagar": {
+      "before": 11,
+      "after": 11
+    },
+    "Domalguda": {
+      "before": 8,
+      "after": 8
+    },
+    "ECIL": {
+      "before": null,
+      "after": 22
+    },
+    "Erragadda": {
+      "before": 3,
+      "after": 3
+    },
+    "Falaknuma": {
+      "before": 2,
+      "after": 2
+    },
+    "Fateh Nagar": {
+      "before": 1,
+      "after": 1
+    },
+    "Film Nagar": {
+      "before": 14,
+      "after": 14
+    },
+    "Gachibowli": {
+      "before": 61,
+      "after": 61
+    },
+    "Gaddiannaram": {
+      "before": 5,
+      "after": 5
+    },
+    "Gagan Pahad": {
+      "before": 0,
+      "after": 0
+    },
+    "Gajularamaram": {
+      "before": 7,
+      "after": 7
+    },
+    "Gandhi Nagar": {
+      "before": 6,
+      "after": 7
+    },
+    "Golconda": {
+      "before": 1,
+      "after": 1
+    },
+    "Goshamahal": {
+      "before": 2,
+      "after": 2
+    },
+    "Gudimalkapur": {
+      "before": 8,
+      "after": 8
+    },
+    "Habsiguda": {
+      "before": 13,
+      "after": 9
+    },
+    "Hafeezpet": {
+      "before": 2,
+      "after": 2
+    },
+    "Hafiz Baba Nagar": {
+      "before": 1,
+      "after": 1
+    },
+    "Hayathnagar": {
+      "before": 11,
+      "after": 11
+    },
+    "Himayat Nagar": {
+      "before": 5,
+      "after": 5
+    },
+    "HITEC City": {
+      "before": 77,
+      "after": 77
+    },
+    "Hussaini Alam": {
+      "before": 0,
+      "after": 0
+    },
+    "Hyderguda": {
+      "before": 2,
+      "after": 2
+    },
+    "IDPL": {
+      "before": 13,
+      "after": 13
+    },
+    "Izzat Nagar": {
+      "before": 14,
+      "after": 14
+    },
+    "Jagadgirigutta": {
+      "before": 17,
+      "after": 17
+    },
+    "Jahanuma": {
+      "before": 0,
+      "after": 0
+    },
+    "Jawahar Nagar": {
+      "before": 9,
+      "after": 9
+    },
+    "Jeedimetla": {
+      "before": 11,
+      "after": 11
+    },
+    "Jubilee Hills": {
+      "before": 36,
+      "after": 36
+    },
+    "Kacheguda": {
+      "before": 1,
+      "after": 1
+    },
+    "Kapra": {
+      "before": 14,
+      "after": 11
+    },
+    "Karmanghat": {
+      "before": 1,
+      "after": 1
+    },
+    "Karvan": {
+      "before": 0,
+      "after": 0
+    },
+    "Katedan": {
+      "before": 0,
+      "after": 0
+    },
+    "Kavadiguda": {
+      "before": 2,
+      "after": 2
+    },
+    "Khairatabad": {
+      "before": 5,
+      "after": 5
+    },
+    "Khajaguda": {
+      "before": 10,
+      "after": 10
+    },
+    "Khilwat": {
+      "before": 3,
+      "after": 1
+    },
+    "Kishan Bagh": {
+      "before": 2,
+      "after": 2
+    },
+    "Kondapur": {
+      "before": 18,
+      "after": 18
+    },
+    "Kothaguda": {
+      "before": 35,
+      "after": 35
+    },
+    "Koti": {
+      "before": 1,
+      "after": 1
+    },
+    "Kowkur": {
+      "before": 0,
+      "after": 0
+    },
+    "KPHB Colony": {
+      "before": 84,
+      "after": 84
+    },
+    "Krishna Nagar": {
+      "before": 21,
+      "after": 21
+    },
+    "Kukatpally": {
+      "before": 30,
+      "after": 30
+    },
+    "Kushaiguda": {
+      "before": 21,
+      "after": 3
+    },
+    "Lakdikapul": {
+      "before": 6,
+      "after": 6
+    },
+    "Lal Darwaza": {
+      "before": 0,
+      "after": 0
+    },
+    "Langar Hauz": {
+      "before": 6,
+      "after": 6
+    },
+    "LB Nagar": {
+      "before": 21,
+      "after": 21
+    },
+    "Lingampally": {
+      "before": 6,
+      "after": 6
+    },
+    "Macha Bolarum": {
+      "before": 1,
+      "after": 1
+    },
+    "Madhapur": {
+      "before": 113,
+      "after": 113
+    },
+    "Madinaguda": {
+      "before": 11,
+      "after": 11
+    },
+    "Mailardevpally": {
+      "before": 2,
+      "after": 2
+    },
+    "Malakpet": {
+      "before": 5,
+      "after": 5
+    },
+    "Malkajgiri": {
+      "before": null,
+      "after": 5
+    },
+    "Mallapur": {
+      "before": 1,
+      "after": 1
+    },
+    "Mallepally": {
+      "before": 3,
+      "after": 3
+    },
+    "Mansoorabad": {
+      "before": 4,
+      "after": 4
+    },
+    "Masab Tank": {
+      "before": 19,
+      "after": 19
+    },
+    "Masjid Banda": {
+      "before": 4,
+      "after": 4
+    },
+    "Mehdipatnam": {
+      "before": 29,
+      "after": 29
+    },
+    "Miyapur": {
+      "before": 27,
+      "after": 27
+    },
+    "Moghalpura": {
+      "before": 6,
+      "after": 1
+    },
+    "Moosapet": {
+      "before": 4,
+      "after": 4
+    },
+    "Moosarambagh": {
+      "before": 6,
+      "after": 5
+    },
+    "Moti Nagar": {
+      "before": 13,
+      "after": 13
+    },
+    "Moula Ali": {
+      "before": 7,
+      "after": 6
+    },
+    "Musheerabad": {
+      "before": 4,
+      "after": 1
+    },
+    "Nacharam": {
+      "before": 8,
+      "after": 8
+    },
+    "Nacharam Industrial Area": {
+      "before": 2,
+      "after": 2
+    },
+    "Nagole": {
+      "before": 10,
+      "after": 10
+    },
+    "Nallagandla": {
+      "before": 6,
+      "after": 6
+    },
+    "Nallakunta": {
+      "before": 11,
+      "after": 8
+    },
+    "Namala Gundu": {
+      "before": 5,
+      "after": 5
+    },
+    "Nampally": {
+      "before": 7,
+      "after": 7
+    },
+    "Nanakramguda": {
+      "before": 32,
+      "after": 32
+    },
+    "Narayanguda": {
+      "before": 12,
+      "after": 12
+    },
+    "Navirman Nagar": {
+      "before": 4,
+      "after": 4
+    },
+    "Nawab Saheb Kunta": {
+      "before": 1,
+      "after": 1
+    },
+    "Neredmet": {
+      "before": 1,
+      "after": 1
+    },
+    "Padmarao Nagar": {
+      "before": 3,
+      "after": 3
+    },
+    "Panjagutta": {
+      "before": 30,
+      "after": 30
+    },
+    "Parsigutta": {
+      "before": 1,
+      "after": 1
+    },
+    "Patancheru": {
+      "before": 3,
+      "after": 3
+    },
+    "Pragathi Nagar": {
+      "before": 1,
+      "after": 1
+    },
+    "Purani Haveli": {
+      "before": 8,
+      "after": 7
+    },
+    "Qutubullapur": {
+      "before": 16,
+      "after": 16
+    },
+    "Raidurg": {
+      "before": 18,
+      "after": 18
+    },
+    "Rajendra Nagar": {
+      "before": 1,
+      "after": 1
+    },
+    "Ram Nagar": {
+      "before": 7,
+      "after": 7
+    },
+    "RK Nagar": {
+      "before": 5,
+      "after": 0
+    },
+    "Safilguda": {
+      "before": 1,
+      "after": 1
+    },
+    "Saidabad": {
+      "before": 3,
+      "after": 3
+    },
+    "Saifabad": {
+      "before": 19,
+      "after": 19
+    },
+    "Sainikpuri": {
+      "before": 5,
+      "after": 5
+    },
+    "Saket": {
+      "before": 0,
+      "after": 0
+    },
+    "Sanath Nagar": {
+      "before": 1,
+      "after": 1
+    },
+    "Santosh Nagar": {
+      "before": 7,
+      "after": 7
+    },
+    "Saroor Nagar": {
+      "before": 3,
+      "after": 3
+    },
+    "Satavahana Nagar": {
+      "before": 6,
+      "after": 6
+    },
+    "Secunderabad": {
+      "before": null,
+      "after": 35
+    },
+    "Shah Ali Banda": {
+      "before": 2,
+      "after": 2
+    },
+    "Shaikpet": {
+      "before": 5,
+      "after": 5
+    },
+    "Sitaphalmandi": {
+      "before": 8,
+      "after": 4
+    },
+    "Somajiguda": {
+      "before": 24,
+      "after": 24
+    },
+    "SR Nagar": {
+      "before": 12,
+      "after": 12
+    },
+    "Sultan Bazar": {
+      "before": 3,
+      "after": 3
+    },
+    "Tarnaka": {
+      "before": null,
+      "after": 8
+    },
+    "Tolichowki": {
+      "before": 5,
+      "after": 5
+    },
+    "Uppal": {
+      "before": 25,
+      "after": 25
+    },
+    "Upperpally": {
+      "before": 1,
+      "after": 1
+    },
+    "Uppuguda": {
+      "before": 0,
+      "after": 0
+    },
+    "Vanasthalipuram": {
+      "before": 11,
+      "after": 11
+    },
+    "Vengal Rao Nagar": {
+      "before": 15,
+      "after": 15
+    },
+    "Venkatapuram": {
+      "before": 2,
+      "after": 2
+    },
+    "Vidyanagar": {
+      "before": 18,
+      "after": 11
+    },
+    "Vijay Nagar Colony": {
+      "before": 0,
+      "after": 0
+    },
+    "Warasiguda": {
+      "before": 3,
+      "after": 3
+    },
+    "Yakutpura": {
+      "before": 1,
+      "after": 1
+    },
+    "Yapral": {
+      "before": 1,
+      "after": 1
+    },
+    "Yousufguda": {
+      "before": 4,
+      "after": 4
+    },
+    "Zamistanpur": {
+      "before": 0,
+      "after": 2
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "source": "OpenStreetMap via Overpass API (\u00a9 OpenStreetMap contributors, ODbL)",
+  "purpose": "outline of the fetch boundary, for the map plot only",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:60];\nrel(7868535);\nout geom;\n",
+  "fetched_at_utc": "2026-09-30T06:23:17+00:00",
+  "osm_data_timestamp": "2026-09-30T06:21:39Z",
+  "outer_ways": 72,
+  "outer_points": 1114,
+  "bytes": 66031,
+  "sha256": "896e00caf772b6fa3499561e0a76788659163843a21258371139538c265b55f2",
+  "file": "osm_relation_7868535_2026-09-30.json"
+}

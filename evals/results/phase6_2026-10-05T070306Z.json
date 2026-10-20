@@ -1,0 +1,671 @@
+{
+ "run_at": "2026-10-05T07:03:06+00:00",
+ "prompt_version": "v3",
+ "models": [
+  "gemini/gemini-3.5-flash-lite",
+  "gemini/gemini-3.8-flash",
+  "groq/openai/gpt-oss-120b"
+ ],
+ "cases_file": "phase6_cases.json",
+ "repeat": 2,
+ "cases": [
+  {
+   "id": "intent-telugu-script-order",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "reply": "Here are a few places in Madhapur serving chicken biryani under ₹300:\n\n- **Annapurna**: Chicken Dum Biryani for ₹240\n- **Shree Santhosh Family Dhaba**: Chicken Dum Biryani for ₹260\n- **Abhiruchi**: Chicken Dum Biryani for ₹260\n- **Hideout**: Chicken Dum Biryani for ₹270\n- **The Adda**: Chicken Dum Biryani for ₹280\n\nWould you like to add one of these to your cart?",
+     "status": "ok",
+     "seconds": 4.5,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4169,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5688,
+       "completion_tokens": 115
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "query": "chicken biryani",
+        "max_price": 300,
+        "area": "Madhapur"
+       },
+       "status": "ok"
+      }
+     ],
+     "name_corrections": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "reply": "I've added Chicken Dum Biryani from Annapurna to your cart. \n\nWould you like to place the order now?",
+     "status": "ok",
+     "seconds": 3.1,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 5812,
+       "completion_tokens": 66
+      },
+      {
+       "prompt_tokens": 6416,
+       "completion_tokens": 27
+      }
+     ],
+     "calls": [
+      {
+       "tool": "add_to_cart",
+       "arguments": {
+        "qty": 1,
+        "branch_id": "b-n5482822501",
+        "item_id": "r-annapurna-n5482822501__chicken-dum-biryani"
+       },
+       "status": "ok"
+      }
+     ],
+     "name_corrections": [
+      [
+       "Annapurana",
+       "Annapurna"
+      ]
+     ],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called add_to_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "Show my cart",
+     "reply": "Here is your cart:\n\n- 1x Chicken Dum Biryani from Annapurna — ₹240\n- Delivery fee (Madhapur): ₹25\n- Taxes: ₹17\n\nGrand Total: ₹282\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 2.6,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6447,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 6887,
+       "completion_tokens": 55
+      }
+     ],
+     "calls": [
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "name_corrections": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called view_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "సరే, ఆర్డర్ పెట్టండి",
+     "reply": "మీరు ₹282 కి ఆర్డర్ పెట్టమని అడిగారు, ఖచ్చితంగా ఆర్డర్ ప్లేస్ చేయమంటారా?",
+     "status": "ok",
+     "seconds": 4.3,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6952,
+       "completion_tokens": 75
+      },
+      {
+       "prompt_tokens": 7226,
+       "completion_tokens": 32
+      }
+     ],
+     "calls": [
+      {
+       "tool": "confirm_cart",
+       "arguments": {
+        "quote_id": "f122248791afbe7bba15",
+        "cart_id": "b38531c9-1fa6-4848-ba55-53945f72a56b"
+       },
+       "status": "confirm_intent"
+      }
+     ],
+     "name_corrections": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got telugu"
+      },
+      {
+       "check": "did not call place_order",
+       "ok": true,
+       "detail": "called: ['confirm_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "అవును",
+     "reply": "మీ ఆర్డర్ విజయవంతంగా ప్లేస్ చేయబడింది! గ్రాండ్ టోటల్ ₹282. మీరు దీన్ని ట్రాక్ చేయవచ్చు.",
+     "status": "ok",
+     "seconds": 6.1,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 7263,
+       "completion_tokens": 75
+      },
+      {
+       "prompt_tokens": 7830,
+       "completion_tokens": 51
+      },
+      {
+       "prompt_tokens": 8078,
+       "completion_tokens": 33
+      }
+     ],
+     "calls": [
+      {
+       "tool": "confirm_cart",
+       "arguments": {
+        "cart_id": "b38531c9-1fa6-4848-ba55-53945f72a56b",
+        "quote_id": "f122248791afbe7bba15"
+       },
+       "status": "ok"
+      },
+      {
+       "tool": "place_order",
+       "arguments": {
+        "cart_id": "b38531c9-1fa6-4848-ba55-53945f72a56b"
+       },
+       "status": "ok"
+      }
+     ],
+     "name_corrections": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called confirm_cart",
+       "ok": true,
+       "detail": "called: ['confirm_cart', 'place_order']"
+      },
+      {
+       "check": "called place_order",
+       "ok": true,
+       "detail": "called: ['confirm_cart', 'place_order']"
+      },
+      {
+       "check": "orders placed = 1",
+       "ok": true,
+       "detail": "placed 1"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  },
+  {
+   "id": "intent-telugu-script-order",
+   "user": "arjun",
+   "turns": [
+    {
+     "say": "Chicken biryani in Madhapur under 300?",
+     "reply": "Here are a few chicken biryanis in Madhapur under ₹300:\n\n- Chicken Dum Biryani at Annapurna for ₹240\n- Chicken Dum Biryani at Shree Santhosh Family Dhaba for ₹260\n- Chicken Dum Biryani at Abhiruchi for ₹260\n- Chicken Dum Biryani at Hideout for ₹270\n- Chicken Dum Biryani at Morning Dew for ₹270\n\nWould you like to add one of these to your cart?",
+     "status": "ok",
+     "seconds": 3.1,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 4169,
+       "completion_tokens": 34
+      },
+      {
+       "prompt_tokens": 5688,
+       "completion_tokens": 107
+      }
+     ],
+     "calls": [
+      {
+       "tool": "search_dishes",
+       "arguments": {
+        "max_price": 300,
+        "query": "chicken biryani",
+        "area": "Madhapur"
+       },
+       "status": "ok"
+      }
+     ],
+     "name_corrections": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called search_dishes",
+       "ok": true,
+       "detail": "called: ['search_dishes']"
+      }
+     ]
+    },
+    {
+     "say": "Add the cheapest one to my cart",
+     "reply": "I've added Chicken Dum Biryani from Annapurna to your cart for delivery to Madhapur.\n\nHere is your cart summary:\n- 1x Chicken Dum Biryani (Annapurna): ₹240\n- Delivery Fee: ₹25\n- Taxes: ₹17\n- Grand Total: ₹282\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 4.5,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 5804,
+       "completion_tokens": 66
+      },
+      {
+       "prompt_tokens": 6406,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 6844,
+       "completion_tokens": 76
+      }
+     ],
+     "calls": [
+      {
+       "tool": "add_to_cart",
+       "arguments": {
+        "item_id": "r-annapurna-n5482822501__chicken-dum-biryani",
+        "branch_id": "b-n5482822501",
+        "qty": 1
+       },
+       "status": "ok"
+      },
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "name_corrections": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called add_to_cart",
+       "ok": true,
+       "detail": "called: ['add_to_cart', 'view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "Show my cart",
+     "reply": "Here is your cart summary:\n- 1x Chicken Dum Biryani (Annapurna): ₹240\n- Delivery Fee: ₹25\n- Taxes: ₹17\n- Grand Total: ₹282\n\nShall I place the order?",
+     "status": "ok",
+     "seconds": 2.7,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 6925,
+       "completion_tokens": 10
+      },
+      {
+       "prompt_tokens": 7363,
+       "completion_tokens": 54
+      }
+     ],
+     "calls": [
+      {
+       "tool": "view_cart",
+       "arguments": {},
+       "status": "ok"
+      }
+     ],
+     "name_corrections": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called view_cart",
+       "ok": true,
+       "detail": "called: ['view_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "సరే, ఆర్డర్ పెట్టండి",
+     "reply": "మీరు చెప్పినట్లే ₹282 కి ఆర్డర్ కన్ఫర్మ్ చేయమంటారా?",
+     "status": "ok",
+     "seconds": 4.0,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 7427,
+       "completion_tokens": 73
+      },
+      {
+       "prompt_tokens": 7699,
+       "completion_tokens": 24
+      }
+     ],
+     "calls": [
+      {
+       "tool": "confirm_cart",
+       "arguments": {
+        "cart_id": "7910cebb-0def-43cc-93e6-2f76b2b84f5b",
+        "quote_id": "99f2242f0fde4a7204dc"
+       },
+       "status": "confirm_intent"
+      }
+     ],
+     "name_corrections": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "script",
+       "ok": true,
+       "detail": "got telugu"
+      },
+      {
+       "check": "did not call place_order",
+       "ok": true,
+       "detail": "called: ['confirm_cart']"
+      },
+      {
+       "check": "orders placed = 0",
+       "ok": true,
+       "detail": "placed 0"
+      }
+     ]
+    },
+    {
+     "say": "అవును",
+     "reply": "మీ ఆర్డర్ విజయవంతంగా ప్లేస్ చేయబడింది! గ్రాండ్ టోటల్ ₹282. మీరు దీన్ని ట్రాక్ చేయవచ్చు.",
+     "status": "ok",
+     "seconds": 6.2,
+     "models": [
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite",
+      "gemini/gemini-3.5-flash-lite"
+     ],
+     "usage": [
+      {
+       "prompt_tokens": 7728,
+       "completion_tokens": 73
+      },
+      {
+       "prompt_tokens": 8291,
+       "completion_tokens": 48
+      },
+      {
+       "prompt_tokens": 8530,
+       "completion_tokens": 33
+      }
+     ],
+     "calls": [
+      {
+       "tool": "confirm_cart",
+       "arguments": {
+        "cart_id": "7910cebb-0def-43cc-93e6-2f76b2b84f5b",
+        "quote_id": "99f2242f0fde4a7204dc"
+       },
+       "status": "ok"
+      },
+      {
+       "tool": "place_order",
+       "arguments": {
+        "cart_id": "7910cebb-0def-43cc-93e6-2f76b2b84f5b"
+       },
+       "status": "ok"
+      }
+     ],
+     "name_corrections": [],
+     "checks": [
+      {
+       "check": "numbers_grounded",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "names_spelled",
+       "ok": true,
+       "detail": ""
+      },
+      {
+       "check": "no_failure_reply",
+       "ok": true,
+       "detail": "status ok"
+      },
+      {
+       "check": "called confirm_cart",
+       "ok": true,
+       "detail": "called: ['confirm_cart', 'place_order']"
+      },
+      {
+       "check": "called place_order",
+       "ok": true,
+       "detail": "called: ['confirm_cart', 'place_order']"
+      },
+      {
+       "check": "orders placed = 1",
+       "ok": true,
+       "detail": "placed 1"
+      }
+     ]
+    }
+   ],
+   "passed": true
+  }
+ ],
+ "summary": {
+  "cases": 2,
+  "cases_passed": 2,
+  "turns": 10,
+  "checks": 52,
+  "checks_passed": 52,
+  "by_check": {
+   "called": "10/10",
+   "did": "2/2",
+   "names_spelled": "10/10",
+   "no_failure_reply": "10/10",
+   "numbers_grounded": "10/10",
+   "orders placed = 0": "6/6",
+   "orders placed = 1": "2/2",
+   "script": "2/2"
+  }
+ }
+}

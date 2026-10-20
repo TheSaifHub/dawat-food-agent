@@ -1,0 +1,580 @@
+{
+  "dishes": 319,
+  "veg_dishes": 190,
+  "by_category": {
+    "curry": 36,
+    "drink": 32,
+    "starter": 26,
+    "dessert": 20,
+    "rice": 18,
+    "biryani": 17,
+    "snack": 17,
+    "tiffin": 17,
+    "kebab": 14,
+    "bakery": 13,
+    "bread": 12,
+    "breakfast": 10,
+    "soup": 9,
+    "mexican": 9,
+    "noodles": 8,
+    "pizza": 8,
+    "sandwich": 8,
+    "mandi": 6,
+    "fried_chicken": 6,
+    "pasta": 6,
+    "burger": 6,
+    "continental": 6,
+    "roll": 5,
+    "meals": 4,
+    "shawarma": 3,
+    "salad": 3
+  },
+  "by_course": {
+    "main": 163,
+    "side": 99,
+    "drink": 32,
+    "dessert": 25
+  },
+  "by_spice_level": {
+    "0": 110,
+    "1": 107,
+    "2": 78,
+    "3": 24
+  },
+  "serves_2": 7,
+  "aliases": {
+    "total_unique": 1815,
+    "latin": 1443,
+    "telugu_script": 372,
+    "per_dish_avg": 5.7,
+    "dishes_with_telugu_script_alias": 319,
+    "dishes_without_telugu_script_alias": []
+  },
+  "templates": {
+    "Biryani": {
+      "core": 11,
+      "optional": 20,
+      "size": [
+        14,
+        20
+      ],
+      "veg_dishes": 15,
+      "restaurants": 20
+    },
+    "Hyderabadi": {
+      "core": 15,
+      "optional": 19,
+      "size": [
+        18,
+        26
+      ],
+      "veg_dishes": 17,
+      "restaurants": 6
+    },
+    "Indian": {
+      "core": 15,
+      "optional": 34,
+      "size": [
+        20,
+        28
+      ],
+      "veg_dishes": 32,
+      "restaurants": 153
+    },
+    "North Indian": {
+      "core": 15,
+      "optional": 28,
+      "size": [
+        20,
+        28
+      ],
+      "veg_dishes": 35,
+      "restaurants": 14
+    },
+    "South Indian": {
+      "core": 14,
+      "optional": 23,
+      "size": [
+        18,
+        26
+      ],
+      "veg_dishes": 36,
+      "restaurants": 83
+    },
+    "Andhra": {
+      "core": 13,
+      "optional": 25,
+      "size": [
+        18,
+        26
+      ],
+      "veg_dishes": 18,
+      "restaurants": 10
+    },
+    "Chinese": {
+      "core": 11,
+      "optional": 21,
+      "size": [
+        16,
+        24
+      ],
+      "veg_dishes": 19,
+      "restaurants": 54
+    },
+    "Asian": {
+      "core": 9,
+      "optional": 14,
+      "size": [
+        14,
+        20
+      ],
+      "veg_dishes": 15,
+      "restaurants": 12
+    },
+    "Pizza": {
+      "core": 8,
+      "optional": 13,
+      "size": [
+        12,
+        18
+      ],
+      "veg_dishes": 14,
+      "restaurants": 43
+    },
+    "Italian": {
+      "core": 9,
+      "optional": 14,
+      "size": [
+        14,
+        20
+      ],
+      "veg_dishes": 16,
+      "restaurants": 14
+    },
+    "Burgers": {
+      "core": 9,
+      "optional": 9,
+      "size": [
+        12,
+        16
+      ],
+      "veg_dishes": 12,
+      "restaurants": 38
+    },
+    "Sandwiches": {
+      "core": 9,
+      "optional": 9,
+      "size": [
+        10,
+        15
+      ],
+      "veg_dishes": 12,
+      "restaurants": 15
+    },
+    "Rolls & Wraps": {
+      "core": 7,
+      "optional": 5,
+      "size": [
+        8,
+        12
+      ],
+      "veg_dishes": 9,
+      "restaurants": 1
+    },
+    "Fried Chicken": {
+      "core": 10,
+      "optional": 8,
+      "size": [
+        10,
+        15
+      ],
+      "veg_dishes": 9,
+      "restaurants": 43
+    },
+    "Kebab & Grill": {
+      "core": 14,
+      "optional": 17,
+      "size": [
+        16,
+        24
+      ],
+      "veg_dishes": 16,
+      "restaurants": 45
+    },
+    "Arabian": {
+      "core": 12,
+      "optional": 10,
+      "size": [
+        12,
+        18
+      ],
+      "veg_dishes": 11,
+      "restaurants": 23
+    },
+    "Seafood": {
+      "core": 10,
+      "optional": 13,
+      "size": [
+        14,
+        20
+      ],
+      "veg_dishes": 8,
+      "restaurants": 8
+    },
+    "Mexican": {
+      "core": 9,
+      "optional": 7,
+      "size": [
+        10,
+        14
+      ],
+      "veg_dishes": 11,
+      "restaurants": 7
+    },
+    "Continental": {
+      "core": 11,
+      "optional": 15,
+      "size": [
+        14,
+        20
+      ],
+      "veg_dishes": 16,
+      "restaurants": 11
+    },
+    "Breakfast": {
+      "core": 10,
+      "optional": 13,
+      "size": [
+        12,
+        18
+      ],
+      "veg_dishes": 17,
+      "restaurants": 6
+    },
+    "Cafe": {
+      "core": 12,
+      "optional": 25,
+      "size": [
+        14,
+        22
+      ],
+      "veg_dishes": 28,
+      "restaurants": 162
+    },
+    "Irani Cafe": {
+      "core": 13,
+      "optional": 14,
+      "size": [
+        14,
+        20
+      ],
+      "veg_dishes": 16,
+      "restaurants": 6
+    },
+    "Tea": {
+      "core": 9,
+      "optional": 13,
+      "size": [
+        8,
+        14
+      ],
+      "veg_dishes": 20,
+      "restaurants": 24
+    },
+    "Bakery": {
+      "core": 11,
+      "optional": 12,
+      "size": [
+        10,
+        16
+      ],
+      "veg_dishes": 12,
+      "restaurants": 20
+    },
+    "Desserts": {
+      "core": 10,
+      "optional": 15,
+      "size": [
+        10,
+        16
+      ],
+      "veg_dishes": 20,
+      "restaurants": 28
+    },
+    "Juices & Shakes": {
+      "core": 11,
+      "optional": 10,
+      "size": [
+        10,
+        16
+      ],
+      "veg_dishes": 21,
+      "restaurants": 17
+    },
+    "Fast Food": {
+      "core": 12,
+      "optional": 28,
+      "size": [
+        14,
+        22
+      ],
+      "veg_dishes": 26,
+      "restaurants": 91
+    },
+    "Multi-cuisine": {
+      "core": 18,
+      "optional": 37,
+      "size": [
+        22,
+        30
+      ],
+      "veg_dishes": 33,
+      "restaurants": 386
+    }
+  },
+  "cuisines_used_without_template": [],
+  "templates_unused": [],
+  "name_hints": 26,
+  "veg_only_restaurants": {
+    "count": 37,
+    "min_veg_dishes_available": 17,
+    "details": [
+      {
+        "restaurant": "Chutneys",
+        "cuisines": "Indian;South Indian;Desserts",
+        "veg_dishes_available": 77,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Minerva Coffee Shop",
+        "cuisines": "South Indian;Cafe",
+        "veg_dishes_available": 61,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Udipi",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Annapoorna Darshini Tiffins & Meals",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Jain Kitchen, Pure Vegetarian Restaurant",
+        "cuisines": "Indian",
+        "veg_dishes_available": 32,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Veggie Chinese",
+        "cuisines": "Chinese",
+        "veg_dishes_available": 19,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Arya Bhavan",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Arya Bhavan",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Surabhi Udupi Veg Restaurant",
+        "cuisines": "Indian",
+        "veg_dishes_available": 32,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Aviyal Veg Restaurant",
+        "cuisines": "Multi-cuisine",
+        "veg_dishes_available": 33,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Udupi Uphar",
+        "cuisines": "Indian",
+        "veg_dishes_available": 32,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Udupi Vihar",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Manpasand Veg restaurant",
+        "cuisines": "Indian",
+        "veg_dishes_available": 32,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Udupi Tiffins",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Taj Tristar",
+        "cuisines": "Multi-cuisine",
+        "veg_dishes_available": 33,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Anand Bhavan",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Yuktahar Mess",
+        "cuisines": "Indian",
+        "veg_dishes_available": 32,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Taj Belson",
+        "cuisines": "Multi-cuisine",
+        "veg_dishes_available": 33,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Aadi Raghavendra Udupi Veg",
+        "cuisines": "Chinese;Indian",
+        "veg_dishes_available": 47,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Anand Bhavan (vegetarian)",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Udipi Park Hotel",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Sai Darshini",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Raghavedndra Vegitarian",
+        "cuisines": "Multi-cuisine",
+        "veg_dishes_available": 33,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Sandarshini Udipi Veg",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Sri Raghavendra Udipi Veg",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Ratna pure veg",
+        "cuisines": "Multi-cuisine",
+        "veg_dishes_available": 33,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Hotel Surabhi Udupi Veg",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Sri Raghavendra Bhavan Udipi",
+        "cuisines": "North Indian;Chinese;Indian",
+        "veg_dishes_available": 59,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Sri Balaji Veg",
+        "cuisines": "Multi-cuisine",
+        "veg_dishes_available": 33,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Kamath Hotel",
+        "cuisines": "Multi-cuisine",
+        "veg_dishes_available": 33,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Chilly's Restaurant",
+        "cuisines": "Multi-cuisine",
+        "veg_dishes_available": 33,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Parivar Vegetarian",
+        "cuisines": "Multi-cuisine",
+        "veg_dishes_available": 33,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Udipi's Aahar",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Udupy Ahar",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Udipi Hotel",
+        "cuisines": "Breakfast",
+        "veg_dishes_available": 17,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Sanchalan Bhavan Canteen",
+        "cuisines": "South Indian",
+        "veg_dishes_available": 36,
+        "veg_main": true
+      },
+      {
+        "restaurant": "Hotel Kamat",
+        "cuisines": "Multi-cuisine",
+        "veg_dishes_available": 33,
+        "veg_main": true
+      }
+    ]
+  },
+  "lexicon": {
+    "terms": 203,
+    "by_kind": {
+      "ingredient": 72,
+      "dish word": 65,
+      "spice": 26,
+      "number": 19,
+      "diet": 18,
+      "portion": 3
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

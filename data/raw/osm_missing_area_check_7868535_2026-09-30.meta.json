@@ -1,0 +1,12 @@
+{
+  "source": "OpenStreetMap via Overpass API (\u00a9 OpenStreetMap contributors, ODbL)",
+  "purpose": "check whether 7 well-known area names exist under any place=* tag (module 2a)",
+  "endpoint": "https://overpass-api.de/api/interpreter",
+  "query": "[out:json][timeout:60];\nnwr[\"place\"][\"name\"~\"secunderabad|amber ?pet|tarnaka|malkaj ?giri|bowen ?pall|ecil|e\\\\.c\\\\.i\\\\.l|manikonda\",i](17.2,78.15,17.65,78.7);\nout center tags;\n",
+  "fetched_at_utc": "2026-09-30T07:35:52+00:00",
+  "osm_data_timestamp": "2026-09-30T07:33:51Z",
+  "element_count": 5,
+  "bytes": 2312,
+  "sha256": "e7c3a7c5507f31d9b35a5b27fe45ac7afe6390bc4cf9cb196d781740e2d5d6e2",
+  "file": "osm_missing_area_check_7868535_2026-09-30.json"
+}

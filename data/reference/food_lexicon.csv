@@ -1,0 +1,204 @@
+term,means,kind,language
+kodi,chicken,ingredient,telugu (latin)
+koddi,chicken,ingredient,telugu (latin)
+కోడి,chicken,ingredient,telugu
+చికెన్,chicken,ingredient,telugu
+murgh,chicken,ingredient,hindi/urdu (latin)
+murg,chicken,ingredient,hindi/urdu (latin)
+murga,chicken,ingredient,hindi/urdu (latin)
+chiken,chicken,ingredient,typo
+chkn,chicken,ingredient,typo
+natu kodi,country chicken,ingredient,telugu (latin)
+నాటు కోడి,country chicken,ingredient,telugu
+mutton,mutton,ingredient,english
+muton,mutton,ingredient,typo
+mamsam,mutton,ingredient,telugu (latin)
+maamsam,mutton,ingredient,telugu (latin)
+mamsaam,mutton,ingredient,telugu (latin)
+మాంసం,mutton,ingredient,telugu
+మటన్,mutton,ingredient,telugu
+gosht,mutton,ingredient,hindi/urdu (latin)
+ghosht,mutton,ingredient,hindi/urdu (latin)
+egg,egg,ingredient,english
+anda,egg,ingredient,hindi (latin)
+ande,egg,ingredient,hindi (latin)
+guddu,egg,ingredient,telugu (latin)
+kodiguddu,egg,ingredient,telugu (latin)
+గుడ్డు,egg,ingredient,telugu
+ఎగ్,egg,ingredient,telugu
+fish,fish,ingredient,english
+chepa,fish,ingredient,telugu (latin)
+chepala,fish,ingredient,telugu (latin)
+చేప,fish,ingredient,telugu
+చేపల,fish,ingredient,telugu
+machli,fish,ingredient,hindi (latin)
+machhli,fish,ingredient,hindi (latin)
+machhi,fish,ingredient,hindi (latin)
+prawns,prawns,ingredient,english
+prawn,prawns,ingredient,english
+shrimp,prawns,ingredient,english
+royyalu,prawns,ingredient,telugu (latin)
+royyala,prawns,ingredient,telugu (latin)
+రొయ్యలు,prawns,ingredient,telugu
+రొయ్యల,prawns,ingredient,telugu
+jhinga,prawns,ingredient,hindi (latin)
+paneer,paneer,ingredient,english
+panner,paneer,ingredient,typo
+paner,paneer,ingredient,typo
+panir,paneer,ingredient,typo
+పనీర్,paneer,ingredient,telugu
+aloo,potato,ingredient,hindi (latin)
+alu,potato,ingredient,hindi (latin)
+bangaladumpa,potato,ingredient,telugu (latin)
+బంగాళదుంప,potato,ingredient,telugu
+ఆలూ,potato,ingredient,telugu
+gobi,cauliflower,ingredient,hindi (latin)
+gobhi,cauliflower,ingredient,hindi (latin)
+vankaya,brinjal,ingredient,telugu (latin)
+వంకాయ,brinjal,ingredient,telugu
+baingan,brinjal,ingredient,hindi (latin)
+palak,spinach,ingredient,hindi (latin)
+palakura,spinach,ingredient,telugu (latin)
+పాలకూర,spinach,ingredient,telugu
+gongura,sorrel leaves,ingredient,telugu (latin)
+గోంగూర,sorrel leaves,ingredient,telugu
+mushroom,mushroom,ingredient,english
+puttagodugu,mushroom,ingredient,telugu (latin)
+పుట్టగొడుగు,mushroom,ingredient,telugu
+mirchi,chilli,ingredient,hindi (latin)
+mirapakaya,chilli,ingredient,telugu (latin)
+మిరపకాయ,chilli,ingredient,telugu
+rice,rice,dish word,english
+annam,rice,dish word,telugu (latin)
+అన్నం,rice,dish word,telugu
+chawal,rice,dish word,hindi (latin)
+chaawal,rice,dish word,hindi (latin)
+biryani,biryani,dish word,english
+biriyani,biryani,dish word,typo
+briyani,biryani,dish word,typo
+biryaani,biryani,dish word,typo
+biriani,biryani,dish word,typo
+beryani,biryani,dish word,typo
+బిర్యానీ,biryani,dish word,telugu
+curry,curry,dish word,english
+kura,curry,dish word,telugu (latin)
+koora,curry,dish word,telugu (latin)
+కూర,curry,dish word,telugu
+pulusu,tangy curry,dish word,telugu (latin)
+పులుసు,tangy curry,dish word,telugu
+iguru,dry curry,dish word,telugu (latin)
+ఇగురు,dry curry,dish word,telugu
+vepudu,fry,dish word,telugu (latin)
+వేపుడు,fry,dish word,telugu
+fry,fry,dish word,english
+pappu,dal,dish word,telugu (latin)
+పప్పు,dal,dish word,telugu
+dal,dal,dish word,hindi (latin)
+daal,dal,dish word,hindi (latin)
+dhal,dal,dish word,hindi (latin)
+pachadi,chutney,dish word,telugu (latin)
+పచ్చడి,chutney,dish word,telugu
+perugu,curd,ingredient,telugu (latin)
+పెరుగు,curd,ingredient,telugu
+dahi,curd,ingredient,hindi (latin)
+majjiga,buttermilk,dish word,telugu (latin)
+మజ్జిగ,buttermilk,dish word,telugu
+chaas,buttermilk,dish word,hindi (latin)
+roti,bread,dish word,hindi (latin)
+రోటీ,bread,dish word,telugu
+naan,bread,dish word,hindi (latin)
+chapati,bread,dish word,english
+chapathi,bread,dish word,typo
+tiffin,tiffin,dish word,english
+tiffins,tiffin,dish word,english
+టిఫిన్,tiffin,dish word,telugu
+bhojanam,meals,dish word,telugu (latin)
+భోజనం,meals,dish word,telugu
+meals,meals,dish word,english
+thali,meals,dish word,hindi (latin)
+chai,tea,dish word,hindi (latin)
+chaay,tea,dish word,hindi (latin)
+tea,tea,dish word,english
+టీ,tea,dish word,telugu
+చాయ్,tea,dish word,telugu
+kaapi,coffee,dish word,tamil/kannada (latin)
+coffee,coffee,dish word,english
+కాఫీ,coffee,dish word,telugu
+meetha,sweet dish,dish word,hindi (latin)
+mitha,sweet dish,dish word,hindi (latin)
+teepi,sweet dish,dish word,telugu (latin)
+తీపి,sweet dish,dish word,telugu
+sweet,sweet dish,dish word,english
+thanda,cold drink,dish word,hindi (latin)
+cool drink,cold drink,dish word,indian english
+cold drink,cold drink,dish word,english
+paani,water,dish word,hindi (latin)
+pani,water,dish word,hindi (latin)
+neellu,water,dish word,telugu (latin)
+నీళ్లు,water,dish word,telugu
+veg,vegetarian,diet,english
+vegetarian,vegetarian,diet,english
+vegitarian,vegetarian,diet,typo
+pure veg,vegetarian,diet,english
+shakahari,vegetarian,diet,hindi (latin)
+shaakahari,vegetarian,diet,hindi (latin)
+sakahari,vegetarian,diet,telugu (latin)
+శాకాహారం,vegetarian,diet,telugu
+శాకాహారి,vegetarian,diet,telugu
+వెజ్,vegetarian,diet,telugu
+non veg,non-vegetarian,diet,english
+nonveg,non-vegetarian,diet,english
+maansahari,non-vegetarian,diet,hindi (latin)
+mamsahari,non-vegetarian,diet,telugu (latin)
+మాంసాహారం,non-vegetarian,diet,telugu
+నాన్ వెజ్,non-vegetarian,diet,telugu
+eggless,no egg,diet,english
+bina anda,no egg,diet,hindi (latin)
+spicy,spicy,spice,english
+teekha,spicy,spice,hindi (latin)
+tikha,spicy,spice,hindi (latin)
+teekhi,spicy,spice,hindi (latin)
+karam,spicy,spice,telugu (latin)
+kaaram,spicy,spice,telugu (latin)
+కారం,spicy,spice,telugu
+masaledar,spicy,spice,hindi (latin)
+extra spicy,very spicy,spice,english
+chala karam,very spicy,spice,telugu (latin)
+చాలా కారం,very spicy,spice,telugu
+bahut teekha,very spicy,spice,hindi (latin)
+mild,not spicy,spice,english
+less spicy,not spicy,spice,english
+not spicy,not spicy,spice,english
+no spice,not spicy,spice,english
+kam teekha,not spicy,spice,hindi (latin)
+kam mirchi,not spicy,spice,hindi (latin)
+bina mirchi,not spicy,spice,hindi (latin)
+teekha nahi,not spicy,spice,hindi (latin)
+karam ledu,not spicy,spice,telugu (latin)
+karam lekunda,not spicy,spice,telugu (latin)
+thakkuva karam,not spicy,spice,telugu (latin)
+takkuva karam,not spicy,spice,telugu (latin)
+కారం లేకుండా,not spicy,spice,telugu
+తక్కువ కారం,not spicy,spice,telugu
+half,half plate,portion,english
+full,full plate,portion,english
+aadha,half plate,portion,hindi (latin)
+ek,1,number,hindi (latin)
+do,2,number,hindi (latin)
+teen,3,number,hindi (latin)
+char,4,number,hindi (latin)
+chaar,4,number,hindi (latin)
+paanch,5,number,hindi (latin)
+okati,1,number,telugu (latin)
+okka,1,number,telugu (latin)
+rendu,2,number,telugu (latin)
+moodu,3,number,telugu (latin)
+mudu,3,number,telugu (latin)
+naalugu,4,number,telugu (latin)
+nalugu,4,number,telugu (latin)
+aidu,5,number,telugu (latin)
+ఒకటి,1,number,telugu
+రెండు,2,number,telugu
+మూడు,3,number,telugu
+నాలుగు,4,number,telugu
+ఐదు,5,number,telugu

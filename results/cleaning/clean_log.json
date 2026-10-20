@@ -1,0 +1,1189 @@
+{
+  "snapshot": {
+    "file": "overpass_hyderabad_2026-09-30.json",
+    "sha256": "2c2b496ce4df5388ad99eaebde3db3ce4a64cdc45f9fc861770959cd53ca1cf3"
+  },
+  "generated_at_utc": "2026-09-30T11:35:56+00:00",
+  "rules": {
+    "food_types": [
+      "cafe",
+      "fast_food",
+      "restaurant"
+    ],
+    "auto_merge_m": 15,
+    "generic_core_names_never_auto_merged": [
+      "bakery",
+      "canteen",
+      "fast food",
+      "irani",
+      "juice",
+      "kabab",
+      "kebab",
+      "tea",
+      "tiffin center",
+      "tiffin centre",
+      "udipi",
+      "udupi"
+    ],
+    "keep_rule": "most tags, then pin over outline, then lower OSM id",
+    "decisions": [
+      "D-007",
+      "D-010"
+    ]
+  },
+  "steps": [
+    {
+      "step": "raw snapshot",
+      "places": 1553,
+      "by_amenity": {
+        "restaurant": 916,
+        "fast_food": 332,
+        "cafe": 290,
+        "internet_cafe": 15
+      }
+    },
+    {
+      "step": "1. keep food places only",
+      "removed": 15,
+      "places": 1538
+    },
+    {
+      "step": "2. drop unnamed places",
+      "removed": 161,
+      "places": 1377
+    },
+    {
+      "step": "3. auto-merge duplicates (≤15 m, D-010)",
+      "pairs": 18,
+      "removed": 18,
+      "places": 1359
+    },
+    {
+      "step": "4. reviewed merges (Saif)",
+      "pairs_marked_merge": 12,
+      "pairs_marked_keep_both": 9,
+      "removed": 11,
+      "places": 1348
+    }
+  ],
+  "before_after": {
+    "before": {
+      "places": 1553,
+      "by_amenity": {
+        "restaurant": 916,
+        "fast_food": 332,
+        "cafe": 290,
+        "internet_cafe": 15
+      }
+    },
+    "after": {
+      "places": 1348,
+      "by_amenity": {
+        "restaurant": 836,
+        "fast_food": 273,
+        "cafe": 239
+      },
+      "by_osm_type": {
+        "node": 1214,
+        "way": 134
+      }
+    }
+  },
+  "removed_by_reason": {
+    "no name": 161,
+    "duplicate: auto-merge (D-010, same core name ≤15 m)": 18,
+    "not a food place": 15,
+    "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)": 11
+  },
+  "post_checks": {
+    "pairs_still_matching_auto_rule": 0,
+    "merge_pairs_not_merged": [],
+    "keep_both_pairs_merged": [],
+    "passed": true
+  },
+  "removed": [
+    {
+      "osm": "node/1553576916",
+      "name": "Internet Cafe",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/6308262612",
+      "name": "",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/6308262626",
+      "name": "",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/7021303755",
+      "name": "TS Online - Mark Services",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/7244033626",
+      "name": "cyber cafe",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/7244082078",
+      "name": "",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/7244140117",
+      "name": "Sri Balaji E-world",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/7244174315",
+      "name": "",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/7244174327",
+      "name": "mee seva",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/7244184319",
+      "name": "annapurna cyber cafe",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/7244238223",
+      "name": "",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/7244245623",
+      "name": "Apex Internet Center",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/9913821032",
+      "name": "Rnet Xerox",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/11696602448",
+      "name": "wifi service",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "way/1124046739",
+      "name": "Net Center",
+      "reason": "not a food place (amenity=internet_cafe)"
+    },
+    {
+      "osm": "node/986848593",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/1447172269",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2428125220",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2428132967",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2428132969",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2428132970",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2428132971",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2428136677",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2432111519",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2446514668",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2579754066",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2579754067",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/2715307357",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3200943736",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3200948979",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3200986817",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3201281727",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3201283336",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3201283439",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3387385353",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3387405046",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3388745690",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3388746040",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3388747359",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3388749549",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3393657297",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3509616384",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/3509637256",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4417113395",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4417155889",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4418622813",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4422093292",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4422249978",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4428049396",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4431246390",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4431246689",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4432327793",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4432328891",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4432377389",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4516680142",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4516712848",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4995968023",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/4996033521",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/5318387221",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/5539327275",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/5883774725",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6029086780",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6213046486",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6216842985",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6222396190",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6227113889",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6261235082",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6295709103",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6295712749",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6308345582",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6308345686",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6372441844",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6399884540",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6765562753",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6765562770",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/6773025655",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7002758973",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7113870386",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7140901205",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7142779503",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7243990070",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244009092",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244017420",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244017424",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244168648",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244168659",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244184394",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244212265",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244238224",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244238274",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244267525",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244267538",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244498388",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7244498390",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7246491294",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7246516888",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7246526407",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7246588750",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/7246738410",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/8058870102",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/8113625322",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/8387157864",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/8387157891",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9369853856",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9369907790",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9838650870",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9887230605",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9903887140",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9903887146",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9903887149",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9903919145",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9913821077",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9918495802",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9918503018",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9918503021",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9918846043",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9918958837",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/9923881297",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/10060110482",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/10150942416",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/10279599973",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/10300324818",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/10897870734",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/10898632105",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/10898632107",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11082388022",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11082388028",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11082995784",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11084918138",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11484345759",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11690240933",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11690257758",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11690468633",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11690468636",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11690468803",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11697426346",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/11773916559",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/12852366422",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/12890289801",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13272708200",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13273731538",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13273739351",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13335598224",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13335606936",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13436938795",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13535855586",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13536807335",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13611078187",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13673486427",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13673806599",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "node/13715429715",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/340800615",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/355726871",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/356230380",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/357310117",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/357355502",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/357445354",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/357969226",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/357969505",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/360989957",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/449688091",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/680359549",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/740768578",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/775362024",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/776426333",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/776428430",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/853755275",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/903020132",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/1082290133",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/1083137788",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/1257397838",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/1257397854",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/1446699004",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/1465001577",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/1492070987",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/1500231917",
+      "name": "",
+      "reason": "no name"
+    },
+    {
+      "osm": "way/331633267",
+      "name": "Chutneys",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/11358156634",
+      "merged_into_name": "Chutneys"
+    },
+    {
+      "osm": "node/13536807336",
+      "name": "Sarvi Restaurant",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/878278853",
+      "merged_into_name": "Sarvi Cafe"
+    },
+    {
+      "osm": "node/7180113797",
+      "name": "cream stone",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/3388784598",
+      "merged_into_name": "cream stone"
+    },
+    {
+      "osm": "node/5518037581",
+      "name": "Mehfil hotel",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "way/357102666",
+      "merged_into_name": "Mehfil"
+    },
+    {
+      "osm": "way/355885219",
+      "name": "Paaka Organic Cafe",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/5261952123",
+      "merged_into_name": "Paaka Organic Cafe"
+    },
+    {
+      "osm": "node/5867186858",
+      "name": "Country Oven",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "way/340800630",
+      "merged_into_name": "Country Oven"
+    },
+    {
+      "osm": "node/5973773086",
+      "name": "Istanbul authentic doner kebab",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/5973746985",
+      "merged_into_name": "ISTANBUL AUTHENTIC DONER KEBAB"
+    },
+    {
+      "osm": "node/5973773088",
+      "name": "ISTANBUL AUTHENTIC DONER KEBAB",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/5973746986",
+      "merged_into_name": "ISTANBUL AUTHENTIC DONER KEBAB"
+    },
+    {
+      "osm": "way/341366884",
+      "name": "RIO",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/6710912114",
+      "merged_into_name": "Rio Cafe"
+    },
+    {
+      "osm": "node/6847914860",
+      "name": "Siva Sai Biryani Point",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/6822126528",
+      "merged_into_name": "Siva Sai Biryani Point"
+    },
+    {
+      "osm": "node/7025820812",
+      "name": "Amber",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/7021303608",
+      "merged_into_name": "Amber"
+    },
+    {
+      "osm": "node/7180156933",
+      "name": "chaitanya food court",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "way/332095970",
+      "merged_into_name": "Chaitanya Food Court"
+    },
+    {
+      "osm": "node/7836389753",
+      "name": "Athidhi Takeaway",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/7836389751",
+      "merged_into_name": "Athidhi Restaurant"
+    },
+    {
+      "osm": "node/11422123669",
+      "name": "Bronzy Fried Chicken",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/11015823658",
+      "merged_into_name": "Bronzy Fried Chicken"
+    },
+    {
+      "osm": "way/331213192",
+      "name": "JNTU - Canteen",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/11736398311",
+      "merged_into_name": "Jntu Canteen"
+    },
+    {
+      "osm": "node/12538717585",
+      "name": "Naga Bhushana Mess",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/12536226041",
+      "merged_into_name": "Naga Bhushana Mess"
+    },
+    {
+      "osm": "node/12541130567",
+      "name": "Sri Lakshmi Restaurant",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "node/12536257515",
+      "merged_into_name": "Sri Lakshmi Restaurant"
+    },
+    {
+      "osm": "node/13022908098",
+      "name": "IRA Kitchen and Bar",
+      "reason": "duplicate: auto-merge (D-010, same core name ≤15 m)",
+      "merged_into": "way/1416994348",
+      "merged_into_name": "IRA Kitchen and Bar"
+    },
+    {
+      "osm": "node/4431207291",
+      "name": "Kabab",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "node/4417155890",
+      "merged_into_name": "Kabab restaurant"
+    },
+    {
+      "osm": "node/7244140658",
+      "name": "Vistara",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "node/6249185487",
+      "merged_into_name": "Vistara"
+    },
+    {
+      "osm": "node/13657608396",
+      "name": "Kahani Cafe",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "way/1489792397",
+      "merged_into_name": "Kahani Cafe"
+    },
+    {
+      "osm": "node/4729107489",
+      "name": "Cafe Coffee Day",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "node/5405056431",
+      "merged_into_name": "Cafe Coffee Day"
+    },
+    {
+      "osm": "node/5405056231",
+      "name": "Paradise",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "node/4705398998",
+      "merged_into_name": "Paradise"
+    },
+    {
+      "osm": "node/12422483854",
+      "name": "Domino's",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "node/6218855685",
+      "merged_into_name": "Domino's"
+    },
+    {
+      "osm": "node/2794664334",
+      "name": "Paradise Takeaway",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "way/274798850",
+      "merged_into_name": "Paradise Hotel"
+    },
+    {
+      "osm": "node/13707212259",
+      "name": "Paradise Cafe",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "way/274798850",
+      "merged_into_name": "Paradise Hotel"
+    },
+    {
+      "osm": "node/13715402826",
+      "name": "The Study Sip",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "node/13715448258",
+      "merged_into_name": "THE STUDY SIP"
+    },
+    {
+      "osm": "way/116035684",
+      "name": "Eat Street",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "node/12852350346",
+      "merged_into_name": "Eat street"
+    },
+    {
+      "osm": "node/7244238200",
+      "name": "Bawarchi",
+      "reason": "duplicate: merged after Saif's review (data/reference/dedupe_review.csv)",
+      "merged_into": "node/675646784",
+      "merged_into_name": "Bawarchi"
+    }
+  ]
+}

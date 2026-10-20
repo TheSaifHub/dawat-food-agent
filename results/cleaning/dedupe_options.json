@@ -1,0 +1,80 @@
+{
+  "snapshot": {
+    "file": "overpass_hyderabad_2026-09-30.json",
+    "sha256": "2c2b496ce4df5388ad99eaebde3db3ce4a64cdc45f9fc861770959cd53ca1cf3"
+  },
+  "generated_at_utc": "2026-09-30T08:02:25+00:00",
+  "candidates": {
+    "named_food_places": 1377,
+    "pairs_within_50m": 39,
+    "clusters": 33,
+    "cluster_sizes": [
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "places_in_clusters": 69,
+    "same_exact_name_pairs": 29,
+    "core_only_pairs": 10,
+    "same_amenity_pairs": 33,
+    "by_types": {
+      "node+node": 26,
+      "node+way": 12,
+      "way+way": 1
+    },
+    "generic_name_pairs": 4,
+    "within_10m": 17,
+    "within_15m": 20,
+    "exactly_0m": 2
+  },
+  "options": {
+    "1_certain_only": {
+      "rule": "auto-merge only if same exact name (case/punctuation ignored) AND ≤10 m; everything else → Saif reviews",
+      "pairs_matched": 12,
+      "places_removed": 12,
+      "pairs_left_for_review": 27
+    },
+    "2_close_means_same": {
+      "rule": "auto-merge if same core name AND ≤15 m; 15–50 m → Saif reviews",
+      "pairs_matched": 18,
+      "places_removed": 18,
+      "pairs_left_for_review": 21
+    },
+    "3_all_within_50m": {
+      "rule": "auto-merge every same-core-name pair within 50 m; only generic names → Saif reviews",
+      "pairs_matched": 35,
+      "places_removed": 33,
+      "pairs_left_for_review": 4
+    }
+  }
+}
